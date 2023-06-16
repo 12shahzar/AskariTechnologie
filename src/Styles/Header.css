@@ -1,0 +1,31 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand img {
+  width: 90px;
+}
+.navbar-brand {
+  width: 20%;
+  margin-left: 1rem;
+}
+
+.btn-contact {
+  width: 149px;
+  height: 44px;
+  background: #0659a4;
+  border-radius: 5px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+.nav-link {
+  font-family: "Segoe UI" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}

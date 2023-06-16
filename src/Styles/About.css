@@ -1,0 +1,29 @@
+.hero-bg-about {
+  background: #0659a4;
+ 
+
+}
+
+.section_1 {
+  /* border-radius: 0px 0px 450px 450px;
+    background: #BADA55; */
+  background-image: url("../Assets/Frame\ 269.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+.our_story_card {
+  background: radial-gradient(
+      128.04% 307.49% at 121.43% -46.19%,
+      #42b1e1 0.45%,
+      #0659a4 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 7px;
+}
+
+.our_team {
+  background: #f2ffff;
+}

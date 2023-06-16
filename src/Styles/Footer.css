@@ -1,0 +1,116 @@
+.footer {
+  background: rgba(0, 57, 109, 1);
+}
+.footer-log {
+  width: 4rem;
+}
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer-head {
+  color: #ffffff;
+}
+.para-footer {
+  color: #ffffff;
+  font-size: 0.5rem;
+}
+.input input {
+  width: 100%;
+  background-color: transparent;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+}
+.input {
+  border-bottom: 1px solid #ffffff;
+}
+.signup {
+  width: 50%;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.5rem;
+}
+/* Styles for default and small screens */
+.section-footer {
+  padding: 5rem;
+}
+
+.logoFooter {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+.col-lg-3 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.footer-head {
+  font-size: 1.5rem;
+}
+
+.para-footer {
+  margin-bottom: 1rem;
+}
+
+.input {
+  margin-bottom: 1rem;
+}
+
+.signup {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* Media queries for medium screens and above */
+@media only screen and (min-width: 768px) {
+  .section-footer {
+    padding: 8rem;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .footer-head {
+    font-size: 1.8rem;
+  }
+}
+
+/* Media queries for large screens and above */
+@media only screen and (min-width: 992px) {
+  .section-footer {
+    padding: 10rem;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .footer-head {
+    font-size: 2rem;
+  }
+}

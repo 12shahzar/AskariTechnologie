@@ -1,0 +1,157 @@
+.heading{
+    color: #3D4DAE;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.subHead{
+    color: #52525B;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.column{
+    padding: 50px;
+}
+.name{
+    Font-style: Bold;
+    line-height: 28px;
+    line-height: 106%;
+    font-size: 21px;
+    margin-top: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.head2{
+ color: #3D4DAE;
+ font-size: 48px;
+ font-weight:bold ;
+ text-align: left;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ 
+}
+.subHead2{
+    color: #686868;
+    text-align: left;
+    font-size: 16px;
+    line-height: 113%;
+    line-height: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.ul{
+    text-align: left;
+    color:#686868;
+    font-size: 16px;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.box2{
+    padding: 45px;
+    text-align: left;
+}
+.button{
+    background-color: #3D4DAE;
+    color: white;
+    margin-top: 15px;
+}
+.cont{
+    text-align: left;
+}
+.Everything{
+    font-size: 20px;
+    color: #686868;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.head3{
+    margin-top: 40px;
+color:#3D4DAE ;
+font-size: 48px;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.listT{
+    font-size: 18px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+
+}
+.cont2{
+    margin-top: 60px;
+}
+.para{
+    color:#667085;
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+
+}
+.bannerimg{
+    width: 100%;
+    height: 100%;
+}
+.list{
+    padding-top: 37px;
+}
+.coll{
+    text-align: center;
+}
+.flags{
+    margin-top: 70px;
+}
+.flagT{
+    color:  #0659A4;
+    font-size: 24px;
+    margin-top: 35px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.para2{
+    color:#686868;
+    font-size: 14px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+@media only screen and (max-width: 600px) {
+    .heading{
+        color: #3D4DAE;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .subHead{
+        color: #52525B;
+        font-size: 15px;
+        margin-top: 25px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .bannerimg{
+        width: 100%;
+        height: 100%;
+    }
+    .head2{
+        color: #3D4DAE;
+        font-size: 28px;
+        font-weight:bold ;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .head3{
+        margin-top: 40px;
+    color:#3D4DAE ;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+  
+  }
