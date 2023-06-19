@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "../Styles/Devops.css";
+import "../Styles/QualityEng.css";
 import leftmain from "../Assets/leftmain.png";
 import bg from "../Assets/bg.png";
 import img1 from "../Assets/1.jpg";
@@ -34,243 +34,287 @@ import aus from "../Assets/aus.png";
 import ame from "../Assets/ame.png";
 import pak from "../Assets/pak.png";
 import uae from "../Assets/uae.png";
+import Planning from "../Assets/11.png";
+import Design from "../Assets/22.png";
+import Stable from "../Assets/44.png";
+import Implement from "../Assets/33.png";
+import { HashLink } from "react-router-hash-link";
 
 const Devops = () => {
   return (
     <div className="bodycontent">
-      <div className="bannner-image">
-        <p className="text-center text-white ">
-          Home&nbsp;/&nbsp;Capabiliotes&nbsp;/&nbsp;DevOps
-        </p>
+      <div className="bannner-image-qua">
+        {/* <p className="text-center text-white ">
+         
+        </p> */}
 
-        <div className="text-content text-white">
-          <h1 className="MainHeading">
-            Automate <br /> Development <br /> with DevOps
+        <div className="">
+          <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
+          Automate <br />
           </h1>
-          <p className="headPara">
-            Increase your software scalability, responsiveness, and performance
-            with DevOps.
+          <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
+            Development
+          </h1>
+          <br></br>
+          <p
+            style={{
+              fontSize: "13px",
+              marginBottom: "12%",
+              marginTop: "-20px",
+            }}
+          >
+            Using tried-and-true methods, you can turn your business idea into a{" "}
+            <br />
+            successful enterprise or expand it. We support business owners in
+            achieving <br /> their objectives with greater success potential. We
+            can be your one-stop shop <br />
           </p>
-          <button className="btn btn-light">Request Consultation</button>
+          <HashLink to="#contact-us">
+            <button className="btn_pro" style={{ marginTop: "70px" }}>
+              Request Consultation
+            </button>
+          </HashLink>
         </div>
       </div>
-      <div className="row mainsection"></div>
+      <div className="row mainsection">
+        <div className="col">
+          {/* <div className="image-container">
+            <img src={bg} className="bg-image" alt="JPEG Image" />
+          </div> */}
+        </div>
+      </div>
       <div className="container">
-        <div className="erpsoftware">
-          <h3 className="Quality text-center">Our DevOps Services</h3>
-          <p className="text-center">
-            We deliver stable, secure, and versatile eCommerce solutions that
-            drive customers’ satisfaction, boost sales, and help expand your
-            business.{" "}
-          </p>
+        <div className="skilled44">
+         <center><h1>Our DevOps Services</h1></center> 
         </div>
       </div>
-      <div class="image-row">
-        <div class="image-item">
+      <div className="image-row">
+        <div className="image-item">
           <img src={img1} alt="Image 1" />
-          <div class="caption">
-            <h4 className="border-top">DevOps Implementation</h4> <hr />
-            <p>
-              Firstly, we assess your current infrastructure and pipelines which
-              helps us create a roadmap to operate efficiently and ensure agile
-              deliveries. With the right DevOps architecture and tools,
-            </p>
-          </div>
+           
         </div>
-        <div class="image-item">
+        <div className="image-item">
           <img src={img2} alt="Image 2" />
-          <div class="caption">
-            Continuous Integration & Continuous Deployment
-          </div>
+          <div className="caption">Quality Assurance</div>
         </div>
-        <div class="image-item">
+        <div className="image-item">
           <img src={img3} alt="Image 3" />
-          <div class="caption">Cloud Management</div>
+          <div className="caption">Test Automation</div>
         </div>
-
-        <div class="image-item">
+        <div className="image-item">
           <img src={img3} alt="Image 3" />
-          <div class="caption">IT Managed Services</div>
+          <div className="caption">Test Automation</div>
+        </div>
+        <div className="image-item">
+          <img src={img3} alt="Image 3" />
+          <div className="caption">Test Automation</div>
         </div>
       </div>
 
       <div></div>
-      <div className="skilled">
-        <h3>Work with a Team of Skilled Professionals</h3>
-        <p>
-          Seamless collaboration, total transparency, and secure delivery.{" "}
-          <br /> That’s our approach when crafting your application. A team with{" "}
-          <br /> years of experience to suggest the best solution for you.
-        </p>
+      <div className="container">
+        <div className="row">
+          <div className="skilled">
+            <h3>Work with a Team of Skilled Professionals</h3>
+            <p>
+              Seamless collaboration, total transparency, and secure delivery.
+              That’s our approach when crafting your application. A team with
+              years of experience to suggest the best solution for you.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="image-section">
+            <img src={process} alt="Your Image" />
+          </div>
+        </div>
       </div>
 
-      <div class="image-section">
-        <img src={process} alt="Your Image" />
-      </div>
-
-      <div class="container-icon">
+      <div className="container-icon">
         <h2>Technologies we work on</h2>
         <p>
-          We use best-in-class tools, technologies, and modern approaches to
+          We use best-in-className tools, technologies, and modern approaches to
           help you stay ahead of your competitors.
         </p>
-        <div class="icon-row">
-          <img class="icon" src={salesforce} alt="Salesforce" />
-          <img class="icon" src={microsoft} alt="Microsoft Dynamics 365" />
-          <img class="icon" src={netcore} alt=".NET Core" />
-          <img class="icon" src={js} alt="JavaScript" />
-          <img class="icon" src={odoo} alt="Odoo" />
-          <img class="icon" src={php} alt="PHP" />
+        <div className="icon-row">
+          <img className="icon" src={salesforce} alt="Salesforce" />
+          <img className="icon" src={microsoft} alt="Microsoft Dynamics 365" />
+          <img className="icon" src={netcore} alt=".NET Core" />
+          <img className="icon" src={js} alt="JavaScript" />
+          <img className="icon" src={odoo} alt="Odoo" />
+          <img className="icon" src={php} alt="PHP" />
         </div>
       </div>
       <div className="container mt-5">
-        <h2 className="heading">Industries We Serve</h2>
-        <h6 className="subHead">
+        <h1 className="heading">Industries We Serve</h1>
+        <h6 className="subHead mb-5">
           Lorem ipsum dolor sit amet, consectetur adipis elit
         </h6>
         <div class="container container-fluid">
           <div class="row">
-            <div class="col-md-4 col-sm-12 column">
+            <div class="col-md-4 col-sm-12 column border_right_bottom">
               <img src={pic1} />
               <h5 className="name">Fashions & Clothing</h5>
             </div>
-            <div class="col-md-4  col-sm-12  column">
+            <div class="col-md-4  col-sm-12  column border_right_bottom">
               <img src={pic3} />
               <h5 className="name">Retail</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_bottom">
               <img src={autoparts} />
               <h5 className="name">Auto Parts</h5>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_right_bottom">
               <img src={pharma} />
               <h5 className="name">Pharmaceutical</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_right_bottom">
               <img src={apple} />
               <h5 className="name">Fitness & Nutrition</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_bottom">
               <img src={pic5} />
               <h5 className="name">Furniture</h5>
             </div>
           </div>
           <div className="row">
-            <div class="col-md-4   col-sm-12 column">
+            <div class="col-md-4   col-sm-12 column border_right">
               <img src={pic4} />
               <h5 className="name">Pharmaceutical</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_right">
               <img src={beauty} />
               <h5 className="name">Beauty And Personal Care</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column ">
               <img src={car} />
               <h5 className="name">Rental</h5>
             </div>
           </div>
         </div>
       </div>
-      <div className="container enterprise">
-        <h3 className="text-center">
-          Approaches to Enterprise Resource Planning Services
-        </h3>
-        <p className="text-center para1">
-          Seamless collaboration, total transparency, and uninterrupted
-          management. That’s our approach when integrating ERP into your
-          software. <br /> As a leading ERP development company with years of
-          experience, we suggest the best planning approach for your business
-          growth.
-        </p>
-        <div
-          className="conatiner processSteps
+{/* cards */}
+
+
+<div className="container cards_qa">
+  <center>
+<h1 className="heading_cards_qa">DevOps Process</h1>
+</center>
+<div className="main_card_section_qa">
+<div className="inner_card_qa">
+  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Planning
+  </h5>
+  <p>
+  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+  </p>
+
+
+</div>
+
+
+</div>
+
+<div className="inner_card_qa">
+  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Planning
+  </h5>
+  <p>
+  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+  </p>
+
+
+</div>
+
+
+</div>
+<div className="inner_card_qa">
+  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Planning
+  </h5>
+  <p>
+  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+  </p>
+
+
+</div>
+
+
+</div>
+<div className="inner_card_qa">
+  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Planning
+  </h5>
+  <p>
+  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+  </p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
 
 
 
-       d-flex mt-5"
-        >
-          <div className="steps">
-            <h3 className="text-center">Agile</h3>
-            <p className="text-left">
-              Seamless collaboration, total transparency, and uninterrupted
-              management. That’s our approach when integrating ERP into your
-              software. As a leading ERP development company with years of
-              experience, we suggest the best planning{" "}
-            </p>
-          </div>
-          <div className="steps">
-            <h3 className="text-center">Waterfall</h3>
-            <p className="text-left">
-              We follow a linear approach for projects that don’t require
-              changes or modifications during and after the development. In this
-              approach, we work on one phase, and unless it is delivered, we
-              won’t proceed with the next one.
-            </p>
-          </div>
-          <div className="steps">
-            <h3 className="text-center">Time and Material</h3>
-            <p className="text-left">
-              We welcome a time & material approach when the scope and time of
-              the project are undetermined. Instead of quoting a fixed price, we
-              will describe a rough scope and quote for hourly rates and the
-              cost of materials.
-            </p>
-          </div>
-        </div>
-      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
       <div className="container">
         <div className="askaritechnology main">
-          <div className="left-side">
-            <img
-              src={askarimainleft}
-              alt="Your Image"
-              style={{ width: "529px", height: "536px" }}
-            />
+          <div className="row">
+            <div className="col askaritechnology ">
+              <div className="left-side">
+                <img
+                  src={askarimainleft}
+                  alt="Your Image"
+                  className="leftImage"
+                />
+              </div>
+            </div>
+            <div className="col  askaritechnology ">
+              <div className="right-side">
+                <h3>Why Askari Technologies</h3>
+                <p>
+                  Our work ethic, methodology, and dedication to your projects
+                  make us the perfect choice.
+                </p>
+                <p>
+                  We understand your requirements, dig deep into how to tailor a
+                  solution for you, build a team to work with you, and execute a
+                  robust project.
+                </p>
+                <HashLink to="#contact-us">
+                <button style={{ border: "none" }}>Request Consultation</button>
+          </HashLink>
+               
+              </div>
+            </div>
           </div>
-          <div className="right-side">
-            <h2>Why Askari Technologies</h2>
-            <p>
-              Our work ethic, methodology, and dedication to your projects make
-              us the perfect choice.
-            </p>
-            <p>
-              We understand your requirements, dig deep into how to tailor a
-              solution for you, build a team to work with you, and execute a
-              robust project.
-            </p>
-            <button>Request Consultation</button>
-          </div>
-        </div>
-      </div>
-      <div className="row flags">
-        <div className="col  coll">
-          <img src={ame} className="coll" />
-          <h4 className="flagT">United State</h4>
-          <p className="para2">
-            160 Bovet Road, Suite #<br /> 101San Mateo, CA 94402 USA
-          </p>
-        </div>
-        <div className="col coll">
-          <img src={aus} className="coll" />
-          <h4 className="flagT">Australia</h4>
-          <p className="para2">
-            160 Bovet Road, Suite #<br /> 101San Mateo, CA 94402 USA
-          </p>
-        </div>
-        <div className="col coll">
-          <img src={pak} className="coll" />
-          <h4 className="flagT">Pakistan</h4>
-          <p className="para2">
-            160 Bovet Road, Suite #<br /> 101San Mateo, CA 94402 USA
-          </p>
-        </div>
-        <div className="col coll">
-          <img src={uae} className="coll" />
-          <h4 className="flagT">UAE</h4>
-          <p className="para2">Comming Soon</p>
         </div>
       </div>
     </div>

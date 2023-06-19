@@ -7,22 +7,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif; 
-  scroll-behavior: smooth;
+  
 }
-.bodycontent {
-  overflow-x: hidden;
-}
+
+ 
 .bannner-image {
   width: 100%;
   max-width: 100%;
   height: 85vh;
   display: flex;
   color: white;
-  padding-left: 10%;
+  padding-left: 15%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../Assets/product-engineering-banner.png");
+  background-image: url("../Assets/banner-pro-eng.png");
   padding-top: 5%;
 }
 .btn_pro
@@ -140,6 +139,7 @@
 
   width: 100vw;
   display: flex;
+ 
 }
 
 .servicespara h3 {
@@ -163,9 +163,11 @@
 }
 .align_product
 {
- 
+  display:"flex";
+  flex-direction:"column";
    text-align: center;
    padding-top: 50px;
+  
 }
 .align_product
 {
@@ -540,12 +542,81 @@
   text-align: center;
   letter-spacing: -0.01em;
 }
+.bg_baneer_proemg
+{
+  height: 80vh;
+  width: 100vw;
+  background-image: url('../Assets/bg_baneer_proemg.png');
+  background-repeat: no-repeat;
+  background-size:  contain;
+}
+.your_patner_pro
+{
+  background-color: #4050AF;
+  height: 40vh;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  padding: 3% 10%;
+   margin-bottom: 40vh;
+}
+.card_pro_eng_botm
+{
+   height: 40vh;
+  
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
+   margin-top:50px ;
 
+}
+.sub_card_pro_eng_head
+{
+  /* background-color: #015364; */
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
+}
+.sub_card_pro_eng_botm
+{
+  height: 90%;
+  width: 24%;
+  background-color: white;
+  border-radius: 4px;
+  /* background-color: #000000; */
+  margin-left: 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.sub_card_pro_eng_footer
+{
+  /* background-color: yellow; */
+  height: 80%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  font-size: 10px;
+  color: #686868
+  ;
+}.sub_card_heading
+{
+  color:#4050AF;
+  font-size: 16px;
+  margin-left: 11%;
+  margin-top: 10px;
+}
 .arrival-head {
   font-size: 16px;
 }
 .hireDeveloper {
   background: #fefefe;
+}
+.para_pro_card_eng
+{
+  margin-top: 2%;
+  margin-left: 5px;
 }
 .heading {
   color: #3d4dae;
@@ -635,7 +706,7 @@
   position: relative;
   width: 1349px; /* Use viewport width */
   height: 600px;
-  overflow: hidden;
+ 
   margin-top: 2%;
 }
 
@@ -716,15 +787,10 @@
 .section {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5%;
+  flex-direction: row;
+  
 }
 
-.left {
-  flex-basis: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .left img {
   max-width: 100%;
@@ -732,11 +798,10 @@
 }
 @media screen and (max-width: 992px) {
   .left img {
-    max-width: none;
-    max-height: none;
+   
   }
   .right {
-    width: 100vw;
+  
   }
   .right h2 {
     width: inherit;
@@ -788,13 +853,14 @@
 
 .custom-hero-section {
   width: 100%;
-  height: 495px;
+  height: 55vh;
   background: url("../Assets/mainbg2.png") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 5%;
+
 }
 
 .custom-hero-content {
@@ -808,13 +874,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #efefef;
-}
+
+ 
+
 .slide-container {
   max-width: 1120px;
   width: 100%;
@@ -822,7 +884,7 @@ body {
 }
 .slide-content {
   margin: 0 40px;
-  overflow: hidden;
+ 
   border-radius: 25px;
 }
 .card {
@@ -908,11 +970,9 @@ body {
   font-family: "Segoe UI";
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
   line-height: 62px;
-
   text-align: center;
-
+  font-weight: bolder;
   color: #ffffff;
 }
 
@@ -927,14 +987,40 @@ body {
   text-align: center;
   margin-top: 4%;
 }
-
+.end_pro
+{
+  /* background-color: #000000; */
+  height: 100vh;
+  width: 100%;
+  margin-top: -95px;
+  margin-bottom: -70px;
+  display: flex;
+}
+.end_pro_left
+{
+  height: 100%;
+  width: 50%;
+}
+.end_pro_right
+{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_pro_end
+{
+  width: 70%;
+  
+}
 .custom-hero-content .custom-button {
   padding: 10px 20px;
-
+  border-radius: 5px;
   border: none;
   font-size: 18px;
   cursor: pointer;
-  margin-top: 4%;
+  margin-top: 3%;
   color: #040108;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -1,13 +1,15 @@
 import React from "react";
-// import "bootstrap/dist/css/bootstrap.css";
-import "../Styles/ArtificalIntelligence.css";
-// import bg from "../Assets/bg.png";
-// import img1 from "../Assets/1.jpg";
-// import img2 from "../Assets/2.jpg";
-// import img3 from "../Assets/3.jpg";
-
+import "bootstrap/dist/css/bootstrap.css";
+import "../Styles/QualityEng.css";
+import leftmain from "../Assets/leftmain.png";
+import bg from "../Assets/bg.png";
+import img1 from "../Assets/1.jpg";
+import img2 from "../Assets/2.jpg";
+import img3 from "../Assets/3.jpg";
+import img4 from "../Assets/4.jpg";
+import img5 from "../Assets/5.jpg";
 import pic1 from "../Assets/pic1.png";
-
+import pic2 from "../Assets/pic2.png";
 import pic3 from "../Assets/pic3.png";
 import pic4 from "../Assets/pic4.png";
 import pic5 from "../Assets/pic5.png";
@@ -16,7 +18,10 @@ import pharma from "../Assets/pharma.png";
 import apple from "../Assets/apple.png";
 import beauty from "../Assets/beauty.png";
 import car from "../Assets/car.png";
-
+import coding from "../Assets/coding.png";
+import check from "../Assets/check.png";
+import bg2 from "../Assets/bg2.png";
+import office from "../Assets/office.png";
 import process from "../Assets/proces.png";
 import js from "../Assets/js.png";
 import php from "../Assets/php.png";
@@ -29,212 +34,291 @@ import aus from "../Assets/aus.png";
 import ame from "../Assets/ame.png";
 import pak from "../Assets/pak.png";
 import uae from "../Assets/uae.png";
-import chatgpt from "../Assets/chatgpt.png";
-import laptops from "../Assets/laptops.png";
-import meetings from "../Assets/meeting.png";
-import phone from "../Assets/phone.png";
-import voice from "../Assets/voice.png";
-import message from "../Assets/message.png";
+import Planning from "../Assets/11.png";
+import Design from "../Assets/22.png";
+import Stable from "../Assets/44.png";
+import Implement from "../Assets/33.png";
+import { HashLink } from "react-router-hash-link";
 
 const ArtificalIntelligence = () => {
   return (
     <div className="bodycontent">
-      <div className="bannner-image">
-        <p className="text-center text-white ">
-          Home&nbsp;/&nbsp;Capabiliotes&nbsp;/&nbsp;AI/ML
-        </p>
+    <div className="bannner-image-qua">
+      {/* <p className="text-center text-white ">
+       
+      </p> */}
 
-        <div className="text-content text-white">
-          <h1 className="MainHeading">
-            Drive impactful <br /> business outcomes by <br /> building
-            AI-powered <br /> apps
-          </h1>
-          <p className="headPara">
-            Explore the power of AI and transform your business operations.
+      <div className="">
+        <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
+        Drive Impactful <br />
+        </h1>
+        <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
+          Business
+        </h1>
+        <br></br>
+        <p
+          style={{
+            fontSize: "13px",
+            marginBottom: "12%",
+            marginTop: "-20px",
+          }}
+        >
+          Using tried-and-true methods, you can turn your business idea into a{" "}
+          <br />
+          successful enterprise or expand it. We support business owners in
+          achieving <br /> their objectives with greater success potential. We
+          can be your one-stop shop <br />
+        </p>
+        <HashLink to="#contact-us">
+          <button className="btn_pro" style={{ marginTop: "70px" }}>
+            Request Consultation
+          </button>
+        </HashLink>
+      </div>
+    </div>
+    <div className="row mainsection">
+      <div className="col">
+        {/* <div className="image-container">
+          <img src={bg} className="bg-image" alt="JPEG Image" />
+        </div> */}
+      </div>
+    </div>
+    <div className="container">
+      <div className="skilled44">
+       <center><h1>AI-Powered Development Services</h1></center> 
+      </div>
+    </div>
+    <div className="image-row">
+      <div className="image-item">
+        <img src={img1} alt="Image 1" />
+         
+      </div>
+      <div className="image-item">
+        <img src={img2} alt="Image 2" />
+        
+      </div>
+      <div className="image-item">
+        <img src={img3} alt="Image 3" />
+        
+      </div>
+      <div className="image-item">
+        <img src={img3} alt="Image 3" />
+     
+      </div>
+      <div className="image-item">
+        <img src={img3} alt="Image 3" />
+        
+      </div>
+    </div>
+
+    <div></div>
+    <div className="container">
+      <div className="row">
+        <div className="skilled">
+          <h3>Work with a Team of Skilled Professionals</h3>
+          <p>
+            Seamless collaboration, total transparency, and secure delivery.
+            That’s our approach when crafting your application. A team with
+            years of experience to suggest the best solution for you.
           </p>
-          <button className="btn btn-light">Let’s Talk</button>
         </div>
       </div>
+      <div className="row">
+        <div className="image-section">
+          <img src={process} alt="Your Image" />
+        </div>
+      </div>
+    </div>
 
-      <div className="container">
-        <div className="erpsoftware">
-          <h3 className="Quality text-center">
-            AI-Powered Development Services
-          </h3>
-        </div>
+    <div className="container-icon">
+      <h2>Technologies we work on</h2>
+      <p>
+        We use best-in-className tools, technologies, and modern approaches to
+        help you stay ahead of your competitors.
+      </p>
+      <div className="icon-row">
+        <img className="icon" src={salesforce} alt="Salesforce" />
+        <img className="icon" src={microsoft} alt="Microsoft Dynamics 365" />
+        <img className="icon" src={netcore} alt=".NET Core" />
+        <img className="icon" src={js} alt="JavaScript" />
+        <img className="icon" src={odoo} alt="Odoo" />
+        <img className="icon" src={php} alt="PHP" />
       </div>
-      <div class="image-row">
-        <div class="image-item">
-          <img src={chatgpt} alt="Image 1" />
-          <div class="caption">
-            <h4 className="border-top">Chatbots</h4> <hr />
-            <p>
-              Build better relations with your customers through AI-driven
-              conversational chatbots. Give your customers the best of AI +
-              humans by building, deploying, and managing conversational
-              chatbots. Artificial Intelligence-powered chatbots decrease
-              operational costs.
-            </p>
-          </div>
-        </div>
-        <div class="image-item">
-          <img src={laptops} alt="Image 2" />
-          <div class="caption">Sentiment Analysist</div>
-        </div>
-        <div class="image-item">
-          <img src={message} alt="Image 3" />
-          <div class="caption">Predictive Analytics</div>
-        </div>
-      </div>
-      <div class="image-row mt-5">
-        <div class="image-item">
-          <img src={phone} alt="Image 2" />
-          <div class="caption">Predictive Maintenance</div>
-        </div>
+    </div>
 
-        <div class="image-item">
-          <img src={meetings} alt="Image 2" />
-          <div class="caption">Asset Management</div>
-        </div>
-        <div class="image-item">
-          <img src={voice} alt="Image 3" />
-          <div class="caption">Voice Command Apps</div>
-        </div>
-      </div>
-
-      <div></div>
-      <div className="skilled">
-        <h3>Work with a Team of Skilled Professionals</h3>
-        <p>
-          Seamless collaboration, total transparency, and secure delivery.{" "}
-          <br /> That’s our approach when crafting your application. A team with{" "}
-          <br /> years of experience to suggest the best solution for you.
-        </p>
-      </div>
-
-      <div class="image-section">
-        <img src={process} alt="Your Image" />
-      </div>
-
-      <div class="container-icon">
-        <h2>Technologies we work on</h2>
-        <p>
-          We use best-in-class tools, technologies, and modern approaches to
-          help you stay ahead of your competitors.
-        </p>
-        <div class="icon-row">
-          <img class="icon" src={salesforce} alt="Salesforce" />
-          <img class="icon" src={microsoft} alt="Microsoft Dynamics 365" />
-          <img class="icon" src={netcore} alt=".NET Core" />
-          <img class="icon" src={js} alt="JavaScript" />
-          <img class="icon" src={odoo} alt="Odoo" />
-          <img class="icon" src={php} alt="PHP" />
-        </div>
-      </div>
-      {/* <div className="container mt-5">
-        <h2 className="heading">Industries We Serve</h2>
-        <h6 className="subHead">
+    <div className="container mt-5">
+        <h1 className="heading">Industries We Serve</h1>
+        <h6 className="subHead mb-5">
           Lorem ipsum dolor sit amet, consectetur adipis elit
         </h6>
         <div class="container container-fluid">
           <div class="row">
-            <div class="col-md-4 col-sm-12 column">
+            <div class="col-md-4 col-sm-12 column border_right_bottom">
               <img src={pic1} />
               <h5 className="name">Fashions & Clothing</h5>
             </div>
-            <div class="col-md-4  col-sm-12  column">
+            <div class="col-md-4  col-sm-12  column border_right_bottom">
               <img src={pic3} />
               <h5 className="name">Retail</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_bottom">
               <img src={autoparts} />
               <h5 className="name">Auto Parts</h5>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_right_bottom">
               <img src={pharma} />
               <h5 className="name">Pharmaceutical</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_right_bottom">
               <img src={apple} />
               <h5 className="name">Fitness & Nutrition</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_bottom">
               <img src={pic5} />
               <h5 className="name">Furniture</h5>
             </div>
           </div>
           <div className="row">
-            <div class="col-md-4   col-sm-12 column">
+            <div class="col-md-4   col-sm-12 column border_right">
               <img src={pic4} />
               <h5 className="name">Pharmaceutical</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column border_right">
               <img src={beauty} />
               <h5 className="name">Beauty And Personal Care</h5>
             </div>
-            <div class="col-md-4  col-sm-12 column">
+            <div class="col-md-4  col-sm-12 column ">
               <img src={car} />
               <h5 className="name">Rental</h5>
             </div>
           </div>
         </div>
-      </div> */}
-
-      <div className="container">
-        <div className="askaritechnology main">
-          <div className="left-side">
-            <img
-              src={askarimainleft}
-              alt="Your Image"
-              style={{ width: "529px", height: "536px" }}
-            />
-          </div>
-          <div className="right-side">
-            <h2>Why Askari Technologies</h2>
-            <p>
-              Our work ethic, methodology, and dedication to your projects make
-              us the perfect choice.
-            </p>
-            <p>
-              We understand your requirements, dig deep into how to tailor a
-              solution for you, build a team to work with you, and execute a
-              robust project.
-            </p>
-            <button>Request Consultation</button>
-          </div>
-        </div>
       </div>
-      <div className="row flags">
-        <div className="col  coll">
-          <img src={ame} className="coll" />
-          <h4 className="flagT">United State</h4>
-          <p className="para2">
-            160 Bovet Road, Suite #<br /> 101San Mateo, CA 94402 USA
-          </p>
-        </div>
-        <div className="col coll">
-          <img src={aus} className="coll" />
-          <h4 className="flagT">Australia</h4>
-          <p className="para2">
-            160 Bovet Road, Suite #<br /> 101San Mateo, CA 94402 USA
-          </p>
-        </div>
-        <div className="col coll">
-          <img src={pak} className="coll" />
-          <h4 className="flagT">Pakistan</h4>
-          <p className="para2">
-            160 Bovet Road, Suite #<br /> 101San Mateo, CA 94402 USA
-          </p>
-        </div>
-        <div className="col coll">
-          <img src={uae} className="coll" />
-          <h4 className="flagT">UAE</h4>
-          <p className="para2">Comming Soon</p>
+{/* cards */}
+
+
+<div className="container cards_qa">
+<center>
+<h1 className="heading_cards_qa">DevOps Process</h1>
+</center>
+<div className="main_card_section_qa">
+<div className="inner_card_qa">
+<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+<h5>
+Planning
+</h5>
+<p>
+After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+</p>
+
+
+</div>
+
+
+</div>
+
+<div className="inner_card_qa">
+<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+<h5>
+Planning
+</h5>
+<p>
+After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+</p>
+
+
+</div>
+
+
+</div>
+<div className="inner_card_qa">
+<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+<h5>
+Planning
+</h5>
+<p>
+After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+</p>
+
+
+</div>
+
+
+</div>
+<div className="inner_card_qa">
+<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+<h5>
+Planning
+</h5>
+<p>
+After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div className="container">
+      <div className="askaritechnology main">
+        <div className="row">
+          <div className="col askaritechnology ">
+            <div className="left-side">
+              <img
+                src={askarimainleft}
+                alt="Your Image"
+                className="leftImage"
+              />
+            </div>
+          </div>
+          <div className="col  askaritechnology ">
+            <div className="right-side">
+              <h3>Why Askari Technologies</h3>
+              <p>
+                Our work ethic, methodology, and dedication to your projects
+                make us the perfect choice.
+              </p>
+              <p>
+                We understand your requirements, dig deep into how to tailor a
+                solution for you, build a team to work with you, and execute a
+                robust project.
+              </p>
+              <HashLink to="#contact-us">
+              <button style={{ border: "none" }}>Request Consultation</button>
+        </HashLink>
+             
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

@@ -20,9 +20,7 @@ function Solution1() {
             collaboration, and deliver personalized experiences to stakeholders.
           </p>
         </div>
-        <div className="Solutionbanner2_section">
-          <img src={img1sol} className="imgsizing_sol1" />
-        </div>
+       
       </div>
       <section className="main_body_soltions">
         <section className="section1_solution">
@@ -47,7 +45,7 @@ function Solution1() {
           </div>
         </section>
         <section className="section2_solution">
-          <h3 style={{ color: "#3D4DAE" }}>Features of ClientConnect</h3>
+          <h2 style={{ color: "#3D4DAE",marginBottom:'40px',fontWeight:"bolder" }}>Features of ClientConnect</h2>
           <div className="card_container_solu1">
             <div className="sub_card_sol1">
               <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
@@ -58,6 +56,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                   textAlign:"center"
                 }}
               >
                 Utilize AI algorithms to gain insights into customer behavior,
@@ -74,6 +73,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Automate sales processes with intelligent lead scoring,
@@ -90,6 +90,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Extract actionable insights from customer data with AI-driven
@@ -121,6 +122,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Streamline and automate routine tasks to improve team
@@ -136,6 +138,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Tailor the solution to meet the specific requirements of
@@ -152,6 +155,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Adhere to industry standards and implement robust security
@@ -168,6 +172,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 User-friendly interface with interactive dashboards for easy
@@ -184,6 +189,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Round-the-clock support and comprehensive training resources
@@ -200,6 +206,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Adhere to industry standards and implement robust security
@@ -216,6 +223,7 @@ function Solution1() {
                   color: "#686868",
                   fontSize: "12px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 User-friendly interface with interactive dashboards for easy
@@ -233,6 +241,7 @@ function Solution1() {
                   fontSize: "12px",
                   marginLeft: "3px",
                   marginLeft: "3px",
+                  textAlign:"center"
                 }}
               >
                 Round-the-clock support and comprehensive training resources
@@ -255,7 +264,7 @@ function Solution1() {
               Improved Customer Satisfaction{" "}
             </h5>
             <p
-              style={{ color: "#686868", fontSize: "12px", marginLeft: "3px" }}
+              style={{ color: "#686868", fontSize: "12px", textAlign:"center"}}
             >
               Personalized engagement and round-the-clock support enhance
               customer satisfaction, leading to increased loyalty and retention.
@@ -266,7 +275,7 @@ function Solution1() {
               Increased Sales Effectiveness
             </h5>
             <p
-              style={{ color: "#686868", fontSize: "12px", marginLeft: "3px" }}
+              style={{ color: "#686868", fontSize: "12px", textAlign:"center" }}
             >
               Increased Sales Effectiveness Automation and AI-powered analytics
               enable efficient lead management, identify opportunities, and
@@ -278,7 +287,7 @@ function Solution1() {
               Data-Driven Decision Making
             </h5>
             <p
-              style={{ color: "#686868", fontSize: "12px", marginLeft: "3px" }}
+              style={{ color: "#686868", fontSize: "12px", textAlign:"center" }}
             >
               Actionable insights from data analytics support informed business
               decisions, helping businesses adapt their strategies for better
@@ -290,7 +299,7 @@ function Solution1() {
               Increased Sales Effectiveness
             </h5>
             <p
-              style={{ color: "#686868", fontSize: "12px", marginLeft: "3px" }}
+              style={{ color: "#686868", fontSize: "12px",textAlign:"center" }}
             >
               Automation and AI-powered analytics enable efficient lead
               management, identify opportunities, and improve sales performance.
@@ -301,7 +310,7 @@ function Solution1() {
               Data-Driven Decision Making
             </h5>
             <p
-              style={{ color: "#686868", fontSize: "12px", marginLeft: "3px" }}
+              style={{ color: "#686868", fontSize: "12px", textAlign:"center" }}
             >
               Actionable insights from data analytics support informed business
               decisions, helping businesses adapt their strategies for better
@@ -317,171 +326,202 @@ function Solution1() {
             <h1 className="text-askari-primary fw-bold mt-5">
               Industries and How ClientConnect Helps Them
             </h1>
-            <p className="E-commerce: ClientConnect enables personalized engagement and targeted marketing campaigns, helping e-commerce businesses improve customer satisfaction and increase conversions.">
+            <p >
               E-commerce: ClientConnect enables personalized engagement and
               targeted marketing campaigns, helping e-commerce businesses
               improve customer satisfaction and increase conversions.
             </p>
           </div>
-          <div className="col-md-8">
-            <div className="row justify-content-center">
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">E-commerce:</h3>
-                  <p>
-                    ClientConnect enables personalized engagement and targeted
-                    marketing campaigns, helping e-commerce businesses improve
-                    customer satisfaction and increase conversions.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">
-                    Financial Services
-                  </h3>
-                  <p>
-                    AI-powered analytics and automation enhance lead management
-                    and sales effectiveness, enabling financial service
-                    providers to optimize their sales processes and drive
-                    revenue growth.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">Healthcare</h3>
-                  <p>
-                    ClientConnect's personalized customer engagement and
-                    streamlined workflows improve patient experiences,
-                    appointment management, and healthcare service delivery.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">Hospitality</h3>
-                  <p>
-                    ClientConnect's integration capabilities help streamline
-                    customer interactions across various touchpoints, enhancing
-                    guest experiences and loyalty in the hospitality industry.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">Retail</h3>
-                  <p>
-                    AI-driven analytics and automation support targeted
-                    marketing, inventory management, and personalized customer
-                    experiences, enabling retailers to drive sales and customer
-                    satisfaction.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">Telecom</h3>
-                  <p>
-                    ClientConnect can help telecom companies enhance their
-                    customer engagement through personalized interactions,
-                    AI-powered support, and targeted marketing campaigns. It
-                    enables streamlined order management, billing, and complaint
-                    resolution.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">Education</h3>
-                  <p>
-                    {" "}
-                    In the education sector, ClientConnect facilitates effective
-                    student enrollment, personalized communication with parents,
-                    and streamlined administrative processes. It provides
-                    insights into student performance, supports academic
-                    planning.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">Real Estate</h3>
-                  <p>
-                    ClientConnect can optimize customer relationship management
-                    in the real estate industry by automating lead nurturing,
-                    managing property inquiries, and tracking customer
-                    preferences. It streamlines sales processes.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">Automative</h3>
-                  <p>
-                    With ClientConnect, automotive companies can deliver
-                    exceptional customer experiences throughout the vehicle
-                    ownership lifecycle. It enables efficient management of
-                    service requests, personalized communication, and proactive
-                    maintenance reminders.{" "}
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div
-                  style={{ width: "345px" }}
-                  className="card p-2 text-center client_connect_app_card"
-                >
-                  <h3 className="text-askari-primary mt-5">
-                    Travel and Tourism
-                  </h3>
-                  <p>
-                    ClientConnect can revolutionize customer management in the
-                    travel and tourism industry by providing personalized travel
-                    recommendations, automating booking processes, and
-                    delivering timely notifications and updates. It improves
-                    customer satisfaction.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <img src={img3} alt="Connect app" className="img-fluid" />
-          </div>
+         
+          
         </div>
+        <div className="bottom_card_dol container">
+        <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+                Support and Training
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+                Round-the-clock support and comprehensive training resources
+                provided by Askari Technologies to ensure a smooth user
+                experience.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+              E-commerce:
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+              ClientConnect enables personalized engagement and targeted marketing campaigns, helping e-commerce businesses improve customer satisfaction and increase conversions.
+              </p>
+            </div>
+            <div className="sub_cards_sol1">
+              <h5 style={{ color: "#3D4DAE", fontSize: "14px" }}>
+              E-commerce:
+              </h5>
+              <p
+                style={{
+                  color: "#686868",
+                  fontSize: "12px",
+                  marginLeft: "3px",
+                  marginLeft: "3px",
+                  textAlign:"center"
+                }}
+              >
+              ClientConnect enables personalized engagement and targeted marketing campaigns, helping e-commerce businesses improve customer satisfaction and increase conversions.
+              </p>
+            </div>
+
+
+
+
+</div>
       </div>
 
-      <div className="container d-none d-sm-block ">
+      <div className=" d-none d-sm-block ">
         <div className="empowering_business mt-5 ">
-          <div className="container text-center">
+          <div className="text-center">
             <h3 className="text-askari-primary fw-bold">
               Empowering Businesses with AI-Powered CRM Capabilities
             </h3>

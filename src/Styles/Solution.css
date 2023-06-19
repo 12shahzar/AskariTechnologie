@@ -1,10 +1,62 @@
 .banner_Solution1 {
-  height: 90vh;
-  width: auto;
-  background: linear-gradient(90deg, #09197a 34.42%, #3d4dae 100%);
+  height: 60vh;
+  width: 100%;
+  background-image: url('../Assets/sol1_p.png');
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+.banner_Solution2 {
+  height: 60vh;
+  width: 100%;
+  background-image: url('../Assets/sol2_banner.png');
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+.banner_Solution3 {
+  height: 60vh;
+  width: 100%;
+  background-image: url('../Assets/bannersol-3.png');
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+.banner_Solution4 {
+  height: 60vh;
+  width: 100%;
+  background-image: url('../Assets/bannersol-4.png');
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+.banner_Solution5 {
+  height: 60vh;
+  width: 100%;
+  background-image: url('../Assets/bannersol-5.png');
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+.banner_Solution6 {
+  height: 60vh;
+  width: 100%;
+  background-image: url('../Assets/bannersol-6.png');
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
 }
 .Solutionbanner1_section {
   width: 50%;
@@ -15,6 +67,7 @@
   justify-content: space-evenly;
   align-items: center;
   color: #ffffff;
+margin: 7% 7%;
 }
 .secoundlast_solution {
   background-color: #09197a;
@@ -22,7 +75,7 @@
   width: 80%;
 }
 .section3_solution {
-  height: 60vh;
+  height: 75vh;
   width: 100%;
   background-image: url("../Assets/Frame\ 287.png");
   margin-top: 350px;
@@ -43,12 +96,12 @@
   flex-wrap: wrap;
 }
 .Solutionbanner2_section {
-  width: 30%;
-  height: 50%;
+  width: 40%;
+  height: 0%;
   /* background-color: red; */
 }
 .imgsizing_sol1 {
-  height: 90%;
+  height: 100%;
   width: auto;
 }
 .section1_solution {
@@ -86,13 +139,61 @@
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
+ 
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.sub_cards_sol1 {
+  height: 35%;
+  width: 26%;
+  padding: 5% 5%;
+  /* background-color: antiquewhite; */
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+ 
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.sub_card_sol1:hover {
+  height: 27%;
+  width: 30%;
+  /* background-color: antiquewhite; */
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
   box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.18);
   border-radius: 5px;
   background-color: #ffffff;
 }
+.sub_cards_sol1:hover {
+  
+
+  box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.18);
+ 
+}
+.bottom_card_dol
+{
+ height: auto;
+ width: auto;
+ /* background-color: #09197A; */
+ display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+
+
+}
 
 .sub_card_sol2 {
-  height: 40%;
+  height: 45%;
   width: 30%;
   /* background-color: antiquewhite; */
   margin-bottom: 50px;
@@ -147,13 +248,15 @@
   border-radius: 5px;
   color: #ffffff;
   height: 40px;
+  border: none;
+  outline: none;
 }
 
 @media screen and (max-width: 480px) {
   .banner_Solution1 {
     height: 110vh;
     width: auto;
-    background: linear-gradient(90deg, #09197a 34.42%, #3d4dae 100%);
+    background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -176,7 +279,7 @@
     /* background-color: red; */
   }
   .imgsizing_sol1 {
-    height: 70%;
+    height: 100%;
     width: auto;
   }
 
@@ -265,4 +368,7 @@
 .empowering_business {
   background-image: url("../Assets/images/client_keyboard_app.png");
   padding: 30px;
+  height: 40vh;
+  background-repeat: no-repeat;
+  margin-top: -50px;
 }

@@ -22,17 +22,15 @@
 
   color: #0659a4;
 }
-body {
-  margin: 0%;
-}
 
+ 
 /* Apply the color spreading animation to a full-screen element */
 /* Apply the color spreading animation to a full-screen element */
 
 .color-spreading-container {
   overflow-x: hidden;
   overflow-y: hidden;
-  overflow: hidden;
+ 
 }
 
 .header-content {
