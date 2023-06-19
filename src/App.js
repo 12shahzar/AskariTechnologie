@@ -59,6 +59,8 @@ import Solution4 from "./Components/Solution4";
 import Solution5 from "./Components/Solution5";
 import Solution6 from "./Components/Solution6";
 import Contactsub from "./Components/Contactsub";
+import Faq from "./Components/Faq";
+import Endtwo from "./Components/Endtwo";
 function App() {
   return (
     <Router>
@@ -139,6 +141,7 @@ function App() {
       <Footer />
     </Router>
     
+ 
   );
 }
 

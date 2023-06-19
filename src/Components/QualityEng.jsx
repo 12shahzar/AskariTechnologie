@@ -89,8 +89,11 @@ const QualityEng = () => {
         </div>
       </div>
       <div className="image-row">
+        
         <div className="image-item">
           <img src={img1} alt="Image 1" />
+           
+           <div className="ghghgh"><p className="text">text</p></div>
          
         </div>
         <div className="image-item">

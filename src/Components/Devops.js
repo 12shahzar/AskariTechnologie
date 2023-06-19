@@ -95,19 +95,19 @@ const Devops = () => {
         </div>
         <div className="image-item">
           <img src={img2} alt="Image 2" />
-          <div className="caption">Quality Assurance</div>
+        
         </div>
         <div className="image-item">
           <img src={img3} alt="Image 3" />
-          <div className="caption">Test Automation</div>
+          
         </div>
         <div className="image-item">
           <img src={img3} alt="Image 3" />
-          <div className="caption">Test Automation</div>
+        
         </div>
         <div className="image-item">
           <img src={img3} alt="Image 3" />
-          <div className="caption">Test Automation</div>
+      
         </div>
       </div>
 

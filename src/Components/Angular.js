@@ -30,6 +30,7 @@ import Beauty from "../Assets/beauty.png";
 import Pharmaceutical from "../Assets/pharma.png";
 import Rental from "../Assets/car.png";
 import Banner from "../Assets/banner.png";
+import Contactsub from "./Contactsub";
 
 const Angular = (props) => {
   const ServcicesCard = ({ Heading, Para }) => {
@@ -106,61 +107,7 @@ const Angular = (props) => {
         </div>
       </section>
 
-      <section className="contact-us">
-        <div className="container-fluid">
-          <div className="row  ">
-            <div className="col-lg-6 conact-c1">
-              <h3 className="contact-head mt-5">
-                Capabilities of Our Front-end Angular Developers
-              </h3>
-              <p className="contact-para">
-                Schedule a Call to Get Free Consultation
-              </p>
-            </div>
-            <div className="col-lg-6 conact-c2">
-              <h3 className="conatact-tittle p-2">Get Started</h3>
-
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputName" class="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="name"
-                    class="form-control"
-                    id="exampleInputname"
-                    aria-describedby="nameHelp"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInpuEmail" class="form-label">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail"
-                  />
-                </div>
-
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">
-                    Message
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn-started">
-                  Get Started
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Contactsub/>
 
       <section className="services py-5">
         <div className="container">
