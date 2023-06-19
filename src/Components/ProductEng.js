@@ -44,7 +44,7 @@ const ProductEng = () => {
         <div className="">
           <p style={{fontSize:"15px"}}>Future Technology Can Drive Your Business</p>
           <br></br>
-          <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
+          <h1 style={{fontWeight:"bolder",marginTop:"3%"}} className="monile_mar" >
             Product Engineering <br />
           </h1>
           <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
@@ -57,9 +57,7 @@ const ProductEng = () => {
             achieving <br /> their objectives with greater success potential. We
             can be your one-stop shop <br /> for everything from product
             engineering advice to deployment and <br /> maintenance. We'll focus
-            on the technological side of your business while you <br />{" "}
-            concentrate on your own. We excel in complete product engineering
-            and <br /> company expansion!
+            on the technological side of your business while you company expansion!
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro">Consult Erp Expert</button>
@@ -154,7 +152,7 @@ const ProductEng = () => {
 
               <form>
                 <div >
-                  <label for="exampleInputName" class="form-label">
+                  <label for="exampleInputName" class="form-label" className="align_contact_lab">
                     Name
                   </label>
                   <input
@@ -167,7 +165,7 @@ const ProductEng = () => {
                   />
                 </div>
                 <div >
-                  <label for="exampleInputName" class="form-label">
+                  <label for="exampleInputName" class="form-label" className="align_contact_lab">
                     Email
                   </label>
                   <input
@@ -180,7 +178,7 @@ const ProductEng = () => {
                   />
                 </div>
                 <div >
-                  <label for="exampleInpuEmail" class="form-label">
+                  <label for="exampleInpuEmail" class="form-label" className="align_contact_lab">
                     Phone Number
                   </label>
                   <input
@@ -193,7 +191,7 @@ const ProductEng = () => {
                 </div>
 
                 <div >
-                  <label for="exampleFormControlTextarea1" class="form-label">
+                  <label for="exampleFormControlTextarea1" class="form-label" className="align_contact_lab">
                     Message
                   </label>
                   <textarea

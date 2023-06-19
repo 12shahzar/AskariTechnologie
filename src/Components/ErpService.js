@@ -17,7 +17,7 @@ import car from "../Assets/car.png";
 
 import check from "../Assets/check.png";
 
-import mainleft from "../Assets/mainleftimg.png";
+import mainleft2 from "../Assets/ERP_PNG.png";
 import pe1 from "../Assets/pe1.png";
 import pe2 from "../Assets/pe2.png";
 import pe3 from "../Assets/pe3.png";
@@ -42,10 +42,10 @@ const ErpService = () => {
       </p> */}
 
       <div className="">
-        <p style={{fontSize:"15px"}}>End to End</p>
+        <p style={{fontSize:"15px"}}>END TO END </p>
         <br></br>
-        <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
-        Custom ERP  <br />
+        <h1 style={{fontWeight:"bolder",marginTop:"3%"}} className="monile_mar" >
+          Custom ERP <br />
         </h1>
         <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
          Services
@@ -57,9 +57,7 @@ const ErpService = () => {
           achieving <br /> their objectives with greater success potential. We
           can be your one-stop shop <br /> for everything from product
           engineering advice to deployment and <br /> maintenance. We'll focus
-          on the technological side of your business while you <br />{" "}
-          concentrate on your own. We excel in complete product engineering
-          and <br /> company expansion!
+          on the technological side of your business while you company expansion!
         </p>
         <HashLink to="#contact-us">
           <button className="btn_pro">Consult Erp Expert</button>
@@ -71,7 +69,7 @@ const ErpService = () => {
       <div className="col">
         <div class="image-container">
           <img src={bg} className="bg-image" alt="JPEG Image" />
-          <img src={mainleft} alt="PNG Image" class="overlay-image"  style={{width:"90%"}}/>
+          <img src={mainleft2} alt="PNG Image" class="overlay-image"  style={{width:"90%",height:"50%",top:"20%"}}/>
         </div>
       </div>
       <div className="col servicespara" >
@@ -88,16 +86,16 @@ const ErpService = () => {
         </p>
         <p>
       
-          By utilizing product engineering best practices, adopting
+          By utilizing Custom ERP best practices, adopting
           cutting-edge technologies, providing competencies and talent, and
-          working with you, we complement your digital product engineering
+          working with you, we complement your digital Custom ERP
           efforts.
         </p>
 
         <p>
           Our administrations ride the entire item designing lifecycle, from
           the ideation stage to item plan and improvement and from help to
-          showcase development. Our digital product engineering services cover
+          showcase development. Our digital Custom ERP services cover
           a wide range of services, including re-engineering products to meet
           cost, feature, and performance demands from the market.
         </p>
@@ -106,7 +104,7 @@ const ErpService = () => {
     </div>
     <div className="container">
       <div className="align_product" style={{display:'flex',flexDirection:'column'}}>
-      <h3 style={{alignSelf:"center"}} >Our Digital Product Engineering Services</h3>
+      <h3 style={{alignSelf:"center"}} >Our ERP Software Development Services</h3>
         <p >
           We offer custom ERP solutions to businesses of all sizes and sectors
           so you can optimize your applications flawlessly.  Attain
@@ -116,26 +114,26 @@ const ErpService = () => {
       </div>
     </div>
     <div class="image-row container">
-    <div class="image-item">
-      <img src={pe1} alt="Image 1" />
-      
-    </div>
-    <div class="image-item">
-      <img src={pe2} alt="Image 2" />
-    </div>
-    <div class="image-item">
-      <img src={pe3} alt="Image 3" />
-     
-    </div>
-    <div class="image-item">
-      <img src={pe4} alt="Image 4" />
-     
-    </div>
-    <div class="image-item">
-      <img src={pe5} alt="Image 5" />
-     
-    </div>
+  <div class="image-item">
+    <img src={pe1} alt="Image 1" />
+    
   </div>
+  <div class="image-item">
+    <img src={pe2} alt="Image 2" />
+  </div>
+  <div class="image-item">
+    <img src={pe3} alt="Image 3" />
+   
+  </div>
+  <div class="image-item">
+    <img src={pe4} alt="Image 4" />
+   
+  </div>
+  <div class="image-item">
+    <img src={pe5} alt="Image 5" />
+   
+  </div>
+</div>
     <section className="contact-us" id="contact-us">
       <div className="container-fluid">
         <div className="row">
@@ -154,7 +152,7 @@ const ErpService = () => {
 
             <form>
               <div >
-                <label for="exampleInputName" class="form-label">
+                <label for="exampleInputName" class="form-label" className="align_contact_lab">
                   Name
                 </label>
                 <input
@@ -167,7 +165,7 @@ const ErpService = () => {
                 />
               </div>
               <div >
-                <label for="exampleInputName" class="form-label">
+                <label for="exampleInputName" class="form-label" className="align_contact_lab">
                   Email
                 </label>
                 <input
@@ -180,7 +178,7 @@ const ErpService = () => {
                 />
               </div>
               <div >
-                <label for="exampleInpuEmail" class="form-label">
+                <label for="exampleInpuEmail" class="form-label" className="align_contact_lab">
                   Phone Number
                 </label>
                 <input
@@ -193,7 +191,7 @@ const ErpService = () => {
               </div>
 
               <div >
-                <label for="exampleFormControlTextarea1" class="form-label">
+                <label for="exampleFormControlTextarea1" class="form-label" className="align_contact_lab">
                   Message
                 </label>
                 <textarea
@@ -298,7 +296,7 @@ const ErpService = () => {
               Product Consulting
               </h5>
               <p className="para_pro_card_eng">
-               product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
+               Custom ERP of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
               </p>
 
 
@@ -317,7 +315,7 @@ const ErpService = () => {
               Product Consulting
               </h5>
               <p className="para_pro_card_eng">
-               product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
+               Custom ERP of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
               </p>
 
 
@@ -337,7 +335,7 @@ const ErpService = () => {
               Product Consulting
               </h5>
               <p className="para_pro_card_eng">
-               product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
+               Custom ERP of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
               </p>
 
 
@@ -356,7 +354,7 @@ const ErpService = () => {
               Product Consulting
               </h5>
               <p className="para_pro_card_eng">
-               product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
+               Custom ERP of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
               </p>
 
 
@@ -375,7 +373,7 @@ const ErpService = () => {
               Product Consulting
               </h5>
               <p className="para_pro_card_eng">
-               product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
+               Custom ERP of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
               </p>
 
 
@@ -392,7 +390,7 @@ const ErpService = () => {
 
     </section>
 
-    <div className="bg_baneer_proemg">
+    <div className="bg_baneer_proemg_erp">
      
     </div>
     {/* <div class="section">
@@ -429,8 +427,8 @@ const ErpService = () => {
       </div>
       <div className="end_pro_right">
         <div className="right_pro_end">
-          <h3 style={{color:"#3D4DAE"}}>
-          Askari Technology - Your Trusted Product Engineering Services Company
+          <h3 style={{color:"#3D4DAE",fontWeight:'bolder'}}>
+          Askari Technology - Your Trusted Custom ERP Services Company
           </h3>
           <p>We have a proven track record of helping companies from different verticals navigate digital platforms. We can help you, too, with our engineering IT services.</p>
        <ul style={{listStyle:'outside'}}>
@@ -459,7 +457,7 @@ const ErpService = () => {
       <div class="custom-hero-content">
         <h3 >Engineering Services for Faster Time-to-Market</h3>
         <p>
-        Powered by strong product engineering services and combined with new-gen technologies, we help businesses design and build a future-ready solution.
+        Powered by strong Custom ERP services and combined with new-gen technologies, we help businesses design and build a future-ready solution.
       <br></br> <br></br> Take advantage of limitless possibilities by partnering with us!
         </p>
         <HashLink to="#contact-us">

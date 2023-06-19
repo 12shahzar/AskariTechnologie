@@ -97,7 +97,7 @@ function OurPatners() {
 
         <div className="cards_ourpatners">
           <div className="card_child_4">
-            <img src={imageop3} style={{ width: "90%", height: "100%" }} />
+            <img src={imageop3} style={{ width: "90%", height: "100%" }} className="ganjaimg" />
           </div>
           <div className="card_child2">
             <div className="first_card_child">
