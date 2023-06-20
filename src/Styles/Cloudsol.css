@@ -86,27 +86,12 @@
   display: inline-block;
 }
 
-.overlay-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 80%;
-  padding-left: 30%;
-  margin-top: 5%;
-}
 
 .bg-image {
   width: 5px;
   height: 90px;
 }
 
-.servicespara {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-}
 
 .mainsection {
   background: #f6f6f6;
@@ -114,25 +99,8 @@
   display: flex;
 }
 
-.servicespara h3 {
-  color: #3d4dae;
-  font-family: "Segoe UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
 
- 
-}
 
-.servicespara p {
-  margin-top: 2%;
-  font-family: "Segoe UI";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-
-  line-height: 24px;
-}
 
 .erpsoftware {
   margin-top: 5%;
@@ -340,36 +308,8 @@
   }
 }
 
-.contact-head {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 66px;
-  text-align: left;
-  margin-left: 10%;
-  /* or 110% */
 
-  letter-spacing: -2px;
 
-  /* base/white */
-
-  color: #ffffff;
-}
-.contact-para {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  margin-left: 10%;
-  margin-top: 4%;
-  /* or 167% */
-
-  /* blue-gray/300 */
-
-  color: #cbd5e1;
-}
 .section {
   text-align: center;
   margin-left: 2rem;
@@ -901,16 +841,7 @@
   margin: 10px;
 }
 
-.custom-hero-section {
-  width: 100%;
-  height: 495px;
-  background: url("../Assets/herobg.png") no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 5%;
-}
+
 
 .custom-hero-content {
   max-width: 800px;
@@ -1010,17 +941,13 @@
     width: auto;
   }
 
-  .overlay-image {
-    padding-left: 20%;
-  }
+ 
 
   .bg-image {
     width: 85vw;
   }
 
-  .servicespara h3 {
-    margin-top: 10%;
-  }
+  
 }
 
 @media screen and (max-width: 900px) {

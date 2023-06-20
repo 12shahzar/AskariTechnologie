@@ -14,6 +14,8 @@
 .Venture_heading {
   color: white;
   margin-left: 10vw;
+  font-weight: bolder;
+  font-size: 40px;
 }
 .Main_container_venture {
   padding: 0% 10%;

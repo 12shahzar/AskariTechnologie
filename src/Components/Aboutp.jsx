@@ -19,15 +19,9 @@ import about13 from "../Assets/Avatar (2).png";
 function About() {
   return (
     <>
-      <div
-        style={{ backgroundImage: `url(${DottedBackground})` }}
-        className="hero-bg-about"
-      >
-        <div style={{ height: "50px" }}></div>
-        <div style={{ padding: "60px" }} className="container">
-          <h1 className="fw-bold text-white">About Us</h1>
-          <p className="text-white">Building intuitive digital experiences</p>
-        </div>
+      <div className="ourpatners_baner">
+        <h2 className="Venture_heading">About</h2>
+       
       </div>
 
       <div className="section_1">
@@ -78,7 +72,7 @@ function About() {
 
         <div className="container">
           <div className={`row d-flex justify-content-center }`}>
-            <div className={`col-md-8 }`}>
+            <div className={`col-md-10 }`}>
               <div className="our_story_card">
                 <div className="card-body">
                   <h3 className="text-white">What sets us apart from others</h3>

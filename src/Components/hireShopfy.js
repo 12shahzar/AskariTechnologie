@@ -108,63 +108,7 @@ const hireShopfy = (props) => {
         </div>
       </section>
 
-      <section className="contact-us ">
-        <div className="container-fluid">
-          <div className="row  ">
-            <div className="col-lg-6 conact-c1">
-              <h3 className="contact-head mt-5">
-                Consult Salesforce ECommerce Integration Experts
-              </h3>
-              <p className="contact-para">
-                We are here to help you migrate your data to Salesforce without
-                any hassle. Reach us out to know about the process we would
-                follow to ensure seamless data migration.
-              </p>
-            </div>
-            <div className="col-lg-6 conact-c2">
-              <h3 className="conatact-tittle p-2">Get Started</h3>
-
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputName" class="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="name"
-                    class="form-control"
-                    id="exampleInputname"
-                    aria-describedby="nameHelp"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInpuEmail" class="form-label">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail"
-                  />
-                </div>
-
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">
-                    Message
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn-started">
-                  Get Started
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       <section className="services py-5">
         <div className="container">

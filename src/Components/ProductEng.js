@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../Styles/ProductEng.css";
 import { HashLink } from 'react-router-hash-link';
 import bg from "../Assets/bg.png";
-
+import Technologywework from "../Components/Technologywework.jsx"
 import pic1 from "../Assets/pic1.png";
 
 import pic3 from "../Assets/pic3.png";
@@ -57,8 +57,7 @@ const ProductEng = () => {
             successful enterprise or expand it. We support business owners in
             achieving <br /> their objectives with greater success potential. We
             can be your one-stop shop <br /> for everything from product
-            engineering advice to deployment and <br /> maintenance. We'll focus
-            on the technological side of your business while you company expansion!
+            engineering advice to deployment and <br /> maintenance. We'll  business while you company expansion!
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro">Consult Erp Expert</button>
@@ -70,7 +69,7 @@ const ProductEng = () => {
         <div className="col">
           <div class="image-container">
             <img src={bg} className="bg-image" alt="JPEG Image" />
-            <img src={mainleft} alt="PNG Image" class="overlay-image"  style={{width:"90%"}}/>
+            <img src={mainleft} alt="PNG Image" class="overlay-image2"  style={{width:"90%"}}/>
           </div>
         </div>
         <div className="col servicespara" >
@@ -136,21 +135,7 @@ const ProductEng = () => {
     </div>
   </div>
       <Contactsub/>
-      <div class="container-icon">
-        <h2>Technologies we work on</h2>
-        <p>
-          We use best-in-class tools, technologies, and modern approaches to
-          help you stay ahead of your competitors.
-        </p>
-        <div class="icon-row">
-          <img class="icon" src={salesforce} alt="Salesforce" />
-          <img class="icon" src={microsoft} alt="Microsoft Dynamics 365" />
-          <img class="icon" src={netcore} alt=".NET Core" />
-          <img class="icon" src={js} alt="JavaScript" />
-          <img class="icon" src={odoo} alt="Odoo" />
-          <img class="icon" src={php} alt="PHP" />
-        </div>
-      </div>
+      <Technologywework/>
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
@@ -311,9 +296,9 @@ const ProductEng = () => {
 
       </section>
 
-      {/* <div className="bg_baneer_proemg">
+      <div className="bg_baneer_proemg">
        
-      </div> */}
+      </div>
       {/* <div class="section">
         
           <img src={left2} alt="Image" />

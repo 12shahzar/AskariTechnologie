@@ -10,7 +10,8 @@ function OurPatners() {
   return (
     <>
       <div className="ourpatners_baner">
-        <h2 className="patner_heading">Our Partners</h2>
+      <h2 className="Venture_heading">Our Patner</h2>
+        
       </div>
       <section className="Ourpatners_main" >
         <div className="Ourpatners_firstchild">
