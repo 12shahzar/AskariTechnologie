@@ -1,0 +1,79 @@
+.body{
+    background-color: #00396D;
+    /* height: 678px; */
+    padding: 60px 0px 20px 150px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 422px;
+    height: 90px;
+}
+.footerCon{
+    margin-top: 70px;
+    line-height: 250%;
+    text-align: left;
+}
+.footright{
+    padding-left: 55px;
+}
+.span{
+    width: 369px;
+    height: 1px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    margin-top: -20px;
+    
+}
+.signup{
+    border: 2px solid white;
+    border-radius: 0px;
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+.signup:hover{
+    background-color: white;
+    color: #00396D;
+    border: 2px solid white;
+}
+.social{
+    max-width: 250px;
+    margin-top: 23px;
+
+}
+.para3{
+    line-height: 130%;
+}
+.email{
+    margin-top: 120px;
+}
+@media only screen and (max-width: 600px) {
+    
+    .body  {
+        background-color: #00396D;
+        /* height: 678px; */
+        padding: 50px 20px 20px 20px;
+        color: white;
+    }
+    .social{
+        max-width: 150%;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo{
+        width: 310px;
+        height: 60px;
+    }
+    .span{
+        width: 269px;
+        height: 1px;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        margin-top: -20px;
+        
+    }
+    .footright{
+        padding-left: 15px;
+    }
+  }

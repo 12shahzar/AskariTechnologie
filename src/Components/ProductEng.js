@@ -311,9 +311,9 @@ const ProductEng = () => {
 
       </section>
 
-      <div className="bg_baneer_proemg">
+      {/* <div className="bg_baneer_proemg">
        
-      </div>
+      </div> */}
       {/* <div class="section">
         
           <img src={left2} alt="Image" />

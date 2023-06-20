@@ -1,0 +1,84 @@
+/* .style={{height:'350px',width:'800px'}}{ */
+ .box{
+    /* height: 350px;
+    width: 800px; */
+}
+.mainnav{
+    padding: 5px 30px 5px 30px;
+}
+
+.btn-contact{
+    background-color: #0659A4;
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+}
+.showlinks{
+    display: none;
+}
+.navcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.links{
+    display: none !important; 
+}
+.ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+.options{
+    height: 50px;
+    padding-top: 10px;
+   
+}
+/* .option1:hover + .hide1{
+    display: block;
+} */
+.sidebar{
+    background-color: #f2f2f2;
+    height: 325px;
+}
+.option1{
+    width: 100%;
+    height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option1:hover{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide2
+{
+    display: none;
+}
+ .myDIV:hover + .hide2 {
+    display: block;
+    color: red;
+  }
+   
+@media only screen and (max-width: 420px) {
+    .hide {
+    display: none !important;
+    }
+.imagelogo{
+    width: 120px;
+    height: 50px;
+}
+.mainnav{
+    padding: 0px 0px 0px 0px;
+}
+.links{
+    display: block !important; 
+}
+
+  }

@@ -311,9 +311,9 @@ const ErpService = () => {
 
     </section>
 
-    <div className="bg_baneer_proemg_erp">
+    {/* <div className="bg_baneer_proemg_erp">
      
-    </div>
+    </div> */}
     {/* <div class="section">
       
         <img src={left2} alt="Image" />
