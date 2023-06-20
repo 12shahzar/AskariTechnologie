@@ -1,18 +1,8 @@
 import React from "react";
-import "../Styles/Home.css";
+import "../Styles/Shopfiy.css";
+import Main2Img from "../Assets/ASP.png";
 
-// Image Import
-import MainIMG from "../Assets/hireshopifyimage-1@2x.png";
-import Main2Img from "../Assets/unsplashqckxruozjrg@2x.png";
-
-/// DEv 2 File Import
-
-import Note from "../Assets/funtion.png";
-import CV from "../Assets/Group.png";
-import Meeting from "../Assets/Group.png";
-import Avatar from "../Assets/avatar.png";
-import Remote from "../Assets/monitor.png";
-import Vector from "../Assets/Vector3.png";
+// dev 2 Import
 import "../Styles//Inductry.css";
 import Footer from "./Footer";
 import Hire from "./Hire";
@@ -30,8 +20,9 @@ import Monitor from "../Assets/pic4.png";
 import Beauty from "../Assets/beauty.png";
 import Pharmaceutical from "../Assets/pharma.png";
 import Rental from "../Assets/car.png";
-import Banner from "../Assets/banner.png";
-const hireShopfy = (props) => {
+import Banner from "../Assets/vuejsMain.png";
+
+const Outsoucres = (props) => {
   const ServcicesCard = ({ Heading, Para }) => {
     return (
       <div className="col-md-2 services-card ">
@@ -40,75 +31,115 @@ const hireShopfy = (props) => {
       </div>
     );
   };
-
   return (
     <>
-      <div>
-        <section className="main-section-1">
-          <div className="container py-5">
-            <ul>
-              <li className="Main-ul">
-                <a href="/">Home /</a>
-                <a href="/">Development /</a>
-                <a href="/">CRM & ERP /</a>
-              </li>
-            </ul>
-            <div className="row">
-              <div className="col-lg-6">
-                <h1 className="Brand-Name p-3">
-                  Hire Dedicated Shopify Developers
-                </h1>
-                <p className="Brand-slogen p-3">
-                  Build SEO-friendly and conversion-driven Shopify websites as
-                  you hire Shopify developers from Biztech. Now, create
-                  ready-to-use stores with a customized theme as you hire
-                  dedicated Shopify developers. You can rely on them for minor
-                  tweaks to integrations and migration
-                </p>
-                <button className="Hire-btn">
-                  Hire Dedicated Shopify Developers
-                </button>
-              </div>
-              <div className="col-lg-6 ">
-                <img
-                  src={MainIMG}
-                  alt=""
-                  className="logo-IMG img-fluid d-none d-sm-block"
-                />
-              </div>
-            </div>
+      <section className="hero ">
+        <div className="container-fluid">
+          <ul>
+            <li className="Main-ul py-3">
+              <a href="/">Home /</a>
+              <a href="/">Development /</a>
+              <a href="/">CRM & ERP /</a>
+            </li>
+          </ul>
+          <div className="col-lg-5">
+            <h1 className="main-heading">
+              Outsource Salesforce Customization Services
+            </h1>
+            <p className="main-heading">
+              Make your CRM solution work for you as per your needs and not the
+              other way around. Implement Salesforce customization services to
+              engineer your Salesforce CRM.
+            </p>
+            <button className="btn Hire-btn p-2">
+              Request A Free Consultation
+            </button>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <section className="main-2 justify-content-center align-content-center ">
-        <div className="row">
-          <div className="col-lg-5 justify-content-center">
-            <img src={Main2Img} alt="" className="about-Img img-fluid" />
+        <div className="row h-50 w-100">
+          <div className="col-lg-6 j">
+            <img src={Main2Img} alt="" className="about-img img-fluid" />
           </div>
           <div className="col-lg-6 m-auto ">
             <h3 className="about-head p-3">
-              Partner with the Seasoned Shopify Website Developers
+              Rigorous Vetting to Ensure you Hire Dedicated AngularJS Developers
             </h3>
             <p className="about-para p-3 ">
-              Our Shopify experts have a knack for building robust online stores
-              for small to Enterprise level businesses. Backed by 16+ years of
-              experience, we can cater to your custom needs when you hire
-              Shopify experts. Be it expanding your store’s functionalities or
-              customizing your Shopify theme. At Biztech, our Shopify experts
-              are ready to help you create the right eCommerce store using best
-              industry practices. Following the agile method, we deliver your
-              project in an iterative process, giving enough attention to
-              feedback and testing. Hire professional Shopify developers with
-              the right skills and experience who can understand your
-              requirements. Not just that, the professionals can turn them into
-              lucrative e-stores within budget.
+              At Askari technologies, we ensure companies match with the people
+              having the in-demand skill sets. We follow a rigorous vetting
+              process to ensure that developers are experienced in delivering
+              custom solutions while maintaining transparency. When you hire
+              AngularJS programmers from us, you get the upper hand in
+              development, deliveries, and management. Our Angular developers
+              have extensive knowledge of Angular 1.0 to the latest version,
+              Angular 13.0. Hire our dedicated AngularJS developers for project
+              consulting, web and mobile app development, migration,
+              customization, maintenance, and post-launch support at 50% lesser
+              development cost.
             </p>
           </div>
         </div>
       </section>
 
-    
+      <section className="contact-us-s">
+        <div className="container-fluid">
+          <div className="row py-5">
+            <div className="col-lg-6 py-5 contact-cc1">
+              <h3 className="c-head py-5">
+                We Can Be your Enterprise App Development Partner
+              </h3>
+              <p className="c-para">
+                Let’s talk about how we can help you develop tailored apps with
+                our enterprise app development services.
+              </p>
+            </div>
+            <div className="col-lg-6 contavt-c-23">
+              <h3 className="conatact-tittle p-2">Get Started</h3>
+
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputName" class="form-label">
+                    Name
+                  </label>
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="exampleInputname"
+                    aria-describedby="nameHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInpuEmail" class="form-label">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">
+                    Message
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn-started">
+                  Get Started
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="services py-5">
         <div className="container">
@@ -163,176 +194,73 @@ const hireShopfy = (props) => {
           </div>
         </div>
       </section>
-      <section className="hireDeveloper">
-        <div className="container">
-          <h3 className="services-head">
-            Ways to Hire Our Shopify Specialists
-          </h3>
 
-          <div className="row services-row">
-            <div className="col-md-3 arrival-card">
-              <h3>
-                <i class="bi bi-ubuntu icons-arrival"></i>
-              </h3>
-              <h4 className="Arrival-head">Flexible Hours</h4>
-              <p className="arrival-head">
-                You can hire Shopify experts from us on an hourly basis. In this
-                model, you will only have to pay for the time and resources
-                spent on the project. The highlights include weekly billing with
-                flexible duration. You get 100% source code authorization.
+      <section className="leading py-5">
+        <div className="container-fluid">
+          <h2 className="leading-head">
+            How Salesforce Customization Services Improves Business Performance
+          </h2>
+
+          <div className="row leading-card-row py-4">
+            <div className="col-md-2 leadin-card p-5 ">
+              <h5 className="leading-card-head">Quality Solutions</h5>
+              <p className="leading-card-para">
+                WWhether you want to customize the user interface, workflow, or
+                the entire Salesforce solution, we offer all-around Salesforce
+                customization to ensure you’re always staying ahead of your
+                competitors.
+              </p>
+            </div>
+            <div className="col-md-2 leadin-card p-5  ">
+              <h5 className="leading-card-head">High ROI</h5>
+              <p className="leading-card-para">
+                Customization enhances the CRM capabilities, resulting in
+                long-term benefits. Biztech makes all your investment worth it
+                by helping you achieve your desired results.
               </p>
             </div>
 
-            <div className="col-md-3 arrival-card ">
-              <h3>
-                <i class="bi bi-ubuntu icons-arrival"></i>
-              </h3>
-              <h4 className="Arrival-head">Dedicated Resource</h4>
-              <p className="arrival-head">
-                Hire dedicated Shopify developers to create tailored solutions
-                at fixed pricing. This model is for those who want to hire
-                developers on a monthly basis. You get guaranteed 160 hours as
-                per your flexibility and timezone, with direct access to
-                resources.
+            <div className="col-md-2 leadin-card p-5 ">
+              <h5 className="leading-card-head">Flexibility And Speed</h5>
+              <p className="leading-card-para">
+                ur Salesforce experts make customization and deployment easier
+                and faster, along with the flexibility to evolve with your
+                growing business.
               </p>
             </div>
-            <div className="col-md-3 arrival-card">
-              <h3>
-                <i class="bi bi-ubuntu icons-arrival"></i>
-              </h3>
-              <h4 className="Arrival-head">Flexible Hours</h4>
-              <p className="arrival-head">
-                You can find Shopify developers, designers, testers, and
-                engineers from a pool of talented professionals in BiztechCS.
-                Now, build a team to develop a custom solution for your
-                business. Communicate with them via email, Skype, Google Meet,
-                or Zoom and be a part of the agile development process.
+            <div className="col-md-2 leadin-card p-5 ">
+              <h5 className="leading-card-head">Make Smart Decisions</h5>
+              <p className="leading-card-para">
+                We offer customization services to reduce your team’s workload,
+                keeping in mind your unique business requirements. We handle all
+                the CRM aspects, while you can focus on making business
+                decisions.
               </p>
+            </div>
+            <div className="ser-btn py-3">
+              <button className="btn Hire-btn services-btn text-center m-auto ">
+                Let’s discuss
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* DEv 2 */}
-      <div className="rowheading  hirecontainer">
-        <h2 className="pad2">{props.Text}</h2>
-        <div className="row textcent">
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Note} />
-            </div>
-            <h4 className="pad">Share Requirements</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={CV} />
-            </div>
-            <h4 className="pad">Shortlist CVs</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Meeting} />
-            </div>
-            <h4 className="pad">Conduct Interviews</h4>
-          </div>
-          <div className="col hiddenarrow " style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Avatar} />
-            </div>
-            <h4 className="pad">Select Shopify Experts</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww " />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Remote} />
-            </div>
-            <h4 className="pad">Remote Onboarding</h4>
-          </div>
-        </div>
-      </div>
-
-      <div className="container">
-        <h2 className="heading">Industries We Serve</h2>
-        <h6 className="subHead">
-          Lorem ipsum dolor sit amet, consectetur adipis elit
-        </h6>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-sm-12 column">
-              <img src={Fashions} />
-              <h5 className="name">Fashions & Clothing</h5>
-            </div>
-            <div class="col-md-4  col-sm-12  column">
-              <img src={Retail} />
-              <h5 className="name">Retail</h5>
-            </div>
-            <div class="col-md-4  col-sm-12 column">
-              <img src={AutoParts} />
-              <h5 className="name">Auto Parts</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4  col-sm-12 column">
-              <img src={Pharmaceutical} />
-              <h5 className="name">Pharmaceutical</h5>
-            </div>
-            <div class="col-md-4  col-sm-12 column">
-              <img src={Fitness} />
-              <h5 className="name">Fitness & Nutrition</h5>
-            </div>
-            <div class="col-md-4  col-sm-12 column">
-              <img src={Furniture} />
-              <h5 className="name">Furniture</h5>
-            </div>
-          </div>
-          <div className="row">
-            <div class="col-md-4   col-sm-12 column">
-              <img src={Monitor} />
-              <h5 className="name">Pharmaceutical</h5>
-            </div>
-            <div class="col-md-4  col-sm-12 column">
-              <img src={Beauty} />
-              <h5 className="name">Beauty And Personal Care</h5>
-            </div>
-            <div class="col-md-4  col-sm-12 column">
-              <img src={Rental} />
-              <h5 className="name">Rental</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="container">
+      <div className="container py-5">
         <div className="row">
-          <div className="col-md-6">
-            <img src={Banner} className="bannerimg" />
+          <div className="col-md-5">
+            <img src={Banner} className="img-fluid py-5" />
           </div>
-          <div className="col-md-6 box2">
+          <div className="col-lg-6 box2">
+            <h1 className="support-head">
+              The Advantage of Relying on Askari Tech Salesforce Consulting
+              Services
+            </h1>
+            <p className="support-para">
+              At Biztech, one of the top Salesforce consulting companies in
+              India, we help you move swiftly from concept to implementation.
+              Our Salesforce experts will assist you in distinct approaches.
+            </p>
             <h3 className="head2">{props.Text}</h3>
             <h6 className="subHead2">{props.SubHead}</h6>
             <ul className="ul">
@@ -541,4 +469,4 @@ const hireShopfy = (props) => {
   );
 };
 
-export default hireShopfy;
+export default Outsoucres;
