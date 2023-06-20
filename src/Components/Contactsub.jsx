@@ -3,7 +3,7 @@ import React from 'react'
 function Contactsub() {
   return (
     <section className="contact-us" id="contact-us">
-    <div className="container-fluid">
+    <div className="container-fluid height_contact">
       <div className="row">
         <div className="col-lg-6 conact-c1">
           <h4 className="contact-head ">
@@ -18,7 +18,7 @@ function Contactsub() {
         <div className="col-lg-6 conact-c2">
           <h1 className="conatact-tittle ">Get Started</h1>
 
-          <form>
+          <form >
             <div >
               <label for="exampleInputName" class="form-label" className="align_contact_lab">
                 Name

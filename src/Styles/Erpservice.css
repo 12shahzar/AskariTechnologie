@@ -290,28 +290,7 @@
 }
 
 /* Contact section  */
-.contact-us {
-  margin-top: 4%;
-}
-.conact-c1 {
-  background: #4050af;
-}
-.contact-head {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 66px;
-  text-align: left;
-  margin-left: 10%;
-  /* or 110% */
 
-  letter-spacing: -2px;
-
-  /* base/white */
-
-  color: #ffffff;
-}
 .contact-para {
   font-family: "Poppins";
   font-style: normal;

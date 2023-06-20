@@ -32,6 +32,7 @@ import php from "../assets/php.png";
 import salesforce from "../assets/salesforce.png"
 import odoo from "../assets/odoo.png";
 import netcore from "../assets/netcore.png";
+import Contactsub from "./Contactsub";
 
 
 const ProductEng = () => {
@@ -120,71 +121,7 @@ Re-Engineering</div>
           <div class="caption">Product Marketing</div>
         </div>
       </div>
-      <section className="contact-us">
-        <div className="container-fluid">
-          <div className="row  ">
-            <div className="col-lg-6 conact-c1">
-              <h4 className="contact-head mt-5">
-                Get 30-Minute Free Strategy Consultation
-              </h4>
-              <p className="contact-para">
-                Let’s discuss how Biztech can help you convert breakthrough
-                ideas into tangible outcomes. Take the first step with our
-                software product engineering services today!
-              </p>
-            </div>
-            <div className="col-lg-6 conact-c2">
-              <h3 className="conatact-tittle p-2">Get Started</h3>
-
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputName" class="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="name"
-                    class="form-control"
-                    id="exampleInputname"
-                    aria-describedby="nameHelp"
-                    placeholder="Enter Your Name"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInpuEmail" class="form-label">
-                    Phone Number
-                  </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail"
-                    placeholder="Enter Your Phone Number"
-                  />
-                </div>
-
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">
-                    Message
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                    placeholder="Give Us a brief about your requirements"
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn-started">
-                  Get Started
-                </button>
-                <p className=" mt-4">
-                  {" "}
-                  <span className="guaranteed"> 100% Guaranteed </span> Security
-                  of the Information.
-                </p>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+     <Contactsub/>
       <div className="container mt-5">
         <h2 className="heading">Industries We Serve</h2>
         <h6 className="subHead">
