@@ -1,0 +1,17 @@
+.hero {
+    background: #0659A4;
+}
+
+.section_1 {
+    background: #F2FFFF;
+}
+
+.our_story_card {
+    background: radial-gradient(128.04% 307.49% at 121.43% -46.19%, #42B1E1 0.45%, #0659A4 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 7px;
+}
+
+.our_team {
+    background: #F2FFFF;
+}
