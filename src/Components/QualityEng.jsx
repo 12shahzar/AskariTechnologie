@@ -39,6 +39,7 @@ import Design from "../Assets/22.png";
 import Stable from "../Assets/44.png";
 import Implement from "../Assets/33.png";
 import { HashLink } from "react-router-hash-link";
+import Technologywework from "./Technologywework";
 
 const QualityEng = () => {
   return (
@@ -93,7 +94,7 @@ const QualityEng = () => {
         <div className="image-item">
           <img src={img1} alt="Image 1" />
            
-           <div className="ghghgh"><p className="text">text</p></div>
+          
          
         </div>
         <div className="image-item">
@@ -133,26 +134,12 @@ const QualityEng = () => {
         </div>
       </div>
 
-      <div className="container-icon">
-        <h2>Technologies we work on</h2>
-        <p>
-          We use best-in-className tools, technologies, and modern approaches to
-          help you stay ahead of your competitors.
-        </p>
-        <div className="icon-row">
-          <img className="icon" src={salesforce} alt="Salesforce" />
-          <img className="icon" src={microsoft} alt="Microsoft Dynamics 365" />
-          <img className="icon" src={netcore} alt=".NET Core" />
-          <img className="icon" src={js} alt="JavaScript" />
-          <img className="icon" src={odoo} alt="Odoo" />
-          <img className="icon" src={php} alt="PHP" />
-        </div>
-      </div>
+      <Technologywework/>
 {/* cards */}
 
 
 <div className="container cards_qa">
-<h1 className="heading_cards_qa">How we go about testing your Project</h1>
+<center><h1 className="heading_cards_qa">How we go about testing your Project</h1></center>
 <div className="main_card_section_qa">
 <div className="inner_card_qa">
   <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>

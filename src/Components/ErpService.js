@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import bg from "../Assets/bg.png";
 
 import pic1 from "../Assets/pic1.png";
-
+import Technologywework from "../Components/Technologywework.jsx"
 import pic3 from "../Assets/pic3.png";
 import pic4 from "../Assets/pic4.png";
 import pic5 from "../Assets/pic5.png";
@@ -70,7 +70,7 @@ const ErpService = () => {
       <div className="col">
         <div class="image-container">
           <img src={bg} className="bg-image" alt="JPEG Image" />
-          <img src={mainleft2} alt="PNG Image" class="overlay-image"  style={{width:"90%",height:"50%",top:"20%"}}/>
+          <img src={mainleft2} alt="PNG Image" class="overlay-image2"  style={{width:"90%",height:"50%",top:"20%"}}/>
         </div>
       </div>
       <div className="col servicespara" >
@@ -136,21 +136,7 @@ const ErpService = () => {
   </div>
 </div>
    <Contactsub/>
-    <div class="container-icon">
-      <h2>Technologies we work on</h2>
-      <p>
-        We use best-in-class tools, technologies, and modern approaches to
-        help you stay ahead of your competitors.
-      </p>
-      <div class="icon-row">
-        <img class="icon" src={salesforce} alt="Salesforce" />
-        <img class="icon" src={microsoft} alt="Microsoft Dynamics 365" />
-        <img class="icon" src={netcore} alt=".NET Core" />
-        <img class="icon" src={js} alt="JavaScript" />
-        <img class="icon" src={odoo} alt="Odoo" />
-        <img class="icon" src={php} alt="PHP" />
-      </div>
-    </div>
+   <Technologywework/>
     <div className="container mt-5">
       <h1 className="heading">Industries We Serve</h1>
       <h6 className="subHead mb-5">
@@ -311,37 +297,7 @@ const ErpService = () => {
 
     </section>
 
-    {/* <div className="bg_baneer_proemg_erp">
-     
-    </div> */}
-    {/* <div class="section">
-      
-        <img src={left2} alt="Image" />
-     
-      <div class="right">
-        <h2>
-          What You Get With Competent ERP <br /> Development Company
-        </h2>
-        <p>
-          We guarantee diverse functionalities that deliver smooth customer
-          experience and polished brand visibility. Here are the benefits of
-          partnering with us!
-        </p>
-
-        <ul>
-          <li>Proficient and Certified ERP Developers</li>
-          <li>On-demand Scalability</li>
-          <li>Flexible Engagement Models</li>
-          <li>Competitive Development Cost</li>
-          <li>On-time Delivery</li>
-          <li>Agile Methodology</li>
-          <li>Code Authorization</li>
-          <li>Collaborative and Communicative Approach</li>
-          <li>100% Customer Satisfaction</li>
-          <li>24*7 Support and Maintenance</li>
-        </ul>
-      </div>
-    </div> */}
+  
     <section className="end_pro">
       <div className="end_pro_left">
         <img src={left2} style={{width:"100%",height:"100%"}} />

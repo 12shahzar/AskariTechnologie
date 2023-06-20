@@ -2,8 +2,8 @@ import React from 'react'
 
 import js from "../Assets/js.png";
 import php from "../Assets/php.png";
-import microsoft from "../Assets/microsoft.png";
-import salesforce from "../Assets/salesforce.png";
+import microsoft from "../Assets/micro2.png";
+import salesforce from "../Assets/sales2.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
 

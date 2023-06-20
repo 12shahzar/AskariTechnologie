@@ -6,11 +6,8 @@ function OurVentures() {
     <>
       <div className="ourventure_baner">
 
-      <p className="Venture_heading">Home > About Us > How it Works</p>
         <h2 className="Venture_heading">How it Works</h2>
-        <p className="Venture_heading">
-          Consult, design, & develop scalable soltions
-        </p>
+        
       </div>
       <section className=" Secound_venture">
           <div className="img_text_venture">

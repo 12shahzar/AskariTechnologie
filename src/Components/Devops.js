@@ -39,6 +39,7 @@ import Design from "../Assets/22.png";
 import Stable from "../Assets/44.png";
 import Implement from "../Assets/33.png";
 import { HashLink } from "react-router-hash-link";
+import Technologywework from "../Components/Technologywework.jsx"
 
 const Devops = () => {
   return (
@@ -130,21 +131,7 @@ const Devops = () => {
         </div>
       </div>
 
-      <div className="container-icon">
-        <h2>Technologies we work on</h2>
-        <p>
-          We use best-in-className tools, technologies, and modern approaches to
-          help you stay ahead of your competitors.
-        </p>
-        <div className="icon-row">
-          <img className="icon" src={salesforce} alt="Salesforce" />
-          <img className="icon" src={microsoft} alt="Microsoft Dynamics 365" />
-          <img className="icon" src={netcore} alt=".NET Core" />
-          <img className="icon" src={js} alt="JavaScript" />
-          <img className="icon" src={odoo} alt="Odoo" />
-          <img className="icon" src={php} alt="PHP" />
-        </div>
-      </div>
+      <Technologywework/>
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">

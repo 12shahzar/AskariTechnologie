@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../Styles/ProductEng.css";
 import { HashLink } from 'react-router-hash-link';
 import left2_ecom from '../Assets/mask_ecom.png'
-
+import Technologywework from "../Components/Technologywework.jsx"
+import Endtwo from "../Components/Endtwo.jsx"
 import pic1 from "../Assets/pic1.png";
 
 import pic3 from "../Assets/pic3.png";
@@ -28,7 +29,6 @@ import left2 from "../Assets/left2.png";
 import microsoft from "../Assets/microsoft.png";
 import js from "../Assets/js.png";
 import php from "../Assets/php.png";
-
 import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
@@ -36,6 +36,7 @@ import Contactsub from "./Contactsub";
 
 const EcommerceService = () => {
   return (
+  
     <div className="bodycontent">
       <div className="bannner-image">
         {/* <p className="text-center text-white ">
@@ -126,21 +127,7 @@ At Biztech,
     </div>
   </div>
       <Contactsub/>
-      <div class="container-icon">
-        <h2>Technologies we work on</h2>
-        <p>
-          We use best-in-class tools, technologies, and modern approaches to
-          help you stay ahead of your competitors.
-        </p>
-        <div class="icon-row">
-          <img class="icon" src={salesforce} alt="Salesforce" />
-          <img class="icon" src={microsoft} alt="Microsoft Dynamics 365" />
-          <img class="icon" src={netcore} alt=".NET Core" />
-          <img class="icon" src={js} alt="JavaScript" />
-          <img class="icon" src={odoo} alt="Odoo" />
-          <img class="icon" src={php} alt="PHP" />
-        </div>
-      </div>
+      <Technologywework/>
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
@@ -301,67 +288,12 @@ At Biztech,
 
       </section>
 
-      
-      {/* <div class="section">
-        
-          <img src={left2} alt="Image" />
+      <div className="bg_baneer_proemg">
        
-        <div class="right">
-          <h2>
-            What You Get With Competent ERP <br /> Development Company
-          </h2>
-          <p>
-            We guarantee diverse functionalities that deliver smooth customer
-            experience and polished brand visibility. Here are the benefits of
-            partnering with us!
-          </p>
-
-          <ul>
-            <li>Proficient and Certified ERP Developers</li>
-            <li>On-demand Scalability</li>
-            <li>Flexible Engagement Models</li>
-            <li>Competitive Development Cost</li>
-            <li>On-time Delivery</li>
-            <li>Agile Methodology</li>
-            <li>Code Authorization</li>
-            <li>Collaborative and Communicative Approach</li>
-            <li>100% Customer Satisfaction</li>
-            <li>24*7 Support and Maintenance</li>
-          </ul>
-        </div>
-      </div> */}
-      <section className="end_pro" style={{marginBottom:'0.1px'}}>
-        <div className="end_pro_left">
-          <img src={left2_ecom} style={{width:"100%",height:"100%"}} />
-        </div>
-        <div className="end_pro_right">
-          <div className="right_pro_end">
-            <h3 style={{color:"#3D4DAE",fontWeight:"bolder"}}>
-            Askari Technology - Your Trusted Product Engineering Services Company
-            </h3>
-            <p>We have a proven track record of helping companies from different verticals navigate digital platforms. We can help you, too, with our engineering IT services.</p>
-         <ul style={{listStyle:'outside'}}>
-           <li>Product Experts</li>
-           <li>On-demand Scalability</li>
-           <li>Flexible Engagement Models</li>
-           <li>Cost-Effective Solution</li>
-           <li>On-time Delivery</li>
-           <li>Agile Methodology</li>
-           <li>Code Authorization</li>
-           <li>Streamlined Management</li>
-           <li>100% Customer Satisfaction</li>
-           <li>24*7 Support and Maintenance</li>
-
-
-         </ul>
-         
-         
-          </div>
-        </div>
-
-
-
-      </section>
+       </div>
+<Endtwo/>
+      
+      
       
     </div>
   );
