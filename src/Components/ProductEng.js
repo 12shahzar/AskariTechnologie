@@ -46,18 +46,14 @@ const ProductEng = () => {
           <p style={{fontSize:"15px"}}>Future Technology Can Drive Your Business</p>
           <br></br>
           <h1 style={{fontWeight:"bolder",marginTop:"3%"}} className="monile_mar" >
-            Product Engineering <br />
+          Software Product  <br />
           </h1>
           <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
-           Services
+          Engineering Services
           </h1>
           <p style={{fontSize:"13px",marginBottom:"12%",marginTop:"-20px"}}>
-            Using tried-and-true methods, you can turn your business idea into a{" "}
-            <br />
-            successful enterprise or expand it. We support business owners in
-            achieving <br /> their objectives with greater success potential. We
-            can be your one-stop shop <br /> for everything from product
-            engineering advice to deployment and <br /> maintenance. We'll  business while you company expansion!
+          Empower your business with cutting-edge <br></br>technology for future growth and success. Transform your business idea<br></br> into a thriving enterprise or expand your existing business using <br></br> tried-and-tested methodologies.
+
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro">Consult Erp Expert</button>
@@ -74,48 +70,42 @@ const ProductEng = () => {
         </div>
         <div className="col servicespara" >
           <h3  >
-            Utilize Our Software Product <br /> Engineering Services to Develop{" "}
-            <br /> Future Products
+          Leverage our software product  <br /> engineering services to develop 
+            <br /> cutting-edge next-generation product
           </h3>
           <p>
-            We do more than just develop software. We are a group of more than
-            300 skilled developers, business analysts, strategy planners,
-            creative designers, problem solvers, and engagement-enhancing
-            marketers who produce transformative outcomes for the brand-new
-            digital world.
+          We are not simply a software development company. We are a dedicated team of over 300 skilled professionals, including developers, business analysts, strategy planners, creative designers, problem solvers, and marketing specialists. Together, we deliver transformative outcomes for the evolving digital landscape.
+
           </p>
           <p>
-        
-            By utilizing product engineering best practices, adopting
-            cutting-edge technologies, providing competencies and talent, and
-            working with you, we complement your digital product engineering
-            efforts.
+          By collaborating with you, we enhance your digital product engineering endeavors by adopting cutting-edge technologies, providing expertise and talent, and leveraging best practices in product engineering.
           </p>
 
           <p>
-            Our administrations ride the entire item designing lifecycle, from
-            the ideation stage to item plan and improvement and from help to
-            showcase development. Our digital product engineering services cover
-            a wide range of services, including re-engineering products to meet
-            cost, feature, and performance demands from the market.
+          Our services cover the entire product engineering lifecycle, spanning from ideation and product design to development, support, and market growth.
           </p>
         </div>
         
       </div>
       <div className="container">
         <div className="align_product" style={{display:'flex',flexDirection:'column'}}>
-        <h3 style={{alignSelf:"center"}} >Our Digital Product Engineering Services</h3>
+        <h3 style={{alignSelf:"center"}} >Services We Offer for Digital Product Engineering</h3>
           <p >
-            We offer custom ERP solutions to businesses of all sizes and sectors
-            so you can optimize your applications flawlessly.  Attain
-            smooth communication and maximum productivity with best-in-class ERP
-            systems development solutions.
+          Our software engineering services encompass end-to-end support for enterprises in creating, deploying, and maintaining their product ideas, ensuring their profitability in business ventures
           </p>
         </div>
       </div>
       <div class="image-row container">
     <div class="image-item">
       <img src={pe1} alt="Image 1" />
+      {/* <div>
+        <h5>
+
+        </h5>
+        <p>
+
+        </p>
+      </div> */}
       
     </div>
     <div class="image-item">
