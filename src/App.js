@@ -62,6 +62,9 @@ import HireOdoo from "./Components/HireOdoo";
 import Wordpress from "./Components/Wordpress";
 import HireKotlin from "./Components/HireKotlin";
 import Contact from "./Components/Contact";
+import EcommerceApp from "./Components/EcommerceAp";
+import Angular from "./Components/Angular";
+import Net from "./Components/Net";
 
 export const App = () => {
   return (
@@ -96,11 +99,48 @@ export const App = () => {
           <Route path="/hirewordpress" element={<Wordpress />} />
           <Route path="/hireflutter" element={<Flutter />} />
           <Route path="/swift" element={<Swift />} />
-          <Route path="/ios" element={<Ios />} />
           <Route path="/andriod" element={<Andriod />} />
           <Route path="/ar" element={<AR />} />
           <Route path="/hirekotlin" element={<HireKotlin />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Ecommerceapp" element={<EcommerceApp />} />
+          <Route path="/shopfiyapp" element={<ShopfiyApp />} />
+          <Route path="/enterprices" element={<Enterprices />} />
+          <Route path="/dynamic365" element={<Dynamic365 />} />
+          <Route path="/odoo" element={<Odoo />} />
+          <Route path="/salesforcedevelopment" element={<SalesApplication />} />
+          <Route path="/salesconsulting" element={<SalesConsulting />} />
+          <Route path="/salesimplemation" element={<SalesImplemation />} />
+          <Route path="/salesapplication" element={<SalesApplication />} />
+          <Route path="/salesmigration" element={<SalesMigtration />} />
+          <Route path="/salesintregation" element={<SalesIntregation />} />
+          <Route path="/supportmaintainece" element={<SupportMaintence />} />
+          <Route path="/lms" element={<LMS />} />
+          <Route path="/SalesForce" element={<SalesForce />} />
+
+          <Route path="/hireshopfiy" element={<HireShopify />} />
+          <Route path="/hiremagento" element={<HireMagnto />} />
+          <Route path="/hiredrupal" element={<Drupal />} />
+          <Route path="/opencart" element={<OpenCart />} />
+          <Route path="/flutter" element={<Flutter />} />
+          <Route path="/kotlin" element={<HireKotlin />} />
+          <Route path="/swift" element={<Swift />} />
+          <Route path="/ios" element={<Ios />} />
+          <Route path="/andriod" element={<Andriod />} />
+          <Route path="/ar" element={<AR />} />
+          <Route path="/vuejs" element={<Vue />} />
+          <Route path="/reactjs" element={<Reactjs />} />
+          <Route path="/angular" element={<Angular />} />
+          <Route path="/fabricjs" element={<Fabric />} />
+          <Route path="/mean" element={<Mean />} />
+          <Route path="/laravel" element={<Laravel />} />
+          <Route path="/net" element={<Net />} />
+          <Route path="/asp" element={<Asp />} />
+          <Route path="/nodejs" element={<Nodejs />} />
+          <Route path="/django" element={<Django />} />
+          <Route path="/pythone" element={<Pythone />} />
+          <Route path="/hiresales" element={<HireSaleForce />} />
+          <Route path="/hireodoo" element={<HireOdoo />} />
         </Routes>
         <Footer />
       </BrowserRouter>

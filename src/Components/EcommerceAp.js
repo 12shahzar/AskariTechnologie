@@ -2,27 +2,27 @@ import React from "react";
 import "../Styles/DevlopnerPage.css";
 import mainAbout from "../Assets/shopdeveop2.png";
 import Contactsub from "./Contactsub";
-const SalesForce = () => {
+const EcommerceAp = () => {
   return (
     <>
-      <section className="Hero-Shopfy-section-1 All-hero-main Section for-baground-images">
+      <section className="Hero-Shopfy-section-1 All-hero-main Section  this-magento">
         <div className="container p-5 main-first-hero-all-content">
           <div className="row p-5">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
-                Salesforce Development Services
+                eCommerce App Development Services
               </h1>
               <p className="main-hero-para-main-div">
-                Leverage the power of Salesforce with the help of a dynamic
-                Salesforce development company, Askari . We develop and deploy
-                various Salesforce applications for Sales Cloud, Service cloud,
-                NonProfit cloud, Lightning framework, Visual force, and APEX
-                code. Get the most out of our Salesforce development services,
-                CRM strategies, and Salesforce products today!
+                We understand how important it is for businesses to build and
+                cultivate customer loyalty, and secure a higher ROI. And that’s
+                what Biztech aims to do through mobile solutions. As a leading
+                eCommerce app development company, we build robust and intuitive
+                apps that drive growth to your business. Expand your customer
+                base with our experienced mobile app developers today.
               </p>
               <div className="btnnn py-4">
                 <button className="main-home-shopyt-btn ">
-                  Request A Free Consultation
+                  Start 15-Day Free MVP
                 </button>
               </div>
             </div>
@@ -42,8 +42,7 @@ const SalesForce = () => {
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Build Enterprise Level Solutions with the Best Salesforce
-                  Development Company in USA
+                  Hire Developers to Upscale Your eCommerce Business
                 </h2>
                 <p className="about-main-content-parap">
                   Askari is a leading Shopify development company that offers
@@ -79,63 +78,14 @@ const SalesForce = () => {
         <div className="contianer p-5">
           <div className="row p-5">
             <h1 className="main-serv-ces-h1-head">
-              Salesforce Development Services Verticals
+              Defy Ecommerce Norms With Our <br></br> Magento Custom Development
+              Services
             </h1>
             <p className="main-services-para-main-card-top py-3">
-              We offer all-inclusive Shopify services that help add more
-              functionality, <br /> monitor performance, improve sales channels
-              & inventory <br /> management, and many more.
+              We offer all-inclusive Shopify services that help <br></br> add
+              more functionality, monitor performance, <br></br> improve sales
+              channels & inventory management, and many more.
             </p>
-            <div className="col-md-2 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
             <div className="col-md-2 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
@@ -193,7 +143,7 @@ const SalesForce = () => {
         <div className="container p-5 py-5">
           <div className="row p-5">
             <h1 className="arrivals-head-main-top-my-bottom">
-              Benefits of Odoo Development{" "}
+              What Makes Askari a Leading Shopify Development Company
             </h1>
             <p className="arrival-main-bottom-top-head">
               We offer all-inclusive Shopify services that help add more
@@ -258,7 +208,7 @@ const SalesForce = () => {
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Clients Choose Askari for Salesforce Services Because{" "}
+                  Innovation Led Microsoft Dynamics Implementation
                 </h2>
                 <p className="h2-h3-h4">
                   We combine the power of platforms and technologies with our
@@ -286,4 +236,4 @@ const SalesForce = () => {
   );
 };
 
-export default SalesForce;
+export default EcommerceAp;

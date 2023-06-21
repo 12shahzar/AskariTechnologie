@@ -1,144 +1,160 @@
-.main-her-9009{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
-}
-.main9080{
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 113.51%;
-    /* or 73px */
-    
-    display: flex;
-    align-items: flex-end;
-    
-    color: #FFFFFF;
-    padding-bottom: 1rem;
-}
-.main-908{
-    font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 350;
-font-size: 16px;
-line-height: 133.01%;
-/* or 27px */
-
-display: flex;
-align-items: flex-end;
-
-color: #FFFFFF;
+.main-her-9009 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
 }
 
-.firt-main-btn{
+.main9080 {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 113.51%;
+  /* or 73px */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #FFFFFF;
+  padding-bottom: 1rem;
+}
+
+.main-908 {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 133.01%;
+  /* or 27px */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #FFFFFF;
+}
+
+.firt-main-btn {
   width: fit-content;
   height: fit-content;
 
-font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 27px;
-/* identical to box height */
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height */
 
-background-color: #FEFEFE;
+  background-color: #FEFEFE;
 
-color: #140239;
-border-radius: 3px;
-padding: 12px 26px 12px 26px;
+  color: #140239;
+  border-radius: 3px;
+  padding: 12px 26px 12px 26px;
 
 }
+
 .hour {
-    font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height */
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-/* PURPLE */
+  /* PURPLE */
 
-color: #3D4DAE;
-}
-.new-hour-para{
-    font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 26px;
-/* or 142% */
-
-text-align: center;
-letter-spacing: -0.01em;
-
-/* Text color 2 */
-
-color: #686868;
+  color: #3D4DAE;
 }
 
-.vbl-card-sli{
-background: #FEFEFE;
-box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
-padding: 2rem;
+.new-hour-para {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 142% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  /* Text color 2 */
+
+  color: #686868;
 }
-.new-head-phy{
-    font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 64px;
-/* identical to box height */
+
+.vbl-card-sli {
+  background: #FEFEFE;
+  box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+}
+
+.new-head-phy {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
 
 
-color: #4050AF;
+  color: #4050AF;
 }
 
-.magentoImg{
-    width: 350px;
-    margin-left: 8rem;
+.magentoImg {
+  width: 350px;
+  margin-left: 8rem;
 }
-.cartopen{
-    width: 350px;
-    margin-left: 8rem;
+
+.cartopen {
+  width: 350px;
+  margin-left: 8rem;
 }
-.main-flutter{
-    width: 300px;
-    margin-left: 8rem;
-    margin-top: -2rem;
+
+.main-flutter {
+  width: 300px;
+  margin-left: 8rem;
+  margin-top: -2rem;
 }
-.sift-img{
-    margin-top: -5rem;
+
+.sift-img {
+  margin-top: -5rem;
 }
-.IOS-main{
-    width: 450px;
-    margin-left: 8rem;
-    margin-top: -2rem;
+
+.IOS-main {
+  width: 450px;
+  margin-left: 8rem;
+  margin-top: -2rem;
 }
-.andriod-img{
-    margin-top: -2rem;
+
+.andriod-img {
+  margin-top: -2rem;
 }
-.Vue-img{
-    margin-top: -6rem;
+
+.Vue-img {
+  margin-top: -6rem;
 }
-.react-js-img{
-    margin-top: -6rem;
-    margin-left: 2rem;
-    width: 450px;
+
+.react-js-img {
+  margin-top: -6rem;
+  margin-left: 2rem;
+  width: 450px;
 }
-.first-main-img{
-    margin-top: -3rem;
+
+.first-main-img {
+  margin-top: -3rem;
 }
-.NET_CORE{
-    margin-top: -7rem;
+
+.NET_CORE {
+  margin-top: -7rem;
 }
-.nodejs-main{
-    margin-top: -5rem;
+
+.nodejs-main {
+  margin-top: -5rem;
 }
-.pythone-pne{
-    margin-top: -5rem;
+
+.pythone-pne {
+  margin-top: -5rem;
 }
 
 
@@ -146,329 +162,332 @@ color: #4050AF;
 
 /* Default styles for all screen sizes */
 .main-her-9009 {
-    width: 100vw;
-    height: 80vh;
-    background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
-  }
-  
-  .main9080 {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 113.51%;
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
-    padding-bottom: 1rem;
-  }
-  
-  .main-908 {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 350;
-    font-size: 16px;
-    line-height: 133.01%;
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
-  }
-  
-  .firt-main-btn {
-    height: 51px;
-    width: 373px;
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 27px;
-    color: #140239;
-    border-radius: 3px;
-    padding: 12px 26px;
-  }
-  
-  .hour {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #3D4DAE;
-  }
-  
-  .new-hour-para {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: -0.01em;
-    color: #686868;
-  }
-  
-  .vbl-card-sli {
-    background: #FEFEFE;
-    box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
-    padding: 2rem;
-  }
-  
-  .new-head-phy {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    color: #4050AF;
-  }
-  
-  .magentoImg {
-    width: 350px;
-    margin-left: 8rem;
-  }
-  
-  .cartopen {
-    width: 350px;
-    margin-left: 8rem;
-  }
-  
-  .main-flutter {
-    width: 300px;
-    margin-left: 8rem;
-    margin-top: -2rem;
-  }
-  
-  .sift-img {
-    margin-top: -5rem;
-  }
-  
-  .IOS-main {
-    width: 450px;
-    margin-left: 8rem;
-    margin-top: -2rem;
-  }
-  
-  .andriod-img {
-    margin-top: -2rem;
-  }
-  
-  .Vue-img {
-    margin-top: -6rem;
-  }
-  
-  .react-js-img {
-    margin-top: -6rem;
-    margin-left: 2rem;
-    width: 450px;
-  }
-  
-  .first-main-img {
-    margin-top: -3rem;
-  }
-  
-  .NET_CORE {
-    margin-top: -7rem;
-  }
-  
-  .nodejs-main {
-    margin-top: -5rem;
-  }
-  
-  .pythone-pne {
-    margin-top: -5rem;
-  }
-  
-  /* Media Queries */
- /* Default styles for all screen sizes */
+  width: 100vw;
+  height: 80vh;
+  background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
+}
+
+.main9080 {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 113.51%;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  padding-bottom: 1rem;
+}
+
+.main-908 {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 133.01%;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.firt-main-btn {
+  height: 51px;
+  width: 373px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #140239;
+  border-radius: 3px;
+  padding: 12px 26px;
+}
+
+.hour {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #3D4DAE;
+}
+
+.new-hour-para {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #686868;
+}
+
+.vbl-card-sli {
+  background: #FEFEFE;
+  box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+}
+
+.new-head-phy {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #4050AF;
+}
+
+.magentoImg {
+  width: 350px;
+  margin-left: 8rem;
+}
+
+.cartopen {
+  width: 350px;
+  margin-left: 8rem;
+}
+
+.main-flutter {
+  width: 300px;
+  margin-left: 8rem;
+  margin-top: -2rem;
+}
+
+.sift-img {
+  margin-top: -5rem;
+}
+
+.IOS-main {
+  width: 450px;
+  margin-left: 8rem;
+  margin-top: -2rem;
+}
+
+.andriod-img {
+  margin-top: -2rem;
+}
+
+.Vue-img {
+  margin-top: -6rem;
+}
+
+.react-js-img {
+  margin-top: -6rem;
+  margin-left: 2rem;
+  width: 450px;
+}
+
+.first-main-img {
+  margin-top: -3rem;
+}
+
+.NET_CORE {
+  margin-top: -7rem;
+}
+
+.nodejs-main {
+  margin-top: -5rem;
+}
+
+.pythone-pne {
+  margin-top: -5rem;
+}
+
+/* Media Queries */
+/* Default styles for all screen sizes */
 .main-her-9009 {
-    width: 100vw;
-    height: 80vh;
-    background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
-  }
-  
-  .main9080 {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 113.51%;
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
-    padding-bottom: 1rem;
-  }
-  
-  .main-908 {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 350;
-    font-size: 16px;
-    line-height: 133.01%;
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
-  }
-  
-  .firt-main-btn {
-    height: 51px;
-    width: 373px;
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 27px;
-    color: #140239;
-    border-radius: 3px;
-    padding: 12px 26px;
-  }
-  
-  .hour {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #3D4DAE;
-  }
-  
-  .new-hour-para {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: -0.01em;
-    color: #686868;
-  }
-  
-  .vbl-card-sli {
-    background: #FEFEFE;
-    box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
-    padding: 2rem;
-  }
-  
-  .new-head-phy {
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    color: #4050AF;
-  }
-  
-  .magentoImg {
-    width: 350px;
-    margin-left: 8rem;
-  }
-  
-  .cartopen {
-    width: 350px;
-    margin-left: 8rem;
-  }
-  
-  .main-flutter {
-    width: 300px;
-    margin-left: 8rem;
-    margin-top: -2rem;
-  }
-  
-  .sift-img {
-    margin-top: -5rem;
-  }
-  
-  .IOS-main {
-    width: 450px;
-    margin-left: 8rem;
-    margin-top: -2rem;
-  }
-  
-  .andriod-img {
-    margin-top: -2rem;
-  }
-  
-  .Vue-img {
-    margin-top: -6rem;
-  }
-  
-  .react-js-img {
-    margin-top: -6rem;
-    margin-left: 2rem;
-    width: 450px;
-  }
-  
-  .first-main-img {
-    margin-top: -3rem;
-  }
-  
-  .NET_CORE {
-    margin-top: -7rem;
-  }
-  
-  .nodejs-main {
-    margin-top: -5rem;
-  }
-  
-  .pythone-pne {
-    margin-top: -5rem;
-  }
-  
-  /* Media Queries */
- /* iPhone SE Media Query */
+  width: 100vw;
+  height: 80vh;
+  background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
+}
+
+.main9080 {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 113.51%;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  padding-bottom: 1rem;
+}
+
+.main-908 {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 133.01%;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.firt-main-btn {
+  height: 51px;
+  width: 373px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #140239;
+  border-radius: 3px;
+  padding: 12px 26px;
+}
+
+.hour {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #3D4DAE;
+}
+
+.new-hour-para {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #686868;
+}
+
+.vbl-card-sli {
+  background: #FEFEFE;
+  box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+}
+
+.new-head-phy {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #4050AF;
+}
+
+.magentoImg {
+  width: 350px;
+  margin-left: 8rem;
+}
+
+.cartopen {
+  width: 350px;
+  margin-left: 8rem;
+}
+
+.main-flutter {
+  width: 300px;
+  margin-left: 8rem;
+  margin-top: -2rem;
+}
+
+.sift-img {
+  margin-top: -5rem;
+}
+
+.IOS-main {
+  width: 450px;
+  margin-left: 8rem;
+  margin-top: -2rem;
+}
+
+.andriod-img {
+  margin-top: -2rem;
+}
+
+.Vue-img {
+  margin-top: -6rem;
+}
+
+.react-js-img {
+  margin-top: -6rem;
+  margin-left: 2rem;
+  width: 450px;
+}
+
+.first-main-img {
+  margin-top: -3rem;
+}
+
+.NET_CORE {
+  margin-top: -7rem;
+}
+
+.nodejs-main {
+  margin-top: -5rem;
+}
+
+.pythone-pne {
+  margin-top: -5rem;
+}
+
+/* Media Queries */
+/* iPhone SE Media Query */
 /* iPhone SE Media Query */
 @media only screen and (max-width: 420px) {
-    .magentoImg {
-      width: 250px;
-      margin-left: 4rem;
-    }
-  
-    .cartopen {
-      width: 250px;
-      margin-left: 4rem;
-    }
-  
-    .main-flutter {
-      width: 250px;
-      margin-left: 4rem;
-      margin-top: -1rem;
-    }
-  
-    .IOS-main {
-      width: 300px;
-      margin-left: 4rem;
-      margin-top: -1rem;
-    }
-  
-    .andriod-img {
-      margin-top: -1rem;
-    }
-  
-    .Vue-img {
-      margin-top: -5rem;
-    }
-  
-    .react-js-img {
-      margin-top: -5rem;
-      margin-left: 1rem;
-      width: 300px;
-    }
-  
-    .first-main-img {
-      margin-top: -1.5rem;
-    }
-  
-    .NET_CORE {
-      margin-top: -6rem;
-    }
-  
-    .nodejs-main {
-      margin-top: -4rem;
-    }
-  
-    .pythone-pne {
-      margin-top: -4rem;
-    }
+  .magentoImg {
+    width: 250px;
+    margin-left: 4rem;
   }
-  
+
+  .cartopen {
+    width: 250px;
+    margin-left: 4rem;
+  }
+
+  .main-flutter {
+    width: 250px;
+    margin-left: 4rem;
+    margin-top: -1rem;
+  }
+
+  .IOS-main {
+    width: 300px;
+    margin-left: 4rem;
+    margin-top: -1rem;
+  }
+
+  .andriod-img {
+    margin-top: -1rem;
+  }
+
+  .Vue-img {
+    margin-top: -5rem;
+  }
+
+  .react-js-img {
+    margin-top: -5rem;
+    margin-left: 1rem;
+    width: 300px;
+  }
+
+  .first-main-img {
+    margin-top: -1.5rem;
+  }
+
+  .NET_CORE {
+    margin-top: -6rem;
+  }
+
+  .nodejs-main {
+    margin-top: -4rem;
+  }
+
+  .pythone-pne {
+    margin-top: -4rem;
+  }
+}
+
+.angular-img {
+  margin-top: -5rem;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/HireMain.css";
-import MainFirst from "../Assets/hireshopifyimage-1@2x.png";
-import mainAbout from "../Assets/s23.png";
+import MainFirst from "../Assets/angular1.jpg";
+import mainAbout from "../Assets/angular2.png";
 import Flexible from "../Assets/Flexible Hours.png";
 import HireHour from "../Assets/Hire Team.png";
 import Dedicated from "../Assets/Dedicated-Resource.png";
@@ -68,21 +68,20 @@ const Angular = (props) => {
           <div className="row p-5">
             <div className="col-lg-6">
               <h2 className="main9080">
-                Hire Vue.JS Developers for your Next Big Project
+                Hire AngularJS Developers and Programmers{" "}
               </h2>
               <p className="main-908">
-                Build fast, reliable, and lightweight applications with our
-                dynamic group of VueJS developers who have experience with
-                modern SPA tools and libraries and are well versed with
-                Webhooks, Scripts, and APIs. Hire VueJS developers from us and
-                save 60% of the in-house development cost.
+                Gather AngularJS developers who can find the best way to use the
+                JavaScript framework for your project. Hire AngularJS developers
+                from us to get the most of the latest technologies and
+                user-friendly designs.
               </p>
               <button className="firt-main-btn">
-                Request A Free Consultation
+                Request A Free Consultation{" "}
               </button>
             </div>
             <div className="col-lg-6">
-              <img src={MainFirst} alt="" className="img-fluid" />
+              <img src={MainFirst} alt="" className="img-fluid angular-img" />
             </div>
           </div>
         </div>
@@ -97,10 +96,11 @@ const Angular = (props) => {
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Invest in Building the AR Solution and BringDigitization
+                  Rigorous Vetting to Ensure you Hire Dedicated AngularJS
+                  Developers
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari  is a leading Shopify development company that offers
+                  Askari is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
@@ -114,7 +114,7 @@ const Angular = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Askari  is the first choice for startups and enterprises that
+                  Askari is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the

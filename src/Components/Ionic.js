@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/HireMain.css";
-import MainFirst from "../Assets/Mean.png";
-import mainAbout from "../Assets/Mean2.png";
+import MainFirst from "../Assets/SwiftM1.png";
+import mainAbout from "../Assets/SwiftM2.png";
 import Flexible from "../Assets/Flexible Hours.png";
 import HireHour from "../Assets/Hire Team.png";
 import Dedicated from "../Assets/Dedicated-Resource.png";
@@ -60,30 +60,26 @@ import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
 
-const Mean = (props) => {
+const Ionic = (props) => {
   return (
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
           <div className="row p-5">
             <div className="col-lg-6">
-              <h2 className="main9080">Hire Mean Stack Developers</h2>
+              <h2 className="main9080">Hire Swift Developers </h2>
               <p className="main-908">
-                Want to create next-gen web applications? Hire Mean stack
-                developers from Askari CS with skills and experience you
-                actually need! Our skilled and smart professionals have an
-                average 5+ years of development experience in developing web
-                apps using MongoDB, ExpressJS, Angular, and NodeJS effortlessly.
-                Leverage our technical assistance to build innovative,
-                futuristic, and scalable web applications that run smoothly with
-                finest user experience.
+                Develop Swift applications for the Apple ecosystem along with
+                Linux and Windows to enhance your users' experience. Hire
+                dedicated Swift developers from us and enhance your overall iOS
+                app development project quality and experience.
               </p>
               <button className="firt-main-btn">
-                Request Free Consultation
+                Request A Free Consultation
               </button>
             </div>
             <div className="col-lg-6">
-              <img src={MainFirst} alt="" className="img-fluid" />
+              <img src={MainFirst} alt="" className="img-fluid sift-img" />
             </div>
           </div>
         </div>
@@ -98,8 +94,8 @@ const Mean = (props) => {
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Hire Top Mean Developers to Give Your Business a Competitive
-                  Edge
+                  Hire Dedicated Flutter Developers to Unleash Your Brand
+                  Potential
                 </h2>
                 <p className="about-main-content-parap">
                   Askari is a leading Shopify development company that offers
@@ -391,4 +387,4 @@ const Mean = (props) => {
   );
 };
 
-export default Mean;
+export default Ionic;
