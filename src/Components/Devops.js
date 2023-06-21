@@ -44,7 +44,7 @@ import Technologywework from "../Components/Technologywework.jsx"
 const Devops = () => {
   return (
     <div className="bodycontent">
-      <div className="bannner-image-qua">
+      <div className="bannner-image-devo">
         {/* <p className="text-center text-white ">
          
         </p> */}
@@ -60,7 +60,7 @@ const Devops = () => {
           <p
             style={{
               fontSize: "13px",
-              marginBottom: "12%",
+              marginBottom: "4%",
               marginTop: "-20px",
             }}
           >
@@ -190,15 +190,14 @@ const Devops = () => {
 <h1 className="heading_cards_qa">DevOps Process</h1>
 </center>
 <div className="main_card_section_qa">
-<div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="inner_card_dev">
+
 <div className="content_qa_card">
-  <h5>
-  Planning
+  <h5 style={{fontWeight:'bolder'}}>
+  Tool Stack Construction and Prepare Framework
   </h5>
   <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
+  Implement the standard DevOps by creating a pilot framework and integrate your existing tools with our ecosystem of licensed and open source tools during each step of agile delivery.  </p>
 
 
 </div>
@@ -206,45 +205,42 @@ const Devops = () => {
 
 </div>
 
-<div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="inner_card_dev">
+  
 <div className="content_qa_card">
   <h5>
-  Planning
+  End-to-End Implementation
   </h5>
   <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
+  We analyse, design, construct, automate and implement as per the needs for each project followed by continuous planning, integration, testing, deployment, and monitoring for each project.  </p>
 
 
 </div>
 
 
 </div>
-<div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="inner_card_dev">
+  
 <div className="content_qa_card">
   <h5>
-  Planning
+  Managed Services
   </h5>
   <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
+  Enhance and manage people’s skills, processes, culture, tools, etc. and make sure your systems are working fine with system security management, and 24/7 support.  </p>
 
 
 </div>
 
 
 </div>
-<div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+<div className="inner_card_dev">
+
 <div className="content_qa_card">
   <h5>
-  Planning
+  Assessment and Strategy Planning
   </h5>
   <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
+  Build a further roadmap after visualizing the current state and assess your maturity model, current state of DevOps culture, toolchain, and process with our experts.  </p>
 
 
 </div>

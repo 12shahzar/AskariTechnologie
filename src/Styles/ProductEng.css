@@ -21,7 +21,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../Assets/banner-pro-eng.png");
+  background-image: url("../Assets/ecomer-banner.png");
   padding-top: 5%;
 }
 .btn_pro
@@ -277,18 +277,16 @@
 }
 
 /* Contact section  */
-.contact-us {
-  margin-top: 2%;
- 
-}
+
 
 .conact-c1 {
   background-image:url('../Assets/contactbg.png') ;
   background-repeat: no-repeat;
   background-size: contain;
   width: 50%;
-  padding-top: 10%;
+  padding-top: 20%;
   padding-left: 15%;
+ 
 }
 .contact-head {
  
@@ -347,7 +345,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 30px;
- 
+  margin-left: 30%;
   margin-top: 2%;
   /* or 167% */
 
@@ -558,7 +556,7 @@
 {
   color:#4050AF;
   font-size: 16px;
-  margin-left: 11%;
+ 
   margin-top: 10px;
 }
 .arrival-head {

@@ -9,16 +9,7 @@
 }
 
  
-.bannner-image {
-  width: 100vw;
-  height: 600px;
-  position: relative;
- 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../Assets/ecommerce-banner.png");
-}
+
 
 .MainHeading {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

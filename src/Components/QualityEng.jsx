@@ -142,7 +142,7 @@ const QualityEng = () => {
 <center><h1 className="heading_cards_qa">How we go about testing your Project</h1></center>
 <div className="main_card_section_qa">
 <div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+  <img src={require('../Assets/card22.png')} style={{height:"40%",width:"100%"}}/>
 <div className="content_qa_card">
   <h5>
   Planning
@@ -158,14 +158,26 @@ const QualityEng = () => {
 </div>
 
 <div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+  <img src={require('../Assets/crad23.png')} style={{height:"40%",width:"100%"}}/>
 <div className="content_qa_card">
   <h5>
-  Planning
+  Design
   </h5>
   <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
+  Then, depending on whether the QA process should be manual or automated, we build test cases. An automated test case is created with a script, while a manual test is created using a variety of ways.
+</p>
+</div>
+
+
+</div>
+<div className="inner_card_qa">
+  <img src={require('../Assets/crad24.png')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Implementation
+  </h5>
+  <p>
+  We execute the test according to the planned design. Manual tests are done by  checking of each component, and automated testing is done by running the script. Then bugs are reported to the developers.  </p>
 
 
 </div>
@@ -173,29 +185,13 @@ const QualityEng = () => {
 
 </div>
 <div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+  <img src={require('../Assets/crad25.png')} style={{height:"40%",width:"100%"}}/>
 <div className="content_qa_card">
   <h5>
-  Planning
+  Stabilization / Delivery 
   </h5>
   <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
-
-
-</div>
-
-
-</div>
-<div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
-<div className="content_qa_card">
-  <h5>
-  Planning
-  </h5>
-  <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
+  Lastly, fixed bugs are rechecked for a bug-free project. When required we perform regression testing based on previous sprints. The last step is user acceptance testing and if everything is okay.  </p>
 
 
 </div>

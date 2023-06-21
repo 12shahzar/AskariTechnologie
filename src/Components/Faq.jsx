@@ -2,9 +2,9 @@ import React from 'react'
 
 function Faq() {
   return (
-    <div className="container cont">
+    <div className="container cont container my-5">
     <h4 className="head3">Frequently Asked Questions</h4>
-    <h6 className="Everything">
+    <h6 className="Everything my-4">
       Everything you need to know about the product and billing.
     </h6>
 

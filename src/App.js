@@ -70,7 +70,7 @@ export const App = () => {
         <NewHeader />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/aboutp" element={<Aboutp />} />
+          <Route path="/about" element={<Aboutp/>} />
           <Route path="/ouventure" element={<OurVentures />} />
           <Route path="/patner" element={<OurPatners />} />
           <Route path="/sol1" element={<Solution1 />} />

@@ -44,23 +44,30 @@ import Technologywework from "../Components/Technologywework.jsx"
 const ArtificalIntelligence = () => {
   return (
     <div className="bodycontent">
-    <div className="bannner-image-qua">
+    <div className="bannner-image-ai">
       {/* <p className="text-center text-white ">
        
       </p> */}
 
       <div className="">
-        <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
+        <h1 style={{ fontWeight: "bolder", marginTop: "1%" }}>
         Drive Impactful <br />
         </h1>
-        <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
-          Business
+        <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
+          Business Out come by
+        </h1>
+        
+        <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
+          Building AI-Pwoered 
+        </h1>
+        <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
+          App
         </h1>
         <br></br>
         <p
           style={{
             fontSize: "13px",
-            marginBottom: "12%",
+            marginBottom: "3%",
             marginTop: "-20px",
           }}
         >
@@ -188,11 +195,11 @@ const ArtificalIntelligence = () => {
 
 <div className="container cards_qa">
 <center>
-<h1 className="heading_cards_qa">DevOps Process</h1>
+<h1 className="heading_cards_qa">Work Process</h1>
 </center>
 <div className="main_card_section_qa">
 <div className="inner_card_qa">
-<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+
 <div className="content_qa_card">
 <h5>
 Planning
@@ -208,7 +215,7 @@ After boarding, we review the initial project requirements and evaluate what nee
 </div>
 
 <div className="inner_card_qa">
-<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+
 <div className="content_qa_card">
 <h5>
 Planning
@@ -223,7 +230,7 @@ After boarding, we review the initial project requirements and evaluate what nee
 
 </div>
 <div className="inner_card_qa">
-<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+
 <div className="content_qa_card">
 <h5>
 Planning
@@ -238,7 +245,7 @@ After boarding, we review the initial project requirements and evaluate what nee
 
 </div>
 <div className="inner_card_qa">
-<img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+
 <div className="content_qa_card">
 <h5>
 Planning

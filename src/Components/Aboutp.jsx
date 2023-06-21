@@ -38,18 +38,16 @@ function About() {
               />
             </div>
             <div className="col-md-6">
-              <h1 className="fw-bold text-primary">
-                Reinventing Success with Digital Solutions
+              <h1 className="text-primary" style={{fontWeight:"bolder"}}>
+              Reinventing Success with High Class Digital Solutions
               </h1>
               <p className="mt-5">
-                What started as a humble beginning for a single man has become a
-                strong team of more than 275+ professionals today. As a leading
-                web & mobile app development company, Askari tech empowers
-                businesses with its digital solutions. We are a fabulous team of
-                highly motivated dreamers and doers who cohesively innovate
-                everyday to make Askari Tech a global leader of IT services and
-                solutions. Decoding challenges with our technical expertise is
-                what we love.
+              What began as a modest endeavor by a single individual has evolved into a robust team of 50+
+skilled professionals. As a prominent web and mobile app development company, Askari
+Technologies empowers businesses with its cutting-edge digital solutions. We are a dynamic
+team of passionate individuals who consistently innovate, driving Askari Technologies to the
+forefront of the IT services and solutions industry. Our unwavering commitment to leveraging our
+technical expertise to tackle challenges is what fuels our passion.
               </p>
             </div>
           </div>
@@ -57,23 +55,19 @@ function About() {
       </div>
 
       <div className="container text-center mt-5 mb-5">
-        <h1 className="fw-bold text-primary">Our Story</h1>
+        <h1 className="text-primary" style={{fontWeight:"bolder"}}>Our Story</h1>
         <p className="mt-5 mb-5">
-          After working as a software developer for a couple of years, our
-          founder Maulik Shah had different plans. With a vision to help
-          businesses adopt IT with ease, Askari Tech was born. What makes us
-          unique is our purpose to put innovation and customer satisfaction
-          together. With a pool of happy clients we continue to reform
-          businesses everyday. After almost a decade of offering IT services, we
-          ventured into the software product segment. Over the years we have
-          successfully launched and grown AppJetty, Brush Your ideas, CRMJetty,
-          DeskXpand, and ServiceXpand.
+        After working as a software developer for a couple of years, our founder Asad Askari had
+different plans. With a vision to change the world with IT Solutions, Askari Technologies was
+born. What makes us unique is our purpose to put innovation, creativity and customer
+satisfaction together. With a pool of content clients <br/>We continue to be the instrumental hand for
+businesses and individuals looking to develop and make use of modern day digital technology
         </p>
 
         <div className="container">
           <div className={`row d-flex justify-content-center }`}>
             <div className={`col-md-10 }`}>
-              <div className="our_story_card">
+              <div className="our_story_card p-5 ">
                 <div className="card-body">
                   <h3 className="text-white">What sets us apart from others</h3>
                   <div className="row mt-3">
