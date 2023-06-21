@@ -60,15 +60,11 @@ const QualityEng = () => {
           <p
             style={{
               fontSize: "13px",
-              marginBottom: "12%",
+              marginBottom: "7%",
               marginTop: "-20px",
             }}
           >
-            Using tried-and-true methods, you can turn your business idea into a{" "}
-            <br />
-            successful enterprise or expand it. We support business owners in
-            achieving <br /> their objectives with greater success potential. We
-            can be your one-stop shop <br />
+           Delivering quality products with Product Engineering services.
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro" style={{ marginTop: "70px" }}>
