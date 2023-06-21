@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Solution.css";
 import img1sol from "../Assets/sol/Group.png";
-import img1sol12 from "../Assets/MacBook Pro 16.png";
+import sol6 from "../Assets/sol6pic.png";
 import "bootstrap/dist/css/bootstrap.css";
 import img3 from "../Assets/images/client_connect_app_img.png";
 import img4 from "../Assets/images/client_keyboard_app.png";
@@ -13,12 +13,10 @@ function Solution6() {
     <div className="banner_Solution6">
       <div className="Solutionbanner1_section">
         <h2>
-          Empowering Digital Transformation with Custom Portal Solutions
+        Empowering Hospital and Clinic Management with AI-Powered Solutions
         </h2>
         <p>
-          Custom portal solutions are revolutionizing digital transformation
-          by empowering businesses to streamline processes, enhance
-          collaboration, and deliver personalized experiences to stakeholders.
+        MedEase: AI-powered healthcare management system for streamlined operations and improved patient care.
         </p>
       </div>
      
@@ -42,7 +40,7 @@ function Solution6() {
           </p>
         </div>
         <div className="section2_img">
-          <img src={img1sol12} className="imgsizing_sol2" />
+          <img src={sol6} className="imgsizing_sol2" />
         </div>
       </section>
       <section className="section2_solution">

@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Solution.css";
 import img1sol from "../Assets/sol/Group.png";
-import img1sol12 from "../Assets/MacBook Pro 16.png";
+import sol4 from "../Assets/sol4pic.png";
 import "bootstrap/dist/css/bootstrap.css";
 import img3 from "../Assets/images/client_connect_app_img.png";
 import img4 from "../Assets/images/client_keyboard_app.png";
@@ -13,12 +13,10 @@ function Solution4() {
     <div className="banner_Solution4">
       <div className="Solutionbanner1_section">
         <h2>
-          Empowering Digital Transformation with Custom Portal Solutions
+        Streamline Your Business Operations with Ease
         </h2>
         <p>
-          Custom portal solutions are revolutionizing digital transformation
-          by empowering businesses to streamline processes, enhance
-          collaboration, and deliver personalized experiences to stakeholders.
+        Asaan ERP is an advanced and user-friendly Enterprise Resource Planning (ERP) software developed by our company. It offers a comprehensive suite of modules designed to automate and integrate key business processes, enabling organizations to streamline their operations, improve efficiency, and drive growth. With its intuitive interface, powerful features, and robust functionality.
         </p>
       </div>
      
@@ -42,7 +40,7 @@ function Solution4() {
           </p>
         </div>
         <div className="section2_img">
-          <img src={img1sol12} className="imgsizing_sol2" />
+          <img src={sol4} className="imgsizing_sol2" />
         </div>
       </section>
       <section className="section2_solution">

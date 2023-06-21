@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Solution.css";
 import img1sol from "../Assets/sol/Group.png";
-import img1sol12 from "../Assets/MacBook Pro 16.png";
+import sol2 from "../Assets/sol2pic.png";
 import "bootstrap/dist/css/bootstrap.css";
 import img3 from "../Assets/images/client_connect_app_img.png";
 import img4 from "../Assets/images/client_keyboard_app.png";
@@ -40,7 +40,7 @@ function Solution2() {
           </p>
         </div>
         <div className="section2_img">
-          <img src={img1sol12} className="imgsizing_sol2" />
+          <img src={sol2} className="imgsizing_sol2" />
         </div>
       </section>
       <section className="section2_solution">
