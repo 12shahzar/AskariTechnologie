@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="row">
           <img src={require('../Assets/logo.png')} className="logo1" style={{width:'400px',height:'60px'}} />
           <div className="row footerCon">
-            <div className="col-md-2">
+            <div className="col-md-2 col-sm-8">
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>
@@ -16,7 +16,7 @@ const Footer = () => {
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 col-sm-8">
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>
@@ -25,7 +25,7 @@ const Footer = () => {
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 col-sm-8">
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>
               <p>Footer Text #1</p>

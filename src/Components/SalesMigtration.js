@@ -70,7 +70,7 @@ const SalesMigtration = () => {
         </div>
       </section>
 
-      {/* Contact */}
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
@@ -78,12 +78,12 @@ const SalesMigtration = () => {
             <h1 className="main-serv-ces-h1-head">
               Why Work with Us for SFDC Implementation{" "}
             </h1>
-            <p className="main-services-para-main-card-top py-3">
+           <center><p className="main-services-para-main-card-top py-3">
               We offer all-inclusive Shopify services that help add more
-              functionality, <br /> monitor performance, improve sales channels
-              & inventory <br /> management, and many more.
-            </p>
-            <div className="col-md-2 card-main-div-main-card">
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -93,7 +93,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -103,7 +103,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -113,7 +113,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -123,7 +123,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -133,7 +133,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -143,7 +143,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -153,7 +153,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -163,7 +163,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -173,7 +173,7 @@ const SalesMigtration = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business

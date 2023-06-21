@@ -72,7 +72,7 @@ const MagnetoDevelopment = () => {
         </div>
       </section>
 
-      {/* Contact */}
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
@@ -85,7 +85,7 @@ const MagnetoDevelopment = () => {
               more functionality, monitor performance, <br></br> improve sales
               channels & inventory management, and many more.
             </p>
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -95,7 +95,7 @@ const MagnetoDevelopment = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -105,7 +105,7 @@ const MagnetoDevelopment = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -115,7 +115,7 @@ const MagnetoDevelopment = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -125,7 +125,7 @@ const MagnetoDevelopment = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business

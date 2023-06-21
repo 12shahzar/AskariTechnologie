@@ -29,7 +29,7 @@
 
   display: flex;
   align-items: flex-end;
-
+  
   color: #FFFFFF;
 }
 
@@ -83,23 +83,13 @@
   color: #686868;
 }
 
-.vbl-card-sli {
+.col-sm-12 vbl-card-sli  {
   background: #FEFEFE;
 
   padding: 2rem;
 }
 
-.new-head-phy {
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  /* identical to box height */
 
-
-  color: #4050AF;
-}
 
 .magentoImg {
   width: 350px;
@@ -164,14 +154,14 @@
 .main-her-9009 {
   width: 100vw;
   height: 80vh;
-  background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
+ 
 }
 
 .main9080 {
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 600;
-  font-size: 3rem;
+
   line-height: 113.51%;
   display: flex;
   align-items: flex-end;
@@ -179,16 +169,7 @@
   padding-bottom: 1rem;
 }
 
-.main-908 {
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 350;
-  font-size: 16px;
-  line-height: 133.01%;
-  display: flex;
-  align-items: flex-end;
-  color: #FFFFFF;
-}
+
 
 .firt-main-btn {
   height: 51px;
@@ -227,7 +208,7 @@
   color: #686868;
 }
 
-.vbl-card-sli {
+.col-sm-12 vbl-card-sli  {
   background: #FEFEFE;
 
   padding: 2rem;
@@ -240,6 +221,7 @@
   font-size: 48px;
   line-height: 64px;
   color: #4050AF;
+  align-self: center;
 }
 
 .magentoImg {
@@ -303,14 +285,14 @@
 .main-her-9009 {
   width: 100vw;
   height: 80vh;
-  background: linear-gradient(90deg, #09197A 34.42%, #3D4DAE 100%);
+
 }
 
 .main9080 {
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 600;
-  font-size: 3rem;
+ 
   line-height: 113.51%;
   display: flex;
   align-items: flex-end;
@@ -318,16 +300,7 @@
   padding-bottom: 1rem;
 }
 
-.main-908 {
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 350;
-  font-size: 16px;
-  line-height: 133.01%;
-  display: flex;
-  align-items: flex-end;
-  color: #FFFFFF;
-}
+
 
 
 .hour {
@@ -351,20 +324,13 @@
   color: #686868;
 }
 
-.vbl-card-sli {
+.col-sm-12 vbl-card-sli  {
   background: #FEFEFE;
 
   padding: 2rem;
 }
 
-.new-head-phy {
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  color: #4050AF;
-}
+
 
 .magentoImg {
   width: 350px;
@@ -477,6 +443,73 @@
   .pythone-pne {
     margin-top: -4rem;
   }
+  .new-head-phy {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+   align-self: center;
+    color: #4050AF;
+  }
+  .main-her-9009 
+  {
+    padding: 0px !important;
+    background-color: black !important;
+  }
+  .maind-v
+  {
+    padding: 0px;
+  }
+  .img-fluid
+  {
+    display: none;
+  }
+  .firt-main-btn {
+    height: 51px;
+    width: 260px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #140239;
+    border-radius: 3px;
+    padding: 12px 26px;
+    outline: none;
+    border: none;
+    margin-top: 1%;
+  }
+  .main9080 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 113.51%;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    padding-bottom: 1rem;
+  }
+  .Second-div-2-pictue-about div
+  {
+    padding: 0px;
+  }
+  .main-services-card-main-div{
+    padding: 0!important;
+    
+}
+.cont2
+{
+  width: 100% !important;
+}
+.main-serv-ces-h1-head {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: normal;
+    color: #4050AF;
+}
 }
 
 .angular-img {
