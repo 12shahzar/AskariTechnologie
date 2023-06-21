@@ -59,6 +59,7 @@ import php from "../Assets/php.png";
 import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
+import HireCompo from "./HireCompo";
 
 const flutter = (props) => {
   return (
@@ -84,7 +85,6 @@ const flutter = (props) => {
           </div>
         </div>
       </section>
-
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
           <div className="row p-5">
@@ -98,7 +98,7 @@ const flutter = (props) => {
                   Potential
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari  is a leading Shopify development company that offers
+                  Askari is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
@@ -112,7 +112,7 @@ const flutter = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Askari  is the first choice for startups and enterprises that
+                  Askari is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the
@@ -124,9 +124,7 @@ const flutter = (props) => {
           </div>
         </div>
       </section>
-
       {/* Contact */}
-
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
           <div className="row p-5">
@@ -190,7 +188,6 @@ const flutter = (props) => {
           </div>
         </div>
       </section>
-
       <section className="main-div-cli-lic p-5">
         <div className="container p-5">
           <div className="row p-5">
@@ -233,70 +230,7 @@ const flutter = (props) => {
           </div>
         </div>
       </section>
-
-      <div className="rowheading  hirecontainer">
-        <h2 className="pad2">{props.Text}</h2>
-        <div className="row textcent">
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Note} />
-            </div>
-            <h4 className="pad">Share Requirements</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={CV} />
-            </div>
-            <h4 className="pad">Shortlist CVs</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Meeting} />
-            </div>
-            <h4 className="pad">Conduct Interviews</h4>
-          </div>
-          <div className="col hiddenarrow " style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Avatar} />
-            </div>
-            <h4 className="pad">Select Shopify Experts</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww " />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Remote} />
-            </div>
-            <h4 className="pad">Remote Onboarding</h4>
-          </div>
-        </div>
-      </div>
-
+      <HireCompo />
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
@@ -347,7 +281,6 @@ const flutter = (props) => {
           </div>
         </div>
       </div>
-
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
           <div className="row p-5">
@@ -381,7 +314,6 @@ const flutter = (props) => {
           </div>
         </div>
       </section>
-
       <Faq />
     </>
   );
