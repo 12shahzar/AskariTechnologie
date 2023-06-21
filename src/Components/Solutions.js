@@ -32,7 +32,7 @@ const Solutions = () => {
        </div>
        </div>
        <div className='row'>
-         <div className='col' style={{height:'100px'}}>
+         <div className='col' style={{height:'100px'}}>                          
          <Link to="/sol1">
            <div className='row'>
             <div className='col-2'>
