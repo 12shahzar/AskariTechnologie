@@ -4,6 +4,7 @@ import contactImg from "../Assets/Image.png";
 import Meeting from "../Assets/meetingcont.png";
 import Circle1 from "../Assets/circle1.png";
 import Circle2 from "../Assets/circle2.png";
+import Flag from "./Flag";
 
 const Contact = () => {
   const rangeInput = document.querySelectorAll(".range-input input"),
@@ -185,7 +186,7 @@ const Contact = () => {
                     rows="3"
                   ></textarea>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper smll">
   <div className="price-input">
     <div className="field">
       <input type="number" className="input-min" defaultValue={1000} />
@@ -218,7 +219,7 @@ const Contact = () => {
   </div>
 </div>
 
-                <div class="">
+                <div class="smll1">
                   <input
                     class=""
                     type="checkbox"
@@ -443,6 +444,7 @@ const Contact = () => {
             <p className="para2">Comming Soon</p>
           </div>
         </div> */}
+        <Flag/>
     </>
   );
 };

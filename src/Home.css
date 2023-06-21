@@ -4,6 +4,9 @@
   height: fit-content;
   height: 700px;
 }
+.conti{
+  font-size: 48px;
+}
 
 .our_services {
   background: #F6F6F6;
@@ -327,7 +330,7 @@
 
 .project_delivered_details_card {
   background: #FBF0DD;
-  padding: 30px;
+  padding: 20px;
 }
 
 .app_dev_service_btn_accordion {
@@ -486,8 +489,8 @@
   background: #FBF0DD !important;
   color: black !important;
   border-radius: 4px;
-  height: 300px !important;
-  transition: opacity 0.6s ease !important;
+  height: 360px !important;
+  transition: opacity 0.4s ease !important;
 }
 
 .card {
@@ -496,7 +499,7 @@
 
 .card-heading {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 20%;
   transform: translate(-50%, -50%);
   font-size: 128px;
@@ -526,4 +529,18 @@
 @media only screen and (max-width: 420px) {
   .hidetab{
 display: none;  }
+.carcir1{
+margin-top: 60px;
+
+}
+.carcir2{
+margin-top:50px;
+}
+.pad5{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.conti{
+  font-size: 20px;
+}
 }

@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="body">
         <div className="row">
-          <img src={require('../Assets/logo.png')} className="logo1" style={{width:'400px',height:'60px'}} />
+          <img src={require('../Assets/logo.png')} className="logo1" style={{width:'400px',height:'80px'}} />
           <div className="row footerCon">
             <div className="col-md-2">
               <p>Footer Text #1</p>

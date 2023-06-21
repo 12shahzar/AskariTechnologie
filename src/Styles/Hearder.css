@@ -14,9 +14,9 @@ body{
 	align-items: center;
 	text-align: center;
 }
-.imagelogo1 {
+.imagelogo {
        
-	margin-top: 9px;
+	margin-top: 5px;
 		  height: 40px;
 		 width: 270px;
 		
@@ -65,6 +65,9 @@ margin-top: 20px;
 .v-center{
 	align-items: center;
 }
+.spa{
+	margin-top: -53px;
+}
 .navbtn{
 	height: 50px;
 	width: 120px;
@@ -75,6 +78,7 @@ margin-top: 20px;
 	font-weight: 600;
 	margin-right:10px ;
 	border-radius: 7px;
+	
 	
 
 }

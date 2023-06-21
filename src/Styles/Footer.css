@@ -76,4 +76,12 @@
     .footright{
         padding-left: 15px;
     }
+    .span{
+        width: 209px;
+        height: 1px;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        margin-top: -20px;
+        
+    }
   }

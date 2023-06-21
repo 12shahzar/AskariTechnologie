@@ -62,12 +62,18 @@ import HireOdoo from "./Components/HireOdoo";
 import Wordpress from "./Components/Wordpress";
 import HireKotlin from "./Components/HireKotlin";
 import Contact from "./Components/Contact";
-
+import { ChakraBaseProvider } from '@chakra-ui/react';
+import WithSubnavigation from "./Components/MobileNav";
 export const App = () => {
   return (
     <>
       <BrowserRouter>
         <NewHeader />
+        <div className='MobileNavigation'>
+    <ChakraBaseProvider>
+      <WithSubnavigation/>
+    </ChakraBaseProvider>
+    </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutp" element={<Aboutp />} />

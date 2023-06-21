@@ -22,7 +22,7 @@ const NewHeader = () => {
           <div className="row v-center">
             <div className="header-item item-left">
               <div className="">
-                <Link to="/"><img src={Logo} alt="" className="imagelogo" /></Link>
+                <Link to="/" style={{textDecoration:'none',color:'transparent'}}><img src={Logo} alt="" className="imagelogo " /></Link>
               </div>
             </div>
             {/* menu start here */}
@@ -39,7 +39,7 @@ const NewHeader = () => {
                 {/* <img src={Logo} alt="" className="imagelogo" style={{float:'left', marginLeft:'-400px'}}/> */}
                 <ul className="menu-main">
                  
-                  <li className="menu-item-has-children " style={{marginLeft:'0px'}}>
+                  <li className="menu-item-has-children " style={{marginLeft:'20px'}}>
                     <a href="#" className="iconnone" style={{textDecoration:'none'}}>
                       ABOUT US <KeyboardArrowDownIcon />
                     </a>
@@ -134,7 +134,7 @@ const NewHeader = () => {
               </div>
             </div> */} 
           </div>
-          <span style={{float:'right' ,marginTop:'-50px'}}> <button className="navbtn">Lets Connect</button></span>
+          <Link to="/Contact" style={{textDecoration:'none',color:'transparent'}}><span style={{float:'right' }} className="spa"> <button className="navbtn">Lets Connect</button></span></Link>
 
         </div>
       </header>

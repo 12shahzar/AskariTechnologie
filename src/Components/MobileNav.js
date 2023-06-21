@@ -21,7 +21,7 @@ import {
     ChevronDownIcon,
     ChevronRightIcon
   } from "@chakra-ui/icons"
-  import Logo from "../Assets/logo.png";
+  import Logo from "../Assets/logo.jpg.jpeg";
 
   export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure()
@@ -53,7 +53,7 @@ import {
               fontFamily={"heading"}
               color={useColorModeValue("gray.800", "white")}
             >
-              <img src={Logo} alt="" className="imagelogo" style={{marginLeft:'-90px'}} />
+              <img src={Logo} alt="" className="" style={{marginLeft:'-80px' ,width:'200px',height:'45px', marginBottom:'-30px'}} />
             </Text>
   
             <Flex display={{ base: "none", md: "flex" }} ml={10}>

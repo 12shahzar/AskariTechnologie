@@ -51,6 +51,7 @@ import Navbar from './Navbar';
 import Whatwedo from './Whatwedo';
 import Tabs from './tabs';
 import BasicTabs from './tabs';
+import Whattodomobile from './Components/Whattodomobile';
 
 
 const Home = () => {
@@ -93,17 +94,22 @@ const Home = () => {
               <img src={OurServicesImg} alt="Our services" className='img-fluid' />
             </div>
             <div style={{ display: 'inline-block' }} className="col-lg-6 mt-5">
-              <h3 className='text-askari-primary fw-bold me-auto'>COMMITTED TO PROVIDING</h3>
-              <h3 style={{ marginRight: '35px' }} className='text-askari-primary fw-bold'>SUBSTANTIVE BUSINESS VALUE</h3>
+              <h3 className='text-askari-primary fw-bold me-auto' style={{padding:'15px'}}>COMMITTED TO PROVIDING</h3>
+              <h3 style={{ marginRight: '35px', padding:'15px' }} className='text-askari-primary fw-bold' >SUBSTANTIVE BUSINESS VALUE</h3>
 
-              <p className='mt-5 text-dark'> <strong>Askari Technologies</strong> is committed to providing substantive business value of each and every product developed and client engagement. We achieve this through a combination of expert Industry-Specific business analysis, strong technical skills, sound project management methods and traditional values.
+              <p className='mt-5 text-dark' style={{padding:'15px'}}> <strong>Askari Technologies</strong> is committed to providing substantive business value of each and every product developed and client engagement. We achieve this through a combination of expert Industry-Specific business analysis, strong technical skills, sound project management methods and traditional values.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-     <Whatwedo/>
+<div className='whatweb'>
+   <Whatwedo/>
+</div>
+    <div className='MobileNavigation'>
+<Whattodomobile/>
+    </div>
+     
 
       <div className="mb-5 mt-5 project_delivered">
   <div className="container text-center">
@@ -134,48 +140,58 @@ const Home = () => {
         },
       ]}
     >
-      <div style={{width: 400}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px' }} >
+       <div style={{width: 400}}>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,marginRight:'30px', marginBottom:'30px'}}>
         <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>01</h1>
         <div style={{height: '30px'}}></div>
-          <h4 className='fw-bold' style={{marginLeft:'20px'}}>INTELLECT & EXPERIENCE</h4>
+
+          <h4 className='fw-bold' style={{marginLeft:'20px',marginTop:'20px'}}>COMMITMENT TO QUALITY</h4>
           <hr />
-          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>Highly skilled professionals who possess expertise in diverse Business and Technology areas make up the Askari Technologies team. To provide world class service, we employ the best technicians, adhere to proven methodology, provide superior client service and become a true business partner in every project.</p>
+          <p style={{fontSize: 14 ,backgroundColor:'transparent',paddingLeft:'30px'}}>We believe in Quality service and our approach has been designed to provide the same. We listen carefully to our clients and provide space, time and materials according to agreement for the project. We are proud of our Technical and Creative capability, and this emerges from taking time to get it right. Our Quality Assurance </p>
         </div>
       </div>
 
-      <div style={{width: 100}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px' }}>
-        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>02</h1>
+      <div style={{width: 400}}>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,marginRight:'30px'}}>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px',marginTop:'20px'}}>02</h1>
         <div style={{height: '30px'}}></div>
 
           <h4 className='fw-bold' style={{marginLeft:'20px'}}>COMMITMENT TO QUALITY</h4>
           <hr />
-          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>We believe in Quality service and our approach has been designed to provide the same. We listen carefully to our clients and provide space, time and materials according to agreement for the project. We are proud of our Technical and Creative capability, and this emerges from taking time to get it right. Our Quality Assurance </p>
+          <p style={{fontSize: 14 ,backgroundColor:'transparent',paddingLeft:'30px'}}>We believe in Quality service and our approach has been designed to provide the same. We listen carefully to our clients and provide space, time and materials according to agreement for the project. We are proud of our Technical and Creative capability, and this emerges from taking time to get it right. Our Quality Assurance </p>
         </div>
       </div>
 
       <div style={{width: 400}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px' }}>
-        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>03</h1>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,marginRight:'30px'}}>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px',marginTop:'20px'}}>03</h1>
         <div style={{height: '30px'}}></div>
 
           <h4 className='fw-bold' style={{marginLeft:'20px'}}>TRACK RECORD</h4>
           <hr />
-          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>We have handled small - large scale projects and have over the years implemented solutions for numerous organizations of all sizes. Our growing list of satisfied customers not only acts as our excellent references but is also a source of our repeat business.</p>
+          <p style={{fontSize: 14 ,backgroundColor:'transparent',paddingLeft:'30px'}}>We have handled small - large scale projects and have over the years implemented solutions for numerous organizations of all sizes. Our growing list of satisfied customers not only acts as our excellent references but is also a source of our repeat business.</p>
         </div>
       </div>
-
       <div style={{width: 400}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px'  }}>
-        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>04</h1>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,marginRight:'30px'}}>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px',marginTop:'20px'}}>04</h1>
         <div style={{height: '30px'}}></div>
 
-          <h4 className='fw-bold' style={{marginLeft:'20px'}}>OUR EXPERTISE</h4>
+          <h4 className='fw-bold' style={{marginLeft:'20px'}}>TRACK RECORD</h4>
           <hr />
-          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>The Askari Technologies team is a cohesive unit of highly skilled professionals who boast extensive expertise across diverse Business and Technology areas. Our commitment to delivering world-class service is exemplified through our meticulous selection of the finest technicians in the field, ensuring that our clients receive nothing short of exceptional support.</p>
+          <p style={{fontSize: 14 ,backgroundColor:'transparent',paddingLeft:'30px'}}>We have handled small - large scale projects and have over the years implemented solutions for numerous organizations of all sizes. Our growing list of satisfied customers not only acts as our excellent references but is also a source of our repeat business.</p>
         </div>
       </div>
+      {/* <div style={{width: 400}}>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,marginRight:'30px', margin:'20px'}}>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>04</h1>
+        <div style={{height: '20px'}}></div>
+
+          <h4 className='fw-bold' style={{margin:'20px' ,marginTop:'-10px'}}>OUR EXPERTISE</h4>
+          <hr />
+          <p style={{fontSize: 14 ,backgroundColor:'transparent',paddingLeft:'30px'}}>The Askari Technologies team is a cohesive unit of highly skilled professionals who boast extensive expertise across diverse Business and Technology areas. Our commitment to delivering world-class service is exemplified through our meticulous selection of the finest technicians in the field, ensuring that our clients receive nothing short of exceptional support.</p>
+        </div>
+      </div> */}
     </Slider>
   </div>
 </div>
@@ -187,8 +203,8 @@ const Home = () => {
           <h1 className='text-askari-primary fw-bold'>Our Development Process</h1>
           <div style={{ height: '20px'}}></div>
           <div className="row">
-            <div className="col-6 col-md-3 mt-5">
-              <div className="card requirment_analysis_card h-100">
+            <div className="col-12 col-md-3 mt-5">
+              <div className="card requirment_analysis_card h-100 pad5">
                 <div style={{ borderRadius: '50%', border: '10px solid #EC9B00', width: '96.24px', height: '96.24px', padding: '15px', alignSelf: 'center', margin: '-3rem 1rem 0rem', background: '#FFFFFF' }} className="card-header"><img src={DvpCardHead1} alt="Requirement analysis" /></div>
                 <div className="card-body" style={{}}>
                   <h6 style={{ color: '#EC9B00' }} className='fw-bold'>Requirement Analysis</h6>
@@ -196,8 +212,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3 mt-5">
-              <div className="card building_the_right_team_card h-100">
+            <div className="col-12 col-md-3 mt-5">
+              <div className="card building_the_right_team_card h-100 pad5">
                 <div className="card-body">
                   <div style={{ height: '35px' }}></div>
                   <h6 className='fw-bold' style={{ color: '#6471D7' }}>Building the right team</h6>
@@ -206,8 +222,8 @@ const Home = () => {
                 <div style={{ borderRadius: '50%', border: '10px solid #6471D7', width: '96.24px', height: '96.24px', padding: '15px', alignSelf: 'center', margin: '0rem 1rem -3rem', background: '#FFFFFF' }} className="card-footer"><img src={DvpCardHead2} alt="Building the right team" /></div>
               </div>
             </div>
-            <div className="col-6 col-md-3 mt-5">
-              <div className="card planning_and_execution_card h-100">
+            <div className="col-12 col-md-3 mt-5" >
+              <div className="card planning_and_execution_card h-100 carcir1 pad5" >
                 <div style={{ borderRadius: '50%', border: '10px solid #20AF92', width: '96.24px', height: '96.24px', padding: '15px', alignSelf: 'center', margin: '-3rem 1rem 0rem', background: '#FFFFFF' }} className="card-header"><img src={DvpCardHead3} alt="Planning and execution" /></div>
                 <div className="card-body">
                   <h6 className='fw-bold' style={{ color: '#20AF92' }}>Planning and execution</h6>
@@ -215,14 +231,14 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-3 mt-5">
-              <div className="card review_and_delivery_card h-100">
+            <div className="col-12 col-md-3 mt-5">
+              <div className="card review_and_delivery_card h-100 carcir2 pad5"> 
                 <div className="card-body">
                   <div style={{ height: '35px' }}></div>
                   <h6 style={{ color: '#F1323C' }} className='fw-bold'>Review and Delivery</h6>
                   <p style={{ fontWeight: 350, fontSize: 16 }}>Quality check and code review before any sprint release to ensure bug-free and secure product delivery.</p>
                 </div>
-                <div style={{ borderRadius: '50%', border: '10px solid #F1323C', width: '96.24px', height: '96.24px', padding: '15px', alignSelf: 'center', margin: '0rem 1rem -3rem', background: '#FFFFFF' }} className="card-footer"><img src={DvpCardHead4} alt="Review and Delivery" /></div>
+                <div style={{ borderRadius: '50%', border: '10px solid #F1323C', width: '96.24px', height: '96.24px', padding: '13px', alignSelf: 'center', margin: '0rem 1rem -3rem', background: '#FFFFFF' }} className="card-footer"><img src={DvpCardHead4} alt="Review and Delivery" style={{height:'55px'}}/></div>
               </div>
             </div>
           </div>
@@ -232,7 +248,7 @@ const Home = () => {
       <div className="our_expertise mt-5">
         <div className="container text-center">
           <div style={{ height: '50px' }}></div>
-          <h1 style={{ fontWeight: 700, fontSize: 48 }} className='text-askari-primary'>Continue To Grow With Businesses In The World</h1>
+          <h1 style={{ fontWeight: 700 }} className='text-askari-primary conti'>Continue To Grow With Businesses In The World</h1>
           <div className="row mt-5">
             <div className="col-md-4">
               <h1 className='fw-bold'>10+</h1>

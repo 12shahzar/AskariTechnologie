@@ -29,7 +29,7 @@ body{
 }
 .imagelogo {
        
-	margin-top: 9px;
+	margin-top: 2px;
 		  height: 50px;
 		 width: 200px;
 		
@@ -74,8 +74,11 @@ margin-top: 20px;
 	font-weight: 600;
 	margin-right:10px ;
 	border-radius: 7px;
+	margin-top: -60px;
 	
-
+}
+.spa{
+	margin-top: -53px;
 }
 .whatwedoBtn{
 	height: 90px;
@@ -86,6 +89,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn:hover{
@@ -98,6 +102,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(236, 155, 0, 0.19);
+	cursor: pointer;
 	
 }
 .whatwedoBtn1{
@@ -109,6 +114,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn1:hover{
@@ -121,6 +127,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(108, 115, 203, 0.19);
+	cursor: pointer;
 	
 }
 .whatwedoBtn2{
@@ -132,6 +139,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn2:hover{
@@ -144,6 +152,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: #f5d9a9;
+	cursor: pointer;
 	
 }
 .whatwedoBtn3{
@@ -155,6 +164,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn3:hover{
@@ -167,6 +177,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(100, 113, 215, 0.19);
+	cursor: pointer;
 	
 }
 .whatwedoBtn4{
@@ -178,6 +189,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn4:hover{
@@ -190,6 +202,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(32, 175, 146, 0.19);
+	cursor: pointer;
 	
 }
 .whatwedoBtn5{
@@ -201,6 +214,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn5:hover{
@@ -213,6 +227,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(76, 124, 224, 0.19);
+	cursor: pointer;
 	
 }
 .whatwedoBtn6{
@@ -224,6 +239,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn6:hover{
@@ -236,6 +252,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color:rgba(200, 100, 133, 0.19) ;
+	cursor: pointer;
 	
 }
 .whatwedoBtn7{
@@ -247,6 +264,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn7:hover{
@@ -259,6 +277,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(200, 100, 133, 0.19);
+	cursor: pointer;
 	
 }
 .whatwedoBtn8{
@@ -270,7 +289,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
-	
+	cursor: pointer;
 }
 .whatwedoBtn8:hover{
 	height: 90px;
@@ -282,6 +301,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(88, 181, 217, 0.19);
+	cursor: pointer;
 	
 }
 .whatwedoBtn9{
@@ -293,6 +313,7 @@ margin-top: 20px;
 	justify-content: left;
 	align-items: center;
 	padding-left: 40px;
+	cursor: pointer;
 	
 }
 .whatwedoBtn9:hover{
@@ -305,6 +326,7 @@ margin-top: 20px;
 	align-items: center;
 	padding-left: 40px;
 	background-color: rgba(39, 119, 150, 0.19);
+	cursor: pointer;
 	
 }
 .orange{
@@ -887,9 +909,12 @@ a{
  {
 	width: 800px;
  }
+ .viewnon{
+	display: none;
+ }
  .whatwedoBtn{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #EC9B00;
 	margin: 20px;
 	display: flex;
@@ -901,7 +926,7 @@ a{
 
 .whatwedoBtn1{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -913,7 +938,7 @@ a{
 
 .whatwedoBtn2{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #BF9752	;
 	margin: 20px;
 	display: flex;
@@ -925,7 +950,7 @@ a{
 
 .whatwedoBtn3{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -937,7 +962,7 @@ a{
 
 .whatwedoBtn4{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #20AF92	;
 	margin: 20px;
 	display: flex;
@@ -949,7 +974,7 @@ a{
 
 .whatwedoBtn5{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #91B3FA	;
 	margin: 20px;
 	display: flex;
@@ -961,7 +986,7 @@ a{
 
 .whatwedoBtn6{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #C86485	;
 	margin: 20px;
 	display: flex;
@@ -973,7 +998,7 @@ a{
 
 .whatwedoBtn7{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #FE776B	;
 	margin: 20px;
 	display: flex;
@@ -985,7 +1010,7 @@ a{
 
 .whatwedoBtn8{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #58B5D9	;
 	margin: 20px;
 	display: flex;
@@ -994,10 +1019,12 @@ a{
 	padding-left: 10px;
 	
 }
-
+.container{
+	padding: 0px;
+}
 .whatwedoBtn9{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #39A5CE	;
 	margin: 20px;
 	display: flex;
@@ -1013,7 +1040,7 @@ a{
 	text-align: left;
 }.whatwedoBtn:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #EC9B00;
 	margin: 20px;
 	display: flex;
@@ -1023,10 +1050,21 @@ a{
 	background-color: rgba(236, 155, 0, 0.19);
 	
 }
-
+.padd66{
+	padding: 15px !important; 
+}
+.mobhead{
+	font-size: 24px !important;
+}
+.whatweb{
+	display: none;
+}
+.fontww{
+	font-size: 16px !important;
+}
 .whatwedoBtn1:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -1039,7 +1077,7 @@ a{
 
 .whatwedoBtn2:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #BF9752	;
 	margin: 20px;
 	display: flex;
@@ -1052,7 +1090,7 @@ a{
 
 .whatwedoBtn3:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -1065,7 +1103,7 @@ a{
 
 .whatwedoBtn4:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #20AF92	;
 	margin: 20px;
 	display: flex;
@@ -1078,7 +1116,7 @@ a{
 
 .whatwedoBtn5:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #91B3FA	;
 	margin: 20px;
 	display: flex;
@@ -1091,7 +1129,7 @@ a{
 
 .whatwedoBtn6:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #C86485	;
 	margin: 20px;
 	display: flex;
@@ -1104,7 +1142,7 @@ a{
 
 .whatwedoBtn7:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #FE776B	;
 	margin: 20px;
 	display: flex;
@@ -1117,7 +1155,7 @@ a{
 
 .whatwedoBtn8:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #58B5D9	;
 	margin: 20px;
 	display: flex;
@@ -1130,7 +1168,7 @@ a{
 
 .whatwedoBtn9:hover{
 	height: 90px;
-	width: 310px;
+	width: 220px;
 	border: 1px solid #39A5CE	;
 	margin: 20px;
 	display: flex;

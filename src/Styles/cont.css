@@ -346,13 +346,13 @@ input[type="range"]::-moz-range-thumb{
   font-size: 18px;
 }
 
-.flags {
+/* .flags {
   margin-top: 70px;
   background-color: #f7f7f7;
   background-image: radial-gradient(circle, #0659a4, #f7f7f7);
   background-size: 200% 200%;
   animation: colorSpread 10s infinite alternate;
-}
+} */
 
 .flagT {
   color: #0659a4;
@@ -399,14 +399,14 @@ label {
 
 @media (max-width: 480px) {
   .header-content {
-    width: 90%;
+    width: 100%;
   }
   .hidecolimg{
     display: none;
   }
   .contline{
     border-left: 1px solid #0659A4;
-    margin-right: 10px;
+    margin-right: 0px;
   
   }
   .circleimg{
@@ -414,6 +414,17 @@ label {
     width: 30px;
     margin-left: -15px;
     margin-right: 10px;
+  }
+  .smll{
+    width: 270px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .smll1{
+    margin-top: 20px;
   }
   .num{
     width: 200px;
