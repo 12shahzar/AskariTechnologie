@@ -1,14 +1,13 @@
 import React from "react";
 import "../Styles/HireMain.css";
 import MainFirst from "../Assets/kotlin1.png";
-import mainAbout from "../Assets/kotlin2.png";
+import mainAbout from "../Assets/Kotlin2.png";
 import Flexible from "../Assets/Flexible Hours.png";
 import HireHour from "../Assets/Hire Team.png";
 import Dedicated from "../Assets/Dedicated-Resource.png";
 import Faq from "./Faq";
 
-// ABBas
-
+// 
 import Note from "../Assets/funtion.png";
 import CV from "../Assets/Group.png";
 import Meeting from "../Assets/Group.png";
@@ -59,13 +58,14 @@ import php from "../Assets/php.png";
 import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
+import Contactsub from "../Components/Contactsub";
 
 const hireKotlin = (props) => {
   return (
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-5">
+          <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">
                 Hire Kotlin Developers and Programmers
@@ -89,7 +89,7 @@ const hireKotlin = (props) => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -128,10 +128,11 @@ const hireKotlin = (props) => {
       </section>
 
       {/* Contact */}
+    <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
               Benefits of Hiring Offshore Dedicated OpenCart Developers
             </h1>
@@ -193,14 +194,14 @@ const hireKotlin = (props) => {
         </div>
       </section>
 
-      <section className="main-div-cli-lic p-5">
-        <div className="container p-5">
-          <div className="row p-5">
-            <h3 className="new-head-phy pb-5">
+      <section className="main-div-cli-lic">
+        <div className="container ">
+         <div className="row ">
+            <h3 className="new-head-phy pb-2">
               Ways to Hire Our Shopify Specialists
             </h3>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 vbl-card-sli text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -211,7 +212,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 vbl-card-sli text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -222,7 +223,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4 col-sm-12 vbl-card-sli text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -236,68 +237,6 @@ const hireKotlin = (props) => {
         </div>
       </section>
 
-      <div className="rowheading  hirecontainer">
-        <h2 className="pad2">{props.Text}</h2>
-        <div className="row textcent">
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Note} />
-            </div>
-            <h4 className="pad">Share Requirements</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={CV} />
-            </div>
-            <h4 className="pad">Shortlist CVs</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Meeting} />
-            </div>
-            <h4 className="pad">Conduct Interviews</h4>
-          </div>
-          <div className="col hiddenarrow " style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Avatar} />
-            </div>
-            <h4 className="pad">Select Shopify Experts</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww " />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Remote} />
-            </div>
-            <h4 className="pad">Remote Onboarding</h4>
-          </div>
-        </div>
-      </div>
 
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
@@ -352,7 +291,7 @@ const hireKotlin = (props) => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>

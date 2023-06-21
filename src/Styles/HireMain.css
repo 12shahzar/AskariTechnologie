@@ -85,7 +85,7 @@
 
 .vbl-card-sli {
   background: #FEFEFE;
-  box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
+
   padding: 2rem;
 }
 
@@ -192,7 +192,7 @@
 
 .firt-main-btn {
   height: 51px;
-  width: 373px;
+  width: 260px;
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 600;
@@ -201,6 +201,9 @@
   color: #140239;
   border-radius: 3px;
   padding: 12px 26px;
+  outline: none;
+  border: none;
+  margin-top: 4%;
 }
 
 .hour {
@@ -226,7 +229,7 @@
 
 .vbl-card-sli {
   background: #FEFEFE;
-  box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
+
   padding: 2rem;
 }
 
@@ -326,18 +329,6 @@
   color: #FFFFFF;
 }
 
-.firt-main-btn {
-  height: 51px;
-  width: 373px;
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 27px;
-  color: #140239;
-  border-radius: 3px;
-  padding: 12px 26px;
-}
 
 .hour {
   font-family: 'Segoe UI';
@@ -362,7 +353,7 @@
 
 .vbl-card-sli {
   background: #FEFEFE;
-  box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
+
   padding: 2rem;
 }
 

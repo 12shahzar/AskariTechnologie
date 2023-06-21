@@ -65,7 +65,7 @@ const HireMagneto = (props) => {
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">Magento Development Services</h2>
               <p className="main-908">
@@ -88,7 +88,7 @@ const HireMagneto = (props) => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -129,7 +129,7 @@ const HireMagneto = (props) => {
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
               Why You Should Hire Someone to Build Shopify Stores
             </h1>
@@ -193,7 +193,7 @@ const HireMagneto = (props) => {
 
       <section className="main-div-cli-lic p-5">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h3 className="new-head-phy pb-5">
               Ways to Hire Our Shopify Specialists
             </h3>
@@ -350,7 +350,7 @@ const HireMagneto = (props) => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>

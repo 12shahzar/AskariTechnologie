@@ -7,7 +7,7 @@ const SalesMigtration = () => {
     <>
       <section className="Hero-Shopfy-section-1 All-hero-main Section for-baground-images">
         <div className="container p-5 main-first-hero-all-content">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
                 Salesforce Migration Services{" "}
@@ -34,7 +34,7 @@ const SalesMigtration = () => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -74,7 +74,7 @@ const SalesMigtration = () => {
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
               Why Work with Us for SFDC Implementation{" "}
             </h1>
@@ -188,7 +188,7 @@ const SalesMigtration = () => {
 
       <section className="arrivals-card-arrival p-5">
         <div className="container p-5 py-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="arrivals-head-main-top-my-bottom">
               Salesforce Implementation Services{" "}
             </h1>
@@ -248,7 +248,7 @@ const SalesMigtration = () => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>

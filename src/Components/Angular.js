@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/HireMain.css";
 import MainFirst from "../Assets/angular1.jpg";
-import mainAbout from "../Assets/angular2.png";
+import mainAbout from "../Assets/Angular2.png";
 import Flexible from "../Assets/Flexible Hours.png";
 import HireHour from "../Assets/Hire Team.png";
 import Dedicated from "../Assets/Dedicated-Resource.png";
@@ -65,7 +65,7 @@ const Angular = (props) => {
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">
                 Hire AngularJS Developers and Programmers{" "}
@@ -89,7 +89,7 @@ const Angular = (props) => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -131,7 +131,7 @@ const Angular = (props) => {
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
               Benefits of Hiring Offshore Dedicated OpenCart Developers
             </h1>
@@ -195,7 +195,7 @@ const Angular = (props) => {
 
       <section className="main-div-cli-lic p-5">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h3 className="new-head-phy pb-5">
               Ways to Hire Our Shopify Specialists
             </h3>
@@ -352,7 +352,7 @@ const Angular = (props) => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>

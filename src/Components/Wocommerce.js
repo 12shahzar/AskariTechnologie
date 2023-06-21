@@ -7,7 +7,7 @@ const MagnetoDevelopment = () => {
     <>
       <section className="Hero-Shopfy-section-1 All-hero-main Section Wocommer-banner">
         <div className="container p-5 main-first-hero-all-content">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
                 WooCommerce Development Services
@@ -35,7 +35,7 @@ const MagnetoDevelopment = () => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -76,7 +76,7 @@ const MagnetoDevelopment = () => {
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
             WooCommerce Verticals we Serve
             </h1>
@@ -200,7 +200,7 @@ const MagnetoDevelopment = () => {
 
       <section className="Second-div-2-pictue-about">
         <div className="container p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>

@@ -27,7 +27,7 @@ function About() {
       <div className="section_1">
         <div className="container">
           <div style={{ height: "50px" }}></div>
-          <div className="row p-5">
+         <div className="row p-5">
             <div className="col-md-6">
               <img
                 src={about1}
