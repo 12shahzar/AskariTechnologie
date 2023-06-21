@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Hearder.css";
-import Logo from "../Assets/logo.png";
+import Logo from "../Assets/logo.jpg.jpeg";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import About from "./About";
 import Capability from "./Capability";
@@ -9,15 +9,20 @@ import SideBar from "./SideBar";
 import HireDevSidebar from "./HireDevSidebar";
 import DevSidebar from "./DevSidebar";
 import Solutions from "./Solutions";
+import { Link } from "react-router-dom";
 const NewHeader = () => {
   return (
     <>
-      <header className="header viewnon">
+
+<div>
+  
+</div>
+      <header className="header viewnon" style={{display:'', justifyContent:'',alignItems:''}}>
         <div className="container1">
           <div className="row v-center">
             <div className="header-item item-left">
-              <div className="logo">
-                <img src={Logo} alt="" className="imagelogo" />
+              <div className="">
+                <Link to="/"><img src={Logo} alt="" className="imagelogo" /></Link>
               </div>
             </div>
             {/* menu start here */}
@@ -31,9 +36,11 @@ const NewHeader = () => {
                   <div className="current-menu-title" />
                   <div className="mobile-menu-close">X</div>
                 </div>
-                <ul className="menu-main" >
-                  <li className="menu-item-has-children ">
-                    <a href="#" className="iconnone">
+                {/* <img src={Logo} alt="" className="imagelogo" style={{float:'left', marginLeft:'-400px'}}/> */}
+                <ul className="menu-main">
+                 
+                  <li className="menu-item-has-children " style={{marginLeft:'0px'}}>
+                    <a href="#" className="iconnone" style={{textDecoration:'none'}}>
                       ABOUT US <KeyboardArrowDownIcon />
                     </a>
                     <div className="sub-menu mega-menu mega-menu-column-4">
@@ -43,7 +50,7 @@ const NewHeader = () => {
                     </div>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="#"  className="iconnone">
+                    <a href="#"  className="iconnone" style={{textDecoration:'none'}}>
                       CAPABILITIES <KeyboardArrowDownIcon />
                     </a>
                     <div className="sub-menu mega-menu mega-menu-column-4">
@@ -53,7 +60,7 @@ const NewHeader = () => {
                     </div>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="#"  className="iconnone">
+                    <a href="#"  className="iconnone" style={{textDecoration:'none'}}>
                       DEVELOPMENT <KeyboardArrowDownIcon />
                     </a>
                     <div className="sub-menu mega-menu mega-menu-column-4">
@@ -71,7 +78,7 @@ const NewHeader = () => {
  							</div>
  						</li> */}
                   <li className="menu-item-has-children">
-                    <a href="#"  className="iconnone">
+                    <a href="#"  className="iconnone" style={{textDecoration:'none'}}>
                       HIRE DEVELOPER <KeyboardArrowDownIcon />
                     </a>
                     <div className="sub-menu mega-menu mega-menu-column-4">
@@ -93,7 +100,7 @@ const NewHeader = () => {
                     
                   </li> */}
                   <li className="menu-item-has-children">
-                    <a href="#"  className="iconnone">
+                    <a href="#"  className="iconnone" style={{textDecoration:'none'}}>
                       SOLUTIONS <KeyboardArrowDownIcon />
                     </a>
                     <div

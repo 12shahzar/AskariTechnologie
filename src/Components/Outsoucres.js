@@ -215,7 +215,7 @@ const Outsoucres = (props) => {
               <h5 className="leading-card-head">High ROI</h5>
               <p className="leading-card-para">
                 Customization enhances the CRM capabilities, resulting in
-                long-term benefits. Biztech makes all your investment worth it
+                long-term benefits. Askari  makes all your investment worth it
                 by helping you achieve your desired results.
               </p>
             </div>
@@ -257,7 +257,7 @@ const Outsoucres = (props) => {
               Services
             </h1>
             <p className="support-para">
-              At Biztech, one of the top Salesforce consulting companies in
+              At Askari , one of the top Salesforce consulting companies in
               India, we help you move swiftly from concept to implementation.
               Our Salesforce experts will assist you in distinct approaches.
             </p>

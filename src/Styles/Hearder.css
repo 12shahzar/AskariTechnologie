@@ -14,6 +14,17 @@ body{
 	align-items: center;
 	text-align: center;
 }
+.imagelogo1 {
+       
+	margin-top: 9px;
+		  height: 40px;
+		 width: 270px;
+		
+		
+	  }
+	  .viewnon{
+	display: block;
+}
 .whatwedo{
 	color: #0659A4	;
 	font-size: 48px;
@@ -23,6 +34,10 @@ body{
 	line-height: 100%;
 	margin-top: 50px;
 	margin-bottom: 40px;
+}
+link{
+text-decoration: none;
+color: black;
 }
 .parawhat{
 	Font-size: 18px;
@@ -813,7 +828,7 @@ a{
 }
 @media only screen and (max-width: 1023px) {
 	.viewnon{
-	  display: none;
+	  display: block;
 	}
   }
  
@@ -834,7 +849,7 @@ a{
 	   font-size: 10px;
 	   margin-right: -10px;
     }
-	.imagelogo {
+	.imagelogo1 {
        
 	margin-top: 9px;
 		  height: 40px;

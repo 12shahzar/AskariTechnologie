@@ -19,7 +19,7 @@ const Capability = () => {
        <h1>End-to-End Solutions</h1>
        <div className=' col' style={{marginBottom:'30px'}}>
        <p>
-       At Biztech, we infuse innovation with technology to build futuristic solutions. Our expertise lies in building.<br/> sustainable software solutions.
+       At Askari , we infuse innovation with technology to build futuristic solutions. Our expertise lies in building.<br/> sustainable software solutions.
        </p>
        </div>
        </div>
@@ -32,7 +32,6 @@ const Capability = () => {
             </div>
             <div className='col-10'>
              <h6>Software Engineering</h6>
-             <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
            </Link>
@@ -54,7 +53,6 @@ const Capability = () => {
                 </div>
                 <div className='col-10' >
                 <h6>E-commerce Development </h6>
-             <p>Lorem ipum hdthyjhgd</p>
                 </div>
            </div>
            </Link>
@@ -67,7 +65,6 @@ const Capability = () => {
             </div>
             <div className='col-10'>
              <h6>Devops</h6>
-             <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
            </Link>
@@ -82,7 +79,6 @@ const Capability = () => {
             </div>
             <div className='col-10'>
              <h6>Quality Engineering</h6>
-             <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
            </Link>
@@ -95,7 +91,6 @@ const Capability = () => {
             </div>
             <div className='col-10'>
              <h6>Cloud Application</h6>
-             <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
            </Link>
@@ -108,7 +103,6 @@ const Capability = () => {
             </div>
             <div className='col-10'>
              <h6>AI Development</h6>
-             <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
            </Link>

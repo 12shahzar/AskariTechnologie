@@ -44,11 +44,11 @@ const ShopfiyDevelopmetn = () => {
                   Deliver Optimal Shopping Experiences With Our Shopify Services
                 </h2>
                 <p className="about-main-content-parap">
-                  Biztech is a leading Shopify development company that offers
+                  Askari  is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Biztech, you get all the valuable solutions for your
+                  With Askari , you get all the valuable solutions for your
                   eCommerce needs. We have crafted our Shopify store development
                   services in such a way that it offers easy management of
                   content, product, and orders. This allows you to have complete
@@ -58,7 +58,7 @@ const ShopfiyDevelopmetn = () => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Biztech is the first choice for startups and enterprises that
+                  Askari  is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the
@@ -141,7 +141,7 @@ const ShopfiyDevelopmetn = () => {
         <div className="container p-5 py-5">
           <div className="row p-5">
             <h1 className="arrivals-head-main-top-my-bottom">
-              What Makes Biztech a Leading Shopify Development Company
+              What Makes Askari  a Leading Shopify Development Company
             </h1>
             <p className="arrival-main-bottom-top-head">
               We offer all-inclusive Shopify services that help add more

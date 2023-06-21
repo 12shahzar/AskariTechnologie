@@ -71,7 +71,7 @@ const AR = (props) => {
               <p className="main-908">
                 Change the way users interact with your application with our
                 cost-effective AR development services. Hire AR developers from
-                Biztech at flexible engagement models to create riveting user
+                Askari  at flexible engagement models to create riveting user
                 experiences.
               </p>
               <button className="firt-main-btn">Hire Android Developer</button>
@@ -95,11 +95,11 @@ const AR = (props) => {
                   Invest in Building the AR Solution and BringDigitization
                 </h2>
                 <p className="about-main-content-parap">
-                  Biztech is a leading Shopify development company that offers
+                  Askari  is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Biztech, you get all the valuable solutions for your
+                  With Askari , you get all the valuable solutions for your
                   eCommerce needs. We have crafted our Shopify store development
                   services in such a way that it offers easy management of
                   content, product, and orders. This allows you to have complete
@@ -109,7 +109,7 @@ const AR = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Biztech is the first choice for startups and enterprises that
+                  Askari  is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the

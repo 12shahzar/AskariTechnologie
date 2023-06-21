@@ -10,7 +10,7 @@ function Contactsub() {
             Get 30-Minute <br></br> Free Strategy<br></br>  Consultation
           </h4>
           <p className="contact-para">
-            Let’s discuss how Biztech can help you convert <br></br> breakthrough
+            Let’s discuss how Askari  can help you convert <br></br> breakthrough
             ideas into tangible outcomes. <br></br>Take the first step with our
             software product <br></br> engineering services today!
           </p>

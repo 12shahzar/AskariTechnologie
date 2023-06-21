@@ -108,7 +108,7 @@ const Home = () => {
       <div className="mb-5 mt-5 project_delivered">
   <div className="container text-center">
     <div style={{ height: '50px' }}></div>
-    <h1 className='fw-bold text-white'>Over 1200+ Projects Delivered</h1>
+    <h1 className='fw-bold text-white'>Over 300+ Projects Delivered</h1>
     <p className='text-white'>Clients trust us for our efforts to improve business agility and reduce costs.</p>
     <div style={{ height: '50px' }}></div>
 
@@ -135,45 +135,45 @@ const Home = () => {
       ]}
     >
       <div style={{width: 400}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightblue' }}>
-        <h1 class="card-heading fw-bold">01</h1>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px' }} >
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>01</h1>
         <div style={{height: '30px'}}></div>
-          <h4 className='fw-bold'>INTELLECT & EXPERIENCE</h4>
+          <h4 className='fw-bold' style={{marginLeft:'20px'}}>INTELLECT & EXPERIENCE</h4>
           <hr />
-          <p style={{fontSize: 14}}>Highly skilled professionals who possess expertise in diverse Business and Technology areas make up the Askari Technologies team. To provide world class service, we employ the best technicians, adhere to proven methodology, provide superior client service and become a true business partner in every project.</p>
+          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>Highly skilled professionals who possess expertise in diverse Business and Technology areas make up the Askari Technologies team. To provide world class service, we employ the best technicians, adhere to proven methodology, provide superior client service and become a true business partner in every project.</p>
+        </div>
+      </div>
+
+      <div style={{width: 100}}>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px' }}>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>02</h1>
+        <div style={{height: '30px'}}></div>
+
+          <h4 className='fw-bold' style={{marginLeft:'20px'}}>COMMITMENT TO QUALITY</h4>
+          <hr />
+          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>We believe in Quality service and our approach has been designed to provide the same. We listen carefully to our clients and provide space, time and materials according to agreement for the project. We are proud of our Technical and Creative capability, and this emerges from taking time to get it right. Our Quality Assurance </p>
         </div>
       </div>
 
       <div style={{width: 400}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightgreen' }}>
-        <h1 class="card-heading fw-bold">02</h1>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px' }}>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>03</h1>
         <div style={{height: '30px'}}></div>
 
-          <h4 className='fw-bold'>COMMITMENT TO QUALITY</h4>
+          <h4 className='fw-bold' style={{marginLeft:'20px'}}>TRACK RECORD</h4>
           <hr />
-          <p style={{fontSize: 14}}>We believe in Quality service and our approach has been designed to provide the same. We listen carefully to our clients and provide space, time and materials according to agreement for the project. We are proud of our Technical and Creative capability, and this emerges from taking time to get it right. Our Quality Assurance </p>
+          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>We have handled small - large scale projects and have over the years implemented solutions for numerous organizations of all sizes. Our growing list of satisfied customers not only acts as our excellent references but is also a source of our repeat business.</p>
         </div>
       </div>
 
       <div style={{width: 400}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' }}>
-        <h1 class="card-heading fw-bold">03</h1>
+        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,margin:'30px'  }}>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>04</h1>
         <div style={{height: '30px'}}></div>
 
-          <h4 className='fw-bold'>TRACK RECORD</h4>
+          <h4 className='fw-bold' style={{marginLeft:'20px'}}>OUR EXPERTISE</h4>
           <hr />
-          <p style={{fontSize: 14}}>We have handled small - large scale projects and have over the years implemented solutions for numerous organizations of all sizes. Our growing list of satisfied customers not only acts as our excellent references but is also a source of our repeat business.</p>
-        </div>
-      </div>
-
-      <div style={{width: 400}}>
-        <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' }}>
-        <h1 class="card-heading fw-bold">04</h1>
-        <div style={{height: '30px'}}></div>
-
-          <h4 className='fw-bold'>OUR EXPERTISE</h4>
-          <hr />
-          <p style={{fontSize: 14}}>The Askari Technologies team is a cohesive unit of highly skilled professionals who boast extensive expertise across diverse Business and Technology areas. Our commitment to delivering world-class service is exemplified through our meticulous selection of the finest technicians in the field, ensuring that our clients receive nothing short of exceptional support.</p>
+          <p style={{fontSize: 14 ,backgroundColor:'transparent'}}>The Askari Technologies team is a cohesive unit of highly skilled professionals who boast extensive expertise across diverse Business and Technology areas. Our commitment to delivering world-class service is exemplified through our meticulous selection of the finest technicians in the field, ensuring that our clients receive nothing short of exceptional support.</p>
         </div>
       </div>
     </Slider>
@@ -235,17 +235,17 @@ const Home = () => {
           <h1 style={{ fontWeight: 700, fontSize: 48 }} className='text-askari-primary'>Continue To Grow With Businesses In The World</h1>
           <div className="row mt-5">
             <div className="col-md-4">
-              <h1 className='fw-bold'>16+</h1>
+              <h1 className='fw-bold'>10+</h1>
               <h3>Years Of Expertise</h3>
               <p>Learning. Unlearning. Relearning. Growing. This is what has kept us going to achive.</p>
             </div>
             <div className="col-md-4">
-              <h1 className='fw-bold'>1200+</h1>
+              <h1 className='fw-bold'>300+</h1>
               <h3>Projects Completed</h3>
               <p>Yes! Grateful to call all of them our <br /> happy customers!</p>
             </div>
             <div className="col-md-4">
-              <h1 className='fw-bold'>350+</h1>
+              <h1 className='fw-bold'>50+</h1>
               <h3>Dynamic Individuals</h3>
               <p>They love to innovate everyday and <br /> work for a common goal.</p>
             </div>

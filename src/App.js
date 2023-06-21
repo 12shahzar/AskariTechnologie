@@ -61,6 +61,7 @@ import HireSaleForce from "./Components/HireSaleForce";
 import HireOdoo from "./Components/HireOdoo";
 import Wordpress from "./Components/Wordpress";
 import HireKotlin from "./Components/HireKotlin";
+import Contact from "./Components/Contact";
 
 export const App = () => {
   return (
@@ -99,6 +100,7 @@ export const App = () => {
           <Route path="/andriod" element={<Andriod />} />
           <Route path="/ar" element={<AR />} />
           <Route path="/hirekotlin" element={<HireKotlin />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>

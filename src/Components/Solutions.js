@@ -52,7 +52,20 @@ const Solutions = () => {
            </div>
            </Link>
          </div>
+         
          <div className='col'>
+          <Link to="sol3">
+         <div className='row'>
+            <div className='col-2'>
+            <AssignmentIndIcon style={{color:'purple'}}className='biglogo'/> 
+            </div>
+            <div className='col-10'>
+             <h6>sol2</h6>
+             <p>Lorem ipum hdbhfbsd</p>
+            </div>           
+           </div></Link>
+         </div>
+         {/* <div className='col'>
          <Link to="/sol3">
          <div className='row'>
             <div className='col-2'>
@@ -77,7 +90,7 @@ const Solutions = () => {
             </div>           
            </div>
            </Link>
-         </div>
+         </div> */}
          
        </div>
        <div className='row'>
@@ -107,7 +120,18 @@ const Solutions = () => {
            </div>
            </Link>
          </div>
-        
+        <div className='col'>
+          <Link to="sol4">
+        <div className='row'>
+            <div className='col-2'>
+            <AssignmentIndIcon style={{color:'purple'}}className='biglogo'/> 
+            </div>
+            <div className='col-10'>
+             <h6>sol3</h6>
+             <p>Lorem ipum hdbhfbsd</p>
+            </div>           
+           </div></Link>
+        </div>
        </div>
     
     </div>

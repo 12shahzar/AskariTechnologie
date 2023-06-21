@@ -14,7 +14,7 @@ const SalesForce = () => {
               </h1>
               <p className="main-hero-para-main-div">
                 Leverage the power of Salesforce with the help of a dynamic
-                Salesforce development company, Biztech. We develop and deploy
+                Salesforce development company, Askari . We develop and deploy
                 various Salesforce applications for Sales Cloud, Service cloud,
                 NonProfit cloud, Lightning framework, Visual force, and APEX
                 code. Get the most out of our Salesforce development services,
@@ -45,11 +45,11 @@ const SalesForce = () => {
                 Build Enterprise Level Solutions with the Best Salesforce Development Company in USA
                 </h2>
                 <p className="about-main-content-parap">
-                  Biztech is a leading Shopify development company that offers
+                  Askari  is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Biztech, you get all the valuable solutions for your
+                  With Askari , you get all the valuable solutions for your
                   eCommerce needs. We have crafted our Shopify store development
                   services in such a way that it offers easy management of
                   content, product, and orders. This allows you to have complete
@@ -59,7 +59,7 @@ const SalesForce = () => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Biztech is the first choice for startups and enterprises that
+                  Askari  is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the
@@ -256,7 +256,7 @@ const SalesForce = () => {
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                Clients Choose Biztech for Salesforce Services Because                </h2>
+                Clients Choose Askari  for Salesforce Services Because                </h2>
                 <p className="h2-h3-h4">
                   We combine the power of platforms and technologies with our
                   innovation and industry expertise to drive large-scale,

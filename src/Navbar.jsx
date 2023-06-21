@@ -24,7 +24,7 @@ const Navbar = () => {
                         </button>
                         <ul class="dropdown-menu custom_drop_down_menu mt-3">
                             <h4>About</h4>
-                            <p className="mt-3">About At Biztech, we infuse innovation with technology to build futuristic solutions. Our expertise lies in building sustainable software solutions.</p>
+                            <p className="mt-3">About At Askari , we infuse innovation with technology to build futuristic solutions. Our expertise lies in building sustainable software solutions.</p>
 
                             <div className="row p-3">
                                 <div className="col-md-6">

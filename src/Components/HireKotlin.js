@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/HireMain.css";
 import MainFirst from "../Assets/kotlin1.png";
-import mainAbout from "../Assets/kotlin2.png";
+import mainAbout from "../Assets/kotlin1.png";
 import Flexible from "../Assets/Flexible Hours.png";
 import HireHour from "../Assets/Hire Team.png";
 import Dedicated from "../Assets/Dedicated-Resource.png";
@@ -98,11 +98,11 @@ const hireKotlin = (props) => {
                   Potential
                 </h2>
                 <p className="about-main-content-parap">
-                  Biztech is a leading Shopify development company that offers
+                  Askari  is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Biztech, you get all the valuable solutions for your
+                  With Askari , you get all the valuable solutions for your
                   eCommerce needs. We have crafted our Shopify store development
                   services in such a way that it offers easy management of
                   content, product, and orders. This allows you to have complete
@@ -112,7 +112,7 @@ const hireKotlin = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Biztech is the first choice for startups and enterprises that
+                  Askari  is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the

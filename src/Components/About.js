@@ -17,11 +17,12 @@ const About = () => {
        <p>
        At Askari technology, we infuse innovation with technology to build futuristic solutions. Our expertise <br/>lies in building sustainable software solutions.
        </p>
+     
        </div>
        </div>
        <div className='row'>
          <div className='col' style={{height:'100px'}}>
-         <Link to="/aboutp">
+         <Link to="/about" style={{textDecoration:'none',color:'black'}}>
            <div className='row'>
            
             <div className='col-2'>
@@ -29,7 +30,8 @@ const About = () => {
             </div>
             <div className='col-10'>
              <h6>About Us</h6>
-             <p>Lorem ipum hdbhfbsd</p>
+             <p style={{textDecoration:'none', color:'black'}}>Building intuitive digital experiences
+</p>
             </div>   
                   
            </div>
@@ -49,7 +51,7 @@ const About = () => {
            </div>
          </div> */}
          <div className='col'>
-         <Link to="/patner">
+         <Link to="/patner" style={{textDecoration:'none',color:'black'}}>
          <div className='row'>
         
             <div className='col-2'>
@@ -57,7 +59,8 @@ const About = () => {
             </div>
             <div className='col-10'>
              <h6>Partners</h6>
-             <p>Lorem ipum hdbhfbsd</p>
+             <p style={{textDecoration:'none', color:'black'}}>Empowering businesses with sophisticated digital solutions
+</p>
             </div>  
                         
            </div>
@@ -66,7 +69,7 @@ const About = () => {
        </div>
        <div className='row'>
          <div className='col'>
-         <Link to="/ouventure">
+         <Link to="/ouventure" style={{textDecoration:'none',color:'black'}}>
          <div className='row'>
          
             <div className='col-2'>
@@ -74,7 +77,8 @@ const About = () => {
             </div>
             <div className='col-10'>
              <h6>How It Works</h6>
-             <p>Lorem ipum hdbhfbsd</p>
+             <p style={{textDecoration:'none', color:'black'}}>Connect with dedicated software partners
+</p>
             </div>  
                      
            </div>
@@ -92,15 +96,16 @@ const About = () => {
            </div>
          </div> */}
          <div className='col'>
-         <Link to="/contact">
+         <Link to="/contact" style={{textDecoration:'none',color:'black'}}>
          <div className='row'>
          
             <div className='col-2'>
             <ContactMailIcon style={{color:'orange'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Contact Us</h6>
-             <p>Lorem ipum hdbhfbsd</p>
+             <h6 className="spc">Contact Us</h6>
+             <p >Consult, design, & develop scalable solutions
+</p>
             </div>   
                      
            </div>

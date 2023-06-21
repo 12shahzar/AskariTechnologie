@@ -60,7 +60,7 @@ const hireShopfy = (props) => {
                 </h1>
                 <p className="Brand-slogen p-3">
                   Build SEO-friendly and conversion-driven Shopify websites as
-                  you hire Shopify developers from Biztech. Now, create
+                  you hire Shopify developers from Askari . Now, create
                   ready-to-use stores with a customized theme as you hire
                   dedicated Shopify developers. You can rely on them for minor
                   tweaks to integrations and migration
@@ -95,7 +95,7 @@ const hireShopfy = (props) => {
               for small to Enterprise level businesses. Backed by 16+ years of
               experience, we can cater to your custom needs when you hire
               Shopify experts. Be it expanding your store’s functionalities or
-              customizing your Shopify theme. At Biztech, our Shopify experts
+              customizing your Shopify theme. At Askari , our Shopify experts
               are ready to help you create the right eCommerce store using best
               industry practices. Following the agile method, we deliver your
               project in an iterative process, giving enough attention to
@@ -203,7 +203,7 @@ const hireShopfy = (props) => {
               <h4 className="Arrival-head">Flexible Hours</h4>
               <p className="arrival-head">
                 You can find Shopify developers, designers, testers, and
-                engineers from a pool of talented professionals in BiztechCS.
+                engineers from a pool of talented professionals in Askari CS.
                 Now, build a team to develop a custom solution for your
                 business. Communicate with them via email, Skype, Google Meet,
                 or Zoom and be a part of the agile development process.

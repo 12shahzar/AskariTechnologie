@@ -14,7 +14,9 @@ body{
 	align-items: center;
 	text-align: center;
 }
-
+.sidebarItems{
+    /* padding: 0px 50px 0px 50px; */
+}
 .whatwedo{
 	color: #0659A4	;
 	font-size: 48px;
@@ -24,6 +26,17 @@ body{
 	line-height: 100%;
 	margin-top: 50px;
 	margin-bottom: 40px;
+}
+.imagelogo {
+       
+	margin-top: 9px;
+		  height: 50px;
+		 width: 200px;
+		
+		
+	  }
+.viewnon{
+	display: block;
 }
 .parawhat{
 	Font-size: 18px;
@@ -37,7 +50,7 @@ margin-top: 20px;
 	box-sizing: border-box;
 }
 .container1{
-	max-width: 2200px;
+	/* max-width: 3200px; */
 	margin:auto;
 }
 .biglogo{
@@ -745,7 +758,7 @@ a{
 		position: absolute;
 		box-shadow: none;
 		margin:0;
-		padding:15px;
+		padding:px;
 		top:0;
 		left:0;
 		width: 100%;
@@ -819,7 +832,7 @@ a{
 }
 @media only screen and (max-width: 1023px) {
 	.viewnon{
-	  display: none;
+	  display: block;
 	}
   }
  

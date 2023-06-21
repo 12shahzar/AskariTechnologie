@@ -84,7 +84,7 @@ Ecommerce Development <br />
           </h3>
           <p>
           Want to revolutionize your digital presence? We can accelerate your business with our custom eCommerce solutions and services. Our eCommerce experts can assist you in integrating features, customizing the frontend, and developing an e-store from scratch for Magento, Shopify, Drupal, and other platforms.
-At Biztech, 
+At Askari , 
           </p>
           <p>
         

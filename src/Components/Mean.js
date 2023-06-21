@@ -70,7 +70,7 @@ const Mean = (props) => {
               <h2 className="main9080">Hire Mean Stack Developers</h2>
               <p className="main-908">
                 Want to create next-gen web applications? Hire Mean stack
-                developers from BiztechCS with skills and experience you
+                developers from Askari CS with skills and experience you
                 actually need! Our skilled and smart professionals have an
                 average 5+ years of development experience in developing web
                 apps using MongoDB, ExpressJS, Angular, and NodeJS effortlessly.
@@ -102,11 +102,11 @@ const Mean = (props) => {
                   Edge
                 </h2>
                 <p className="about-main-content-parap">
-                  Biztech is a leading Shopify development company that offers
+                  Askari  is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Biztech, you get all the valuable solutions for your
+                  With Askari , you get all the valuable solutions for your
                   eCommerce needs. We have crafted our Shopify store development
                   services in such a way that it offers easy management of
                   content, product, and orders. This allows you to have complete
@@ -116,7 +116,7 @@ const Mean = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Biztech is the first choice for startups and enterprises that
+                  Askari  is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the

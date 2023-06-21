@@ -73,7 +73,7 @@ const openCart = (props) => {
               <p className="main-908">
                 Our in-house team of OpenCart developers have experience in
                 diverse industries and know which eCommerce trend to make use
-                of. Hire OpenCart developers from BiztechCS to leverage our
+                of. Hire OpenCart developers from Askari CS to leverage our
                 expertise and build profitable enterprise eCommerce
                 applications.
               </p>
@@ -101,11 +101,11 @@ const openCart = (props) => {
                   OpenCart Developers
                 </h2>
                 <p className="about-main-content-parap">
-                  Biztech is a leading Shopify development company that offers
+                  Askari  is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Biztech, you get all the valuable solutions for your
+                  With Askari , you get all the valuable solutions for your
                   eCommerce needs. We have crafted our Shopify store development
                   services in such a way that it offers easy management of
                   content, product, and orders. This allows you to have complete
@@ -115,7 +115,7 @@ const openCart = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Biztech is the first choice for startups and enterprises that
+                  Askari  is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the

@@ -200,7 +200,7 @@ function OurPatners() {
               Service Personalisation
             </h3>
             <p className="font_sizing_op">
-              At Biztech, we believe in personalized and comprehensive account
+              At Askari , we believe in personalized and comprehensive account
               management. Our dedicated account managers work diligently to
               ensure that every client requirement is fulfilled, and their
               business growth is consistently supported. This includes providing
