@@ -50,19 +50,15 @@ const EcommerceService = () => {
     
 Ecommerce Development <br />
           </h1>
-          <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
+          <h1 style={{fontWeight:"bolder",marginTop:"1%"}} >
           Services
           </h1>
-          <p style={{fontSize:"13px",marginBottom:"12%",marginTop:"-20px"}}>
-            Using tried-and-true methods, you can turn your business idea into a{" "}
-            <br />
-            successful enterprise or expand it. We support business owners in
-            achieving <br /> their objectives with greater success potential. We
-            can be your one-stop shop <br /> for everything from product
-            engineering advice to deployment and <br /> maintenance. We'll focus
-            on the technological side of your business while you <br />{" "}
-            concentrate on your own. We excel in complete product engineering
-            and <br /> company expansion!
+          <p style={{fontSize:"13px",marginBottom:"2%",marginTop:"-20px",width:"40%"}}>
+          Elevate your customer experience through a harmonious blend of brand objectives and
+cutting-edge technology stacks like Magento, Shopify, and BigCommerce. Unlock the potential
+of eCommerce for various business models, including B2B, B2C, C2C, and more, by leveraging
+our expertise in custom eCommerce development solutions.
+
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro">Request Consultation</button>
@@ -96,33 +92,82 @@ At Askari ,
       </div>
       <div className="container">
         <div className="align_product" style={{display:"flex",flexDirection:"column"}}>
-        <h3 style={{alignSelf:"center"}} >Our Digital Product Engineering Services</h3>
+        <h3 style={{alignSelf:"center"}} >Our Ecommerce Development Services and Expertise</h3>
           <p >
-            We offer custom ERP solutions to businesses of all sizes and sectors
-            so you can optimize your applications flawlessly.  Attain
-            smooth communication and maximum productivity with best-in-class ERP
-            systems development solutions.
+          Experience the power of our stable, secure, and adaptable eCommerce solutions that elevate
+customer satisfaction, drive sales growth, and fuel business expansion!
           </p>
         </div>
       </div>
       <div class="image-row container">
     <div class="image-item">
       <img src={pe1} alt="Image 1" />
+      {/* <div>
+        <h5>Ecommerce Store Development</h5>
+        <p>
+        We specialize in crafting bespoke e-stores across diverse platforms such as Magento, Shopify,
+Drupal, and more, guaranteeing a seamless buying experience. Regardless of the domain's
+complexity, we possess the expertise to handle every aspect with utmost proficiency!
+
+        </p>
+      </div> */}
       
     </div>
     <div class="image-item">
       <img src={pe2} alt="Image 2" />
+      {/* <div>
+        <h5>Mobile Commerce App Creation:
+</h5>
+        <p>
+        Harness the potential of our eCommerce development services to construct professional,
+innovative, and meticulously tailored eCommerce applications that captivate and retain the ideal
+audience
+
+        </p>
+      </div> */}
     </div>
     <div class="image-item">
       <img src={pe3} alt="Image 3" />
+      {/* <div>
+        <h5>Ecommerce Platform Aggregator
+</h5>
+        <p>
+        If you seek a website or application that showcases a wide range of products from multiple
+vendors, our development services can assist you in creating a robust platform capable of
+accommodating diverse brands
+
+        </p>
+      </div> */}
      
     </div>
     <div class="image-item">
       <img src={pe4} alt="Image 4" />
+   {/* <div>
+        <h5>B2B and B2C Marketplaces
+</h5>
+        <p>
+        Embark on the journey to create a cutting-edge eCommerce marketplace akin to Amazon and
+eBay through our exceptional development services. Delight your customers with a
+comprehensive shopping destination that offers everything they need in one place.
+
+        </p>
+      </div> */}
+      </div>
      
-    </div>
+     
+  
     <div class="image-item">
       <img src={pe5} alt="Image 5" />
+      {/* <div>
+        <h5>Ecommerce Assistance and Upkeep
+</h5>
+        <p>
+        Experience seamless support and management around the clock, available whenever you need
+it. Our dedicated team ensures your eStore remains operational with regular updates and
+maintenance, guaranteeing uninterrupted performance
+
+        </p>
+      </div> */}
      
     </div>
   </div>
@@ -180,8 +225,10 @@ At Askari ,
       </div>
 
       <section className="your_patner_pro ">
-        <h2>Your Partner at Each Stage of PDLC</h2>
-        <p>We provide comprehensive software engineering services that address the technology stack throughout the product lifecycle, delivering increased revenue and service levels.</p>
+        <h2>More than Just Ecommerce Development Services</h2>
+        <p>Development alone is not enough. Therefore, we provide an extensive array of professional
+eCommerce development services that have the potential to revolutionize the way your
+customers perceive your brand</p>
           
           {/* lower cards */}
           <div className="container card_pro_eng_botm">
@@ -190,11 +237,11 @@ At Askari ,
                     <img  src={require("../Assets/card_sub1.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+                <center><h5 className="sub_card_heading">
+                Efficiency
+                </h5></center>
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
+                Our eCommerce professionals analyze your store's strengths and provide recommendations to overcome obstacles. We optimize solutions to offer valuable insights on customer journey, purchase history, and cart abandonment data. Our aim is to create a personalized and tailored experience for your customers.
                 </p>
 
 
@@ -209,11 +256,11 @@ At Askari ,
                     <img  src={require("../Assets/card_sub2.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+               <center><h5 className="sub_card_heading">
+                Insightful
+                </h5></center> 
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
+                Unlock growth potential through strategic consulting in eCommerce. Drive traffic, increase conversions, and optimize sales while streamlining operational processes. Leverage our expertise in marketing, technology, operations, and customer engagement to gain valuable insights into user journeys and buying behaviors.
                 </p>
 
 
@@ -229,12 +276,11 @@ At Askari ,
                     <img  src={require("../Assets/crad_sub3.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+               <center><h5 className="sub_card_heading">
+               Analytics
+                </h5></center> 
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
+                Experience seamless data management for your eCommerce business. Our cutting-edge services handle  data processing needs, including store catalog maintenance, product data uploads, and efficient data organization. Count on us to keep your data impeccably organized and readily accessible, empowering your business to thrive.                </p>
 
 
               </div>
@@ -248,12 +294,13 @@ At Askari ,
                     <img  src={require("../Assets/crad_sub4.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+               <center> <h5 className="sub_card_heading">
+                Ecommerce Audit
+                </h5></center>
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
+                Our comprehensive eCommerce site auditing examines vital areas like SEO, content,
+performance, traffic, and conversion to uncover improvement opportunities and drive better
+outcomes.                </p>
 
 
               </div>
@@ -267,12 +314,13 @@ At Askari ,
                     <img  src={require("../Assets/crad_sub5.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+                <center><h5 className="sub_card_heading">
+                Promotion
+                </h5></center>
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
+                Maximize conversions and performance of your online store through customized eCommerce
+marketing and automation solutions. Leverage omnichannel marketing strategies infused with
+impactful insights to effectively engage potential customers and make data-driven decisions                </p>
 
 
               </div>
