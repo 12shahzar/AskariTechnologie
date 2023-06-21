@@ -1,14 +1,13 @@
 import React from "react";
 import "../Styles/HireMain.css";
 import MainFirst from "../Assets/kotlin1.png";
-import mainAbout from "../Assets/kotlin1.png";
+import mainAbout from "../Assets/Kotlin2.png";
 import Flexible from "../Assets/Flexible Hours.png";
 import HireHour from "../Assets/Hire Team.png";
 import Dedicated from "../Assets/Dedicated-Resource.png";
 import Faq from "./Faq";
 
-// ABBas
-
+// 
 import Note from "../Assets/funtion.png";
 import CV from "../Assets/Group.png";
 import Meeting from "../Assets/Group.png";
@@ -30,7 +29,7 @@ import Beauty from "../Assets/beauty.png";
 import Pharmaceutical from "../Assets/pharma.png";
 import Rental from "../Assets/car.png";
 import Banner from "../Assets/banner.png";
-
+import Contactsub from '../Components/Contactsub'
 import pic1 from "../Assets/pic1.png";
 
 import pic3 from "../Assets/pic3.png";
@@ -65,9 +64,11 @@ const hireKotlin = (props) => {
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-5">
+          <div className="row p-2">
             <div className="col-lg-6">
-              <h2 className="main9080">Hire Flutter Developer </h2>
+              <h2 className="main9080">
+                Hire Kotlin Developers and Programmers
+              </h2>
               <p className="main-908">
                 Our certified Flutter developers create stunning cross-platform
                 applications that you can manage with a single database.
@@ -85,9 +86,9 @@ const hireKotlin = (props) => {
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -98,7 +99,7 @@ const hireKotlin = (props) => {
                   Potential
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari  is a leading Shopify development company that offers
+                  Askari is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
@@ -112,7 +113,7 @@ const hireKotlin = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Askari  is the first choice for startups and enterprises that
+                  Askari is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the
@@ -125,20 +126,22 @@ const hireKotlin = (props) => {
         </div>
       </section>
 
-      {/* Contact */}
+      <Contactsub/>
+      <Contactsub/>
+    
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
-            <h1 className="main-serv-ces-h1-head">
+         <div className="row p-2" >
+            <center><h1 className="main-serv-ces-h1-head">
               Benefits of Hiring Offshore Dedicated OpenCart Developers
-            </h1>
-            <p className="main-services-para-main-card-top py-3">
+            </h1></center>
+           <center><p className="main-services-para-main-card-top py-3">
               We offer all-inclusive Shopify services that help add more
-              functionality, <br /> monitor performance, improve sales channels
-              & inventory <br /> management, and many more.
-            </p>
-            <div className="col-md-2 card-main-div-main-card">
+              functionality,  monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
+            <div className="col-md-2 col-sm-8  card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -148,7 +151,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -158,7 +161,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -168,7 +171,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -178,7 +181,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -191,14 +194,14 @@ const hireKotlin = (props) => {
         </div>
       </section>
 
-      <section className="main-div-cli-lic p-5">
-        <div className="container p-5">
-          <div className="row p-5">
-            <h3 className="new-head-phy pb-5">
+      <section className="main-div-cli-lic">
+        <div className="container ">
+         <div className="row">
+            <center><h3 className="new-head-phy pl-2">
               Ways to Hire Our Shopify Specialists
-            </h3>
+            </h3></center>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -209,7 +212,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -220,7 +223,7 @@ const hireKotlin = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4 col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -348,9 +351,9 @@ const hireKotlin = (props) => {
         </div>
       </div>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>

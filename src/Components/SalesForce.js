@@ -7,7 +7,7 @@ const SalesForce = () => {
     <>
       <section className="Hero-Shopfy-section-1 All-hero-main Section for-baground-images">
         <div className="container p-5 main-first-hero-all-content">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
                 Salesforce Development Services
@@ -22,7 +22,7 @@ const SalesForce = () => {
               </p>
               <div className="btnnn py-4">
                 <button className="main-home-shopyt-btn ">
-                Request A Free Consultation
+                  Request A Free Consultation
                 </button>
               </div>
             </div>
@@ -33,19 +33,20 @@ const SalesForce = () => {
 
       {/* New second Section */}
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                Build Enterprise Level Solutions with the Best Salesforce Development Company in USA
+                  Build Enterprise Level Solutions with the Best Salesforce
+                  Development Company in USA
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari  is a leading Shopify development company that offers
+                  Askari is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
@@ -59,7 +60,7 @@ const SalesForce = () => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Askari  is the first choice for startups and enterprises that
+                  Askari is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the
@@ -72,20 +73,20 @@ const SalesForce = () => {
         </div>
       </section>
 
-      {/* Contact */}
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
-            Salesforce Development Services Verticals
+              Salesforce Development Services Verticals
             </h1>
-            <p className="main-services-para-main-card-top py-3">
+           <center><p className="main-services-para-main-card-top py-3">
               We offer all-inclusive Shopify services that help add more
-              functionality, <br /> monitor performance, improve sales channels
-              & inventory <br /> management, and many more.
-            </p>
-            <div className="col-md-2 card-main-div-main-card">
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -95,7 +96,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -105,7 +106,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -115,7 +116,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -125,7 +126,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -135,7 +136,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -145,7 +146,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -155,7 +156,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -165,7 +166,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -175,7 +176,7 @@ const SalesForce = () => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -190,9 +191,10 @@ const SalesForce = () => {
 
       <section className="arrivals-card-arrival p-5">
         <div className="container p-5 py-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <h1 className="arrivals-head-main-top-my-bottom">
-            Benefits of Odoo Development            </h1>
+              Benefits of Odoo Development{" "}
+            </h1>
             <p className="arrival-main-bottom-top-head">
               We offer all-inclusive Shopify services that help add more
               functionality, monitor performance, improve sales channels &{" "}
@@ -247,16 +249,17 @@ const SalesForce = () => {
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                Clients Choose Askari  for Salesforce Services Because                </h2>
+                  Clients Choose Askari for Salesforce Services Because{" "}
+                </h2>
                 <p className="h2-h3-h4">
                   We combine the power of platforms and technologies with our
                   innovation and industry expertise to drive large-scale,

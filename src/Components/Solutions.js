@@ -33,7 +33,7 @@ const Solutions = () => {
             <ThumbUpAltIcon style={{color:'orange'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Success stories</h6>
+             <h6>Asaan ERP</h6>
              <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
@@ -46,7 +46,7 @@ const Solutions = () => {
             <AssignmentIndIcon style={{color:'purple'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Portfolio</h6>
+             <h6>Cognitive Video</h6>
              <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
@@ -60,7 +60,7 @@ const Solutions = () => {
             <AssignmentIndIcon style={{color:'purple'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>sol2</h6>
+             <h6>Client Connect</h6>
              <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div></Link>
@@ -114,7 +114,7 @@ const Solutions = () => {
             <BookIcon style={{color:'orange'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Blog</h6>
+             <h6>Medease</h6>
              <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div>
@@ -127,7 +127,7 @@ const Solutions = () => {
             <AssignmentIndIcon style={{color:'purple'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>sol3</h6>
+             <h6>Agrisense</h6>
              <p>Lorem ipum hdbhfbsd</p>
             </div>           
            </div></Link>

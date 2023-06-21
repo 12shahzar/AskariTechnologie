@@ -142,7 +142,7 @@ const Home = () => {
     >
        <div style={{width: 400}}>
         <div className="card me-2 project_delivered_details_card text-start" style={{ backgroundColor: 'lightyellow' ,marginRight:'30px', marginBottom:'30px'}}>
-        <h1 class="card-heading fw-bold" style={{marginLeft:'20px'}}>01</h1>
+        <h1 class="card-heading fw-bold" style={{marginLeft:'20px',marginTop:'20px' }}>01</h1>
         <div style={{height: '30px'}}></div>
 
           <h4 className='fw-bold' style={{marginLeft:'20px',marginTop:'20px'}}>COMMITMENT TO QUALITY</h4>

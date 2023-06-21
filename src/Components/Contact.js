@@ -247,7 +247,7 @@ const Contact = () => {
 
       {/* <section className="contact-2-main">
         <div className="container">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="new-contact py-3">
               <h3 className="contact-head-4">How does our Process work?</h3>
             </div>
@@ -332,7 +332,7 @@ const Contact = () => {
       </section>
       <section className="contact-2-main">
         <div className="container">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="new-contact py-3">
               <h3 className="contact-head-4">How does our Process work?</h3>
             </div>

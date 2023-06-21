@@ -44,7 +44,7 @@ import Technologywework from "../Components/Technologywework.jsx"
 const Cloudsol = () => {
   return (
     <div className="bodycontent">
-      <div className="bannner-image-qua">
+      <div className="bannner-image-clo">
         {/* <p className="text-center text-white ">
          
         </p> */}
@@ -54,21 +54,22 @@ const Cloudsol = () => {
            Upscale Your <br />
           </h1>
           <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
-            Business
+            Business With
+          </h1>
+         
+          <h1 style={{ fontWeight: "bolder", marginTop: "1%" }}>
+            Cloud Solution
           </h1>
           <br></br>
           <p
             style={{
               fontSize: "13px",
-              marginBottom: "12%",
+              marginBottom: "3%",
               marginTop: "-20px",
             }}
           >
-            Using tried-and-true methods, you can turn your business idea into a{" "}
-            <br />
-            successful enterprise or expand it. We support business owners in
-            achieving <br /> their objectives with greater success potential. We
-            can be your one-stop shop <br />
+            Build next-gen cloud applications and bring <br/>digital transformation to your business.
+
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro" style={{ marginTop: "70px" }}>
@@ -190,7 +191,7 @@ const Cloudsol = () => {
  <center><h1 className="heading_cards_qa">How we go about testing your Project</h1></center>
 <div className="main_card_section_qa">
 <div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+ 
 <div className="content_qa_card">
   <h5>
   Planning
@@ -206,7 +207,7 @@ const Cloudsol = () => {
 </div>
 
 <div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+ 
 <div className="content_qa_card">
   <h5>
   Planning
@@ -221,7 +222,7 @@ const Cloudsol = () => {
 
 </div>
 <div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+  
 <div className="content_qa_card">
   <h5>
   Planning
@@ -236,7 +237,7 @@ const Cloudsol = () => {
 
 </div>
 <div className="inner_card_qa">
-  <img src={require('../Assets/3.jpg')} style={{height:"40%",width:"100%"}}/>
+
 <div className="content_qa_card">
   <h5>
   Planning

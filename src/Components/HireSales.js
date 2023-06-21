@@ -65,7 +65,7 @@ const HireSales = (props) => {
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">Hire Certified Salesforce Developer</h2>
               <p className="main-908">
@@ -85,9 +85,9 @@ const HireSales = (props) => {
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -124,20 +124,20 @@ const HireSales = (props) => {
         </div>
       </section>
 
-      {/* Contact */}
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
-            <h1 className="main-serv-ces-h1-head">
+         <div className="row p-2">
+             <center><h1 className="main-serv-ces-h1-head">
               Benefits of Hiring Offshore Dedicated OpenCart Developers
-            </h1>
-            <p className="main-services-para-main-card-top py-3">
+            </h1></center>
+           <center><p className="main-services-para-main-card-top py-3">
               We offer all-inclusive Shopify services that help add more
-              functionality, <br /> monitor performance, improve sales channels
-              & inventory <br /> management, and many more.
-            </p>
-            <div className="col-md-2 card-main-div-main-card">
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -147,7 +147,7 @@ const HireSales = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -157,7 +157,7 @@ const HireSales = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -167,7 +167,7 @@ const HireSales = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -177,7 +177,7 @@ const HireSales = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -190,14 +190,14 @@ const HireSales = (props) => {
         </div>
       </section>
 
-      <section className="main-div-cli-lic p-5">
-        <div className="container p-5">
-          <div className="row p-5">
-            <h3 className="new-head-phy pb-5">
+         <section className="main-div-cli-lic">
+        <div className="container ">
+         <div className="row">
+            <center><h3 className="new-head-phy pl-2">
               Ways to Hire Our Shopify Specialists
-            </h3>
+            </h3></center>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -208,7 +208,7 @@ const HireSales = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -219,7 +219,7 @@ const HireSales = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4 col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -347,9 +347,9 @@ const HireSales = (props) => {
         </div>
       </div>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>

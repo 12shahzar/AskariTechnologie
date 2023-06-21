@@ -59,13 +59,15 @@ import php from "../Assets/php.png";
 import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
+import HireCompo from "./HireCompo";
+import Contactsub from "./Contactsub";
 
 const HireMagneto = (props) => {
   return (
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-5">
+         <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">Magento Development Services</h2>
               <p className="main-908">
@@ -85,10 +87,9 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </section>
-
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -98,7 +99,7 @@ const HireMagneto = (props) => {
                   Partner with the Seasoned Shopify Website Developers
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari  is a leading Shopify development company that offers
+                  Askari is a leading Shopify development company that offers
                   end-to-end custom Shopify development services. We have an
                   impressive track record of delivering diverse IT solutions and
                   services to our clients for over 16 years.<br></br> <br></br>{" "}
@@ -112,7 +113,7 @@ const HireMagneto = (props) => {
                   accommodate your complex Shopify development requirements. We
                   help you develop, design, test, deploy, and maintain your
                   eStore. This helps your users to have a smooth experience.
-                  Askari  is the first choice for startups and enterprises that
+                  Askari is the first choice for startups and enterprises that
                   want to take their entire store online and provide their users
                   with a flawless experience. This is the major reason why we
                   have been able to serve more than 1000 clients. You can be the
@@ -124,21 +125,19 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </section>
-
-      {/* Contact */}
-
+      <Contactsub/>
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-5">
-            <h1 className="main-serv-ces-h1-head">
-              Why You Should Hire Someone to Build Shopify Stores
-            </h1>
-            <p className="main-services-para-main-card-top py-3">
+         <div className="row p-2">
+            <center><h3 className="new-head-phy pl-2">
+              Ways to Hire Our Shopify Specialists
+            </h3></center>
+           <center><p className="main-services-para-main-card-top py-3">
               We offer all-inclusive Shopify services that help add more
-              functionality, <br /> monitor performance, improve sales channels
-              & inventory <br /> management, and many more.
-            </p>
-            <div className="col-md-2 card-main-div-main-card">
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -148,7 +147,7 @@ const HireMagneto = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -158,7 +157,7 @@ const HireMagneto = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -168,7 +167,7 @@ const HireMagneto = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -178,7 +177,7 @@ const HireMagneto = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 card-main-div-main-card">
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
                 Set up and configure your Shopify store per your business
@@ -190,15 +189,14 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </section>
-
-      <section className="main-div-cli-lic p-5">
-        <div className="container p-5">
-          <div className="row p-5">
-            <h3 className="new-head-phy pb-5">
+         <section className="main-div-cli-lic">
+        <div className="container ">
+         <div className="row">
+            <center><h3 className="new-head-phy pl-2">
               Ways to Hire Our Shopify Specialists
-            </h3>
+            </h3></center>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -209,7 +207,7 @@ const HireMagneto = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -220,7 +218,7 @@ const HireMagneto = (props) => {
               </p>
             </div>
 
-            <div className="col-lg-3 vbl-card-sli text-center m-auto">
+            <div className="col-lg-4 col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
@@ -233,70 +231,7 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </section>
-
-      <div className="rowheading  hirecontainer">
-        <h2 className="pad2">{props.Text}</h2>
-        <div className="row textcent">
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Note} />
-            </div>
-            <h4 className="pad">Share Requirements</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={CV} />
-            </div>
-            <h4 className="pad">Shortlist CVs</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Meeting} />
-            </div>
-            <h4 className="pad">Conduct Interviews</h4>
-          </div>
-          <div className="col hiddenarrow " style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Avatar} />
-            </div>
-            <h4 className="pad">Select Shopify Experts</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww " />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Remote} />
-            </div>
-            <h4 className="pad">Remote Onboarding</h4>
-          </div>
-        </div>
-      </div>
-
+      <HireCompo />
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
@@ -347,10 +282,9 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </div>
-
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
-          <div className="row p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -381,7 +315,6 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </section>
-
       <Faq />
     </>
   );

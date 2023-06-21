@@ -25,7 +25,7 @@ import Banner from "../Assets/vuejsMain.png";
 const Outsoucres = (props) => {
   const ServcicesCard = ({ Heading, Para }) => {
     return (
-      <div className="col-md-2 services-card ">
+      <div className="col-md-2 col-sm-8 services-card ">
         <h4 className="car-heading">{Heading}</h4>
         <p className="card-para">{Para}</p>
       </div>
@@ -143,9 +143,9 @@ const Outsoucres = (props) => {
 
       <section className="services py-5">
         <div className="container">
-          <h3 className="services-head">
+          <center><h3 className="services-head">
             Why You Should Hire Someone to Build Shopify Stores
-          </h3>
+          </h3></center>
           <p className="services-para text-center">
             From Salesforce integration consulting to Salesforce service cloud
             integration through third-party tools like Quickbooks, VoIP, etc.,
@@ -202,7 +202,7 @@ const Outsoucres = (props) => {
           </h2>
 
           <div className="row leading-card-row py-4">
-            <div className="col-md-2 leadin-card p-5 ">
+            <div className="col-md-2 col-sm-8 leadin-card p-5 ">
               <h5 className="leading-card-head">Quality Solutions</h5>
               <p className="leading-card-para">
                 WWhether you want to customize the user interface, workflow, or
@@ -211,7 +211,7 @@ const Outsoucres = (props) => {
                 competitors.
               </p>
             </div>
-            <div className="col-md-2 leadin-card p-5  ">
+            <div className="col-md-2 col-sm-8 leadin-card p-5  ">
               <h5 className="leading-card-head">High ROI</h5>
               <p className="leading-card-para">
                 Customization enhances the CRM capabilities, resulting in
@@ -220,7 +220,7 @@ const Outsoucres = (props) => {
               </p>
             </div>
 
-            <div className="col-md-2 leadin-card p-5 ">
+            <div className="col-md-2 col-sm-8 leadin-card p-5 ">
               <h5 className="leading-card-head">Flexibility And Speed</h5>
               <p className="leading-card-para">
                 ur Salesforce experts make customization and deployment easier
@@ -228,7 +228,7 @@ const Outsoucres = (props) => {
                 growing business.
               </p>
             </div>
-            <div className="col-md-2 leadin-card p-5 ">
+            <div className="col-md-2 col-sm-8 leadin-card p-5 ">
               <h5 className="leading-card-head">Make Smart Decisions</h5>
               <p className="leading-card-para">
                 We offer customization services to reduce your team’s workload,

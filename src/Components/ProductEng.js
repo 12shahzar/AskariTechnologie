@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import bg from "../Assets/bg.png";
 import Technologywework from "../Components/Technologywework.jsx"
 import pic1 from "../Assets/pic1.png";
-
+import Faq from "../Components/Faq"
 import pic3 from "../Assets/pic3.png";
 import pic4 from "../Assets/pic4.png";
 import pic5 from "../Assets/pic5.png";
@@ -178,7 +178,8 @@ const ProductEng = () => {
       </div>
 
       <section className="your_patner_pro ">
-        <h2>Your Partner at Each Stage of PDLC</h2>
+        <h2>Our Collaborator for Each Phase of PDLC
+</h2>
         <p>We provide comprehensive software engineering services that address the technology stack throughout the product lifecycle, delivering increased revenue and service levels.</p>
           
           {/* lower cards */}
@@ -188,12 +189,13 @@ const ProductEng = () => {
                     <img  src={require("../Assets/card_sub1.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+              <center> <h5 className="sub_card_heading">
+              Agile
+                </h5></center> 
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
+                Elevate your current product with the expertise of our skilled team. We enhance its capabilities,
+introduce new features, and address any flaws or bugs to deliver an exceptional user
+experience                </p>
 
 
               </div>
@@ -207,14 +209,11 @@ const ProductEng = () => {
                     <img  src={require("../Assets/card_sub2.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+              <center> <h5 className="sub_card_heading">
+              Excellence
+                </h5></center> 
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
-
-
+                Our dedicated team takes full responsibility for testing and quality assurance, ensuring  product standards. With a comprehensive parameter ecosystem, each product undergoes rigorous checks. Experience our proven approach for consistently delivering top-notch, thoroughly tested products.                </p>
               </div>
               
              
@@ -227,12 +226,11 @@ const ProductEng = () => {
                     <img  src={require("../Assets/crad_sub3.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+              <center><h5 className="sub_card_heading">
+              Sustaining Solutions
+                </h5></center>  
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
+                Enduring customer relationships through comprehensive maintenance and support. Proactive resolution of security issues, server downtime, errors, and bugs. Uninterrupted product operation ensured with round-the-clock, high-quality support.                </p>
 
 
               </div>
@@ -246,12 +244,11 @@ const ProductEng = () => {
                     <img  src={require("../Assets/crad_sub4.png")}/>
               </div>
               <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Product Consulting
-                </h5>
+               <center><h5 className="sub_card_heading">
+                Strategic Consulting
+                </h5></center> 
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
+                Our analysis and recommendations are driven by a strategic software product engineering roadmap, ensuring the use of the most suitable tech stack. This enables us to develop interfaces that align with human-centered design principles.                </p>
 
 
               </div>
@@ -266,11 +263,11 @@ const ProductEng = () => {
               </div>
               <div className="sub_card_pro_eng_footer">
                 <h5 className="sub_card_heading">
-                Product Consulting
+                Diverse Industry Reach
                 </h5>
                 <p className="para_pro_card_eng">
-                 product engineering of human-centered design. We evaluate all the key aspects to ensure you have the perfect product interface with wireframes, prototypes, and minimum viable products. With appealing UI/UX and easy-to-navigate systems, we provide a one-of-a-kind experience to your users.
-                </p>
+                By merging our expertise with deep industry knowledge, we empower businesses across
+diverse sectors to leverage digital technology and craft captivating digital experiences                </p>
 
 
               </div>
@@ -364,6 +361,7 @@ const ProductEng = () => {
          
         </div>
       </section>
+      <Faq/>
     </div>
   );
 };

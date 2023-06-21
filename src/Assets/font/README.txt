@@ -1,5 +1,5 @@
 Mulish Variable Font
-====================
+======
 
 This download contains Mulish as both variable fonts and static fonts.
 

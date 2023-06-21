@@ -117,25 +117,7 @@
 
 }
 
-.conact-c1 {
-    background-image: url('../Assets/contactbg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.contact-head {
-
-    margin-top: -170px;
-    font-size: 40px;
-    text-align: left;
-    font-weight: bolder;
-    font-family: "Segoe UI";
-    /* or 110% *
-    /* base/white */
-    color: #ffffff;
-    letter-spacing: 0.5px;
-    margin-left: 30%;
-}
 
 .main-serv-ces-h1-head {
     font-family: 'Segoe UI';
@@ -143,9 +125,9 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-
     color: #4050AF;
 }
+  
 
 .main-services-para-main-card-top {
     font-family: 'Segoe UI';
@@ -162,7 +144,7 @@ padding-top:1rem ;    line-height: 37px;
     color: #686868;
 }
 .card-main-div-main-card{
-    width: 200px;
+   
    text-align: center;
    background: #FEFEFE;
 box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
@@ -268,7 +250,10 @@ color: #140239;
 /* margin top - */
 .main-services-card-main-div{
     padding-top: 0!important;
-    margin-top: 3rem!important;
+    display: flex;
+   
+   
+    
 }
 
 .main-roe{
@@ -278,12 +263,10 @@ color: #140239;
     margin-top: -4rem !important;
 }
 .newul {
-    margin-bottom: 20%;
+    margin-bottom: 15%;
+    list-style: circle;
 }
-.newul li{
-line-height: 10px;
-list-style: circle;
-}
+
 .bolet-btn-main{
     padding: 11px 33px;
     
@@ -300,9 +283,26 @@ list-style: circle;
     background: #3D4DAE;
     
 }
-.Second-div-2-pictue-about{
-    margin-top: -6rem;
-}
-.main-services-card-main-div{
-    margin-top: -9rem !important;
-}
+@media only screen and (max-width: 420px) {
+   
+    .arrivals-card-arrival
+    {
+        display: none;
+    }
+    .for-baground-images {
+        background-image: url(../Assets/shopfygrade.png);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .main-serv-ces-h1-head {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 64px;
+        color: #4050AF;
+    }
+      
+
+  }
