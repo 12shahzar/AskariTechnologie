@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Solution.css";
 import img1sol from "../Assets/sol/Group.png";
-import img1sol12 from "../Assets/MacBook Pro 16.png";
+import sol5 from "../Assets/sol5pic.png";
 import "bootstrap/dist/css/bootstrap.css";
 import img3 from "../Assets/images/client_connect_app_img.png";
 import img4 from "../Assets/images/client_keyboard_app.png";
@@ -14,12 +14,10 @@ function Solution5() {
     <div className="banner_Solution5">
       <div className="Solutionbanner1_section">
         <h2>
-          Empowering Digital Transformation with Custom Portal Solutions
+        Empowering Agriculture with Innovative Solutions
         </h2>
         <p>
-          Custom portal solutions are revolutionizing digital transformation
-          by empowering businesses to streamline processes, enhance
-          collaboration, and deliver personalized experiences to stakeholders.
+        AgroGenius is a comprehensive agricultural management software designed to revolutionize the way farmers and livestock managers operate. With its wide range of features and user-friendly interface, AgroGenius streamlines agricultural processes, maximizes productivity, and ensures sustainable growth in the industry. From crop management to livestock monitoring, 
         </p>
       </div>
      
@@ -43,7 +41,7 @@ function Solution5() {
           </p>
         </div>
         <div className="section2_img">
-          <img src={img1sol12} className="imgsizing_sol2" />
+          <img src={sol5} className="imgsizing_sol2" />
         </div>
       </section>
       <section className="section2_solution">

@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Solution.css";
 import img1sol from "../Assets/sol/Group.png";
-import img1sol12 from "../Assets/MacBook Pro 16.png";
+import img1sol12 from "../Assets/sol1pic.png";
 import "bootstrap/dist/css/bootstrap.css";
 import img3 from "../Assets/images/client_connect_app_img.png";
 import img4 from "../Assets/images/client_keyboard_app.png";
@@ -322,7 +322,7 @@ function Solution1() {
 
       <div className="container mt-5 mb-5  ">
         <div className="row ">
-          <div className="col-lg-8">
+          <div className="col-lg-8 ">
             <h1 className="text-askari-primary fw-bold mt-5">
               Industries and How ClientConnect Helps Them
             </h1>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Solution.css";
 import img1sol from "../Assets/sol/Group.png";
-import img1sol12 from "../Assets/MacBook Pro 16.png";
+import sol2 from "../Assets/sol2pic.png";
 import "bootstrap/dist/css/bootstrap.css";
 import img3 from "../Assets/images/client_connect_app_img.png";
 import img4 from "../Assets/images/client_keyboard_app.png";
@@ -13,12 +13,10 @@ function Solution2() {
     <div className="banner_Solution2">
       <div className="Solutionbanner1_section">
         <h2>
-          Empowering Digital Transformation with Custom Portal Solutions
+        Streamlined Sales Management and Order Booking
         </h2>
         <p>
-          Custom portal solutions are revolutionizing digital transformation
-          by empowering businesses to streamline processes, enhance
-          collaboration, and deliver personalized experiences to stakeholders.
+        Instant Sales, a cutting-edge Salesforce software developed by our company, offers a comprehensive solution for efficient sales management and streamlined order booking processes. With its advanced features and user-friendly interfaces, Instant Sales empowers businesses to optimize their sales operations, enhance productivity, and drive revenue growth.
         </p>
       </div>
      
@@ -42,7 +40,7 @@ function Solution2() {
           </p>
         </div>
         <div className="section2_img">
-          <img src={img1sol12} className="imgsizing_sol2" />
+          <img src={sol2} className="imgsizing_sol2" />
         </div>
       </section>
       <section className="section2_solution">

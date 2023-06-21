@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Solution.css";
 import img1sol from "../Assets/sol/Group.png";
-import img1sol12 from "../Assets/MacBook Pro 16.png";
+import sol3 from "../Assets/solo3pic.png";
 import "bootstrap/dist/css/bootstrap.css";
 import img3 from "../Assets/images/client_connect_app_img.png";
 import img4 from "../Assets/images/client_keyboard_app.png";
@@ -14,12 +14,10 @@ function Solution3() {
     <div className="banner_Solution3">
       <div className="Solutionbanner1_section">
         <h2>
-          Empowering Digital Transformation with Custom Portal Solutions
+        Revolutionizing School Management with AI-Powered Features
         </h2>
         <p>
-          Custom portal solutions are revolutionizing digital transformation
-          by empowering businesses to streamline processes, enhance
-          collaboration, and deliver personalized experiences to stakeholders.
+        CognitiveEdu, developed by Askari Technologies, is a cutting-edge School Management System equipped with advanced AI features. It revolutionizes school administration, teaching, and learning by offering intelligent attendance management, personalized learning paths, smart grading, data analytics, AI-powered student support, automated administrative tasks, parent communication, and resource optimization.
         </p>
       </div>
      
@@ -43,7 +41,7 @@ function Solution3() {
           </p>
         </div>
         <div className="section2_img">
-          <img src={img1sol12} className="imgsizing_sol2" />
+          <img src={sol3} className="imgsizing_sol2" />
         </div>
       </section>
       <section className="section2_solution">
