@@ -322,7 +322,7 @@ function Solution1() {
 
       <div className="container mt-5 mb-5  ">
         <div className="row ">
-          <div className="col-lg-8">
+          <div className="col-lg-8 ">
             <h1 className="text-askari-primary fw-bold mt-5">
               Industries and How ClientConnect Helps Them
             </h1>
