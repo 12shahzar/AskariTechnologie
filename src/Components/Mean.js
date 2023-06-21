@@ -59,6 +59,7 @@ import php from "../Assets/php.png";
 import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
+import HireCompo from "./HireCompo";
 
 const Mean = (props) => {
   return (
@@ -238,68 +239,7 @@ const Mean = (props) => {
         </div>
       </section>
 
-      <div className="rowheading  hirecontainer">
-        <h2 className="pad2">{props.Text}</h2>
-        <div className="row textcent">
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Note} />
-            </div>
-            <h4 className="pad">Share Requirements</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={CV} />
-            </div>
-            <h4 className="pad">Shortlist CVs</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Meeting} />
-            </div>
-            <h4 className="pad">Conduct Interviews</h4>
-          </div>
-          <div className="col hiddenarrow " style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww" />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Avatar} />
-            </div>
-            <h4 className="pad">Select Shopify Experts</h4>
-          </div>
-          <div className="col hiddenarrow" style={{ marginTop: "-100px" }}>
-            <img src={Vector} className="arroww " />
-          </div>
-          <div
-            className="col textcent"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <div className="ellipes">
-              <img src={Remote} />
-            </div>
-            <h4 className="pad">Remote Onboarding</h4>
-          </div>
-        </div>
-      </div>
+      <HireCompo />
 
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
