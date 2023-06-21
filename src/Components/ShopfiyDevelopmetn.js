@@ -32,8 +32,8 @@ const ShopfiyDevelopmetn = () => {
 
       {/* New second Section */}
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
@@ -76,9 +76,9 @@ const ShopfiyDevelopmetn = () => {
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
          <div className="row p-2">
-            <h1 className="main-serv-ces-h1-head">
-              Shopify Development <br></br> Services That We Offer
-            </h1>
+          <center> <h1 className="main-serv-ces-h1-head">
+              Shopify Development  Services That We Offer
+            </h1></center> 
            <center><p className="main-services-para-main-card-top py-3">
               We offer all-inclusive Shopify services that help add more
               functionality, monitor performance, improve sales channels
@@ -194,8 +194,8 @@ const ShopfiyDevelopmetn = () => {
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />

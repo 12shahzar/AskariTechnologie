@@ -89,8 +89,8 @@ const Asp = (props) => {
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
@@ -290,8 +290,8 @@ const Asp = (props) => {
         </div>
       </div>
 
-      <section className="Second-div-2-pictue-about">
-        <div className="container p-5">
+       <section className="Second-div-2-pictue-about">
+        <div className="container ">
          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />

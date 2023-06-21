@@ -283,3 +283,26 @@ color: #140239;
     background: #3D4DAE;
     
 }
+@media only screen and (max-width: 420px) {
+   
+    .arrivals-card-arrival
+    {
+        display: none;
+    }
+    .for-baground-images {
+        background-image: url(../Assets/shopfygrade.png);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .main-serv-ces-h1-head {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 64px;
+        color: #4050AF;
+    }
+      
+
+  }
