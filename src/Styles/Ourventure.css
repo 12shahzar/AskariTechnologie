@@ -192,6 +192,7 @@
     justify-content: space-between;
     flex-direction: column;
   }
+  
   .five_venture {
     height: 90vh;
     width: 100%;
@@ -200,8 +201,12 @@
     justify-content: space-between;
     flex-direction: column;
   }
+  .vent{
+    margin-top: -50vh;
+    margin-bottom: -15vh;
+  }
   .six_venture {
-    height: 150vh;
+    height: 110vh;
     width: 100%;
   
     display: flex;
@@ -278,5 +283,7 @@
 {
   height: 30px;
 }
+
+
 
 }

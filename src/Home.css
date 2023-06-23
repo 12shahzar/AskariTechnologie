@@ -1,8 +1,9 @@
 .hero {
-  background-image: url("./Assets/images/hero-bg.png");
+  background-image: url("./Assets/hro.png");
   background-repeat: no-repeat;
   height: fit-content;
   height: 700px;
+  
 }
 .conti{
   font-size: 48px;
