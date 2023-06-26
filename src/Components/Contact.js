@@ -5,6 +5,8 @@ import Meeting from "../Assets/meetingcont.png";
 import Circle1 from "../Assets/circle1.png";
 import Circle2 from "../Assets/circle2.png";
 import Flag from "./Flag";
+import Rangea from "./range";
+import RangeD from "./range";
 
 const Contact = () => {
   const rangeInput = document.querySelectorAll(".range-input input"),
@@ -81,7 +83,7 @@ const Contact = () => {
               <div className="col">
                 <h5 className="Howdoes">Understanding You</h5>
                 <p>Our friendly team would love to hear from you.</p>
-                <div className="row">
+                <div className="row ">
                   <div className="col">
                     <div class="mb-3 labelcustom">
                       <label for="formGroupExampleInput" class=" ">
@@ -117,29 +119,22 @@ const Contact = () => {
                   <div class="mb-3 labelcustom">
   <label for="exampleFormControlInput1" class="">Phone number</label>
 </div>
-                    <div className="col-5" style={{ display: "flex" }}>
-                      
-                      <select class="form-select" id="autoSizingSelect">
-                        <option selected disabled></option>
-                        <option value="1">USA</option>
-                        <option value="2">Aus</option>
-                        <option value="3">PAK</option>
-                        <option value="4">UAE</option>
-                      </select>
+                  
+                 
                       <div
-                        className="col-7 num"
-                        style={{ display: "flex" }}
+                       className="labelcustom"
+                        
                       >
                         <input
-                          type="text"
+                          type="number"
                           class="form-control"
-                          placeholder="City"
+                          placeholder="Number"
                           aria-label="City"
                         />
                       </div>
-                    </div>
+                  
 
-                    <div class="mb-3 " style={{fontSize:'16px'}}>
+                    <div class="mb-3  " style={{fontSize:'16px',marginTop:'12px'}}>
                       <label for="formGroupExampleInput2" class="">
                       Company Name
                       </label>
@@ -219,21 +214,22 @@ const Contact = () => {
   </div>
 </div>
 
-                <div class="smll1">
+                <div class="" style={{display:"flex " , flexDirection:"row", paddingBottom:"60px"}}>
                   <input
-                    class=""
+                    className=""
                     type="checkbox"
                     value=""
                     id=""
                     
                   />
-                  <label class="" for="" style={{paddingBottom:'60px'}}>
+                  <label className="" for="" style={{marginLeft:"5PX"}}>
                     You agree to our friendly privacy policy.
                   </label>
                 </div>
                 <button type="submit" class="btn btmcontact" >
                   Send message
                 </button>
+                {/* <RangeD/> */}
               </div>
               <div className="col hidecolimg">
                 <img src={Meeting} alt="" className="img-fluid py-5" />

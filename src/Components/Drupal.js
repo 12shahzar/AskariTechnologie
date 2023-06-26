@@ -60,29 +60,29 @@ import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
 import Contactsub from "./Contactsub";
-import { HashLink } from "react-router-hash-link";
 
 const Drupal = (props) => {
   return (
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">
                 Hire Skilled & Experienced Drupal Developers
               </h2>
               <p className="main-908">
-                Unlock the power of Drupal by hiring Drupal developers from
-                Askari Technologies. Build robust and dynamic websites using the
-                expertise of our skilled and experienced Drupal developers.
-                Whether you need minor enhancements, seamless integrations, or
-                comprehensive migrations, our dedicated Drupal developers have
-                got you covered.
+                Are you looking for skilled resources who can deliver
+                high-quality Drupal web solutions? At Askari CS, we have
+                certified Drupal professionals who work diligently to help your
+                business create unique and feature-rich solutions. Our Drupal
+                solutions are customer-centric and can contribute greatly to
+                your conversion rate and business growth. Ready to embark on a
+                journey of tech innovation?
               </p>
-              <HashLink to={"#contact-us"}>
-                <button className="firt-main-btn">Hire Dedicated Drupal</button>
-              </HashLink>
+              <button className="firt-main-btn">
+                Hire Dedicated Drupal 
+              </button>
             </div>
             <div className="col-lg-6">
               <img src={MainFirst} alt="" className="img-fluid" />
@@ -91,35 +91,38 @@ const Drupal = (props) => {
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Partner with Seasoned Drupal Website Developers
+                  Accelerate Business Growth with Seasoned Drupal Programmers
                 </h2>
                 <p className="about-main-content-parap">
-                  At Askari Technologies, we have a team of seasoned Drupal
-                  experts who excel in creating scalable and feature-rich
-                  websites for businesses of all sizes. With their extensive
-                  knowledge and expertise gained over years of experience, our
-                  Drupal developers are well-equipped to cater to your custom
-                  needs. From expanding website functionalities to customizing
-                  Drupal themes, they ensure your project is tailored to
-                  perfection.<br></br> <br></br> Our Drupal experts at Askari
-                  Technologies are committed to delivering exceptional web
-                  development solutions using industry best practices. Following
-                  an agile methodology, we prioritize feedback, testing, and
-                  iterative development to ensure your project's success.{" "}
-                  <br></br> <br></br>
-                  When you hire skilled and experienced Drupal developers from
-                  Askari Technologies, you can trust them to understand your
-                  requirements and transform them into high-performing websites
-                  within your budget.
+                  Askari  is a leading Shopify development company that offers
+                  end-to-end custom Shopify development services. We have an
+                  impressive track record of delivering diverse IT solutions and
+                  services to our clients for over 16 years.<br></br> <br></br>{" "}
+                  With Askari , you get all the valuable solutions for your
+                  eCommerce needs. We have crafted our Shopify store development
+                  services in such a way that it offers easy management of
+                  content, product, and orders. This allows you to have complete
+                  control over your Shopify store. We have a team of Shopify
+                  developers with in-depth <br></br> <br></br>
+                  knowledge of all the cutting-edge technology stacks that can
+                  accommodate your complex Shopify development requirements. We
+                  help you develop, design, test, deploy, and maintain your
+                  eStore. This helps your users to have a smooth experience.
+                  Askari  is the first choice for startups and enterprises that
+                  want to take their entire store online and provide their users
+                  with a flawless experience. This is the major reason why we
+                  have been able to serve more than 1000 clients. You can be the
+                  next in that illustrious list of our clients by successfully
+                  fulfilling your business objectives with us!
                 </p>
               </div>
             </div>
@@ -127,110 +130,109 @@ const Drupal = (props) => {
         </div>
       </section>
 
-      <Contactsub />
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-2">
-            <center>
-              <h1 className="main-serv-ces-h1-head">
-                Our Drupal Developers' Expertise
-              </h1>
-            </center>
-
+         <div className="row p-2">
+             <center><h1 className="main-serv-ces-h1-head">
+              Benefits of Hiring Offshore Dedicated OpenCart Developers
+            </h1></center>
+           <center><p className="main-services-para-main-card-top py-3">
+              We offer all-inclusive Shopify services that help add more
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Drupal Website Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Leverage the flexibility and power of Drupal for building
-                dynamic websites with our skilled Drupal developers. They have
-                the expertise to create visually appealing designs and intuitive
-                user experiences for your online presence.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Custom Drupal Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Hire Drupal developers to create custom solutions that align
-                with your unique business requirements. Our developers are
-                experienced in developing custom modules, themes, and extensions
-                to extend the functionality of your Drupal website.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Drupal Theme Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Our developers are recognized for their expertise in Drupal
-                theme development. By hiring Drupal experts from Askari
-                Technologies, you can have custom themes designed to enhance the
-                visual appeal and user experience of your website.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Drupal Module Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Extend the functionality of your Drupal website by hiring Drupal
-                developers who excel in module development. Our experts can
-                create custom modules or customize existing ones to meet your
-                specific business needs.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Drupal Migration Services</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Migrate your existing website to Drupal seamlessly with the help
-                of our Drupal experts. They ensure a smooth transition, data
-                integrity, and optimal performance during the migration process.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="main-div-cli-lic">
+         <section className="main-div-cli-lic">
         <div className="container ">
-          <div className="row">
-            <center>
-              <h3 className="new-head-phy pl-2">
-                Why You Should Hire Skilled & Experienced Drupal Developers
-              </h3>
-            </center>
+         <div className="row">
+            <center><h3 className="new-head-phy pl-2">
+              Ways to Hire Our Shopify Specialists
+            </h3></center>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
-              <p className="hour ">Transparent Conduct</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                When you hire remote Drupal developers, you gain access to
-                development resources and open channels of communication. Our
-                developers provide regular reports, maintain transparency, and
-                ensure streamlined communication to keep everyone on the same
-                page.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
-              <p className="hour ">Cost Saving</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                By hiring Drupal developers from Askari Technologies, you
-                eliminate the need for team management and infrastructure
-                investment. You only pay for the developers' performance and the
-                time spent on your project, while they take care of the rest.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
 
             <div className="col-lg-4 col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
-              <p className="hour ">Scalable Team</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                Outsourcing Drupal programmers allows you to scale your web
-                development projects without compromising quality. Hiring
-                skilled and experienced Drupal developers provides access to
-                their industry knowledge and expertise, enabling you to stay
-                ahead of the competition.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
           </div>
@@ -302,7 +304,9 @@ const Drupal = (props) => {
 
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
-
+        <h6 className="subHead mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipis elit
+        </h6>
         <div class="container container-fluid">
           <div class="row">
             <div class="col-md-4 col-sm-12 column border_right_bottom">
@@ -349,43 +353,34 @@ const Drupal = (props) => {
         </div>
       </div>
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Why Choose Askari Technologies for Hiring Drupal Developers?
+                  Innovation Led Microsoft Dynamics Implementation
                 </h2>
                 <p className="h2-h3-h4">
-                  When you hire Drupal web developers from BiztechCS, you sign
-                  up for quality development, timely delivery, secure services,
-                  and affordable costs. We boast a team of developers who have
-                  mastered working on Drupal CMS and are well acquainted with
-                  the latest updates to assist you better.
+                  We combine the power of platforms and technologies with our
+                  innovation and industry expertise to drive large-scale,
+                  customer-centric transformation.
                 </p>
                 <ul className="newul">
-                  <li>Talented Drupal Professionals</li>
-                  <li>Proven Experience in CRM solutions</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
 
-                  <li>100% Source Code Authorization</li>
-                  <li>Flexible Engagement Models</li>
-                  <li>On-time Delivery of Projects</li>
-                  <li>Dynamic Development</li>
-                  <li>Work Experience</li>
-                  <li>Confidentiality and Integrity</li>
-                  <li>Round-the-clock Technical Support</li>
-                  <li>Error-free Solutions</li>
-                  <li>Streamlined Project Management</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
                 </ul>
-                <HashLink to={"#contact-us"}>
-                  <button className="bolet-btn-main">
-                    Request Consultation
-                  </button>
-                </HashLink>
+                <button className="bolet-btn-main">Request Consultation</button>
               </div>
             </div>
           </div>

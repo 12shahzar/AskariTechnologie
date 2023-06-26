@@ -1,10 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../Styles/ProductEng.css";
-import { HashLink } from "react-router-hash-link";
-import left2_ecom from "../Assets/mask_ecom.png";
-import Technologywework from "../Components/Technologywework.jsx";
-import Endtwo from "../Components/Endtwo.jsx";
+import { HashLink } from 'react-router-hash-link';
+import left2_ecom from '../Assets/mask_ecom.png'
+import Technologywework from "../Components/Technologywework.jsx"
+import Endtwo from "../Components/Endtwo.jsx"
 import pic1 from "../Assets/pic1.png";
 
 import pic3 from "../Assets/pic3.png";
@@ -36,6 +36,7 @@ import Contactsub from "./Contactsub";
 
 const EcommerceService = () => {
   return (
+  
     <div className="bodycontent">
       <div className="bannner-image">
         {/* <p className="text-center text-white ">
@@ -43,163 +44,135 @@ const EcommerceService = () => {
         </p> */}
 
         <div className="">
-          <p style={{ fontSize: "15px" }}>End to End</p>
+          <p style={{fontSize:"15px"}}>End to End</p>
           <br></br>
-          <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
-            Ecommerce Development <br />
+          <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
+    
+Ecommerce Development <br />
           </h1>
-          <h1 style={{ fontWeight: "bolder", marginTop: "1%" }}>Services</h1>
-          <p
-            style={{
-              fontSize: "13px",
-              marginBottom: "2%",
-              marginTop: "-20px",
-              width: "40%",
-            }}
-          >
-            Elevate your customer experience through a harmonious blend of brand
-            objectives and cutting-edge technology stacks like Magento, Shopify,
-            and BigCommerce. Unlock the potential of eCommerce for various
-            business models, including B2B, B2C, C2C, and more, by leveraging
-            our expertise in custom eCommerce development solutions.
+          <h1 style={{fontWeight:"bolder",marginTop:"1%"}} >
+          Services
+          </h1>
+          <p style={{fontSize:"13px",marginBottom:"2%",marginTop:"-20px",width:"40%"}}>
+          Elevate your customer experience through a harmonious blend of brand objectives and
+cutting-edge technology stacks like Magento, Shopify, and BigCommerce. Unlock the potential
+of eCommerce for various business models, including B2B, B2C, C2C, and more, by leveraging
+our expertise in custom eCommerce development solutions.
+
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro">Request Consultation</button>
-          </HashLink>
+            </HashLink>
+          
         </div>
       </div>
       <div className="row mainsection">
         <div className="col">
           <div class="image-container">
-            <img
-              src={ecommerce_capab}
-              alt="PNG Image"
-              class="overlay-image"
-              style={{ width: "100%", height: "60%", marginTop: "20%" }}
-            />
+            
+            <img src={ecommerce_capab} alt="PNG Image" class="overlay-image"  style={{width:"100%",height:"60%",marginTop:'20%'}}/>
           </div>
         </div>
-        <div className="col servicespara">
-          <h3>
-            Tailoring Ecommerce <br /> Development to Maximize <br /> Profits
+        <div className="col servicespara" >
+          <h3  >
+          Tailoring Ecommerce  <br /> Development to Maximize {" "}
+            <br /> Profits
           </h3>
           <p>
-            Want to revolutionize your digital presence? We can accelerate your
-            business with our custom eCommerce solutions and services. Our
-            eCommerce experts can assist you in integrating features,
-            customizing the frontend, and developing an e-store from scratch for
-            Magento, Shopify, Drupal, and other platforms. At Askari ,
+          Want to revolutionize your digital presence? We can accelerate your business with our custom eCommerce solutions and services. Our eCommerce experts can assist you in integrating features, customizing the frontend, and developing an e-store from scratch for Magento, Shopify, Drupal, and other platforms.
+At Askari , 
           </p>
           <p>
-            we provide bespoke development services to ensure that an eCommerce
-            solution meets your business needs. While developing your e-store,
-            our developers consider all the aspects related to design, features,
-            tech stack, security, integrations, etc., to provide you with a
-            fully functional e-store without any bugs or glitches.
+        
+          we provide bespoke development services to ensure that an eCommerce solution meets your business needs. While developing your e-store, our developers consider all the aspects related to design, features, tech stack, security, integrations, etc., to provide you with a fully functional e-store without any bugs or glitches.
           </p>
+
+          
         </div>
       </div>
       <div className="container">
-        <div
-          className="align_product"
-          style={{ display: "flex", flexDirection: "column" }}
-        >
-          <h3 style={{ alignSelf: "center" }}>
-            Our Ecommerce Development Services and Expertise
-          </h3>
-          <p>
-            Experience the power of our stable, secure, and adaptable eCommerce
-            solutions that elevate customer satisfaction, drive sales growth,
-            and fuel business expansion!
+        <div className="align_product" style={{display:"flex",flexDirection:"column"}}>
+        <h3 style={{alignSelf:"center"}} >Our Ecommerce Development Services and Expertise</h3>
+          <p >
+          Experience the power of our stable, secure, and adaptable eCommerce solutions that elevate
+customer satisfaction, drive sales growth, and fuel business expansion!
           </p>
         </div>
       </div>
       <div class="image-row container">
-        <div class="container">
-          <div class="row m-auto">
-            <div class="col-md-2 col-sm-6 m-auto">
-              <div class="box">
-                <img src={pe1} />
-                <div class="box-content">
-                  <h3 class="title">Product Ideation And Prototyping</h3>
-                  <span class="post">
-                    Get expert consultancy to validate your concept better,
-                    along with assistance with the plan, prototype, and next
-                    market launch.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2 col-sm-6 m-auto">
-              <div class="box">
-                <img src={pe2} />
-                <div class="box-content">
-                  <h3 class="title">Product Ideation And Prototyping</h3>
-                  <span class="post">
-                    Get expert consultancy to validate your concept better,
-                    along with assistance with the plan, prototype, and next
-                    market launch.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2 col-sm-6 m-auto">
-              <div class="box">
-                <img src={pe3} />
-                <div class="box-content">
-                  <h3 class="title">Product Ideation And Prototyping</h3>
-                  <span class="post">
-                    Get expert consultancy to validate your concept better,
-                    along with assistance with the plan, prototype, and next
-                    market launch.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2 col-sm-6 m-auto">
-              <div class="box">
-                <img src={pe4} />
-                <div class="box-content">
-                  <h3 class="title">Product Ideation And Prototyping</h3>
-                  <span class="post">
-                    Get expert consultancy to validate your concept better,
-                    along with assistance with the plan, prototype, and next
-                    market launch.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2 col-sm-6 m-auto">
-              <div class="box">
-                <img src={pe4} />
-                <div class="box-content">
-                  <h3 class="title">Product Ideation And Prototyping</h3>
-                  <span class="post">
-                    Get expert consultancy to validate your concept better,
-                    along with assistance with the plan, prototype, and next
-                    market launch.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2 col-sm-6 m-auto">
-              <div class="box">
-                <img src={pe4} />
-                <div class="box-content">
-                  <h3 class="title">Product Ideation And Prototyping</h3>
-                  <span class="post">
-                    Get expert consultancy to validate your concept better,
-                    along with assistance with the plan, prototype, and next
-                    market launch.
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="image-item">
+      <img src={pe1} alt="Image 1" />
+      {/* <div>
+        <h5>Ecommerce Store Development</h5>
+        <p>
+        We specialize in crafting bespoke e-stores across diverse platforms such as Magento, Shopify,
+Drupal, and more, guaranteeing a seamless buying experience. Regardless of the domain's
+complexity, we possess the expertise to handle every aspect with utmost proficiency!
+
+        </p>
+      </div> */}
+      
+    </div>
+    <div class="image-item">
+      <img src={pe2} alt="Image 2" />
+      {/* <div>
+        <h5>Mobile Commerce App Creation:
+</h5>
+        <p>
+        Harness the potential of our eCommerce development services to construct professional,
+innovative, and meticulously tailored eCommerce applications that captivate and retain the ideal
+audience
+
+        </p>
+      </div> */}
+    </div>
+    <div class="image-item">
+      <img src={pe3} alt="Image 3" />
+      {/* <div>
+        <h5>Ecommerce Platform Aggregator
+</h5>
+        <p>
+        If you seek a website or application that showcases a wide range of products from multiple
+vendors, our development services can assist you in creating a robust platform capable of
+accommodating diverse brands
+
+        </p>
+      </div> */}
+     
+    </div>
+    <div class="image-item">
+      <img src={pe4} alt="Image 4" />
+   {/* <div>
+        <h5>B2B and B2C Marketplaces
+</h5>
+        <p>
+        Embark on the journey to create a cutting-edge eCommerce marketplace akin to Amazon and
+eBay through our exceptional development services. Delight your customers with a
+comprehensive shopping destination that offers everything they need in one place.
+
+        </p>
+      </div> */}
       </div>
-      <Contactsub />
-      <Technologywework />
+     
+     
+  
+    <div class="image-item">
+      <img src={pe5} alt="Image 5" />
+      {/* <div>
+        <h5>Ecommerce Assistance and Upkeep
+</h5>
+        <p>
+        Experience seamless support and management around the clock, available whenever you need
+it. Our dedicated team ensures your eStore remains operational with regular updates and
+maintenance, guaranteeing uninterrupted performance
+
+        </p>
+      </div> */}
+     
+    </div>
+  </div>
+      <Contactsub/>
+      <Technologywework/>
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
@@ -253,107 +226,123 @@ const EcommerceService = () => {
 
       <section className="your_patner_pro ">
         <h2>More than Just Ecommerce Development Services</h2>
-        <p>
-          Development alone is not enough. Therefore, we provide an extensive
-          array of professional eCommerce development services that have the
-          potential to revolutionize the way your customers perceive your brand
-        </p>
+        <p>Development alone is not enough. Therefore, we provide an extensive array of professional
+eCommerce development services that have the potential to revolutionize the way your
+customers perceive your brand</p>
+          
+          {/* lower cards */}
+          <div className="container card_pro_eng_botm">
+            <div className="sub_card_pro_eng_botm">
+              <div className="sub_card_pro_eng_head">
+                    <img  src={require("../Assets/card_sub1.png")}/>
+              </div>
+              <div className="sub_card_pro_eng_footer">
+                <center><h5 className="sub_card_heading">
+                Efficiency
+                </h5></center>
+                <p className="para_pro_card_eng">
+                Our eCommerce professionals analyze your store's strengths and provide recommendations to overcome obstacles. We optimize solutions to offer valuable insights on customer journey, purchase history, and cart abandonment data. Our aim is to create a personalized and tailored experience for your customers.
+                </p>
 
-        {/* lower cards */}
-        <div className="container card_pro_eng_botm">
-          <div className="sub_card_pro_eng_botm">
-            <div className="sub_card_pro_eng_head">
-              <img src={require("../Assets/card_sub1.png")} />
+
+              </div>
+              
+             
+             
+
             </div>
-            <div className="sub_card_pro_eng_footer">
-              <center>
-                <h5 className="sub_card_heading">Efficiency</h5>
-              </center>
-              <p className="para_pro_card_eng">
-                Our eCommerce professionals analyze your store's strengths and
-                provide recommendations to overcome obstacles. We optimize
-                solutions to offer valuable insights on customer journey,
-                purchase history, and cart abandonment data. Our aim is to
-                create a personalized and tailored experience for your
-                customers.
-              </p>
+            <div className="sub_card_pro_eng_botm">
+              <div className="sub_card_pro_eng_head">
+                    <img  src={require("../Assets/card_sub2.png")}/>
+              </div>
+              <div className="sub_card_pro_eng_footer">
+               <center><h5 className="sub_card_heading">
+                Insightful
+                </h5></center> 
+                <p className="para_pro_card_eng">
+                Unlock growth potential through strategic consulting in eCommerce. Drive traffic, increase conversions, and optimize sales while streamlining operational processes. Leverage our expertise in marketing, technology, operations, and customer engagement to gain valuable insights into user journeys and buying behaviors.
+                </p>
+
+
+              </div>
+              
+             
+             
+
             </div>
-          </div>
-          <div className="sub_card_pro_eng_botm">
-            <div className="sub_card_pro_eng_head">
-              <img src={require("../Assets/card_sub2.png")} />
+            
+            <div className="sub_card_pro_eng_botm">
+              <div className="sub_card_pro_eng_head">
+                    <img  src={require("../Assets/crad_sub3.png")}/>
+              </div>
+              <div className="sub_card_pro_eng_footer">
+               <center><h5 className="sub_card_heading">
+               Analytics
+                </h5></center> 
+                <p className="para_pro_card_eng">
+                Experience seamless data management for your eCommerce business. Our cutting-edge services handle  data processing needs, including store catalog maintenance, product data uploads, and efficient data organization. Count on us to keep your data impeccably organized and readily accessible, empowering your business to thrive.                </p>
+
+
+              </div>
+              
+             
+             
+
             </div>
-            <div className="sub_card_pro_eng_footer">
-              <center>
-                <h5 className="sub_card_heading">Insightful</h5>
-              </center>
-              <p className="para_pro_card_eng">
-                Unlock growth potential through strategic consulting in
-                eCommerce. Drive traffic, increase conversions, and optimize
-                sales while streamlining operational processes. Leverage our
-                expertise in marketing, technology, operations, and customer
-                engagement to gain valuable insights into user journeys and
-                buying behaviors.
-              </p>
+            <div className="sub_card_pro_eng_botm">
+              <div className="sub_card_pro_eng_head">
+                    <img  src={require("../Assets/crad_sub4.png")}/>
+              </div>
+              <div className="sub_card_pro_eng_footer">
+               <center> <h5 className="sub_card_heading">
+                Ecommerce Audit
+                </h5></center>
+                <p className="para_pro_card_eng">
+                Our comprehensive eCommerce site auditing examines vital areas like SEO, content,
+performance, traffic, and conversion to uncover improvement opportunities and drive better
+outcomes.                </p>
+
+
+              </div>
+              
+             
+             
+
             </div>
+            <div className="sub_card_pro_eng_botm">
+              <div className="sub_card_pro_eng_head">
+                    <img  src={require("../Assets/crad_sub5.png")}/>
+              </div>
+              <div className="sub_card_pro_eng_footer">
+                <center><h5 className="sub_card_heading">
+                Promotion
+                </h5></center>
+                <p className="para_pro_card_eng">
+                Maximize conversions and performance of your online store through customized eCommerce
+marketing and automation solutions. Leverage omnichannel marketing strategies infused with
+impactful insights to effectively engage potential customers and make data-driven decisions                </p>
+
+
+              </div>
+              
+             
+             
+
+            </div>
+
           </div>
 
-          <div className="sub_card_pro_eng_botm">
-            <div className="sub_card_pro_eng_head">
-              <img src={require("../Assets/crad_sub3.png")} />
-            </div>
-            <div className="sub_card_pro_eng_footer">
-              <center>
-                <h5 className="sub_card_heading">Analytics</h5>
-              </center>
-              <p className="para_pro_card_eng">
-                Experience seamless data management for your eCommerce business.
-                Our cutting-edge services handle data processing needs,
-                including store catalog maintenance, product data uploads, and
-                efficient data organization. Count on us to keep your data
-                impeccably organized and readily accessible, empowering your
-                business to thrive.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="sub_card_pro_eng_botm">
-            <div className="sub_card_pro_eng_head">
-              <img src={require("../Assets/crad_sub4.png")} />
-            </div>
-            <div className="sub_card_pro_eng_footer">
-              <center>
-                {" "}
-                <h5 className="sub_card_heading">Ecommerce Audit</h5>
-              </center>
-              <p className="para_pro_card_eng">
-                Our comprehensive eCommerce site auditing examines vital areas
-                like SEO, content, performance, traffic, and conversion to
-                uncover improvement opportunities and drive better outcomes.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="sub_card_pro_eng_botm">
-            <div className="sub_card_pro_eng_head">
-              <img src={require("../Assets/crad_sub5.png")} />
-            </div>
-            <div className="sub_card_pro_eng_footer">
-              <center>
-                <h5 className="sub_card_heading">Promotion</h5>
-              </center>
-              <p className="para_pro_card_eng">
-                Maximize conversions and performance of your online store
-                through customized eCommerce marketing and automation solutions.
-                Leverage omnichannel marketing strategies infused with impactful
-                insights to effectively engage potential customers and make
-                data-driven decisions{" "}
-              </p>
-            </div>
-          </div>
-        </div>
+
+
       </section>
 
-      <div className="bg_baneer_proemg"></div>
-      <Endtwo />
+      <div className="bg_baneer_proemg">
+       
+       </div>
+<Endtwo/>
+      
+      
+      
     </div>
   );
 };

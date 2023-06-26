@@ -25,13 +25,13 @@ const Capability = () => {
        </div>
        <div className='row'>
          <div className='col' style={{height:'100px'}}>
-         <Link to="/proeng">
+         <Link to="/proeng" style={{textDecoration:"none",color:"black"}}>
            <div className='row'>
             <div className='col-2'>
             <CodeIcon style={{color:'orange'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Software Engineering</h6>
+             <h6 style={{marginTop:'15px'}}>Software Engineering</h6>
             </div>           
            </div>
            </Link>
@@ -45,26 +45,26 @@ const Capability = () => {
              
             </div>           
            </div> */}
-            <Link to="/Ecommerce">
+            <Link to="/Ecommerce" style={{textDecoration:"none",color:"black"}}>
            <div className='row'>
                 <div className='col-2'>
                 <ShoppingCartCheckoutIcon style={{color:'purple'}}className='biglogo'/> 
 
                 </div>
                 <div className='col-10' >
-                <h6>E-commerce Development </h6>
+                <h6 style={{marginTop:'15px'}}>E-commerce Development </h6>
                 </div>
            </div>
            </Link>
          </div>
          <div className='col'>
-         <Link to="/devops">
+         <Link to="/devops" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
-            < ConnectedTvIcon style={{color:'pink'}}className='biglogo'/> 
+            <ConnectedTvIcon style={{color:'pink'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Devops</h6>
+             <h6 style={{marginTop:'15px'}}>Devops</h6>
             </div>           
            </div>
            </Link>
@@ -72,37 +72,37 @@ const Capability = () => {
        </div>
        <div className='row'>
          <div className='col'>
-         <Link to="/Quality">
+         <Link to="/Quality" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
             <StorefrontIcon style={{color:'seagreen'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Quality Engineering</h6>
+             <h6 style={{marginTop:'15px'}}>Quality Engineering</h6>
             </div>           
            </div>
            </Link>
          </div>
          <div className='col'>
-         <Link to="/Cloudsol">
+         <Link to="/Cloudsol" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
             <VideoSettingsIcon style={{color:'orange'}}className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>Cloud Application</h6>
+             <h6 style={{marginTop:'15px'}}>Cloud Application</h6>
             </div>           
            </div>
            </Link>
          </div>
          <div className='col'>
-         <Link to="/Alml">
+         <Link to="/Alml" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
             <CastForEducationIcon style={{color:'orange'}} className='biglogo'/> 
             </div>
             <div className='col-10'>
-             <h6>AI Development</h6>
+             <h6 style={{marginTop:'15px'}}>AI Development</h6>
             </div>           
            </div>
            </Link>

@@ -61,29 +61,25 @@ import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
 import HireCompo from "./HireCompo";
 import Contactsub from "./Contactsub";
-import { HashLink } from "react-router-hash-link";
 
 const HireMagneto = (props) => {
   return (
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6">
-              <h2 className="main9080">Hire Dedicated Magento Developers</h2>
+              <h2 className="main9080">Magento Development Services</h2>
               <p className="main-908">
-                Build robust and feature-rich Magento websites as you hire
-                Magento developers from Askari Technologies. Now, create
-                customized online stores with seamless performance and enhanced
-                user experience by hiring dedicated Magento developers. Our
-                experts are proficient in handling minor tweaks, integrations,
-                and migrations.
+                Build SEO-friendly and conversion-driven Shopify websites as you
+                hire Shopify developers from Askari . Now, create ready-to-use
+                stores with a customized theme as you hire dedicated Shopify
+                developers. You can rely on them for minor tweaks to
+                integrations and migration.
               </p>
-              <HashLink to={"#contact-us"}>
-                <button className="firt-main-btn">
-                  Hire Magento Developers
-                </button>
-              </HashLink>
+              <button className="firt-main-btn">
+                Hire Dedicated Shopify Developers
+              </button>
             </div>
             <div className="col-lg-6">
               <img src={MainFirst} alt="" className="img-fluid magentoImg" />
@@ -91,134 +87,145 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </section>
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Partner with Seasoned Magento Website Developers
+                  Partner with the Seasoned Shopify Website Developers
                 </h2>
                 <p className="about-main-content-parap">
-                  At Askari Technologies, we have a team of experienced Magento
-                  experts who excel in building scalable online stores for
-                  businesses of all sizes. With their extensive knowledge and
-                  16+ years of industry experience, they are equipped to cater
-                  to your custom needs when you hire Magento experts. From
-                  expanding store functionalities to customizing Magento themes,
-                  they have got you covered.<br></br> <br></br> Our Magento
-                  experts at Askari Technologies are committed to helping you
-                  create an exceptional eCommerce store using industry best
-                  practices. By following an agile methodology, we ensure
-                  iterative development, thorough feedback incorporation, and
-                  rigorous testing to deliver your project successfully.
-                  <br></br> <br></br>
-                  When you hire professional Magento developers with the right
-                  skills and expertise, you can trust them to understand your
-                  requirements and transform them into profitable online stores
-                  within your budget.
+                  Askari is a leading Shopify development company that offers
+                  end-to-end custom Shopify development services. We have an
+                  impressive track record of delivering diverse IT solutions and
+                  services to our clients for over 16 years.<br></br> <br></br>{" "}
+                  With Askari , you get all the valuable solutions for your
+                  eCommerce needs. We have crafted our Shopify store development
+                  services in such a way that it offers easy management of
+                  content, product, and orders. This allows you to have complete
+                  control over your Shopify store. We have a team of Shopify
+                  developers with in-depth <br></br> <br></br>
+                  knowledge of all the cutting-edge technology stacks that can
+                  accommodate your complex Shopify development requirements. We
+                  help you develop, design, test, deploy, and maintain your
+                  eStore. This helps your users to have a smooth experience.
+                  Askari is the first choice for startups and enterprises that
+                  want to take their entire store online and provide their users
+                  with a flawless experience. This is the major reason why we
+                  have been able to serve more than 1000 clients. You can be the
+                  next in that illustrious list of our clients by successfully
+                  fulfilling your business objectives with us!
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <Contactsub />
+      <Contactsub/>
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-2">
-            <center>
-              <h3 className="new-head-phy pl-2">
-                Our Magento Developers' Expertise
-              </h3>
-            </center>
-
+         <div className="row p-2">
+            <center><h3 className="new-head-phy pl-2">
+              Ways to Hire Our Shopify Specialists
+            </h3></center>
+           <center><p className="main-services-para-main-card-top py-3">
+              We offer all-inclusive Shopify services that help add more
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Magento ECommerce Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Leverage the power of Magento's extensive features and
-                functionalities with our skilled Magento developers. They can
-                build high-performing online stores with visually appealing
-                designs that cater to your unique business requirements.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Magento Store Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Hire Magento developers to create user-friendly online stores
-                with smart features that enhance user engagement. Our developers
-                specialize in delivering eCommerce store development services
-                that drive conversions and boost sales.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Magento Theme Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Our developers are recognized for their expertise in Magento
-                theme development. By hiring Magento experts from Askari
-                Technologies, you can have custom themes designed for both the
-                frontend and backend of your online store.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Magento Integration</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Seamlessly integrate Magento with payment gateways, third-party
-                applications, and custom functionalities with the help of our
-                Magento specialists. They ensure smooth operation and data
-                security throughout the integration process.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="main-div-cli-lic">
+         <section className="main-div-cli-lic">
         <div className="container ">
-          <div className="row">
-            <center>
-              <h3 className="new-head-phy pl-2">
-                Why You Should Hire Someone to Build Magento Stores
-              </h3>
-            </center>
+         <div className="row">
+            <center><h3 className="new-head-phy pl-2">
+              Ways to Hire Our Shopify Specialists
+            </h3></center>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
-              <p className="hour ">Transparent Conduct</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                When you hire remote Magento developers, you gain access to
-                development resources and open channels of communication. Our
-                developers provide regular reports, maintain transparency, and
-                ensure streamlined communication to keep everyone on the same
-                page.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
-              <p className="hour ">Cost Saving</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                By hiring Magento web developers, you eliminate the need for
-                team management and infrastructure investment. You only pay for
-                the developers' performance and the time spent on your project,
-                while they take care of the rest.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
 
             <div className="col-lg-4 col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
-              <p className="hour ">Scalable Team</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                Outsourcing Magento programmers allows you to scale your
-                business without compromising quality. Hiring professional
-                Magento developers gives you access to their industry knowledge
-                and platform expertise, helping you stay ahead of the
-                competition.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
           </div>
@@ -227,7 +234,9 @@ const HireMagneto = (props) => {
       <HireCompo />
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
-
+        <h6 className="subHead mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipis elit
+        </h6>
         <div class="container container-fluid">
           <div class="row">
             <div class="col-md-4 col-sm-12 column border_right_bottom">
@@ -273,40 +282,34 @@ const HireMagneto = (props) => {
           </div>
         </div>
       </div>
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Why Choose Askari to Hire Magento Developers?
+                  Innovation Led Microsoft Dynamics Implementation
                 </h2>
                 <p className="h2-h3-h4">
-                  We have the resources to help you unleash the full power of
-                  Magento 2 to develop a custom solution that suits your
-                  business needs.
+                  We combine the power of platforms and technologies with our
+                  innovation and industry expertise to drive large-scale,
+                  customer-centric transformation.
                 </p>
                 <ul className="newul">
-                  <li>Experienced Magento Developers</li>
-                  <li>Problem Solving and Communication Skills</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
 
-                  <li>Industry Expertise</li>
-                  <li>In-depth Knowledge of Magento</li>
-                  <li>On-time Project Deliveries</li>
-                  <li>Flexibility in Time Zones</li>
-                  <li>Streamlined Project Management</li>
-                  <li>Maintenance and Support</li>
-                  <li>Security and Compliance</li>
-                  <li>No Obligation Quote</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
                 </ul>
-                <HashLink to={"#contact-us"}>
-                  <button className="bolet-btn-main">
-                    Request Consultation
-                  </button>
-                </HashLink>
+                <button className="bolet-btn-main">Request Consultation</button>
               </div>
             </div>
           </div>

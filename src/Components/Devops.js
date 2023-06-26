@@ -39,12 +39,7 @@ import Design from "../Assets/22.png";
 import Stable from "../Assets/44.png";
 import Implement from "../Assets/33.png";
 import { HashLink } from "react-router-hash-link";
-import Technologywework from "../Components/Technologywework.jsx";
-import pe1 from "../Assets/pe1.png";
-import pe2 from "../Assets/pe2.png";
-import pe3 from "../Assets/pe3.png";
-import pe4 from "../Assets/pe4.png";
-import pe5 from "../Assets/pe5.png";
+import Technologywework from "../Components/Technologywework.jsx"
 
 const Devops = () => {
   return (
@@ -56,9 +51,11 @@ const Devops = () => {
 
         <div className="">
           <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
-            Automate <br />
+          Automate <br />
           </h1>
-          <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>Development</h1>
+          <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
+            Development
+          </h1>
           <br></br>
           <p
             style={{
@@ -89,91 +86,29 @@ const Devops = () => {
       </div>
       <div className="container">
         <div className="skilled44">
-          <center>
-            <h1>Our DevOps Services</h1>
-          </center>
+         <center><h1>Our DevOps Services</h1></center> 
         </div>
       </div>
-      <div class="container">
-        <div class="row m-auto">
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe1} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe2} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe3} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe4} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe4} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe4} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
+      <div className="image-row">
+        <div className="image-item">
+          <img src={img1} alt="Image 1" />
+           
+        </div>
+        <div className="image-item">
+          <img src={img2} alt="Image 2" />
+        
+        </div>
+        <div className="image-item">
+          <img src={img3} alt="Image 3" />
+          
+        </div>
+        <div className="image-item">
+          <img src={img3} alt="Image 3" />
+        
+        </div>
+        <div className="image-item">
+          <img src={img3} alt="Image 3" />
+      
         </div>
       </div>
 
@@ -196,7 +131,7 @@ const Devops = () => {
         </div>
       </div>
 
-      <Technologywework />
+      <Technologywework/>
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
@@ -247,59 +182,90 @@ const Devops = () => {
           </div>
         </div>
       </div>
-      {/* cards */}
+{/* cards */}
 
-      <div className="container cards_qa">
-        <center>
-          <h1 className="heading_cards_qa">DevOps Process</h1>
-        </center>
-        <div className="main_card_section_qa">
-          <div className="inner_card_dev">
-            <div className="content_qa_card">
-              <h5 style={{ fontWeight: "bolder" }}>
-                Tool Stack Construction and Prepare Framework
-              </h5>
-              <p>
-                Implement the standard DevOps by creating a pilot framework and
-                integrate your existing tools with our ecosystem of licensed and
-                open source tools during each step of agile delivery.{" "}
-              </p>
-            </div>
-          </div>
 
-          <div className="inner_card_dev">
-            <div className="content_qa_card">
-              <h5>End-to-End Implementation</h5>
-              <p>
-                We analyse, design, construct, automate and implement as per the
-                needs for each project followed by continuous planning,
-                integration, testing, deployment, and monitoring for each
-                project.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="inner_card_dev">
-            <div className="content_qa_card">
-              <h5>Managed Services</h5>
-              <p>
-                Enhance and manage people’s skills, processes, culture, tools,
-                etc. and make sure your systems are working fine with system
-                security management, and 24/7 support.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="inner_card_dev">
-            <div className="content_qa_card">
-              <h5>Assessment and Strategy Planning</h5>
-              <p>
-                Build a further roadmap after visualizing the current state and
-                assess your maturity model, current state of DevOps culture,
-                toolchain, and process with our experts.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+<div className="container cards_qa">
+  <center>
+<h1 className="heading_cards_qa">DevOps Process</h1>
+</center>
+<div className="main_card_section_qa">
+<div className="inner_card_dev">
+
+<div className="content_qa_card">
+  <h5 style={{fontWeight:'bolder'}}>
+  Tool Stack Construction and Prepare Framework
+  </h5>
+  <p>
+  Implement the standard DevOps by creating a pilot framework and integrate your existing tools with our ecosystem of licensed and open source tools during each step of agile delivery.  </p>
+
+
+</div>
+
+
+</div>
+
+<div className="inner_card_dev">
+  
+<div className="content_qa_card">
+  <h5>
+  End-to-End Implementation
+  </h5>
+  <p>
+  We analyse, design, construct, automate and implement as per the needs for each project followed by continuous planning, integration, testing, deployment, and monitoring for each project.  </p>
+
+
+</div>
+
+
+</div>
+<div className="inner_card_dev">
+  
+<div className="content_qa_card">
+  <h5>
+  Managed Services
+  </h5>
+  <p>
+  Enhance and manage people’s skills, processes, culture, tools, etc. and make sure your systems are working fine with system security management, and 24/7 support.  </p>
+
+
+</div>
+
+
+</div>
+<div className="inner_card_dev">
+
+<div className="content_qa_card">
+  <h5>
+  Assessment and Strategy Planning
+  </h5>
+  <p>
+  Build a further roadmap after visualizing the current state and assess your maturity model, current state of DevOps culture, toolchain, and process with our experts.  </p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
       <div className="container">
         <div className="askaritechnology main">
@@ -326,10 +292,9 @@ const Devops = () => {
                   robust project.
                 </p>
                 <HashLink to="#contact-us">
-                  <button style={{ border: "none" }}>
-                    Request Consultation
-                  </button>
-                </HashLink>
+                <button style={{ border: "none" }}>Request Consultation</button>
+          </HashLink>
+               
               </div>
             </div>
           </div>

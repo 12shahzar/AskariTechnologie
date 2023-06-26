@@ -2,31 +2,27 @@ import React from "react";
 import "../Styles/DevlopnerPage.css";
 import mainAbout from "../Assets/shopdeveop2.png";
 import Contactsub from "./Contactsub";
-import { HashLink } from "react-router-hash-link";
 const SalesIntregation = () => {
   return (
     <>
       <section className="Hero-Shopfy-section-1 All-hero-main Section for-baground-images">
         <div className="container p-5 main-first-hero-all-content">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
-                Salesforce Integration Services
+                Salesforce Integration Services{" "}
               </h1>
               <p className="main-hero-para-main-div">
-                Maximize the potential of Salesforce CRM through our
-                comprehensive Salesforce Integration Services, enabling seamless
-                connectivity and data consolidation across your business
-                systems. Leverage the expertise of our Salesforce ISV partner to
-                integrate Salesforce with your existing applications, creating a
-                unified and efficient ecosystem.
+                Accelerate Salesforce adoption and eliminate redundancy with our
+                custom Salesforce integration services. Whether you want to
+                integrate Salesforce with your ERP, NonProfit with a backend
+                system, or a third-party app with Salesforce, we can help you
+                with all the Salesforce integration solutions you need.
               </p>
               <div className="btnnn py-4">
-                <HashLink to={"#contact-us"}>
-                  <button className="main-home-shopyt-btn ">
-                    Request A Free Consultation
-                  </button>
-                </HashLink>
+                <button className="main-home-shopyt-btn ">
+                  Request A Free Consultation
+                </button>
               </div>
             </div>
             <div className="col-lg-6"></div>
@@ -36,40 +32,38 @@ const SalesIntregation = () => {
 
       {/* New second Section */}
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Empower, Connect, and Personalize through Custom Salesforce
-                  Integrations
+                Create Tailored Experiences With Our Salesforce Integration Services
                 </h2>
                 <p className="about-main-content-parap">
-                  In this digital era, it is crucial to connect and consolidate
-                  data from various sources. Why not consider integrating
-                  Salesforce with your existing systems to streamline business
-                  processes and facilitate access to vital information?<br></br>{" "}
-                  <br></br>We are ready to support you in optimizing your
-                  business achievements through tailored integration solutions.
-                  Whether you aim to enhance the efficiency of your sales and
-                  marketing processes or require seamless data synchronization
-                  between Salesforce and other applications, our team of experts
-                  can seamlessly fulfill your business objectives.<br></br>{" "}
-                  <br></br>
-                  With over ten years of experience in elevating customer
-                  experiences and expanding CRM capabilities within specified
-                  timelines, we are positioned as your reliable partner for
-                  Salesforce integration services.<br></br>
-                  <br></br>
-                  As a dependable Salesforce integration firm, we empower you to
-                  unlock the full potential of your business data. Reach out to
-                  us for all your Salesforce integration requirements,
-                  regardless of the size of your business. We are committed to
-                  delivering customized solutions!
+                  Askari  is a leading Shopify development company that offers
+                  end-to-end custom Shopify development services. We have an
+                  impressive track record of delivering diverse IT solutions and
+                  services to our clients for over 16 years.<br></br> <br></br>{" "}
+                  With Askari , you get all the valuable solutions for your
+                  eCommerce needs. We have crafted our Shopify store development
+                  services in such a way that it offers easy management of
+                  content, product, and orders. This allows you to have complete
+                  control over your Shopify store. We have a team of Shopify
+                  developers with in-depth <br></br> <br></br>
+                  knowledge of all the cutting-edge technology stacks that can
+                  accommodate your complex Shopify development requirements. We
+                  help you develop, design, test, deploy, and maintain your
+                  eStore. This helps your users to have a smooth experience.
+                  Askari  is the first choice for startups and enterprises that
+                  want to take their entire store online and provide their users
+                  with a flawless experience. This is the major reason why we
+                  have been able to serve more than 1000 clients. You can be the
+                  next in that illustrious list of our clients by successfully
+                  fulfilling your business objectives with us!
                 </p>
               </div>
             </div>
@@ -77,53 +71,116 @@ const SalesIntregation = () => {
         </div>
       </section>
 
-      <Contactsub />
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-2">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
-              Experience Our Salesforce Integration Solutions
+            Salesforce Integration Services That We Offer
             </h1>
-
-            <p className="main-services-para-main-card-top py-3">
-              Transform your business processes with our range of Salesforce
-              integration services.
-            </p>
-
+           <center><p className="main-services-para-main-card-top py-3">
+              We offer all-inclusive Shopify services that help add more
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Custom Integration Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                As your trusted Salesforce ISV partner, we offer end-to-end
-                custom integration development services, ensuring seamless
-                connectivity between Salesforce and your preferred applications.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Data Synchronization</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                We enable real-time or scheduled data synchronization between
-                Salesforce and your existing systems, ensuring data consistency
-                and accuracy across your entire ecosystem.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">API Development and Integration</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Our experts develop custom APIs and integrate them with
-                Salesforce to enable smooth data exchange and streamline
-                workflows..
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Legacy System Integration</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                We assist in integrating Salesforce with your legacy systems,
-                allowing you to leverage the power of Salesforce while
-                preserving your existing investments.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
           </div>
@@ -132,92 +189,92 @@ const SalesIntregation = () => {
 
       <section className="arrivals-card-arrival p-5">
         <div className="container p-5 py-5">
-          <div className="row p-2">
+         <div className="row p-2">
             <h1 className="arrivals-head-main-top-my-bottom">
-              Our Salesforce Integration Approach
+              Salesforce Implementation Services{" "}
             </h1>
             <p className="arrival-main-bottom-top-head">
-              As your trusted Salesforce integration partner, we involve you
-              throughout the entire process. Here's our streamlined integration
-              approach.
+              We offer all-inclusive Shopify services that help add more
+              functionality, monitor performance, improve sales channels &{" "}
+              <br />
+              inventory management, and many more.
             </p>
             <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Consultation</p>
+              <p className="arrival-main-top-boottom">Agile Approach</p>
               <p className="arricval-card-content-main-last-top">
-                Our experts gather crucial information about your existing
-                systems and integration requirements.
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
               </p>
             </div>
             <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Planning</p>
+              <p className="arrival-main-top-boottom">Agile Approach</p>
               <p className="arricval-card-content-main-last-top">
-                We create a comprehensive integration roadmap that includes data
-                mapping, system compatibility, integration points, and security
-                considerations.
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
               </p>
             </div>
             <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Development</p>
+              <p className="arrival-main-top-boottom">Agile Approach</p>
               <p className="arricval-card-content-main-last-top">
-                Our team develops custom integration solutions, ensuring
-                seamless connectivity and data exchange between Salesforce and
-                your applications.
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
               </p>
             </div>
             <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Testing and Validation</p>
+              <p className="arrival-main-top-boottom">Agile Approach</p>
               <p className="arricval-card-content-main-last-top">
-                Rigorous testing and validation processes are conducted to
-                ensure the accuracy and reliability of the integration.
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
               </p>
             </div>
+
+            <button className="btn-car-arrivals-main-23">
+              Get Started With Shopify Development
+            </button>
           </div>
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Why Choose Askari Technologies for Salesforce Integration
-                  Services?
+                  Clients Choose Askari  for Salesforce Services Because{" "}
                 </h2>
                 <p className="h2-h3-h4">
-                  With over 16 years of industry experience, we specialize in
-                  providing customized solutions to businesses across various
-                  industry verticals. Here are the advantages of teaming up with
-                  us for Salesforce integration services.
+                  We combine the power of platforms and technologies with our
+                  innovation and industry expertise to drive large-scale,
+                  customer-centric transformation.
                 </p>
                 <ul className="newul">
-                  <li>
-                    Experienced and Certified Salesforce Integration Experts
-                  </li>
-                  <li>
-                    Improved Operational Efficiency through Seamless
-                    Connectivity
-                  </li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
 
-                  <li>Budget-Friendly Solutions</li>
-                  <li>Adaptable Engagement Models</li>
-                  <li>Robust Data Safety and Security</li>
-                  <li>Timely Project Delivery</li>
-                  <li>Efficient Communication Channels</li>
-                  <li>Agile Methodology Implementation</li>
-
-                  <li> Rigorous Quality Assurance</li>
-                  <li>Complete Customer Satisfaction</li>
-                  <li>Round-the-Clock Support and Maintenance</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
                 </ul>
-                <HashLink to={"#contact-us"}>
-                  <button className="bolet-btn-main">
-                    Request Consultation
-                  </button>
-                </HashLink>
+                <button className="bolet-btn-main">Request Consultation</button>
               </div>
             </div>
           </div>

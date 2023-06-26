@@ -2,32 +2,29 @@ import React from "react";
 import "../Styles/DevlopnerPage.css";
 import mainAbout from "../Assets/shopdeveop2.png";
 import Contactsub from "./Contactsub";
-import { HashLink } from "react-router-hash-link";
 const SalesConsulting = () => {
   return (
     <>
       <section className="Hero-Shopfy-section-1 All-hero-main Section for-baground-images">
         <div className="container p-5 main-first-hero-all-content">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
-                Salesforce Consulting Services
+                Salesforce Consulting Services{" "}
               </h1>
               <p className="main-hero-para-main-div">
-                New technologies and business models challenge the status quo.
-                With the right team and guidance, you can seize opportunities in
-                evolving customer expectations. Our certified Salesforce
-                consultants help overcome CRM challenges and achieve exceptional
-                results. We offer comprehensive Salesforce consulting services,
-                including development, migration, customization, and
-                implementation.
+                New technologies and business models are challenging the status
+                quo. But we believe with the right team and guidance, you can
+                capitalize on changing customer expectations. Our certified
+                Salesforce consultants assist companies in overcoming tough CRM
+                challenges and achieving unprecedented results. We offer a wide
+                range of Salesforce consulting services, including development,
+                migration, customization, and implementation, among others.
               </p>
               <div className="btnnn py-4">
-                <HashLink to={"#contact-us"}>
-                  <button className="main-home-shopyt-btn ">
-                    Request A Free Consultation
-                  </button>
-                </HashLink>
+                <button className="main-home-shopyt-btn ">
+                Request A Free Consultation
+                </button>
               </div>
             </div>
             <div className="col-lg-6"></div>
@@ -37,30 +34,38 @@ const SalesConsulting = () => {
 
       {/* New second Section */}
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  The Impact of Reliable Salesforce Consulting Companies
+                The Power of Right Salesforce Consulting Companies
                 </h2>
                 <p className="about-main-content-parap">
-                  Partnering with a trusted Salesforce consulting company
-                  empowers your business with data-driven strategies to maximize
-                  ROI. With expertise in development, problem-solving, and
-                  digital transformation, our Salesforce ISV partnership is
-                  instrumental in shaping your future.<br></br> <br></br>Our
-                  Salesforce consulting services offer the flexibility to choose
-                  the ideal solution within your budget. We assess your business
-                  needs, recommend suitable technologies, tools, and features,
-                  and guide you through the development journey. <br></br>{" "}
-                  <br></br>
-                  Through collaborative innovation, we co-create solutions that
-                  enhance customer engagement, driving your business forward.
+                  Askari  is a leading Shopify development company that offers
+                  end-to-end custom Shopify development services. We have an
+                  impressive track record of delivering diverse IT solutions and
+                  services to our clients for over 16 years.<br></br> <br></br>{" "}
+                  With Askari , you get all the valuable solutions for your
+                  eCommerce needs. We have crafted our Shopify store development
+                  services in such a way that it offers easy management of
+                  content, product, and orders. This allows you to have complete
+                  control over your Shopify store. We have a team of Shopify
+                  developers with in-depth <br></br> <br></br>
+                  knowledge of all the cutting-edge technology stacks that can
+                  accommodate your complex Shopify development requirements. We
+                  help you develop, design, test, deploy, and maintain your
+                  eStore. This helps your users to have a smooth experience.
+                  Askari  is the first choice for startups and enterprises that
+                  want to take their entire store online and provide their users
+                  with a flawless experience. This is the major reason why we
+                  have been able to serve more than 1000 clients. You can be the
+                  next in that illustrious list of our clients by successfully
+                  fulfilling your business objectives with us!
                 </p>
               </div>
             </div>
@@ -68,67 +73,116 @@ const SalesConsulting = () => {
         </div>
       </section>
 
-      <Contactsub />
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-2">
+         <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
-              Our Salesforce consulting services offer
+              Salesforce Development Services Verticals
             </h1>
-            <center>
-              <p className="main-services-para-main-card-top py-3">
-                Through collaborative innovation, we co-create solutions that
-                enhance customer engagement, driving your business forward.
-              </p>
-            </center>
+           <center><p className="main-services-para-main-card-top py-3">
+              We offer all-inclusive Shopify services that help add more
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Salesforce Development Consulting</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                As a Salesforce consulting company, we offer expert guidance to
-                tailor the perfect solution for your business development needs.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">
-                Salesforce Implementation Consulting
-              </p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Our Salesforce implementation consultants assess your system and
-                provide recommendations to enhance workflows across different
-                platforms and environments.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">
-                Salesforce Customization Consulting
-              </p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Leverage our Salesforce consulting services to enhance business
-                efficiency, productivity, and ROI through the implementation of
-                custom features and modules.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Salesforce Migration Consulting</p>
-              <p className="main-top-bottom-content">
-                Consult our certified Salesforce CRM consultants for expert
-                advice on system and data migration. We'll assist you with a
-                well-structured plan to migrate data from legacy systems to
-                Lightning apps.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Salesforce Integration Consulting</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Count on our Salesforce consulting services to select the most
-                suitable third-party extensions, plugins, and themes for your
-                solution. We'll guide you through custom integrations to
-                optimize your Salesforce environment.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
+              </p>
+            </div>
+
+            <div className="col-md-2 col-sm-8 card-main-div-main-card">
+              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="main-top-bottom-content">
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
           </div>
@@ -137,94 +191,91 @@ const SalesConsulting = () => {
 
       <section className="arrivals-card-arrival p-5">
         <div className="container p-5 py-5">
-          <div className="row p-2">
+         <div className="row p-2">
             <h1 className="arrivals-head-main-top-my-bottom">
-              Why Opting for Salesforce Consulting Services is the Right Move
-            </h1>
+            Why Choosing Salesforce Consulting Services is the Right Step            </h1>
+            <p className="arrival-main-bottom-top-head">
+              We offer all-inclusive Shopify services that help add more
+              functionality, monitor performance, improve sales channels &{" "}
+              <br />
+              inventory management, and many more.
+            </p>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">Agile Approach</p>
+              <p className="arricval-card-content-main-last-top">
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">Agile Approach</p>
+              <p className="arricval-card-content-main-last-top">
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">Agile Approach</p>
+              <p className="arricval-card-content-main-last-top">
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">Agile Approach</p>
+              <p className="arricval-card-content-main-last-top">
+                We have a team of skilled and experienced Shopify developers,
+                product owners, and scrum masters with an agile mindset. They
+                all work together to maximize your business ROI. They also
+                follow a continuous improvement and feedback approach that
+                enhances services, products, and processes.
+              </p>
+            </div>
 
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">
-                Thorough Risk Assessment
-              </p>
-              <p className="arricval-card-content-main-last-top">
-                Salesforce consultants take concrete measures to ensure that
-                your solution is risk-free and equipped to handle real-time
-                challenges. They address process irregularities and overcome
-                your business hurdles.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">
-                Industry-Specific Expertise
-              </p>
-              <p className="arricval-card-content-main-last-top">
-                Salesforce consultants possess extensive knowledge in managing
-                Salesforce CRM processes, implementing configurations, and
-                catering to industry-specific requirements, along with expertise
-                in other CRM platforms.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Enhanced Productivity</p>
-              <p className="arricval-card-content-main-last-top">
-                With Salesforce consulting services, you can adopt a proactive
-                approach to meet evolving customer relationships, while experts
-                design and implement strategic processes tailored to your
-                business needs.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Improved Efficiency</p>
-              <p className="arricval-card-content-main-last-top">
-                Partnering with a reputable Salesforce consulting company
-                enables you to close deals faster. Certified Salesforce
-                consultants possess a deep understanding of the CRM system,
-                ensuring smooth implementation and development processes.
-              </p>
-            </div>
+            <button className="btn-car-arrivals-main-23">
+              Get Started With Shopify Development
+            </button>
           </div>
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  The Benefit of Trusting Askari Technologies' Salesforce
-                  Consulting Services
+                  Clients Choose Askari  for Salesforce Services Because{" "}
                 </h2>
                 <p className="h2-h3-h4">
-                  At Askari Technologies, a prominent Salesforce consulting firm
-                  in India, we offer a range of advantages when it comes to
-                  leveraging our services. Our team of skilled Salesforce
-                  experts is dedicated to guiding you seamlessly from the
-                  initial concept to successful implementation. By employing
-                  various strategies, we ensure a streamlined execution and
-                  deliver outstanding results.
+                  We combine the power of platforms and technologies with our
+                  innovation and industry expertise to drive large-scale,
+                  customer-centric transformation.
                 </p>
                 <ul className="newul">
-                  <li>Forward-thinking Outlook</li>
-                  <li>Profound Knowledge of the Industry</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
 
-                  <li>Implementation Aligned with your Business Objectives</li>
-                  <li>Comprehensive Assessment</li>
-                  <li>Targeted Functional Solutions</li>
-                  <li>In-depth Collaboration Sessions</li>
-                  <li>Timely Project Completion</li>
-                  <li>Competitive Pricing Structure</li>
-                  <li>Ongoing Maintenance and Support</li>
-                  <li>Salesforce Implementation</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
                 </ul>
-                <HashLink to={"#contact-us"}>
-                  <button className="bolet-btn-main">
-                    Request Consultation
-                  </button>
-                </HashLink>
+                <button className="bolet-btn-main">Request Consultation</button>
               </div>
             </div>
           </div>

@@ -6,7 +6,6 @@ import imageop22 from "../Assets/Frame 165.png";
 import imageop3 from "../Assets/WhatsApp Image 2023-06-08 at 3.07 1.png";
 import imageop4 from "../Assets/unsplash_kRNZiGKtz48 1.png";
 import "bootstrap/dist/css/bootstrap.css";
-import { Link } from "react-router-dom";
 
 function OurPatners() {
   return (
@@ -27,9 +26,7 @@ function OurPatners() {
             and experience unprecedented growth. Let's embark on a journey
             towards success together. Contact us today.
           </p>
-          <Link to={"/contact"}>
-            <button className="button_patners">Let’s Collaborate</button>
-          </Link>
+          <button className="button_patners">Let’s Collaborate</button>
         </div>
         <div className="Ourpatners_secoundchild">
           <img src={imageop1} className="patner_sizing" />

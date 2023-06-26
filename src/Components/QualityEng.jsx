@@ -40,11 +40,6 @@ import Stable from "../Assets/44.png";
 import Implement from "../Assets/33.png";
 import { HashLink } from "react-router-hash-link";
 import Technologywework from "./Technologywework";
-import pe1 from "../Assets/pe1.png";
-import pe2 from "../Assets/pe2.png";
-import pe3 from "../Assets/pe3.png";
-import pe4 from "../Assets/pe4.png";
-import pe5 from "../Assets/pe5.png";
 
 const QualityEng = () => {
   return (
@@ -69,7 +64,7 @@ const QualityEng = () => {
               marginTop: "-20px",
             }}
           >
-            Delivering quality products with Product Engineering services.
+           Delivering quality products with Product Engineering services.
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro" style={{ marginTop: "70px" }}>
@@ -90,86 +85,29 @@ const QualityEng = () => {
           <h1>Quality Engineering Services</h1>
         </div>
       </div>
-      <div class="container">
-        <div class="row m-auto">
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe1} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe2} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe3} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe4} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe4} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 m-auto">
-            <div class="box">
-              <img src={pe4} />
-              <div class="box-content">
-                <h3 class="title">Product Ideation And Prototyping</h3>
-                <span class="post">
-                  Get expert consultancy to validate your concept better, along
-                  with assistance with the plan, prototype, and next market
-                  launch.
-                </span>
-              </div>
-            </div>
-          </div>
+      <div className="image-row">
+        
+        <div className="image-item">
+          <img src={img1} alt="Image 1" />
+           
+          
+         
+        </div>
+        <div className="image-item">
+          <img src={img2} alt="Image 2" />
+         
+        </div>
+        <div className="image-item">
+          <img src={img3} alt="Image 3" />
+      
+        </div>
+        <div className="image-item">
+          <img src={img3} alt="Image 3" />
+         
+        </div>
+        <div className="image-item">
+          <img src={img3} alt="Image 3" />
+          
         </div>
       </div>
 
@@ -192,78 +130,89 @@ const QualityEng = () => {
         </div>
       </div>
 
-      <Technologywework />
-      {/* cards */}
+      <Technologywework/>
+{/* cards */}
 
-      <div className="container cards_qa">
-        <center>
-          <h1 className="heading_cards_qa">
-            How we go about testing your Project
-          </h1>
-        </center>
-        <div className="main_card_section_qa">
-          <div className="inner_card_qa">
-            <img
-              src={require("../Assets/card22.png")}
-              style={{ height: "40%", width: "100%" }}
-            />
-            <div className="content_qa_card">
-              <h5>Planning</h5>
-              <p>
-                After boarding, we review the initial project requirements and
-                evaluate what needs to be done. After understanding the project,
-                we create a test plan for it.
-              </p>
-            </div>
-          </div>
 
-          <div className="inner_card_qa">
-            <img
-              src={require("../Assets/crad23.png")}
-              style={{ height: "40%", width: "100%" }}
-            />
-            <div className="content_qa_card">
-              <h5>Design</h5>
-              <p>
-                Then, depending on whether the QA process should be manual or
-                automated, we build test cases. An automated test case is
-                created with a script, while a manual test is created using a
-                variety of ways.
-              </p>
-            </div>
-          </div>
-          <div className="inner_card_qa">
-            <img
-              src={require("../Assets/crad24.png")}
-              style={{ height: "40%", width: "100%" }}
-            />
-            <div className="content_qa_card">
-              <h5>Implementation</h5>
-              <p>
-                We execute the test according to the planned design. Manual
-                tests are done by checking of each component, and automated
-                testing is done by running the script. Then bugs are reported to
-                the developers.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="inner_card_qa">
-            <img
-              src={require("../Assets/crad25.png")}
-              style={{ height: "40%", width: "100%" }}
-            />
-            <div className="content_qa_card">
-              <h5>Stabilization / Delivery</h5>
-              <p>
-                Lastly, fixed bugs are rechecked for a bug-free project. When
-                required we perform regression testing based on previous
-                sprints. The last step is user acceptance testing and if
-                everything is okay.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+<div className="container cards_qa">
+<center><h1 className="heading_cards_qa">How we go about testing your Project</h1></center>
+<div className="main_card_section_qa">
+<div className="inner_card_qa">
+  <img src={require('../Assets/card22.png')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Planning
+  </h5>
+  <p>
+  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
+  </p>
+
+
+</div>
+
+
+</div>
+
+<div className="inner_card_qa">
+  <img src={require('../Assets/crad23.png')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Design
+  </h5>
+  <p>
+  Then, depending on whether the QA process should be manual or automated, we build test cases. An automated test case is created with a script, while a manual test is created using a variety of ways.
+</p>
+</div>
+
+
+</div>
+<div className="inner_card_qa">
+  <img src={require('../Assets/crad24.png')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Implementation
+  </h5>
+  <p>
+  We execute the test according to the planned design. Manual tests are done by  checking of each component, and automated testing is done by running the script. Then bugs are reported to the developers.  </p>
+
+
+</div>
+
+
+</div>
+<div className="inner_card_qa">
+  <img src={require('../Assets/crad25.png')} style={{height:"40%",width:"100%"}}/>
+<div className="content_qa_card">
+  <h5>
+  Stabilization / Delivery 
+  </h5>
+  <p>
+  Lastly, fixed bugs are rechecked for a bug-free project. When required we perform regression testing based on previous sprints. The last step is user acceptance testing and if everything is okay.  </p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
       <div className="container">
         <div className="askaritechnology main">

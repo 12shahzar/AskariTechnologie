@@ -46,6 +46,13 @@
     margin-bottom: 60px;
     margin-top: 20px;
 }
+.coll{
+    text-align: center;
+}
+.flags{
+    margin-top: 70px;
+}
+
 .arroww{
     height: 20px;
     width: 40px;

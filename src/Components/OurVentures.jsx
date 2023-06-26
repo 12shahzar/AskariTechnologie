@@ -30,8 +30,8 @@ function OurVentures() {
         </div>
       </section>
       <section className="third_venture">
-        <div className="img_text_venture">
-          <h5 className="heading_sub_venture">
+        <div className="img_text_venture" >
+          <h5 className="heading_sub_venture analysisgap" >
             Analysis->Research->Suitable Consultation
           </h5>
           <p className="txt_venture_sub">
@@ -132,7 +132,7 @@ function OurVentures() {
             </div>
           </div>
         </div>
-        <div className="img_venture">
+        <div className="img_venture ventureimg" >
           <img
             src={require("../Assets/Illustration.png")}
             className="sizing2"
@@ -147,7 +147,7 @@ function OurVentures() {
           />
         </div>
         <div className="img_text_venture">
-          <h3 className="heading_sub_venture">Our Development Process</h3>
+          <h3 className="heading_sub_venture OurDevelopment">Our Development Process</h3>
           <p className="txt_venture_sub">
             After finalizing all the necessary details, the development phase
             begins. We employ scalable development practices and assign
@@ -173,7 +173,7 @@ function OurVentures() {
 
       <section className="five_venture">
         <div className="img_text_venture">
-          <h5 className="heading_sub_venture">Quality Assurance</h5>
+          <h5 className="heading_sub_venture Assurance">Quality Assurance</h5>
           <p className="txt_venture_sub">
             At our organization, we have established a protocol-driven working
             culture that, combined with our technical expertise, guarantees the
@@ -250,7 +250,7 @@ function OurVentures() {
         <div className="img_venture">
           <img
             src={require("../Assets/image 8.png")}
-            className=" sizing_mar_2"
+            className=" sizing_mar_2 "
           />
         </div>
         <div className="img_text_venture">
@@ -328,7 +328,7 @@ function OurVentures() {
       <section className="six_venture">
         <div className="cards_venture">
           <h2
-            className="heading_sub_venture"
+            className="heading_sub_venture vent"
             style={{ fontSize: "28px", fontWeight: "bolder" }}
           >
             What We Offer

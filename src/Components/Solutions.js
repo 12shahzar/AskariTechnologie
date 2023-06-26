@@ -33,10 +33,10 @@ const Solutions = () => {
        </div>
        <div className='row'>
          <div className='col' style={{height:'100px'}}>                          
-         <Link to="/sol1">
+         <Link to="/sol1" style={{textDecoration:"none",color:"black"}}>
            <div className='row'>
             <div className='col-2'>
-            <img src={Asanerp}/>
+            <img src={Asanerp} style={{height:"50px", width:"50px"}}/>
             </div>
             <div className='col-10'>
              <h6>Asaan ERP</h6>
@@ -46,10 +46,10 @@ const Solutions = () => {
            </Link>
          </div>
          <div className='col'>
-         <Link to="/sol2">
+         <Link to="/sol2" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
-            <img src={CogEdu}/>
+            <img src={CogEdu} style={{height:"50px", width:"50px"}}/>
             </div>
             <div className='col-10'>
              <h6>Cognitive Edu</h6>
@@ -60,10 +60,10 @@ const Solutions = () => {
          </div>
          
          <div className='col'>
-          <Link to="sol3">
+          <Link to="sol3" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
-            <img src={CC}/>
+            <img src={CC} style={{height:"50px", width:"50px"}}/>
             </div>
             <div className='col-10'>
              <h6>Client Connect</h6>
@@ -101,10 +101,10 @@ const Solutions = () => {
        </div>
        <div className='row'>
          <div className='col'>
-         <Link to="/sol5">
+         <Link to="/sol5" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
-            <img src={InstantSales}/>
+            <img src={InstantSales} style={{height:"50px", width:"50px"}}/>
             </div>
             <div className='col-10'>
              <h6>Instant Sales</h6>
@@ -114,10 +114,10 @@ const Solutions = () => {
            </Link>
          </div>
          <div className='col'>
-         <Link to="/sol6">
+         <Link to="/sol6" style={{textDecoration:"none",color:"black"}}>
          <div className='row'>
             <div className='col-2'>
-            <img src={Med}/>
+            <img src={Med} style={{height:"50px", width:"50px"}}/>
             </div>
             <div className='col-10'>
              <h6>Medease</h6>
@@ -127,10 +127,10 @@ const Solutions = () => {
            </Link>
          </div>
         <div className='col'>
-          <Link to="sol4">
+          <Link to="sol4" style={{textDecoration:"none",color:"black"}}>
         <div className='row'>
             <div className='col-2'>
-            <img src={Agri}/>
+            <img src={Agri} style={{height:"50px", width:"50px"}}/>
             </div>
             <div className='col-10'>
              <h6>Agrisense</h6>

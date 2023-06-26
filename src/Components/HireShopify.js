@@ -61,28 +61,25 @@ import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
 import Contactsub from "./Contactsub";
-import { HashLink } from "react-router-hash-link";
 
 const HireShopify = (props) => {
   return (
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">Hire Dedicated Shopify Developers</h2>
               <p className="main-908">
                 Build SEO-friendly and conversion-driven Shopify websites as you
-                hire Shopify developers from Askari Technologies. Now, create
-                ready-to-use stores with a customized theme as you hire
-                dedicated Shopify developers. You can rely on them for minor
-                tweaks to integrations and migration.
+                hire Shopify developers from Askari . Now, create ready-to-use
+                stores with a customized theme as you hire dedicated Shopify
+                developers. You can rely on them for minor tweaks to
+                integrations and migration
               </p>
-              <HashLink to={"#contact-us"}>
-                <button className=" firt-main-btn">
-                  Hire Shopify Developers
-                </button>
-              </HashLink>
+              <button className="btn firt-main-btn">
+                Hire Dedicated Shopify Developers
+              </button>
             </div>
             <div className="col-lg-6">
               <img src={MainFirst} alt="" className="img-fluid" />
@@ -91,9 +88,9 @@ const HireShopify = (props) => {
         </div>
       </section>
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -103,20 +100,26 @@ const HireShopify = (props) => {
                   Partner with the Seasoned Shopify Website Developers
                 </h2>
                 <p className="about-main-content-parap">
-                  Our Shopify experts have a knack for building robust online
-                  stores for small to Enterprise level businesses. Backed by 16+
-                  years of experience, we can cater to your custom needs when
-                  you hire Shopify experts. Be it expanding your store’s
-                  functionalities or customizing your Shopify theme.<br></br>{" "}
-                  <br></br> At Askari Technologies, our Shopify experts are
-                  ready to help you create the right eCommerce store using best
-                  industry practices. Following the agile method, we deliver
-                  your project in an iterative process, giving enough attention
-                  to feedback and testing.<br></br> <br></br>
-                  Hire professional Shopify developers with the right skills and
-                  experience who can understand your requirements. Not just
-                  that, the professionals can turn them into lucrative e-stores
-                  within budget.
+                  Askari is a leading Shopify development company that offers
+                  end-to-end custom Shopify development services. We have an
+                  impressive track record of delivering diverse IT solutions and
+                  services to our clients for over 16 years.<br></br> <br></br>{" "}
+                  With Askari , you get all the valuable solutions for your
+                  eCommerce needs. We have crafted our Shopify store development
+                  services in such a way that it offers easy management of
+                  content, product, and orders. This allows you to have complete
+                  control over your Shopify store. We have a team of Shopify
+                  developers with in-depth <br></br> <br></br>
+                  knowledge of all the cutting-edge technology stacks that can
+                  accommodate your complex Shopify development requirements. We
+                  help you develop, design, test, deploy, and maintain your
+                  eStore. This helps your users to have a smooth experience.
+                  Askari is the first choice for startups and enterprises that
+                  want to take their entire store online and provide their users
+                  with a flawless experience. This is the major reason why we
+                  have been able to serve more than 1000 clients. You can be the
+                  next in that illustrious list of our clients by successfully
+                  fulfilling your business objectives with us!
                 </p>
               </div>
             </div>
@@ -124,108 +127,109 @@ const HireShopify = (props) => {
         </div>
       </section>
 
-      <Contactsub />
+      <Contactsub/>
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-          <div className="row p-2">
-            <center>
-              <h1 className="main-serv-ces-h1-head">
-                Our Shopify Developers’ Expertise
-              </h1>
-            </center>
-
+         <div className="row p-2">
+           <center><h1 className="main-serv-ces-h1-head">
+              Why You Should Hire Someone to Build  Shopify Stores
+            </h1></center> 
+           <center><p className="main-services-para-main-card-top py-3">
+              We offer all-inclusive Shopify services that help add more
+              functionality, monitor performance, improve sales channels
+              & inventory management, and many more.
+            </p></center> 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Shopify ECommerce Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Our Shopify developers utilize the platform's features to
-                develop high-end websites with rich graphics for you. Hire
-                Shopify developer USA and create a competitive and futuristic
-                online store.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Shopify Store Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                You can hire a Shopify developer to leverage smart features and
-                build a unique yet user-friendly online store. Enhancing your
-                user engagement is made easier by availing of eCommerce store
-                development services.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Shopify Theme Development</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Clients recognize our developers' Shopify theme development
-                expertise across the globe. Hire Shopify experts from us to
-                build custom themes for the frontend and backend.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Shopify Integration</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Our Shopify specialists seamlessly integrate Shopify with
-                payment gateways, custom functionalities, and third-party apps.
-                All while ensuring the security and smooth functioning of your
-                data.
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Shopify Migration Services</p>
+              <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
-                Migrate your existing shopping portal to Shopify while
-                maintaining security and efficiency. Get it done by our Shopify
-                experts today!
+                Set up and configure your Shopify store per your business
+                objectives and goals. Being amongst the leading Shopify
+                development companies, we help you launch your online store in
+                record time.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="main-div-cli-lic">
+         <section className="main-div-cli-lic">
         <div className="container ">
-          <div className="row">
-            <center>
-              <h3 className="new-head-phy pl-2">
-                Why You Should Hire Someone to Build Shopify Stores
-              </h3>
-            </center>
+         <div className="row">
+            <center><h3 className="new-head-phy pl-2" >
+              Ways to Hire Our Shopify Specialists
+            </h3></center>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
-              <p className="hour ">Transparent Conduct</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                Remote Shopify app developers give you accessibility to all the
-                development resources and are open to discussions. They provide
-                periodic reports, access to tools, and streamlined communication
-                to ensure everyone is on the same page.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
-              <p className="hour ">Cost Saving</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                Worry no more about team management and infrastructural needs
-                when you hire Shopify web developers. You only have to pay for
-                their performance and time spent on the project, and they will
-                take care of the rest.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
 
             <div className="col-lg-4 col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
-              <p className="hour ">Scalable Team</p>
+              <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                Outsourcing Shopify programmers provide you with the flexibility
-                to expand your business without compromising quality. Hiring
-                professional Shopify developers makes it easier to stay ahead of
-                the competition by leveraging their vast industry knowledge and
-                platform expertise.
+                You can hire Shopify experts from us on an hourly basis. In this
+                model, you will only have to pay for the time and resources
+                spent on the project. The highlights include weekly billing with
+                flexible duration. You get 100% source code authorization.
               </p>
             </div>
           </div>
@@ -234,7 +238,9 @@ const HireShopify = (props) => {
       <HireCompo />
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
-
+        <h6 className="subHead mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipis elit
+        </h6>
         <div class="container container-fluid">
           <div class="row">
             <div class="col-md-4 col-sm-12 column border_right_bottom">
@@ -281,42 +287,34 @@ const HireShopify = (props) => {
         </div>
       </div>
 
-      <section className="Second-div-2-pictue-about">
+       <section className="Second-div-2-pictue-about">
         <div className="container ">
-          <div className="row p-2">
+         <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Why Hire Shopify Developers from Askari?
+                  Innovation Led Microsoft Dynamics Implementation
                 </h2>
                 <p className="h2-h3-h4">
-                  We search, test, hire, and train our Shopify developers to
-                  ensure you don’t have to face any development challenges. When
-                  you hire Shopify app developers from us, you can see our
-                  commitment to customer satisfaction which gives you an edge
-                  over your competitors.
+                  We combine the power of platforms and technologies with our
+                  innovation and industry expertise to drive large-scale,
+                  customer-centric transformation.
                 </p>
                 <ul className="newul">
-                  <li>Dedicated Shopify Website Developers</li>
-                  <li>Industry Expertise</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
 
-                  <li>No Pre and Post-Hiring Responsibilities</li>
-                  <li>On-time Project Deliveries</li>
-                  <li>Complete Control</li>
-                  <li>Flexibility in Time Zones</li>
-                  <li>Clear Communication</li>
-                  <li>100% Source Authorization</li>
-                  <li>Maintenance and Support</li>
-                  <li>Security and Compliance</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
                 </ul>
-                <HashLink to={"#contact-us"}>
-                  <button className="bolet-btn-main">
-                    Request Consultation
-                  </button>
-                </HashLink>
+                <button className="bolet-btn-main">Request Consultation</button>
               </div>
             </div>
           </div>

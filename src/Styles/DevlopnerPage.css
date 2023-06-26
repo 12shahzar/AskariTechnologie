@@ -10,49 +10,42 @@
     width: 100%;
     height: 70vh;
 }
-
-.this-magento {
+.this-magento{
     background-image: url(../Assets/MagentoBanner.png);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
-
-.Wocommer-banner {
+.Wocommer-banner{
     background-image: url(../Assets/WoocommerBanner.png);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
-
-.Shopfiy-app-main {
+.Shopfiy-app-main{
     background-image: url(../Assets/ShopfyAppBanner.png);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
-
-.Enter-prices-images {
+.Enter-prices-images{
     background-image: url(../Assets/EnterpricesBanner.png);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
-
-.dynamic-365 {
+.dynamic-365{
     background-image: url(../Assets/EcoomerceAppBanner.png);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
-
-.odoo-img {
+.odoo-img{
     background-image: url(../Assets/odooBanner.png);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
-
 .main-hero-h1 {
     font-family: 'Segoe UI';
     font-style: normal;
@@ -134,15 +127,14 @@
     line-height: 64px;
     color: #4050AF;
 }
-
+  
 
 .main-services-para-main-card-top {
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    padding-top: 1rem;
-    line-height: 37px;
+padding-top:1rem ;    line-height: 37px;
     /* or 185% */
 
     letter-spacing: -0.01em;
@@ -151,119 +143,104 @@
 
     color: #686868;
 }
-
-.card-main-div-main-card {
-
-    text-align: center;
-    background: #FEFEFE;
-    box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
-    padding: 1rem;
-    margin: 5px;
+.card-main-div-main-card{
+   
+   text-align: center;
+   background: #FEFEFE;
+box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
+padding: 1rem;
+margin: 5px;
 
 }
-
-.card-top-main {
+.card-top-main{
     font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
 
-    color: #3D4DAE;
+color: #3D4DAE;
 }
-
-.main-top-bottom-content {
+.main-top-bottom-content{
     font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 350;
-    font-size: 12px;
+font-style: normal;
+font-weight: 350;
+font-size: 12px;
 
-    /* or 138% */
+/* or 138% */
 
 
-    color: #000000;
+color: #000000;
 
 }
 
-.arrivals-card-arrival {
+.arrivals-card-arrival{
     background: #07135F;
     height: 120vh;
     width: 100%;
 }
-
-.car-2-3-4 {
+.car-2-3-4{
     width: 270px;
-    height: 350px;
+    height: 280px;
     padding: 1.5rem;
     margin: 5px;
     background-color: #FEFEFE;
 }
-.car-2-3-6{
-    width: 270px;
-    height: 180px;
-    padding: 1.5rem;
-    margin: 5px;
-    background-color: #FEFEFE;
-}
-.arrivals-head-main-top-my-bottom {
+.arrivals-head-main-top-my-bottom{
     font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.5rem;
-    text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size:3.5rem;
+text-align: center;
 
-    color: #FFFFFF;
+color: #FFFFFF;
 }
-
-.arrival-main-bottom-top-head {
+.arrival-main-bottom-top-head{
     font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 37px;
-    /* or 185% */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 37px;
+/* or 185% */
 
-    text-align: center;
-    letter-spacing: -0.01em;
+text-align: center;
+letter-spacing: -0.01em;
 
-    color: #FFFFFF;
+color: #FFFFFF;
 }
-
-.arrival-main-top-boottom {
+.arrival-main-top-boottom{
     font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 14px;
-    line-height: 32px;
-    /* identical to box height */
+font-style: normal;
+font-weight: bolder;
+font-size: 14px;
+line-height: 32px;
+/* identical to box height */
 
-    text-align: center;
+text-align: center;
 
-    color: #000000;
+color: #000000;
 }
-
-.arricval-card-content-main-last-top {
+.arricval-card-content-main-last-top{
     font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
 
-    text-align: center;
+text-align: center;
 
-    color: #000000;
+color: #000000;
 }
-
-.btn-car-arrivals-main-23 {
+.btn-car-arrivals-main-23{
     font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    margin: auto;
-    width: 355px;
-    height: fit-content;
-    padding: 1rem;
-    margin-top: 2.5rem;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+margin: auto;
+width: 355px;
+height: fit-content;
+padding: 1rem;
+margin-top: 2.5rem;
 
-    color: #140239;
+color: #140239;
 
 }
 
@@ -271,30 +248,28 @@
 
 
 /* margin top - */
-.main-services-card-main-div {
-    padding-top: 0 !important;
+.main-services-card-main-div{
+    padding-top: 0!important;
     display: flex;
-
-
-
+   
+   
+    
 }
 
-.main-roe {
+.main-roe{
     margin-top: -5rem !important;
 }
-
-.arrivals-card-arrival {
+.arrivals-card-arrival{
     margin-top: -4rem !important;
 }
-
 .newul {
     margin-bottom: 15%;
     list-style: circle;
 }
 
-.bolet-btn-main {
+.bolet-btn-main{
     padding: 11px 33px;
-
+    
     width: 251px;
     height: 49px;
     letter-spacing: -0.01em;
@@ -302,26 +277,26 @@
     color: #FFFFFF;
     outline: none;
     border: none;
-
+    
     /* PURPLE */
-
+    
     background: #3D4DAE;
-
+    
 }
-
-@media only screen and (max-width: 420px) {
-
-    .arrivals-card-arrival {
+@media only screen and (max-width: 480px) {
+   .Optimal{
+    padding: 20px !important;
+   }
+    .arrivals-card-arrival
+    {
         display: none;
     }
-
     .for-baground-images {
         background-image: url(../Assets/shopfygrade.png);
         background-size: cover;
         width: 100%;
         height: 100vh;
     }
-
     .main-serv-ces-h1-head {
         font-family: 'Segoe UI';
         font-style: normal;
@@ -330,6 +305,6 @@
         line-height: 64px;
         color: #4050AF;
     }
+      
 
-
-}
+  }
