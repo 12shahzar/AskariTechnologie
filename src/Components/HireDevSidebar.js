@@ -11,8 +11,6 @@ import Ecommerce from "../Assets/ecommercesvg.svg";
 import backend from "../Assets/backsvg.svg";
 import Erp from "../Assets/erpsvg.svg";
 import Mobile from "../Assets/mobilesvg.svg";
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-
 const HireDevSidebar = () => {
   const [show, setShow] = useState(true);
   const [show1, setShow1] = useState(true);
@@ -193,26 +191,26 @@ const HireDevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/hireshopfiy"}>
                           <li>Hire Shopify Developer</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/hiremagento"}>
                           <li>Hire Magento Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/hiredrupal"}>
                           <li>Hire Drupal Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/opencart"}>
                           <li>Hire Opencart Developer</li>
                         </Link>
@@ -236,39 +234,39 @@ const HireDevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/flutter"}>
                           <li>Hire Flutter Developer</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/kotlin"}>
                           <li>Hire Kotlin Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/swift"}>
                           <li>Hire Swift Developer</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/ios"}>
                           <li>Hire Ios App Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/andriod"}>
                           <li>Hire Android App Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/ar"}>
                           <li>Hire AR App Developer</li>
                         </Link>
@@ -293,32 +291,32 @@ const HireDevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/vuejs"}>
                           <li>Hire Vuejs Developer</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/reactjs"}>
                           <li>Hire Reactjs Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/angular"}>
                           <li>Hire Angularjs Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"fabricjs"}>
                           <li>Hire Fabricjs Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/mean"}>
                           <li>Hire Mean Stack Developer</li>
                         </Link>
@@ -355,44 +353,44 @@ const HireDevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/mean"}>
                           <li>Hire Mean Stack Developer</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/net"}>
                           <li>Hire .Net Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/asp"}>
                           <li>Hire Asp Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/laravel"}>
                           <li>Hire Laravel Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/nodejs"}>
                           <li>Hire Nodejs Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/django"}>
                           <li>Hire Django Developer</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/pythone"}>
                           <li>Hire Python Developer</li>
                         </Link>
@@ -425,14 +423,14 @@ const HireDevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/hiresales"}>
                           <li>Hire Salesforce Developer</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/hireodoo"}>
                           <li>Hire Odoo Developer</li>
                         </Link>

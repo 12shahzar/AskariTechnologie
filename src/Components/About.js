@@ -26,7 +26,6 @@ const About = () => {
            <div className='row'>
            
             <div className='col-2'>
-              
             <BusinessCenterIcon style={{color:'orange'}} className='biglogo'/> 
             </div>
             <div className='col-10'>

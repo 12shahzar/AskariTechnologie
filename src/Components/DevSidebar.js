@@ -10,8 +10,6 @@ import Erp from "../Assets/erpsvg.svg";
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
 import Elogo from "../Assets/ecomlogo.png";
 import { Link } from "react-router-dom";
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-
 
 const DevSidebar = () => {
   const abbas = () => {
@@ -186,20 +184,20 @@ const DevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                        <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to="/shopifydevelopment">
                           <li>Shopify</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/magentodevelopment"}>
                           <li>Magento</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/woocommerce"}>
                           <li>Woocommerce</li>
                         </Link>
@@ -226,20 +224,20 @@ const DevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/Ecommerceapp"}>
                           <li>E-Commerce App</li>
                         </Link>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/shopfiyapp"}>
                           <li>Shopify App</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/enterprices"}>
                           <li>Enterprise App</li>
                         </Link>
@@ -266,13 +264,13 @@ const DevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/Dynamic365"}>
                           <li>Microsoft Dynamics 365 </li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/odoo"}>
                           <li>Odoo</li>
                         </Link>
@@ -299,43 +297,43 @@ const DevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/salesconsulting"}>
                           <li>Consulting</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/SalesForce"}>
                           <li>Development</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/salesimplemation"}>
                           <li>Implementation</li>
                         </Link>
                       </div>{" "}
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/salesapplication"}>
                           <li>App-Development</li>
                         </Link>
                       </div>{" "}
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/salesmigration"}>
                           <li>Migration</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/salesintregation"}>
                           <li>Integration</li>
                         </Link>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/supportmaintainece"}>
                           <li>Support & Maintenance</li>
                         </Link>
@@ -362,7 +360,7 @@ const DevSidebar = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <Link to={"/lms"}>
                           <li>Learning Management System</li>
                         </Link>

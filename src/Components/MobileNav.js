@@ -53,7 +53,7 @@ import {
               fontFamily={"heading"}
               color={useColorModeValue("gray.800", "white")}
             >
-              <img src={Logo} alt="" className="" style={{marginLeft:'-90px' ,width:'230px',height:'45px', marginBottom:'-30px'}} />
+              <img src={Logo} alt="" className="" style={{marginLeft:'-80px' ,width:'200px',height:'45px', marginBottom:'-30px'}} />
             </Text>
   
             <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -269,20 +269,27 @@ import {
       children: [
         {
           label: "About Us ",
-          href: "/about"
+          Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
         },
         {
           label: "Our Ventures",
-          href: "/ouventure"
+          href: "#"
         },
         {
           label: "Partners",
-          href: "patner"
+          href: "#"
         },
-        
+        {
+          label: "How Its Works",
+          href: "#"
+        },
+        {
+          label: "Life At Askari",
+          href: "#"
+        },
         {
           label: "Contact Us",
-          href: "/Contact"
+          href: "#"
         }
       ]
     },
@@ -291,222 +298,344 @@ import {
         children: [
           {
             label: "Software Development",
-            href: "/proeng"
+            href: "#"
           },
           {
             label: "Ecommerce Development",
-            href: "/Ecommerce"
+            href: "#"
           },
           {
             label: "Devops",
-            href: "/devops"
+            href: "#"
           },
           {
             label: "Quality Engineering",
-            href: "/Quality"
+            href: "#"
           },
           {
             label: "Cloud Application",
-            href: "/Cloudsol"
+            href: "#"
           },
           {
             label: "AI",
-            href: "/Alml"
+            href: "#"
           }
         ]
       },{
         label: "DEVELOPMENT",
         children: [
           {
-            label: "Asaan ERP",
-            href: "/sol1"
+            label: "Explore Design Work",
+            href: "#"
           },
           {
-            label: "Cognitive Edu",
-            href: "/sol2"
-          },
-          {
-            label: "Client Connect",
-            href: "/sol3"
-          },
-          {
-            label: "Instant Sales",
-            href: "/sol5"
-          },
-          {
-            label: "Medease",
-            href: "/sol6"
-          },
-          {
-            label: "Agrisense",
-            href: "sol4"
+            label: "New & Noteworthy",
+            href: "#"
           }
-          ,{
-            label: "Shopify",
-            Link: "/shopifydevelopment"
-          },
-          {
-            label: "Magento",
-            href: "/magentodevelopment"
-          },
-          {
-            label: "Woocommerce",
-            href: "/woocommerce"
-          }, {
-            label: "E-Commerce App",
-            Link: "/Ecommerceapp"
-          },
-          {
-            label: "Shopify App",
-            href: "/shopfiyapp"
-          },
-          {
-            label: "Enterprise App",
-            href: "/enterprices"
-          },{
-            label: "Microsoft Dynamic 365",
-            Link: "/Dynamic365"
-          },
-          {
-            label: "Odoo",
-            href: "/odoo"
-          },{
-            label: "Learning Management System",
-            Link: "/lms"
-          },
         ]
       },{
         label: "HIRE DEVELOPER",
         children: [
           {
-            label: "Hire Shopify Developer",
-            Link: "/hireshopfiy"
+            label: "Explore Design Work",
+            href: "#"
           },
           {
-            label: "Hire Magento Developer",
-            href: "/hiremagento"
-          },
-          {
-            label: "Hire Drupal Developer",
-            href: "/hiredrupal"
-          }, {
-            label: "Hire Opencart Developer",
-            href: "/opencart"
-          }, {
-            label: "Hire Flutter Developer",
-            Link: "/flutter"
-          },
-          {
-            label: "Hire Kotlin Developer",
-            href: "/kotlin"
-          },
-          {
-            label: "Hire Swift Developer",
-            href: "/swift"
-          }, {
-            label: "Hire Ios App Developer",
-            href: "/ios"
-          },
-          {
-            label: "Hire Android App Developer",
-            href: "/andriod"
-          }, {
-            label: "Hire AR App Developer",
-            href: "/ar"
-          },
-          {
-            label: "Hire Vuejs Developer",
-            Link: "/vuejs"
-          },
-          {
-            label: "Hire Reactjs Developer",
-            href: "/reactjs"
-          },
-          {
-            label: "Hire Angularjs Developer",
-            subLabel: "Up-and-coming Designers",
-            href: "/angular"
-          }, {
-            label: "Hire Fabricjs Developer",
-            href: "fabricjs"
-          },
-          {
-            label: "Hire Mean Stack Developer",
-            href: "/mean"
-          }, {
-            label: "Hire Mean Stack Developer",
-            Link: "/mean"
-          },
-          {
-            label: "Hire .Net Developer",
-            href: "/net"
-          },
-          {
-            label: "Hire Asp Developer",
-            subLabel: "Up-and-coming Designers",
-            href: "/asp"
-          }, {
-            label: "Hire Laravel Developer",
-            href: "/laravel"
-          },
-          {
-            label: "Hire Nodejs Developer",
-            href: "/nodejs"
-          }, {
-            label: "Hire Django Developer",
-            href: "/django"
-          }, {
-            label: "Hire Python Developer",
-            href: "/pythone"
-          },{
-            label: "Hire Salesforce Developer",
-            Link: "/hiresales"
-          },
-          {
-            label: "Hire Odoo Developer",
-            href: "/hireodoo"
+            label: "New & Noteworthy",
+            href: "#"
           }
-          
+        ]
+      },{
+        label: "INSIGHTS",
+        children: [
+          {
+            label: "Explore Design Work",
+            href: "#"
+          },
+          {
+            label: "New & Noteworthy",
+            href: "#"
+          }
         ]
       },
       {
         label: "SOLUTIONS",
         children: [
           {
-            label: "Asaan ERP",
-            href: "/sol1"
+            label: "Explore Design Work",
+            href: "#"
           },
           {
-            label: "Cognitive Edu",
-            href: "/sol2"
-          },
-          {
-            label: "Client Connect",
-            href: "/sol3"
-          },
-          {
-            label: "Instant Sales",
-            href: "/sol5"
-          },
-          {
-            label: "Medease",
-            href: "/sol6"
-          },
-          {
-            label: "Agrisense",
-            href: "sol4"
+            label: "New & Noteworthy",
+            href: "#"
           }
         ]
-      }
-
-
-
-
-
-
-
-
-      
+      }, {
+        label: "ECOMMERCE",
+        children: [
+          {
+            label: "Cross-Platform Enterprise App Development",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Mobile UI/UX Design",
+            href: "#"
+          },
+          {
+            label: "App Porting",
+            href: "#"
+          },
+          
+        ]
+      },{
+        label: "APP DEVELOPMENT",
+        children: [
+          {
+            label: "Cross-Platform Enterprise App Development",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Mobile UI/UX Design",
+            href: "#"
+          },
+          {
+            label: "App Porting",
+            href: "#"
+          },
+          
+        ]
+      },{
+        label: "CRM & ERP",
+        children: [
+          {
+            label: "Cross-Platform Enterprise App Development",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Mobile UI/UX Design",
+            href: "#"
+          },
+          {
+            label: "App Porting",
+            href: "#"
+          },
+          
+        ]
+      },{
+        label: "SALESFORCE",
+        children: [
+          {
+            label: "Cross-Platform Enterprise App Development",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Mobile UI/UX Design",
+            href: "#"
+          },
+          {
+            label: "App Porting",
+            href: "#"
+          },
+          
+        ]
+      },{
+        label: "CUSTOM",
+        children: [
+          {
+            label: "Cross-Platform Enterprise App Development",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Mobile UI/UX Design",
+            href: "#"
+          },
+          {
+            label: "App Porting",
+            href: "#"
+          },
+          
+        ]
+      },{
+        label: "ECOMMERCE",
+        children: [
+          {
+            label: "Hire Flutter Developer",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Hire Kotlin Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Swift Developer",
+            subLabel: "Up-and-coming Designers",
+            href: "#"
+          }, {
+            label: "Hire Ionic Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Ionic Developer",
+            href: "#"
+          }, {
+            label: "Hire React Native Developer",
+            href: "#"
+          }, {
+            label: "Hire Ios App Developer",
+            href: "#"
+          },{
+            label: "Hire Android App Developer",
+            href: "#"
+          },{
+            label: "Hire AR App Developer",
+            href: "#"
+          },
+        ]
+      },{
+        label: "MOBILE",
+        children: [
+          {
+            label: "Hire Flutter Developer",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Hire Kotlin Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Swift Developer",
+            subLabel: "Up-and-coming Designers",
+            href: "#"
+          }, {
+            label: "Hire Ionic Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Ionic Developer",
+            href: "#"
+          }, {
+            label: "Hire React Native Developer",
+            href: "#"
+          }, {
+            label: "Hire Ios App Developer",
+            href: "#"
+          },{
+            label: "Hire Android App Developer",
+            href: "#"
+          },{
+            label: "Hire AR App Developer",
+            href: "#"
+          },
+        ]
+      },{
+        label: "FRONT END",
+        children: [
+          {
+            label: "Hire Flutter Developer",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Hire Kotlin Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Swift Developer",
+            subLabel: "Up-and-coming Designers",
+            href: "#"
+          }, {
+            label: "Hire Ionic Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Ionic Developer",
+            href: "#"
+          }, {
+            label: "Hire React Native Developer",
+            href: "#"
+          }, {
+            label: "Hire Ios App Developer",
+            href: "#"
+          },{
+            label: "Hire Android App Developer",
+            href: "#"
+          },{
+            label: "Hire AR App Developer",
+            href: "#"
+          },
+        ]
+      },{
+        label: "BACK END",
+        children: [
+          {
+            label: "Hire Flutter Developer",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Hire Kotlin Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Swift Developer",
+            subLabel: "Up-and-coming Designers",
+            href: "#"
+          }, {
+            label: "Hire Ionic Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Ionic Developer",
+            href: "#"
+          }, {
+            label: "Hire React Native Developer",
+            href: "#"
+          }, {
+            label: "Hire Ios App Developer",
+            href: "#"
+          },{
+            label: "Hire Android App Developer",
+            href: "#"
+          },{
+            label: "Hire AR App Developer",
+            href: "#"
+          },
+        ]
+      },{
+        label: "CRM & ERP",
+        children: [
+          {
+            label: "Hire Flutter Developer",
+            Link: "https://648ad95bf91a610482585ac0--storied-genie-6eeab0.netlify.app/"
+          },
+          {
+            label: "Hire Kotlin Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Swift Developer",
+            subLabel: "Up-and-coming Designers",
+            href: "#"
+          }, {
+            label: "Hire Ionic Developer",
+            href: "#"
+          },
+          {
+            label: "Hire Ionic Developer",
+            href: "#"
+          }, {
+            label: "Hire React Native Developer",
+            href: "#"
+          }, {
+            label: "Hire Ios App Developer",
+            href: "#"
+          },{
+            label: "Hire Android App Developer",
+            href: "#"
+          },{
+            label: "Hire AR App Developer",
+            href: "#"
+          },
+        ]
+      },
    
   ]
   

@@ -81,7 +81,7 @@ const Contact = () => {
               <div className="col">
                 <h5 className="Howdoes">Understanding You</h5>
                 <p>Our friendly team would love to hear from you.</p>
-                <div className="row ">
+                <div className="row">
                   <div className="col">
                     <div class="mb-3 labelcustom">
                       <label for="formGroupExampleInput" class=" ">
@@ -117,22 +117,29 @@ const Contact = () => {
                   <div class="mb-3 labelcustom">
   <label for="exampleFormControlInput1" class="">Phone number</label>
 </div>
-                  
-                 
+                    <div className="col-5" style={{ display: "flex" }}>
+                      
+                      <select class="form-select" id="autoSizingSelect">
+                        <option selected disabled></option>
+                        <option value="1">USA</option>
+                        <option value="2">Aus</option>
+                        <option value="3">PAK</option>
+                        <option value="4">UAE</option>
+                      </select>
                       <div
-                       className="labelcustom"
-                        
+                        className="col-7 num"
+                        style={{ display: "flex" }}
                       >
                         <input
-                          type="number"
+                          type="text"
                           class="form-control"
-                          placeholder="Number"
+                          placeholder="City"
                           aria-label="City"
                         />
                       </div>
-                  
+                    </div>
 
-                    <div class="mb-3  " style={{fontSize:'16px',marginTop:'12px'}}>
+                    <div class="mb-3 " style={{fontSize:'16px'}}>
                       <label for="formGroupExampleInput2" class="">
                       Company Name
                       </label>

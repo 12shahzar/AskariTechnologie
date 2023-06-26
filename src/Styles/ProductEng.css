@@ -2,15 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,600&family=Poppins:wght@500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Sora&family=Titillium+Web:ital,wght@0,200;0,300;1,300&family=Work+Sans:wght@500;600;700;800&display=swap");
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif; 
-  
+  font-family: 'Segoe UI', sans-serif;
+
 }
 
- 
+
 .bannner-image {
   width: 100%;
   max-width: 100%;
@@ -24,8 +25,8 @@
   background-image: url("../Assets/ecomer-banner.png");
   padding-top: 5%;
 }
-.btn_pro
-{
+
+.btn_pro {
   background-color: #040108;
   border: none;
   outline: none;
@@ -37,8 +38,9 @@
   font-size: 14px;
   padding: 10px;
   margin-top: 5%;
-  
+
 }
+
 .MainHeading {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 4vw;
@@ -66,17 +68,18 @@
 .image-container {
   position: relative;
   display: inline-block;
- 
+
 }
 
 .overlay-image {
-  
+
   top: 0;
   left: 0;
   height: 70%;
   padding-left: 30%;
   margin-top: 5%;
 }
+
 .overlay-image2 {
   position: absolute;
   top: 0;
@@ -85,11 +88,12 @@
   padding-left: 30%;
   margin-top: 5%;
 }
-.para_pro_txt
-{
+
+.para_pro_txt {
   font-size: 20px;
   color: #000000;
 }
+
 .bg-image {
   width: 50vw;
   height: auto;
@@ -109,40 +113,39 @@
 
   width: 100vw;
   display: flex;
- 
+
 }
 
 
 
 
-.align_product
-{
-  display:"flex";
-  flex-direction:"column";
-   text-align: center;
-   padding-top: 50px;
-  
+.align_product {
+  display: "flex";
+  flex-direction: "column";
+  text-align: center;
+  padding-top: 50px;
+
 }
-.align_product
-{
-   text-align: center;
-   padding-top: 50px;
-  
+
+.align_product {
+  text-align: center;
+  padding-top: 50px;
+
 }
-.align_product h3
-{
-   text-align: center;
-   padding-top: 50px;
-   color: #3d4dae;
-   font-weight: bolder;
-   font-family: "Segoe UI";
-   font-size: 35px;
+
+.align_product h3 {
+  text-align: center;
+  padding-top: 50px;
+  color: #3d4dae;
+  font-weight: bolder;
+  font-family: "Segoe UI";
+  font-size: 35px;
 }
-.align_product p
-{
-   
-   color: #686868;
-   font-family: "Segoe UI";
+
+.align_product p {
+
+  color: #686868;
+  font-family: "Segoe UI";
 }
 
 
@@ -164,7 +167,7 @@
 
 .image-item {
   width: 150px;
-  height: px;
+  height: 250px;
   margin: 10px;
 
 }
@@ -172,7 +175,7 @@
 .image-item img {
   width: 100%;
   height: 100%;
- 
+
 }
 
 .caption {
@@ -215,6 +218,7 @@
 .Main-ul {
   list-style: none;
 }
+
 .Main-ul a {
   list-style: none;
   text-decoration: none;
@@ -224,6 +228,7 @@
   font-weight: 400;
   font-size: 16px;
 }
+
 .Brand-Name {
   font-family: "Segoe UI";
   font-style: normal;
@@ -231,6 +236,7 @@
   font-size: 2.5rem;
   color: #ffffff;
 }
+
 .Brand-slogen {
   font-family: "Segoe UI";
   font-style: normal;
@@ -240,6 +246,7 @@
   color: #ffffff;
   padding-top: 1rem;
 }
+
 .Hire-btn {
   background: #ffffff;
   border-radius: 3px;
@@ -258,12 +265,14 @@
   width: 99%;
   height: 100%;
 }
+
 .about-head {
   color: rgba(64, 80, 175, 1);
   font-family: "Segoe UI";
   font-style: normal;
   font-weight: 700;
 }
+
 .Brand-slogen {
   font-family: "Segoe UI";
   font-style: normal;
@@ -272,6 +281,7 @@
 
   line-height: 133.01%;
 }
+
 .main-2 {
   background: #f8f9fc;
 }
@@ -280,16 +290,17 @@
 
 
 .conact-c1 {
-  background-image:url('../Assets/contactbg.png') ;
+  background-image: url('../Assets/contactbg.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 50%;
   padding-top: 10%;
   padding-left: 25%;
- 
+
 }
+
 .contact-head {
- 
+
 
   font-size: 40px;
   text-align: left;
@@ -299,11 +310,11 @@
   /* base/white */
   color: #ffffff;
   letter-spacing: 0.5px;
- 
-  
+
+
 }
-.btn_get_form
-{
+
+.btn_get_form {
   background-color: #3d4dae;
   color: white;
   border: none;
@@ -313,39 +324,40 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.input_pro_eng
-{
+
+.input_pro_eng {
   background-color: transparent;
   outline: none;
-  border: 1px solid #CBD5E1 ;
+  border: 1px solid #CBD5E1;
   display: block;
   height: 40px;
   border-radius: 5px;
   width: 80%;
- padding-left: 10px;
- margin-top: 5px;
- font-size: 12px;
- }
- .input_pro_eng_inp
-{
+  padding-left: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.input_pro_eng_inp {
   background-color: transparent;
   outline: none;
-  border: 1px solid #CBD5E1 ;
+  border: 1px solid #CBD5E1;
   display: block;
   height: 90px;
   border-radius: 5px;
   width: 80%;
- padding-left: 10px;
- margin-top: 5px;
- font-size: 12px;
- }
+  padding-left: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
 .contact-para {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 30px;
- 
+
   margin-top: 2%;
   /* or 167% */
 
@@ -353,11 +365,12 @@
 
   color: #cbd5e1;
 }
-.form-label
-{
+
+.form-label {
   color: #000000;
   font-weight: bold;
 }
+
 .conatact-tittle {
   font-family: "Segoe UI";
   font-style: normal;
@@ -365,11 +378,13 @@
   color: #3d4dae;
   font-size: 40px;
 }
+
 .conact-c2 {
   background: #f8f9fc;
   padding: 3% 2%;
 
 }
+
 .btn-started {
   background: #3d4dae;
   border-radius: 9px;
@@ -388,13 +403,16 @@
   outline: none;
   border: none;
 }
+
 .guaranteed {
   color: #3d4dae;
-  
+
 }
+
 .services {
   background: #f8f9fc;
 }
+
 .services-head {
   font-family: "Segoe UI";
   font-style: normal;
@@ -405,6 +423,7 @@
   line-height: 64px;
   color: #4050af;
 }
+
 .services-para {
   text-align: start;
   font-family: "Segoe UI";
@@ -415,6 +434,7 @@
   color: #686868;
   line-height: 37px;
 }
+
 .services-card {
   /* max-height: fit-content !important; */
   padding: 1rem;
@@ -422,6 +442,7 @@
   margin: 0.5rem;
   box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
 }
+
 .car-heading {
   font-family: "Segoe UI";
   font-style: normal;
@@ -434,6 +455,7 @@
 
   color: #3d4dae;
 }
+
 .card-para {
   font-family: "Segoe UI";
   font-style: normal;
@@ -445,6 +467,7 @@
 
   color: #000000;
 }
+
 .services-row {
   align-items: center;
   justify-content: center;
@@ -457,6 +480,7 @@
   max-width: fit-content;
   box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.25);
 }
+
 .Arrival-head {
   font-family: "Segoe UI";
   font-style: normal;
@@ -469,11 +493,13 @@
 
   color: #3d4dae;
 }
+
 .icons-arrival {
   font-size: 3rem;
 
   color: rgba(61, 77, 174, 1);
 }
+
 .arrival-head {
   font-family: "Segoe UI";
   font-style: normal;
@@ -486,24 +512,24 @@
   text-align: center;
   letter-spacing: -0.01em;
 }
-.bg_baneer_proemg
-{
+
+.bg_baneer_proemg {
   height: 80vh;
   width: 100vw;
   background-image: url('../Assets/bg_baneer_proemg.png');
   background-repeat: no-repeat;
-  background-size:  contain;
+  background-size: contain;
 }
-.bg_baneer_proemg_erp
-{
+
+.bg_baneer_proemg_erp {
   height: 80vh;
   width: 100vw;
   background-image: url('../Assets/erp_banner_secound.png');
   background-repeat: no-repeat;
-  background-size:  contain;
+  background-size: contain;
 }
-.your_patner_pro
-{
+
+.your_patner_pro {
   background-color: #4050AF;
   height: 40vh;
   width: 100%;
@@ -511,29 +537,29 @@
   text-align: center;
   color: white;
   padding: 3% 10%;
-   margin-bottom: 40vh;
+  margin-bottom: 40vh;
 }
-.card_pro_eng_botm
-{
-   height: 40vh;
-   justify-content: space-between;
-   display: flex;
-   flex-direction: row;
-   margin-top:50px ;
+
+.card_pro_eng_botm {
+  height: 40vh;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
 
 }
-.sub_card_pro_eng_head
-{
+
+.sub_card_pro_eng_head {
   /* background-color: #015364; */
   height: 20%;
   display: flex;
   justify-content: center;
   align-items: end;
   flex-wrap: wrap;
-  
+
 }
-.sub_card_pro_eng_botm
-{
+
+.sub_card_pro_eng_botm {
   height: 90%;
   width: 24%;
   background-color: white;
@@ -542,34 +568,37 @@
   margin-left: 20px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
-.sub_card_pro_eng_footer
-{
+
+.sub_card_pro_eng_footer {
   /* background-color: yellow; */
   height: 80%;
   display: flex;
   text-align: left;
   flex-direction: column;
   font-size: 10px;
-  color: #686868
-  ;
-}.sub_card_heading
-{
-  color:#4050AF;
+  color: #686868;
+}
+
+.sub_card_heading {
+  color: #4050AF;
   font-size: 16px;
- 
+
   margin-top: 10px;
 }
+
 .arrival-head {
   font-size: 16px;
 }
+
 .hireDeveloper {
   background: #fefefe;
 }
-.para_pro_card_eng
-{
+
+.para_pro_card_eng {
   margin-top: 2%;
   margin-left: 5px;
 }
+
 .heading {
   color: #3d4dae;
   font-size: 50px !important;
@@ -577,21 +606,22 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
-.border_right_bottom
-{
-  border-bottom:1px solid  gray ;
-  border-right:1px solid  gray ;
+
+.border_right_bottom {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
 }
-.border_bottom
-{
-  border-bottom:1px solid  gray ;
-  
+
+.border_bottom {
+  border-bottom: 1px solid gray;
+
 }
-.border_right
-{
-  border-right:1px solid  gray ;
-  
+
+.border_right {
+  border-right: 1px solid gray;
+
 }
+
 .subHead {
   color: #52525b;
   font-size: 14px;
@@ -602,7 +632,8 @@
 
 .column {
   padding: 50px;
-  text-align: center; /* Align content in the center */
+  text-align: center;
+  /* Align content in the center */
 }
 
 .name {
@@ -616,6 +647,7 @@
 .enterprise {
   margin-top: 5%;
 }
+
 .enterprise h3 {
   font-family: "Segoe UI";
   font-style: normal;
@@ -624,6 +656,7 @@
   line-height: 64px;
   color: #3d4dae;
 }
+
 .enterprise .para1 {
   font-family: "Segoe UI";
   font-style: normal;
@@ -640,6 +673,7 @@
 
   color: #686868;
 }
+
 .steps p {
   font-family: "Segoe UI";
   font-style: normal;
@@ -654,16 +688,19 @@
 
   color: #686868;
 }
+
 .responsive-section {
   position: relative;
-  width: 1349px; /* Use viewport width */
+  width: 1349px;
+  /* Use viewport width */
   height: 600px;
- 
+
   margin-top: 2%;
 }
 
 .background-image {
-  width: 100vw; /* Use viewport width */
+  width: 100vw;
+  /* Use viewport width */
   height: 100%;
   object-fit: cover;
   object-position: left;
@@ -686,8 +723,10 @@
   color: #ffffff;
   z-index: 1;
   width: 100%;
-  max-width: 600px; /* Adjust the width as per your needs */
-  padding-left: 20px; /* Adjust the left margin as per your needs */
+  max-width: 600px;
+  /* Adjust the width as per your needs */
+  padding-left: 20px;
+  /* Adjust the left margin as per your needs */
   box-sizing: border-box;
 }
 
@@ -706,6 +745,7 @@
   font-weight: bold;
   font-size: 46px;
 }
+
 .content .paragraph {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 8%;
@@ -726,14 +766,16 @@
 .feature-text {
   margin: 0;
 }
+
 .checkicons {
   margin-top: 5%;
 }
+
 .section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  
+
 }
 
 
@@ -747,6 +789,7 @@
   flex-basis: 50%;
   padding: 0 20px;
 }
+
 .right h2 {
   font-family: "Segoe UI";
   font-style: normal;
@@ -755,6 +798,7 @@
   line-height: 64px;
   color: #3d4dae;
 }
+
 .right p {
   font-family: "Segoe UI";
   font-style: normal;
@@ -771,6 +815,7 @@
 
   color: #686868;
 }
+
 .right li {
   font-family: "Segoe UI";
   font-style: normal;
@@ -810,22 +855,25 @@
   font-family: "Poppins", sans-serif;
 }
 
- 
+
 
 .slide-container {
   max-width: 1120px;
   width: 100%;
   padding: 40px 0;
 }
+
 .slide-content {
   margin: 0 40px;
- 
+
   border-radius: 25px;
 }
+
 .card {
   border-radius: 25px;
   background-color: #fff;
 }
+
 .image-content,
 .card-content {
   display: flex;
@@ -833,11 +881,13 @@
   align-items: center;
   padding: 10px 14px;
 }
+
 .image-content {
   position: relative;
   row-gap: 5px;
   padding: 25px 0;
 }
+
 .overlay {
   position: absolute;
   left: 0;
@@ -847,6 +897,7 @@
   background-color: #4070f4;
   border-radius: 25px 25px 0 25px;
 }
+
 .overlay::before,
 .overlay::after {
   content: "";
@@ -857,10 +908,12 @@
   width: 40px;
   background-color: #4070f4;
 }
+
 .overlay::after {
   border-radius: 0 25px 0 0;
   background-color: #fff;
 }
+
 .card-image {
   position: relative;
   height: 150px;
@@ -869,6 +922,7 @@
   background: #fff;
   padding: 3px;
 }
+
 .card-image .card-img {
   height: 100%;
   width: 100%;
@@ -876,16 +930,19 @@
   border-radius: 50%;
   border: 4px solid #4070f4;
 }
+
 .name {
   font-size: 18px;
   font-weight: 500;
   color: #333;
 }
+
 .description {
   font-size: 14px;
   color: #707070;
   text-align: center;
 }
+
 .button {
   border: none;
   font-size: 16px;
@@ -897,6 +954,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .button:hover {
   background: #265df2;
 }
@@ -922,8 +980,8 @@
   text-align: center;
   margin-top: 4%;
 }
-.end_pro
-{
+
+.end_pro {
   /* background-color: #000000; */
   height: 100vh;
   width: 100%;
@@ -933,24 +991,25 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.end_pro_left
-{
+
+.end_pro_left {
   height: 100%;
   width: 50%;
 }
-.end_pro_right
-{
+
+.end_pro_right {
   height: 100%;
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.right_pro_end
-{
+
+.right_pro_end {
   width: 70%;
-  
+
 }
+
 .custom-hero-content .custom-button {
   padding: 10px 20px;
   border-radius: 5px;
@@ -961,6 +1020,7 @@
   color: #040108;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* CSS for center alignment */
 .container-icon {
   display: flex;
@@ -968,6 +1028,7 @@
   align-items: center;
   text-align: center;
 }
+
 .container-icon h2 {
   font-family: "Segoe UI";
   font-style: normal;
@@ -979,6 +1040,7 @@
 
   color: #3d4dae;
 }
+
 .container-icon p {
   font-family: "Segoe UI";
   font-style: normal;
@@ -993,6 +1055,7 @@
 
   color: #52525b;
 }
+
 /* CSS for icons */
 .icon-row {
   display: flex;
@@ -1001,6 +1064,7 @@
   align-items: center;
   margin-top: 20px;
 }
+
 .icon {
   margin: 10px;
 }
@@ -1010,10 +1074,11 @@
   .processSteps {
     flex-direction: column;
   }
-  .mainsection
-  {
+
+  .mainsection {
     display: none;
   }
+
   .bannner-image {
     width: 100%;
     max-width: 100%;
@@ -1021,11 +1086,11 @@
     display: flex;
     color: white;
     padding-left: 5%;
-    background: radial-gradient(20.81% 56.75% at 68.18% 49.93%, rgba(34, 57, 197, 0.8) 0%, rgba(10, 27, 128, 0.8) 100%) ;
+    background: radial-gradient(20.81% 56.75% at 68.18% 49.93%, rgba(34, 57, 197, 0.8) 0%, rgba(10, 27, 128, 0.8) 100%);
     padding-top: 2%;
   }
-  .btn_pro
-  {
+
+  .btn_pro {
     background-color: #040108;
     border: none;
     outline: none;
@@ -1037,162 +1102,248 @@
     font-size: 14px;
     margin-top: 70px;
   }
-  .monile_mar
-  {
+
+  .monile_mar {
     margin-top: 15% !important;
   }
 
- 
-.formheight
-{
-  background-color: #000000;
-  height: 50vh;
-}
-.conact-c1 {
-  background-image:url('../Assets/contactbg.png') ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-}
-.align_contact_lab
-{
-  align-self: flex-start;
-  display: flex;
-  
-}
-.input_pro_eng
-{
-  background-color: transparent;
-  outline: none;
-  border: 1px solid #CBD5E1 ;
-  display: block;
-  height: 40px;
-  border-radius: 5px;
-  width: 100%;
- padding-left: 10px;
- margin-top: -5px;
- font-size: 12px;
- }
- .input_pro_eng_inp
-{
-  background-color: transparent;
-  outline: none;
-  border: 1px solid #CBD5E1 ;
-  display: block;
-  height: 90px;
-  border-radius: 5px;
-  width: 100%;
- padding-left: 10px;
- margin-top: -5px;
- font-size: 12px;
- }
- .container-icon h2 {
-  font-family: "Segoe UI";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 64px;
 
-  /* PURPLE */
+  .formheight {
+    background-color: #000000;
+    height: 50vh;
+  }
 
-  color: #3d4dae;
-}
-.heading {
-  color: #3d4dae;
-  font-size: 30px !important;
-  font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-.border_right
-{
-  border-bottom:1px solid  gray ;
-}
-.card_pro_eng_botm
-{
-   height: 170vh;
-   justify-content: space-between;
-   display: flex;
-   flex-direction: column;
-   margin-top:50px ;
-  
+  .conact-c1 {
+    background-image: url('../Assets/contactbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
 
-}
-.sub_card_pro_eng_botm
-{
-  height: 18%;
-  width: 90%;
-  background-color: white;
-  border-radius: 4px;
-  /* background-color: #000000; */
-  margin-left: 20px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-}
-.your_patner_pro
-{
-  background-color: #4050AF;
-  height: 40vh;
-  width: 100%;
-  margin-top: 100px;
-  text-align: center;
-  color: white;
-  padding: 3% 10%;
-   margin-bottom: 200vh;
-}
-.bg_baneer_proemg
-{
-  display: none;
-}
-.end_pro
-{
+  .align_contact_lab {
+    align-self: flex-start;
+    display: flex;
 
-  display: none;
-  
-}
-.custom-hero-section {
-  width: 100%;
-  height: 80vh;
-  background: url("../Assets/mainbg2.png") no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 5%;
+  }
 
-}
-.conact-c1 {
-  background-image:url('../Assets/contactbg.png') ;
-  background-repeat: no-repeat;
-  background-size: cover;
-width: 99%;
-  padding-top: 0%;
-  padding-left: 0%;
-  height: auto;
- 
-}
-.contact-head {
+  .input_pro_eng {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #CBD5E1;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: -5px;
+    font-size: 12px;
+  }
 
-  margin-top: 0px;
-  font-size: 30px;
-  text-align: left;
-  font-weight: bolder;
-  font-family: "Segoe UI";
-  /* or 110% *
+  .input_pro_eng_inp {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #CBD5E1;
+    display: block;
+    height: 90px;
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: -5px;
+    font-size: 12px;
+  }
+
+  .container-icon h2 {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 64px;
+
+    /* PURPLE */
+
+    color: #3d4dae;
+  }
+
+  .heading {
+    color: #3d4dae;
+    font-size: 30px !important;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  .border_right {
+    border-bottom: 1px solid gray;
+  }
+
+  .card_pro_eng_botm {
+    height: 170vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+
+  }
+
+  .sub_card_pro_eng_botm {
+    height: 18%;
+    width: 90%;
+    background-color: white;
+    border-radius: 4px;
+    /* background-color: #000000; */
+    margin-left: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+
+  .your_patner_pro {
+    background-color: #4050AF;
+    height: 40vh;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding: 3% 10%;
+    margin-bottom: 200vh;
+  }
+
+  .bg_baneer_proemg {
+    display: none;
+  }
+
+  .end_pro {
+
+    display: none;
+
+  }
+
+  .custom-hero-section {
+    width: 100%;
+    height: 80vh;
+    background: url("../Assets/mainbg2.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+
+  }
+
+  .conact-c1 {
+    background-image: url('../Assets/contactbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    padding-top: 0%;
+    padding-left: 0%;
+    height: auto;
+
+  }
+
+  .contact-head {
+
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    font-family: "Segoe UI";
+    /* or 110% *
   /* base/white */
-  color: #ffffff;
-  letter-spacing: 0.5px;
-  margin-left: 10%;
-  margin-top: 10%;
-}
-.contact-para {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 30px;
-  margin-left: 10%;
-  margin-top: 2%;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
 
-  color: #cbd5e1;
+  .contact-para {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 2%;
+
+    color: #cbd5e1;
+  }
 }
+
+
+/* All css Animation */
+.box {
+  background: #00396D;
+  font-family: 'Viga', sans-serif;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  transition: all 0.35s ease-in-out;
+}
+
+.box:hover img {
+  opacity: 0.4;
+  transform: translateY(-30px);
+}
+
+.box-content {
+  color: #fff;
+  background: #00396D;
+  ;
+  width: 100%;
+  height: 100%;
+
+  padding: 15px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0.2;
+  position: absolute;
+  top: 90%;
+  margin: auto;
+  z-index: 2;
+  transition: all 0.6s ease;
+}
+
+.box:hover .box-content {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.box .title {
+  font-size: 10px;
+  padding-top: 3px;
+  padding-top: 3px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 0 3px;
+}
+
+.box .post {
+  font-size: 8px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 0 7px;
+  display: block;
+}
+
+.box .icon {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.box .icon li {
+  margin: 0 4px;
+  display: inline-block;
+}
+
+
+@media only screen and (max-width:990px) {
+  .box {
+    margin: 0 0 30px;
+  }
 }

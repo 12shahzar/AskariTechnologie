@@ -914,7 +914,7 @@ a{
  }
  .whatwedoBtn{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #EC9B00;
 	margin: 20px;
 	display: flex;
@@ -926,7 +926,7 @@ a{
 
 .whatwedoBtn1{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -938,7 +938,7 @@ a{
 
 .whatwedoBtn2{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #BF9752	;
 	margin: 20px;
 	display: flex;
@@ -950,7 +950,7 @@ a{
 
 .whatwedoBtn3{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -962,7 +962,7 @@ a{
 
 .whatwedoBtn4{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #20AF92	;
 	margin: 20px;
 	display: flex;
@@ -974,7 +974,7 @@ a{
 
 .whatwedoBtn5{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #91B3FA	;
 	margin: 20px;
 	display: flex;
@@ -986,7 +986,7 @@ a{
 
 .whatwedoBtn6{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #C86485	;
 	margin: 20px;
 	display: flex;
@@ -998,7 +998,7 @@ a{
 
 .whatwedoBtn7{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #FE776B	;
 	margin: 20px;
 	display: flex;
@@ -1010,7 +1010,7 @@ a{
 
 .whatwedoBtn8{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #58B5D9	;
 	margin: 20px;
 	display: flex;
@@ -1024,7 +1024,7 @@ a{
 }
 .whatwedoBtn9{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #39A5CE	;
 	margin: 20px;
 	display: flex;
@@ -1040,7 +1040,7 @@ a{
 	text-align: left;
 }.whatwedoBtn:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #EC9B00;
 	margin: 20px;
 	display: flex;
@@ -1064,7 +1064,7 @@ a{
 }
 .whatwedoBtn1:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -1077,7 +1077,7 @@ a{
 
 .whatwedoBtn2:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #BF9752	;
 	margin: 20px;
 	display: flex;
@@ -1090,7 +1090,7 @@ a{
 
 .whatwedoBtn3:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #6471D7	;
 	margin: 20px;
 	display: flex;
@@ -1103,7 +1103,7 @@ a{
 
 .whatwedoBtn4:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #20AF92	;
 	margin: 20px;
 	display: flex;
@@ -1116,7 +1116,7 @@ a{
 
 .whatwedoBtn5:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #91B3FA	;
 	margin: 20px;
 	display: flex;
@@ -1129,7 +1129,7 @@ a{
 
 .whatwedoBtn6:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #C86485	;
 	margin: 20px;
 	display: flex;
@@ -1142,7 +1142,7 @@ a{
 
 .whatwedoBtn7:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #FE776B	;
 	margin: 20px;
 	display: flex;
@@ -1155,7 +1155,7 @@ a{
 
 .whatwedoBtn8:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #58B5D9	;
 	margin: 20px;
 	display: flex;
@@ -1168,7 +1168,7 @@ a{
 
 .whatwedoBtn9:hover{
 	height: 90px;
-	width: 90%;
+	width: 220px;
 	border: 1px solid #39A5CE	;
 	margin: 20px;
 	display: flex;

@@ -1,11 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../Styles/ProductEng.css";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 import bg from "../Assets/bg.png";
-import Technologywework from "../Components/Technologywework.jsx"
+import Technologywework from "../Components/Technologywework.jsx";
 import pic1 from "../Assets/pic1.png";
-import Faq from "../Components/Faq"
+import Faq from "../Components/Faq";
 import pic3 from "../Assets/pic3.png";
 import pic4 from "../Assets/pic4.png";
 import pic5 from "../Assets/pic5.png";
@@ -33,6 +33,7 @@ import salesforce from "../Assets/salesforce.png";
 import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
 import Contactsub from "./Contactsub";
+import ImageHover from "./ImageHover";
 
 const ProductEng = () => {
   return (
@@ -43,89 +44,176 @@ const ProductEng = () => {
         </p> */}
 
         <div className="">
-          <p style={{fontSize:"15px"}}>Future Technology Can Drive Your Business</p>
+          <p style={{ fontSize: "15px" }}>
+            Future Technology Can Drive Your Business
+          </p>
           <br></br>
-          <h1 style={{fontWeight:"bolder",marginTop:"3%"}} className="monile_mar" >
-          Software Product  <br />
+          <h1
+            style={{ fontWeight: "bolder", marginTop: "3%" }}
+            className="monile_mar"
+          >
+            Software Product <br />
           </h1>
-          <h1 style={{fontWeight:"bolder",marginTop:"3%"}} >
-          Engineering Services
+          <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
+            Engineering Services
           </h1>
-          <p style={{fontSize:"13px",marginBottom:"12%",marginTop:"-20px"}}>
-          Empower your business with cutting-edge <br></br>technology for future growth and success. Transform your business idea<br></br> into a thriving enterprise or expand your existing business using <br></br> tried-and-tested methodologies.
-
+          <p
+            style={{
+              fontSize: "13px",
+              marginBottom: "12%",
+              marginTop: "-20px",
+            }}
+          >
+            Empower your business with cutting-edge <br></br>technology for
+            future growth and success. Transform your business idea<br></br>{" "}
+            into a thriving enterprise or expand your existing business using{" "}
+            <br></br> tried-and-tested methodologies.
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro">Consult Erp Expert</button>
-            </HashLink>
-          
+          </HashLink>
         </div>
       </div>
       <div className="row mainsection">
         <div className="col">
           <div class="image-container">
             <img src={bg} className="bg-image" alt="JPEG Image" />
-            <img src={mainleft} alt="PNG Image" class="overlay-image2"  style={{width:"90%"}}/>
+            <img
+              src={mainleft}
+              alt="PNG Image"
+              class="overlay-image2"
+              style={{ width: "90%" }}
+            />
           </div>
         </div>
-        <div className="col servicespara" >
-          <h3  >
-          Leverage our software product  <br /> engineering services to develop 
+        <div className="col servicespara">
+          <h3>
+            Leverage our software product <br /> engineering services to develop
             <br /> cutting-edge next-generation product
           </h3>
           <p>
-          We are not simply a software development company. We are a dedicated team of over 300 skilled professionals, including developers, business analysts, strategy planners, creative designers, problem solvers, and marketing specialists. Together, we deliver transformative outcomes for the evolving digital landscape.
-
+            We are not simply a software development company. We are a dedicated
+            team of over 300 skilled professionals, including developers,
+            business analysts, strategy planners, creative designers, problem
+            solvers, and marketing specialists. Together, we deliver
+            transformative outcomes for the evolving digital landscape.
           </p>
           <p>
-          By collaborating with you, we enhance your digital product engineering endeavors by adopting cutting-edge technologies, providing expertise and talent, and leveraging best practices in product engineering.
+            By collaborating with you, we enhance your digital product
+            engineering endeavors by adopting cutting-edge technologies,
+            providing expertise and talent, and leveraging best practices in
+            product engineering.
           </p>
 
           <p>
-          Our services cover the entire product engineering lifecycle, spanning from ideation and product design to development, support, and market growth.
+            Our services cover the entire product engineering lifecycle,
+            spanning from ideation and product design to development, support,
+            and market growth.
           </p>
         </div>
-        
       </div>
       <div className="container">
-        <div className="align_product" style={{display:'flex',flexDirection:'column'}}>
-        <h3 style={{alignSelf:"center"}} >Services We Offer for Digital Product Engineering</h3>
-          <p >
-          Our software engineering services encompass end-to-end support for enterprises in creating, deploying, and maintaining their product ideas, ensuring their profitability in business ventures
+        <div
+          className="align_product"
+          style={{ display: "flex", flexDirection: "column" }}
+        >
+          <h3 style={{ alignSelf: "center" }}>
+            Services We Offer for Digital Product Engineering
+          </h3>
+          <p>
+            Our software engineering services encompass end-to-end support for
+            enterprises in creating, deploying, and maintaining their product
+            ideas, ensuring their profitability in business ventures
           </p>
         </div>
       </div>
-      <div class="image-row container">
-    <div class="image-item">
-      <img src={pe1} alt="Image 1" />
-      {/* <div>
-        <h5>
 
-        </h5>
-        <p>
+      <div class="container">
+        <div class="row m-auto">
+          <div class="col-md-2 col-sm-6 m-auto">
+            <div class="box">
+              <img src={pe1} />
+              <div class="box-content">
+                <h3 class="title">Product Ideation And Prototyping</h3>
+                <span class="post">
+                  Get expert consultancy to validate your concept better, along
+                  with assistance with the plan, prototype, and next market
+                  launch.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 m-auto">
+            <div class="box">
+              <img src={pe2} />
+              <div class="box-content">
+                <h3 class="title">Product Ideation And Prototyping</h3>
+                <span class="post">
+                  Get expert consultancy to validate your concept better, along
+                  with assistance with the plan, prototype, and next market
+                  launch.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 m-auto">
+            <div class="box">
+              <img src={pe3} />
+              <div class="box-content">
+                <h3 class="title">Product Ideation And Prototyping</h3>
+                <span class="post">
+                  Get expert consultancy to validate your concept better, along
+                  with assistance with the plan, prototype, and next market
+                  launch.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 m-auto">
+            <div class="box">
+              <img src={pe4} />
+              <div class="box-content">
+                <h3 class="title">Product Ideation And Prototyping</h3>
+                <span class="post">
+                  Get expert consultancy to validate your concept better, along
+                  with assistance with the plan, prototype, and next market
+                  launch.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 m-auto">
+            <div class="box">
+              <img src={pe4} />
+              <div class="box-content">
+                <h3 class="title">Product Ideation And Prototyping</h3>
+                <span class="post">
+                  Get expert consultancy to validate your concept better, along
+                  with assistance with the plan, prototype, and next market
+                  launch.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 m-auto">
+            <div class="box">
+              <img src={pe4} />
+              <div class="box-content">
+                <h3 class="title">Product Ideation And Prototyping</h3>
+                <span class="post">
+                  Get expert consultancy to validate your concept better, along
+                  with assistance with the plan, prototype, and next market
+                  launch.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        </p>
-      </div> */}
-      
-    </div>
-    <div class="image-item">
-      <img src={pe2} alt="Image 2" />
-    </div>
-    <div class="image-item">
-      <img src={pe3} alt="Image 3" />
-     
-    </div>
-    <div class="image-item">
-      <img src={pe4} alt="Image 4" />
-     
-    </div>
-    <div class="image-item">
-      <img src={pe5} alt="Image 5" />
-     
-    </div>
-  </div>
-      <Contactsub/>
-      <Technologywework/>
+      <Contactsub />
+
+      <Technologywework />
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
@@ -178,114 +266,100 @@ const ProductEng = () => {
       </div>
 
       <section className="your_patner_pro ">
-        <h2>Our Collaborator for Each Phase of PDLC
-</h2>
-        <p>We provide comprehensive software engineering services that address the technology stack throughout the product lifecycle, delivering increased revenue and service levels.</p>
-          
-          {/* lower cards */}
-          <div className="container card_pro_eng_botm">
-            <div className="sub_card_pro_eng_botm">
-              <div className="sub_card_pro_eng_head">
-                    <img  src={require("../Assets/card_sub1.png")}/>
-              </div>
-              <div className="sub_card_pro_eng_footer">
-              <center> <h5 className="sub_card_heading">
-              Agile
-                </h5></center> 
-                <p className="para_pro_card_eng">
-                Elevate your current product with the expertise of our skilled team. We enhance its capabilities,
-introduce new features, and address any flaws or bugs to deliver an exceptional user
-experience                </p>
+        <h2>Our Collaborator for Each Phase of PDLC</h2>
+        <p>
+          We provide comprehensive software engineering services that address
+          the technology stack throughout the product lifecycle, delivering
+          increased revenue and service levels.
+        </p>
 
-
-              </div>
-              
-             
-             
-
+        {/* lower cards */}
+        <div className="container card_pro_eng_botm">
+          <div className="sub_card_pro_eng_botm">
+            <div className="sub_card_pro_eng_head">
+              <img src={require("../Assets/card_sub1.png")} />
             </div>
-            <div className="sub_card_pro_eng_botm">
-              <div className="sub_card_pro_eng_head">
-                    <img  src={require("../Assets/card_sub2.png")}/>
-              </div>
-              <div className="sub_card_pro_eng_footer">
-              <center> <h5 className="sub_card_heading">
-              Excellence
-                </h5></center> 
-                <p className="para_pro_card_eng">
-                Our dedicated team takes full responsibility for testing and quality assurance, ensuring  product standards. With a comprehensive parameter ecosystem, each product undergoes rigorous checks. Experience our proven approach for consistently delivering top-notch, thoroughly tested products.                </p>
-              </div>
-              
-             
-             
-
+            <div className="sub_card_pro_eng_footer">
+              <center>
+                {" "}
+                <h5 className="sub_card_heading">Agile</h5>
+              </center>
+              <p className="para_pro_card_eng">
+                Elevate your current product with the expertise of our skilled
+                team. We enhance its capabilities, introduce new features, and
+                address any flaws or bugs to deliver an exceptional user
+                experience{" "}
+              </p>
             </div>
-            
-            <div className="sub_card_pro_eng_botm">
-              <div className="sub_card_pro_eng_head">
-                    <img  src={require("../Assets/crad_sub3.png")}/>
-              </div>
-              <div className="sub_card_pro_eng_footer">
-              <center><h5 className="sub_card_heading">
-              Sustaining Solutions
-                </h5></center>  
-                <p className="para_pro_card_eng">
-                Enduring customer relationships through comprehensive maintenance and support. Proactive resolution of security issues, server downtime, errors, and bugs. Uninterrupted product operation ensured with round-the-clock, high-quality support.                </p>
-
-
-              </div>
-              
-             
-             
-
+          </div>
+          <div className="sub_card_pro_eng_botm">
+            <div className="sub_card_pro_eng_head">
+              <img src={require("../Assets/card_sub2.png")} />
             </div>
-            <div className="sub_card_pro_eng_botm">
-              <div className="sub_card_pro_eng_head">
-                    <img  src={require("../Assets/crad_sub4.png")}/>
-              </div>
-              <div className="sub_card_pro_eng_footer">
-               <center><h5 className="sub_card_heading">
-                Strategic Consulting
-                </h5></center> 
-                <p className="para_pro_card_eng">
-                Our analysis and recommendations are driven by a strategic software product engineering roadmap, ensuring the use of the most suitable tech stack. This enables us to develop interfaces that align with human-centered design principles.                </p>
-
-
-              </div>
-              
-             
-             
-
+            <div className="sub_card_pro_eng_footer">
+              <center>
+                {" "}
+                <h5 className="sub_card_heading">Excellence</h5>
+              </center>
+              <p className="para_pro_card_eng">
+                Our dedicated team takes full responsibility for testing and
+                quality assurance, ensuring product standards. With a
+                comprehensive parameter ecosystem, each product undergoes
+                rigorous checks. Experience our proven approach for consistently
+                delivering top-notch, thoroughly tested products.{" "}
+              </p>
             </div>
-            <div className="sub_card_pro_eng_botm">
-              <div className="sub_card_pro_eng_head">
-                    <img  src={require("../Assets/crad_sub5.png")}/>
-              </div>
-              <div className="sub_card_pro_eng_footer">
-                <h5 className="sub_card_heading">
-                Diverse Industry Reach
-                </h5>
-                <p className="para_pro_card_eng">
-                By merging our expertise with deep industry knowledge, we empower businesses across
-diverse sectors to leverage digital technology and craft captivating digital experiences                </p>
-
-
-              </div>
-              
-             
-             
-
-            </div>
-
           </div>
 
-
-
+          <div className="sub_card_pro_eng_botm">
+            <div className="sub_card_pro_eng_head">
+              <img src={require("../Assets/crad_sub3.png")} />
+            </div>
+            <div className="sub_card_pro_eng_footer">
+              <center>
+                <h5 className="sub_card_heading">Sustaining Solutions</h5>
+              </center>
+              <p className="para_pro_card_eng">
+                Enduring customer relationships through comprehensive
+                maintenance and support. Proactive resolution of security
+                issues, server downtime, errors, and bugs. Uninterrupted product
+                operation ensured with round-the-clock, high-quality support.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="sub_card_pro_eng_botm">
+            <div className="sub_card_pro_eng_head">
+              <img src={require("../Assets/crad_sub4.png")} />
+            </div>
+            <div className="sub_card_pro_eng_footer">
+              <center>
+                <h5 className="sub_card_heading">Strategic Consulting</h5>
+              </center>
+              <p className="para_pro_card_eng">
+                Our analysis and recommendations are driven by a strategic
+                software product engineering roadmap, ensuring the use of the
+                most suitable tech stack. This enables us to develop interfaces
+                that align with human-centered design principles.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="sub_card_pro_eng_botm">
+            <div className="sub_card_pro_eng_head">
+              <img src={require("../Assets/crad_sub5.png")} />
+            </div>
+            <div className="sub_card_pro_eng_footer">
+              <h5 className="sub_card_heading">Diverse Industry Reach</h5>
+              <p className="para_pro_card_eng">
+                By merging our expertise with deep industry knowledge, we
+                empower businesses across diverse sectors to leverage digital
+                technology and craft captivating digital experiences{" "}
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <div className="bg_baneer_proemg">
-       
-      </div>
+      <div className="bg_baneer_proemg"></div>
       {/* <div class="section">
         
           <img src={left2} alt="Image" />
@@ -316,52 +390,52 @@ diverse sectors to leverage digital technology and craft captivating digital exp
       </div> */}
       <section className="end_pro">
         <div className="end_pro_left">
-          <img src={left2} style={{width:"100%",height:"100%"}} />
+          <img src={left2} style={{ width: "100%", height: "100%" }} />
         </div>
         <div className="end_pro_right">
           <div className="right_pro_end">
-            <h3 style={{color:"#3D4DAE",fontWeight:'bolder'}}>
-            Askari Technology - Your Trusted Product Engineering Services Company
+            <h3 style={{ color: "#3D4DAE", fontWeight: "bolder" }}>
+              Askari Technology - Your Trusted Product Engineering Services
+              Company
             </h3>
-            <p>We have a proven track record of helping companies from different verticals navigate digital platforms. We can help you, too, with our engineering IT services.</p>
-         <ul style={{listStyle:'outside'}}>
-           <li>Product Experts</li>
-           <li>On-demand Scalability</li>
-           <li>Flexible Engagement Models</li>
-           <li>Cost-Effective Solution</li>
-           <li>On-time Delivery</li>
-           <li>Agile Methodology</li>
-           <li>Code Authorization</li>
-           <li>Streamlined Management</li>
-           <li>100% Customer Satisfaction</li>
-           <li>24*7 Support and Maintenance</li>
-
-
-         </ul>
-         
-         
+            <p>
+              We have a proven track record of helping companies from different
+              verticals navigate digital platforms. We can help you, too, with
+              our engineering IT services.
+            </p>
+            <ul style={{ listStyle: "outside" }}>
+              <li>Product Experts</li>
+              <li>On-demand Scalability</li>
+              <li>Flexible Engagement Models</li>
+              <li>Cost-Effective Solution</li>
+              <li>On-time Delivery</li>
+              <li>Agile Methodology</li>
+              <li>Code Authorization</li>
+              <li>Streamlined Management</li>
+              <li>100% Customer Satisfaction</li>
+              <li>24*7 Support and Maintenance</li>
+            </ul>
           </div>
         </div>
-
-
-
       </section>
       <section class="custom-hero-section">
         <div class="custom-hero-content">
-          <h3 >Engineering Services for Faster Time-to-Market</h3>
+          <h3>Engineering Services for Faster Time-to-Market</h3>
           <p>
-          Powered by strong product engineering services and combined with new-gen technologies, we help businesses design and build a future-ready solution.
-        <br></br> <br></br> Take advantage of limitless possibilities by partnering with us!
+            Powered by strong product engineering services and combined with
+            new-gen technologies, we help businesses design and build a
+            future-ready solution.
+            <br></br> <br></br> Take advantage of limitless possibilities by
+            partnering with us!
           </p>
           <HashLink to="#contact-us">
-             <button className="custom-button">
-          Schedule A Call <span>&#8594;</span>
-          </button>
-            </HashLink>
-         
+            <button className="custom-button">
+              Schedule A Call <span>&#8594;</span>
+            </button>
+          </HashLink>
         </div>
       </section>
-      <Faq/>
+      <Faq />
     </div>
   );
 };

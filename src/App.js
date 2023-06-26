@@ -63,24 +63,23 @@ import Wordpress from "./Components/Wordpress";
 import HireKotlin from "./Components/HireKotlin";
 import Contact from "./Components/Contact";
 
-import { ChakraBaseProvider } from '@chakra-ui/react';
+import { ChakraBaseProvider } from "@chakra-ui/react";
 import WithSubnavigation from "./Components/MobileNav";
 
 import EcommerceApp from "./Components/EcommerceAp";
 import Angular from "./Components/Angular";
 import Net from "./Components/Net";
 
-
 export const App = () => {
   return (
     <>
       <BrowserRouter>
         <NewHeader />
-        <div className='MobileNavigation'>
-    <ChakraBaseProvider>
-      <WithSubnavigation/>
-    </ChakraBaseProvider>
-    </div>
+        <div className="MobileNavigation">
+          <ChakraBaseProvider>
+            <WithSubnavigation />
+          </ChakraBaseProvider>
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Aboutp />} />

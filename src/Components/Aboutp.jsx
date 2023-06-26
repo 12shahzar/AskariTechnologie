@@ -27,7 +27,7 @@ function About() {
       <div className="section_1">
         <div className="container">
           <div style={{ height: "50px" }}></div>
-         <div className="row p-5 mobcont">
+         <div className="row p-5">
             <div className="col-md-6">
               <img
                 src={about1}
@@ -41,7 +41,7 @@ function About() {
               <h1 className="text-primary" style={{fontWeight:"bolder"}}>
               Reinventing Success with High Class Digital Solutions
               </h1>
-              <p className="mt-5 textcent">
+              <p className="mt-5">
               What began as a modest endeavor by a single individual has evolved into a robust team of 50+
 skilled professionals. As a prominent web and mobile app development company, Askari
 Technologies empowers businesses with its cutting-edge digital solutions. We are a dynamic
@@ -56,7 +56,7 @@ technical expertise to tackle challenges is what fuels our passion.
 
       <div className="container text-center mt-5 mb-5">
         <h1 className="text-primary" style={{fontWeight:"bolder"}}>Our Story</h1>
-        <p className="mt-5 mb-5 afterworking">
+        <p className="mt-5 mb-5">
         After working as a software developer for a couple of years, our founder Asad Askari had
 different plans. With a vision to change the world with IT Solutions, Askari Technologies was
 born. What makes us unique is our purpose to put innovation, creativity and customer
@@ -97,20 +97,18 @@ businesses and individuals looking to develop and make use of modern day digital
         </div>
       </div>
 
-      <div style={{ marginTop: "100px" ,padding:'14px' }} className="container ">
+      <div style={{ marginTop: "100px" }} className="container">
         <div className="row">
           <div className="col-md-6">
-            <div className="titleA">
             <span
               style={{ fontWeight: 600, fontSize: "16px" }}
-              className="text-primary launch fw-bold"
+              className="text-primary fw-bold"
             >
               Launch faster
             </span>
             <h1 style={{ fontWeight: 700 }} className="text-primary">
               Build something great
             </h1>
-            </div>
             <p className="text-muted mt-3">
               We’ve done all the heavy lifting so you don’t have to — get all
               the data you need to launch and grow your business faster.
@@ -118,7 +116,7 @@ businesses and individuals looking to develop and make use of modern day digital
             <div className="row mt-5 ">
               <div className="col-6 text-center">
                 <span
-                  className="text-primary fontabout"
+                  className="text-primary"
                   style={{ fontWeight: 600, fontSize: "60px" }}
                 >
                   4,000+
@@ -132,7 +130,7 @@ businesses and individuals looking to develop and make use of modern day digital
               </div>
               <div className="col-6 text-center">
                 <span
-                  className="text-primary fontabout"
+                  className="text-primary"
                   style={{ fontWeight: 600, fontSize: "60px" }}
                 >
                   600%
@@ -147,7 +145,7 @@ businesses and individuals looking to develop and make use of modern day digital
 
               <div className="col-6 text-center">
                 <span
-                  className="text-primary fontabout"
+                  className="text-primary"
                   style={{ fontWeight: 600, fontSize: "60px" }}
                 >
                   10k
@@ -162,7 +160,7 @@ businesses and individuals looking to develop and make use of modern day digital
 
               <div className="col-6 text-center">
                 <span
-                  className="text-primary fontabout"
+                  className="text-primary"
                   style={{ fontWeight: 600, fontSize: "60px" }}
                 >
                   200+
@@ -188,7 +186,7 @@ businesses and individuals looking to develop and make use of modern day digital
         </div>
       </div>
 
-      {/* <div className="text-center">
+      <div className="text-center">
         <div className="our_team">
           <div style={{ height: "50px" }}></div>
           <span
@@ -316,7 +314,7 @@ businesses and individuals looking to develop and make use of modern day digital
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

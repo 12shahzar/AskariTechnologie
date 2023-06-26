@@ -22,8 +22,6 @@ import Social from "../Assets/social.png";
 import Automation from "../Assets/automation.png";
 import Creative from "../Assets/creative.png";
 import AIML from "../Assets/aiml.png";
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-
 const Whattodomobile = () => {
     var syed1 = () => {
         const btm1= document.getElementById("i");
@@ -278,20 +276,20 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Custom Web Design & Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Web Apps</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Enterprise Portal Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Application Maintenance</li>
                       </div>
                       
@@ -334,17 +332,21 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                                              <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
+                        <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                                              <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
+                        <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                                              <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
+                        <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                                              <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
+                        <li>Maintenance and Support</li>
                       </div>
                       
                      
@@ -386,24 +388,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                      
@@ -444,24 +446,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                      
@@ -502,24 +504,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                      
@@ -561,24 +563,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                       
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                       
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                      
@@ -620,24 +622,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                      
@@ -679,24 +681,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                      
@@ -738,24 +740,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                    
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                       
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                      
@@ -797,24 +799,24 @@ const Whattodomobile = () => {
                   <div className="col">
                     <ul className="">
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                      
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Cross-Platform Enterprise App Development</li>
                       </div>
 
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                      
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile UI/UX Design</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                       
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>App Porting</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                       
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Mobile POS Development</li>
                       </div>
                       <div className="uldiv">
-                      <FiberManualRecordIcon className="circleicon" style={{height:'13px',width:'13px'}} />{" "}                        
+                        <PanoramaFishEyeIcon className="circleicon" />{" "}
                         <li>Maintenance and Support</li>
                       </div>
                           

@@ -3,9 +3,7 @@
  
 
 }
-.afterworking{
-  padding: 14px;
-}
+
 .section_1 {
   /* border-radius: 0px 0px 450px 450px;
     background: #BADA55; */
@@ -28,34 +26,4 @@
 
 .our_team {
   background: #f2ffff;
-}
-@media (max-width: 480px) {
- .fontabout{
-  font-size: 40px !important;
- }
- .text-primary{
-  text-align: center;
-  margin: 0px;
- }
- .textcent{
-  text-align: center;
-  margin: 0px;
-  padding: 0px !important;
-  
- }
-.launch{
-  margin-left:50px;
-}
-.titleA{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-
-}
-.titleA>span{
-  margin-left: 10px;
-}
-.titleA>h1{
-  margin-left: 10px;
-}
 }

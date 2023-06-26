@@ -38,109 +38,174 @@ import Planning from "../Assets/11.png";
 import Design from "../Assets/22.png";
 import Stable from "../Assets/44.png";
 import Implement from "../Assets/33.png";
+import pe1 from "../Assets/pe1.png";
+import pe2 from "../Assets/pe2.png";
+import pe3 from "../Assets/pe3.png";
+import pe4 from "../Assets/pe4.png";
+import pe5 from "../Assets/pe5.png";
 import { HashLink } from "react-router-hash-link";
-import Technologywework from "../Components/Technologywework.jsx"
+import Technologywework from "../Components/Technologywework.jsx";
 
 const ArtificalIntelligence = () => {
   return (
     <div className="bodycontent">
-    <div className="bannner-image-ai">
-      {/* <p className="text-center text-white ">
+      <div className="bannner-image-ai">
+        {/* <p className="text-center text-white ">
        
       </p> */}
 
-      <div className="">
-        <h1 style={{ fontWeight: "bolder", marginTop: "1%" }}>
-        Drive Impactful <br />
-        </h1>
-        <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
-          Business Out come by
-        </h1>
-        
-        <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
-          Building AI-Pwoered 
-        </h1>
-        <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
-          App
-        </h1>
-        <br></br>
-        <p
-          style={{
-            fontSize: "13px",
-            marginBottom: "3%",
-            marginTop: "-20px",
-          }}
-        >
-          Using tried-and-true methods, you can turn your business idea into a{" "}
-          <br />
-          successful enterprise or expand it. We support business owners in
-          achieving <br /> their objectives with greater success potential. We
-          can be your one-stop shop <br />
-        </p>
-        <HashLink to="#contact-us">
-          <button className="btn_pro" style={{ marginTop: "70px" }}>
-            Request Consultation
-          </button>
-        </HashLink>
+        <div className="">
+          <h1 style={{ fontWeight: "bolder", marginTop: "1%" }}>
+            Drive Impactful <br />
+          </h1>
+          <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
+            Business Out come by
+          </h1>
+
+          <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>
+            Building AI-Pwoered
+          </h1>
+          <h1 style={{ fontWeight: "bolder", marginTop: "2%" }}>App</h1>
+          <br></br>
+          <p
+            style={{
+              fontSize: "13px",
+              marginBottom: "3%",
+              marginTop: "-20px",
+            }}
+          >
+            Using tried-and-true methods, you can turn your business idea into a{" "}
+            <br />
+            successful enterprise or expand it. We support business owners in
+            achieving <br /> their objectives with greater success potential. We
+            can be your one-stop shop <br />
+          </p>
+          <HashLink to="#contact-us">
+            <button className="btn_pro" style={{ marginTop: "70px" }}>
+              Request Consultation
+            </button>
+          </HashLink>
+        </div>
       </div>
-    </div>
-    <div className="row mainsection">
-      <div className="col">
-        {/* <div className="image-container">
+      <div className="row mainsection">
+        <div className="col">
+          {/* <div className="image-container">
           <img src={bg} className="bg-image" alt="JPEG Image" />
         </div> */}
-      </div>
-    </div>
-    <div className="container">
-      <div className="skilled44">
-       <center><h1>AI-Powered Development Services</h1></center> 
-      </div>
-    </div>
-    <div className="image-row">
-      <div className="image-item">
-        <img src={img1} alt="Image 1" />
-         
-      </div>
-      <div className="image-item">
-        <img src={img2} alt="Image 2" />
-        
-      </div>
-      <div className="image-item">
-        <img src={img3} alt="Image 3" />
-        
-      </div>
-      <div className="image-item">
-        <img src={img3} alt="Image 3" />
-     
-      </div>
-      <div className="image-item">
-        <img src={img3} alt="Image 3" />
-        
-      </div>
-    </div>
-
-    <div></div>
-    <div className="container">
-      <div className="row">
-        <div className="skilled">
-          <h3>Work with a Team of Skilled Professionals</h3>
-          <p>
-            Seamless collaboration, total transparency, and secure delivery.
-            That’s our approach when crafting your application. A team with
-            years of experience to suggest the best solution for you.
-          </p>
         </div>
       </div>
-      <div className="row">
-        <div className="image-section">
-          <img src={process} alt="Your Image" />
+      <div className="container">
+        <div className="skilled44">
+          <center>
+            <h1>AI-Powered Development Services</h1>
+          </center>
+          <div class="container">
+            <div class="row m-auto">
+              <div class="col-md-2 col-sm-6 m-auto">
+                <div class="box">
+                  <img src={pe1} />
+                  <div class="box-content">
+                    <h3 class="title">Product Ideation And Prototyping</h3>
+                    <span class="post">
+                      Get expert consultancy to validate your concept better,
+                      along with assistance with the plan, prototype, and next
+                      market launch.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 m-auto">
+                <div class="box">
+                  <img src={pe2} />
+                  <div class="box-content">
+                    <h3 class="title">Product Ideation And Prototyping</h3>
+                    <span class="post">
+                      Get expert consultancy to validate your concept better,
+                      along with assistance with the plan, prototype, and next
+                      market launch.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 m-auto">
+                <div class="box">
+                  <img src={pe3} />
+                  <div class="box-content">
+                    <h3 class="title">Product Ideation And Prototyping</h3>
+                    <span class="post">
+                      Get expert consultancy to validate your concept better,
+                      along with assistance with the plan, prototype, and next
+                      market launch.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 m-auto">
+                <div class="box">
+                  <img src={pe4} />
+                  <div class="box-content">
+                    <h3 class="title">Product Ideation And Prototyping</h3>
+                    <span class="post">
+                      Get expert consultancy to validate your concept better,
+                      along with assistance with the plan, prototype, and next
+                      market launch.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 m-auto">
+                <div class="box">
+                  <img src={pe4} />
+                  <div class="box-content">
+                    <h3 class="title">Product Ideation And Prototyping</h3>
+                    <span class="post">
+                      Get expert consultancy to validate your concept better,
+                      along with assistance with the plan, prototype, and next
+                      market launch.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 m-auto">
+                <div class="box">
+                  <img src={pe4} />
+                  <div class="box-content">
+                    <h3 class="title">Product Ideation And Prototyping</h3>
+                    <span class="post">
+                      Get expert consultancy to validate your concept better,
+                      along with assistance with the plan, prototype, and next
+                      market launch.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <Technologywework/>
+      <div></div>
+      <div className="container">
+        <div className="row">
+          <div className="skilled">
+            <h3>Work with a Team of Skilled Professionals</h3>
+            <p>
+              Seamless collaboration, total transparency, and secure delivery.
+              That’s our approach when crafting your application. A team with
+              years of experience to suggest the best solution for you.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="image-section">
+            <img src={process} alt="Your Image" />
+          </div>
+        </div>
+      </div>
 
-    <div className="container mt-5">
+      <Technologywework />
+
+      <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
         <h6 className="subHead mb-5">
           Lorem ipsum dolor sit amet, consectetur adipis elit
@@ -190,129 +255,92 @@ const ArtificalIntelligence = () => {
           </div>
         </div>
       </div>
-{/* cards */}
+      {/* cards */}
 
-
-<div className="container cards_qa">
-<center>
-<h1 className="heading_cards_qa">Work Process</h1>
-</center>
-<div className="main_card_section_qa">
-<div className="inner_card_qa">
-
-<div className="content_qa_card">
-<h5>
-Planning
-</h5>
-<p>
-After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-</p>
-
-
-</div>
-
-
-</div>
-
-<div className="inner_card_qa">
-
-<div className="content_qa_card">
-<h5>
-Planning
-</h5>
-<p>
-After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-</p>
-
-
-</div>
-
-
-</div>
-<div className="inner_card_qa">
-
-<div className="content_qa_card">
-<h5>
-Planning
-</h5>
-<p>
-After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-</p>
-
-
-</div>
-
-
-</div>
-<div className="inner_card_qa">
-
-<div className="content_qa_card">
-<h5>
-Planning
-</h5>
-<p>
-After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div className="container">
-      <div className="askaritechnology main">
-        <div className="row">
-          <div className="col askaritechnology ">
-            <div className="left-side">
-              <img
-                src={askarimainleft}
-                alt="Your Image"
-                className="leftImage"
-              />
+      <div className="container cards_qa">
+        <center>
+          <h1 className="heading_cards_qa">Work Process</h1>
+        </center>
+        <div className="main_card_section_qa">
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
+              <p>
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
+              </p>
             </div>
           </div>
-          <div className="col  askaritechnology ">
-            <div className="right-side">
-              <h3>Why Askari Technologies</h3>
+
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
               <p>
-                Our work ethic, methodology, and dedication to your projects
-                make us the perfect choice.
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
               </p>
+            </div>
+          </div>
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
               <p>
-                We understand your requirements, dig deep into how to tailor a
-                solution for you, build a team to work with you, and execute a
-                robust project.
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
               </p>
-              <HashLink to="#contact-us">
-              <button style={{ border: "none" }}>Request Consultation</button>
-        </HashLink>
-             
+            </div>
+          </div>
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
+              <p>
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="askaritechnology main">
+          <div className="row">
+            <div className="col askaritechnology ">
+              <div className="left-side">
+                <img
+                  src={askarimainleft}
+                  alt="Your Image"
+                  className="leftImage"
+                />
+              </div>
+            </div>
+            <div className="col  askaritechnology ">
+              <div className="right-side">
+                <h3>Why Askari Technologies</h3>
+                <p>
+                  Our work ethic, methodology, and dedication to your projects
+                  make us the perfect choice.
+                </p>
+                <p>
+                  We understand your requirements, dig deep into how to tailor a
+                  solution for you, build a team to work with you, and execute a
+                  robust project.
+                </p>
+                <HashLink to="#contact-us">
+                  <button style={{ border: "none" }}>
+                    Request Consultation
+                  </button>
+                </HashLink>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   );
 };
 

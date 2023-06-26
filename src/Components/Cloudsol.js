@@ -38,8 +38,13 @@ import Planning from "../Assets/11.png";
 import Design from "../Assets/22.png";
 import Stable from "../Assets/44.png";
 import Implement from "../Assets/33.png";
+import pe1 from "../Assets/pe1.png";
+import pe2 from "../Assets/pe2.png";
+import pe3 from "../Assets/pe3.png";
+import pe4 from "../Assets/pe4.png";
+import pe5 from "../Assets/pe5.png";
 import { HashLink } from "react-router-hash-link";
-import Technologywework from "../Components/Technologywework.jsx"
+import Technologywework from "../Components/Technologywework.jsx";
 
 const Cloudsol = () => {
   return (
@@ -51,12 +56,12 @@ const Cloudsol = () => {
 
         <div className="">
           <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
-           Upscale Your <br />
+            Upscale Your <br />
           </h1>
           <h1 style={{ fontWeight: "bolder", marginTop: "3%" }}>
             Business With
           </h1>
-         
+
           <h1 style={{ fontWeight: "bolder", marginTop: "1%" }}>
             Cloud Solution
           </h1>
@@ -68,8 +73,8 @@ const Cloudsol = () => {
               marginTop: "-20px",
             }}
           >
-            Build next-gen cloud applications and bring <br/>digital transformation to your business.
-
+            Build next-gen cloud applications and bring <br />
+            digital transformation to your business.
           </p>
           <HashLink to="#contact-us">
             <button className="btn_pro" style={{ marginTop: "70px" }}>
@@ -87,29 +92,93 @@ const Cloudsol = () => {
       </div>
       <div className="container">
         <div className="skilled44">
-         <center><h1>Cloud Application Services</h1></center> 
+          <center>
+            <h1>Cloud Application Services</h1>
+          </center>
         </div>
       </div>
       <div className="image-row">
-        <div className="image-item">
-          <img src={img1} alt="Image 1" />
-      
-        </div>
-        <div className="image-item">
-          <img src={img2} alt="Image 2" />
-          
-        </div>
-        <div className="image-item">
-          <img src={img3} alt="Image 3" />
-          
-        </div>
-        <div className="image-item">
-          <img src={img3} alt="Image 3" />
-       
-        </div>
-        <div className="image-item">
-          <img src={img3} alt="Image 3" />
-         
+        <div class="container">
+          <div class="row m-auto">
+            <div class="col-md-2 col-sm-6 m-auto">
+              <div class="box">
+                <img src={pe1} />
+                <div class="box-content">
+                  <h3 class="title">Product Ideation And Prototyping</h3>
+                  <span class="post">
+                    Get expert consultancy to validate your concept better,
+                    along with assistance with the plan, prototype, and next
+                    market launch.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 m-auto">
+              <div class="box">
+                <img src={pe2} />
+                <div class="box-content">
+                  <h3 class="title">Product Ideation And Prototyping</h3>
+                  <span class="post">
+                    Get expert consultancy to validate your concept better,
+                    along with assistance with the plan, prototype, and next
+                    market launch.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 m-auto">
+              <div class="box">
+                <img src={pe3} />
+                <div class="box-content">
+                  <h3 class="title">Product Ideation And Prototyping</h3>
+                  <span class="post">
+                    Get expert consultancy to validate your concept better,
+                    along with assistance with the plan, prototype, and next
+                    market launch.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 m-auto">
+              <div class="box">
+                <img src={pe4} />
+                <div class="box-content">
+                  <h3 class="title">Product Ideation And Prototyping</h3>
+                  <span class="post">
+                    Get expert consultancy to validate your concept better,
+                    along with assistance with the plan, prototype, and next
+                    market launch.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 m-auto">
+              <div class="box">
+                <img src={pe4} />
+                <div class="box-content">
+                  <h3 class="title">Product Ideation And Prototyping</h3>
+                  <span class="post">
+                    Get expert consultancy to validate your concept better,
+                    along with assistance with the plan, prototype, and next
+                    market launch.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 m-auto">
+              <div class="box">
+                <img src={pe4} />
+                <div class="box-content">
+                  <h3 class="title">Product Ideation And Prototyping</h3>
+                  <span class="post">
+                    Get expert consultancy to validate your concept better,
+                    along with assistance with the plan, prototype, and next
+                    market launch.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -132,7 +201,7 @@ const Cloudsol = () => {
         </div>
       </div>
 
-      <Technologywework/>
+      <Technologywework />
 
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
@@ -184,92 +253,58 @@ const Cloudsol = () => {
           </div>
         </div>
       </div>
-{/* cards */}
+      {/* cards */}
 
+      <div className="container cards_qa">
+        <center>
+          <h1 className="heading_cards_qa">
+            How we go about testing your Project
+          </h1>
+        </center>
+        <div className="main_card_section_qa">
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
+              <p>
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
+              </p>
+            </div>
+          </div>
 
-<div className="container cards_qa">
- <center><h1 className="heading_cards_qa">How we go about testing your Project</h1></center>
-<div className="main_card_section_qa">
-<div className="inner_card_qa">
- 
-<div className="content_qa_card">
-  <h5>
-  Planning
-  </h5>
-  <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
-
-
-</div>
-
-
-</div>
-
-<div className="inner_card_qa">
- 
-<div className="content_qa_card">
-  <h5>
-  Planning
-  </h5>
-  <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
-
-
-</div>
-
-
-</div>
-<div className="inner_card_qa">
-  
-<div className="content_qa_card">
-  <h5>
-  Planning
-  </h5>
-  <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
-
-
-</div>
-
-
-</div>
-<div className="inner_card_qa">
-
-<div className="content_qa_card">
-  <h5>
-  Planning
-  </h5>
-  <p>
-  After boarding, we review the initial project requirements and evaluate what needs to be done. After understanding the project, we create a test plan for it.
-  </p>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
+              <p>
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
+              </p>
+            </div>
+          </div>
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
+              <p>
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
+              </p>
+            </div>
+          </div>
+          <div className="inner_card_qa">
+            <div className="content_qa_card">
+              <h5>Planning</h5>
+              <p>
+                After boarding, we review the initial project requirements and
+                evaluate what needs to be done. After understanding the project,
+                we create a test plan for it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="container">
         <div className="askaritechnology main">
