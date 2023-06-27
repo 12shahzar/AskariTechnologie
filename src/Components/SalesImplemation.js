@@ -2,22 +2,22 @@ import React from "react";
 import "../Styles/DevlopnerPage.css";
 import mainAbout from "../Assets/shopdeveop2.png";
 import Contactsub from "./Contactsub";
+import { HashLink } from "react-router-hash-link";
 const SalesImplemation = () => {
   return (
     <>
       <section className="Hero-Shopfy-section-1 All-hero-main Section for-baground-images">
         <div className="container p-5 main-first-hero-all-content">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
-                Salesforce Implementation Services{" "}
+                Salesforce Implementation Services
               </h1>
               <p className="main-hero-para-main-div">
-                Walk through the journey of Salesforce and remove bottlenecks by
-                implementing Salesforce CRM with us. We offer various Salesforce
-                implementation services, including consultation, configuration,
-                integration, post-launch support, etc., at half the actual cost
-                of Salesforce development.
+                Sales Cloud Implementation Elevate your sales performance,
+                enhance customer communication, and gain valuable insights into
+                sales pipelines and forecasting with our Salesforce Sales Cloud
+                implementation services.
               </p>
               <div className="btnnn py-4">
                 <button className="main-home-shopyt-btn ">
@@ -32,39 +32,37 @@ const SalesImplemation = () => {
 
       {/* New second Section */}
 
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Build Enterprise Level Solutions with the Best Salesforce
-                  Development Company in USA
+                  Why Choose Us for SFDC Implementation
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari  is a leading Shopify development company that offers
-                  end-to-end custom Shopify development services. We have an
-                  impressive track record of delivering diverse IT solutions and
-                  services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Askari , you get all the valuable solutions for your
-                  eCommerce needs. We have crafted our Shopify store development
-                  services in such a way that it offers easy management of
-                  content, product, and orders. This allows you to have complete
-                  control over your Shopify store. We have a team of Shopify
-                  developers with in-depth <br></br> <br></br>
-                  knowledge of all the cutting-edge technology stacks that can
-                  accommodate your complex Shopify development requirements. We
-                  help you develop, design, test, deploy, and maintain your
-                  eStore. This helps your users to have a smooth experience.
-                  Askari  is the first choice for startups and enterprises that
-                  want to take their entire store online and provide their users
-                  with a flawless experience. This is the major reason why we
-                  have been able to serve more than 1000 clients. You can be the
-                  next in that illustrious list of our clients by successfully
-                  fulfilling your business objectives with us!
+                  When it comes to Salesforce CRM implementation, partnering
+                  with our team offers a unique blend of technical expertise and
+                  business acumen, ensuring that we deliver the ideal solution
+                  to optimize and propel your business forward. With extensive
+                  experience in CRM and diverse Salesforce modules such as Sales
+                  Cloud, Service Cloud, Communities, and Field Service Cloud, we
+                  guide you through a seamless implementation process and
+                  maximize the value you derive from Salesforce.<br></br>{" "}
+                  <br></br> As a trusted Salesforce ISV partner and a leading
+                  Salesforce implementation company, we offer a comprehensive
+                  range of services, including consulting, configuration,
+                  development, migration, support, and maintenance. Our focus is
+                  on developing a tailored solution that aligns precisely with
+                  your specific requirements. Our flexible engagement model
+                  empowers you to scale your project as needed, while
+                  maintaining complete control over its direction. Moreover, our
+                  developers are Salesforce certified, ensuring top-notch
+                  expertise and a mutually beneficial partnership.<br></br>{" "}
+                  <br></br>
                 </p>
               </div>
             </div>
@@ -72,115 +70,53 @@ const SalesImplemation = () => {
         </div>
       </section>
 
-      <Contactsub/>
+      <Contactsub />
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-         <div className="row p-2">
-            <h1 className="main-serv-ces-h1-head">
-            Why Work with Us for SFDC Implementation            </h1>
-           <center><p className="main-services-para-main-card-top py-3">
-              We offer all-inclusive Shopify services that help add more
-              functionality, monitor performance, improve sales channels
-              & inventory management, and many more.
-            </p></center> 
+          <div className="row p-2">
+            <h1 className="main-serv-ces-h1-head py-2">
+              Choose our Salesforce implementation team to design the CRM{" "}
+              <br></br>
+            </h1>
+
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Sales Cloud Implementation</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Elevate your sales performance, enhance customer communication,
+                and gain valuable insights into sales pipelines and forecasting
+                with our Salesforce Sales Cloud implementation services.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Service Cloud Implementation</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Drive customer loyalty by streamlining workflows and delivering
+                personalized services across every customer touchpoint. Our
+                Salesforce Service Cloud implementation consultants offer
+                expertise in optimizing customer interactions.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Community Cloud Implementation</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Create cutting-edge communities that reflect your brand and
+                engage customers, partners, and employees in real-time
+                experiences. Leverage our Salesforce Community Cloud
+                implementation services to build customized community platforms.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Salesforce for NonProfits</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Empower your nonprofit organization with Salesforce for
+                Nonprofits, enabling digital transformation and creating a
+                lasting impact. Our Salesforce implementation consultants
+                specialize in purpose-driven solutions to manage income streams,
+                grants, and programs in a unified space.
               </p>
             </div>
           </div>
@@ -189,91 +125,90 @@ const SalesImplemation = () => {
 
       <section className="arrivals-card-arrival p-5">
         <div className="container p-5 py-5">
-         <div className="row p-2">
-            <h1 className="arrivals-head-main-top-my-bottom">
-            Salesforce Implementation Services            </h1>
-            <p className="arrival-main-bottom-top-head">
-              We offer all-inclusive Shopify services that help add more
-              functionality, monitor performance, improve sales channels &{" "}
-              <br />
-              inventory management, and many more.
-            </p>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
+          <div className="row p-2">
+            <h1 className="arrivals-head-main-top-my-bottom py-3">
+              Advantages of Salesforce Implementation
+            </h1>
 
-            <button className="btn-car-arrivals-main-23">
-              Get Started With Shopify Development
-            </button>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">Enhanced Data Accuracy</p>
+              <p className="arricval-card-content-main-last-top">
+                By implementing Salesforce, you can centralize customer data,
+                eliminating scattered information across departments and
+                ensuring data accuracy and consistency.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">
+                Streamlined Data Access from Multiple Sources
+              </p>
+              <p className="arricval-card-content-main-last-top">
+                Salesforce implementation allows integration with various tools
+                like Oracle and SAP, enabling you to access data from different
+                sources. With powerful APIs, you can create a comprehensive view
+                of customers and their interactions.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">Sales Forecasting</p>
+              <p className="arricval-card-content-main-last-top">
+                Salesforce implementation provides insights into past and
+                present sales trends, enabling accurate sales forecasting. This
+                helps in identifying opportunities and planning future campaigns
+                to drive revenue growth.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-4">
+              <p className="arrival-main-top-boottom">
+                Improved and Automated Workflows
+              </p>
+              <p className="arricval-card-content-main-last-top">
+                Salesforce implementation optimizes business processes,
+                facilitating streamlined workflows and efficient product
+                delivery. It simplifies sales goal achievement, eliminating
+                unnecessary complexities.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Clients Choose Askari  for Salesforce Services Because{" "}
+                  Discover How Askari Technologies Can Assist With Salesforce
+                  Implementation
                 </h2>
                 <p className="h2-h3-h4">
-                  We combine the power of platforms and technologies with our
-                  innovation and industry expertise to drive large-scale,
-                  customer-centric transformation.
+                  Irrespective of the project's scale, Askari Technologies
+                  empowers you to seize opportunities by providing an extensive
+                  array of Salesforce implementation services and delivering
+                  business advantages.
                 </p>
                 <ul className="newul">
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Strategic Outlook</li>
+                  <li>Profound Industry Knowledge</li>
 
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>
+                    Committed Consultants for Salesforce CRM Implementation
+                  </li>
+                  <li>A Group of Accredited Salesforce Developers</li>
+                  <li>Customer-Focused Approach</li>
+                  <li>Timely Project Completion</li>
+                  <li>Competitive Pricing Structure</li>
+                  <li>Ongoing Maintenance and Support</li>
                 </ul>
-                <button className="bolet-btn-main">Request Consultation</button>
+                <HashLink to={"#contact-us"}>
+                  <button className="bolet-btn-main">
+                    Request Consultation
+                  </button>
+                </HashLink>
               </div>
             </div>
           </div>

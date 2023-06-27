@@ -61,27 +61,31 @@ import odoo from "../Assets/odoo.png";
 import netcore from "../Assets/netCore.png";
 import HireCompo from "./HireCompo";
 import Contactsub from "./Contactsub";
+import { HashLink } from "react-router-hash-link";
 
 const openCart = (props) => {
   return (
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6">
               <h2 className="main9080">
                 Hire Professional OpenCart Developers
               </h2>
               <p className="main-908">
-                Our in-house team of OpenCart developers have experience in
-                diverse industries and know which eCommerce trend to make use
-                of. Hire OpenCart developers from Askari CS to leverage our
-                expertise and build profitable enterprise eCommerce
-                applications.
+                Take your online store to new heights by hiring professional
+                OpenCart developers from Askari Technologies. Build feature-rich
+                and customizable websites using the expertise of our skilled
+                OpenCart developers. Whether you need minor tweaks, seamless
+                integrations, or complete migration, our dedicated OpenCart
+                developers are ready to assist you.
               </p>
-              <button className="firt-main-btn">
-                Hire OpenCart Developers
-              </button>
+              <HashLink to={"#contact-us"}>
+                <button className="firt-main-btn">
+                  Hire OpenCart Developers
+                </button>
+              </HashLink>
             </div>
             <div className="col-lg-6">
               <img src={MainFirst} alt="" className="img-fluid  " />
@@ -90,39 +94,35 @@ const openCart = (props) => {
         </div>
       </section>
 
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Develop High-Revenue ECommerce Site With Our Dedicated
-                  OpenCart Developers
+                  Partner with Seasoned OpenCart Website Developers
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari is a leading Shopify development company that offers
-                  end-to-end custom Shopify development services. We have an
-                  impressive track record of delivering diverse IT solutions and
-                  services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Askari , you get all the valuable solutions for your
-                  eCommerce needs. We have crafted our Shopify store development
-                  services in such a way that it offers easy management of
-                  content, product, and orders. This allows you to have complete
-                  control over your Shopify store. We have a team of Shopify
-                  developers with in-depth <br></br> <br></br>
-                  knowledge of all the cutting-edge technology stacks that can
-                  accommodate your complex Shopify development requirements. We
-                  help you develop, design, test, deploy, and maintain your
-                  eStore. This helps your users to have a smooth experience.
-                  Askari is the first choice for startups and enterprises that
-                  want to take their entire store online and provide their users
-                  with a flawless experience. This is the major reason why we
-                  have been able to serve more than 1000 clients. You can be the
-                  next in that illustrious list of our clients by successfully
-                  fulfilling your business objectives with us!
+                  At Askari Technologies, we have a team of seasoned OpenCart
+                  experts who excel in creating scalable and visually appealing
+                  websites for businesses of all sizes. With their extensive
+                  knowledge and expertise gained over years of experience, our
+                  OpenCart developers can cater to your specific needs. From
+                  enhancing website functionalities to customizing OpenCart
+                  themes, they ensure your project is tailored to perfection.
+                  <br></br> <br></br>Our OpenCart experts at Askari Technologies
+                  are committed to delivering exceptional web development
+                  solutions using industry best practices. Following an agile
+                  methodology, we prioritize feedback, testing, and iterative
+                  development to ensure your project's success. <br></br>{" "}
+                  <br></br>
+                  When you hire professional OpenCart developers from Askari
+                  Technologies, you can trust them to understand your
+                  requirements and transform them into high-performing online
+                  stores within your budget.
                 </p>
               </div>
             </div>
@@ -130,109 +130,110 @@ const openCart = (props) => {
         </div>
       </section>
 
-      <Contactsub/>
+      <Contactsub />
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-         <div className="row p-2">
-             <center><h1 className="main-serv-ces-h1-head">
-              Benefits of Hiring Offshore Dedicated OpenCart Developers
-            </h1></center>
-           <center><p className="main-services-para-main-card-top py-3">
-              We offer all-inclusive Shopify services that help add more
-              functionality, monitor performance, improve sales channels
-              & inventory management, and many more.
-            </p></center> 
+          <div className="row p-2">
+            <center>
+              <h1 className="main-serv-ces-h1-head">
+                Ways to Hire Our OpenCart Specialists:
+              </h1>
+            </center>
+
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">OpenCart ECommerce Development</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Leverage the power of OpenCart's robust features to build
+                dynamic and user-friendly ecommerce websites. Our skilled
+                OpenCart developers can create visually appealing designs and
+                seamless user experiences for your online store.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Custom OpenCart Development</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Hire OpenCart developers to create custom solutions tailored to
+                your unique business requirements. Our developers specialize in
+                developing custom modules, extensions, and functionalities to
+                enhance the capabilities of your OpenCart website.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">OpenCart Theme Development</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Our developers are recognized for their expertise in OpenCart
+                theme development. By hiring OpenCart experts from Askari
+                Technologies, you can have custom themes designed to enhance the
+                visual appeal and user experience of your online store.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">OpenCart Module Development</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Extend the functionality of your OpenCart website by hiring
+                developers who excel in module development. Our experts can
+                create custom modules or customize existing ones to meet your
+                specific business needs.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">OpenCart Migration Services</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Seamlessly migrate your existing ecommerce store to OpenCart
+                with the help of our OpenCart experts. They ensure a smooth
+                transition, data integrity, and optimal performance during the
+                migration process.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-         <section className="main-div-cli-lic">
+      <section className="main-div-cli-lic">
         <div className="container ">
-         <div className="row">
-            <center><h3 className="new-head-phy pl-2">
-              Ways to Hire Our Shopify Specialists
-            </h3></center>
+          <div className="row">
+            <center>
+              <h3 className="new-head-phy pl-2">
+                Ways to Hire Our OpenCart Specialists
+              </h3>
+            </center>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
               <p className="hour ">Flexible Hours</p>
               <p className="new-hour-para">
-                You can hire Shopify experts from us on an hourly basis. In this
-                model, you will only have to pay for the time and resources
-                spent on the project. The highlights include weekly billing with
-                flexible duration. You get 100% source code authorization.
+                Opt for hourly hiring of OpenCart experts from Askari
+                Technologies. With this model, you pay for the time and
+                resources dedicated to your project. Enjoy the flexibility of
+                weekly billing and retain 100% source code authorization.
               </p>
             </div>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={HireHour} alt="" className="img-fluid p-5" />
-              <p className="hour ">Flexible Hours</p>
+              <p className="hour ">Dedicated Resource</p>
               <p className="new-hour-para">
-                You can hire Shopify experts from us on an hourly basis. In this
-                model, you will only have to pay for the time and resources
-                spent on the project. The highlights include weekly billing with
-                flexible duration. You get 100% source code authorization.
+                Hire dedicated OpenCart developers on a monthly basis for
+                creating tailored solutions. This model guarantees you 160 hours
+                of dedicated development time based on your flexibility and
+                timezone, along with direct access to our resources.
               </p>
             </div>
 
             <div className="col-lg-4 col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Dedicated} alt="" className="img-fluid p-5" />
-              <p className="hour ">Flexible Hours</p>
+              <p className="hour ">Hire Team</p>
               <p className="new-hour-para">
-                You can hire Shopify experts from us on an hourly basis. In this
-                model, you will only have to pay for the time and resources
-                spent on the project. The highlights include weekly billing with
-                flexible duration. You get 100% source code authorization.
+                Build your team of OpenCart developers, designers, testers, and
+                engineers by selecting from our pool of skilled professionals at
+                Askari Technologies. Engage with your team via email, Skype,
+                Google Meet, or Zoom, and actively participate in the agile
+                development process.
               </p>
             </div>
           </div>
@@ -243,9 +244,7 @@ const openCart = (props) => {
 
       <div className="container mt-5">
         <h1 className="heading">Industries We Serve</h1>
-        <h6 className="subHead mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipis elit
-        </h6>
+
         <div class="container container-fluid">
           <div class="row">
             <div class="col-md-4 col-sm-12 column border_right_bottom">
@@ -292,34 +291,44 @@ const openCart = (props) => {
         </div>
       </div>
 
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Innovation Led Microsoft Dynamics Implementation
+                  Why Choose Askari Tecghnologie for Hiring OpenCart Developers?
                 </h2>
                 <p className="h2-h3-h4">
-                  We combine the power of platforms and technologies with our
-                  innovation and industry expertise to drive large-scale,
-                  customer-centric transformation.
+                  With our OpenCart web app development services, you sign up
+                  for quality development, timely delivery, secure services, and
+                  affordable costs. We boast a team of developers who have
+                  mastered working with the OpenCart platform and can deliver
+                  high-revenue eCommerce sites.
                 </p>
                 <ul className="newul">
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Skilled OpenCart developers</li>
+                  <li>Proven Experience in eCommerce vertical</li>
 
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>100% Source Code Authorization</li>
+                  <li>Flexible Engagement Models</li>
+                  <li>Timely Project Delivery</li>
+                  <li>Dynamic Development</li>
+                  <li>Diverse Experience</li>
+                  <li>Confidentiality and Integrity</li>
+                  <li>Timely Project Delivery</li>
+                  <li>Round-the-clock Technical Support</li>
+                  <li>Error-free Solutions</li>
+                  <li>Streamlined Project Management</li>
                 </ul>
-                <button className="bolet-btn-main">Request Consultation</button>
+                <HashLink to={"#contact-us"}>
+                  <button className="bolet-btn-main">
+                    Request Consultation
+                  </button>
+                </HashLink>
               </div>
             </div>
           </div>

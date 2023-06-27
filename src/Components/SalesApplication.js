@@ -2,27 +2,30 @@ import React from "react";
 import "../Styles/DevlopnerPage.css";
 import mainAbout from "../Assets/shopdeveop2.png";
 import Contactsub from "./Contactsub";
+import { HashLink } from "react-router-hash-link";
 const SalesApplication = () => {
   return (
     <>
       <section className="Hero-Shopfy-section-1 All-hero-main Section for-baground-images">
         <div className="container p-5 main-first-hero-all-content">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 side-heading-para-content">
               <h1 className="main-hero-h1 py-3">
-                Salesforce Application Development Services{" "}
+                Salesforce Application Development Solutions
               </h1>
               <p className="main-hero-para-main-div">
-                From employee engagement to customer experiences, get the most
-                out of Salesforce CRM with our custom Salesforce App Development
-                services. Build scalable apps with out-of-box security,
-                governance, and performance with a Salesforce ISV partner at
-                your disposal.
+                Maximize the potential of Salesforce CRM through our bespoke
+                Salesforce App Development services, catering to employee
+                engagement and customer experiences. Leverage the expertise of
+                our Salesforce ISV partner to build secure, compliant, and
+                high-performing apps that scale effectively.
               </p>
               <div className="btnnn py-4">
-                <button className="main-home-shopyt-btn ">
-                Request A Free Consultation
-                </button>
+                <HashLink to={"#contact-us"}>
+                  <button className="main-home-shopyt-btn ">
+                    Request A Free Consultation
+                  </button>
+                </HashLink>
               </div>
             </div>
             <div className="col-lg-6"></div>
@@ -32,38 +35,37 @@ const SalesApplication = () => {
 
       {/* New second Section */}
 
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                Create, Connect and Personalize with Salesforce Custom App Development
+                  Empower, Connect, and Personalize through Custom Salesforce
+                  App Development
                 </h2>
                 <p className="about-main-content-parap">
-                  Askari  is a leading Shopify development company that offers
-                  end-to-end custom Shopify development services. We have an
-                  impressive track record of delivering diverse IT solutions and
-                  services to our clients for over 16 years.<br></br> <br></br>{" "}
-                  With Askari , you get all the valuable solutions for your
-                  eCommerce needs. We have crafted our Shopify store development
-                  services in such a way that it offers easy management of
-                  content, product, and orders. This allows you to have complete
-                  control over your Shopify store. We have a team of Shopify
-                  developers with in-depth <br></br> <br></br>
-                  knowledge of all the cutting-edge technology stacks that can
-                  accommodate your complex Shopify development requirements. We
-                  help you develop, design, test, deploy, and maintain your
-                  eStore. This helps your users to have a smooth experience.
-                  Askari  is the first choice for startups and enterprises that
-                  want to take their entire store online and provide their users
-                  with a flawless experience. This is the major reason why we
-                  have been able to serve more than 1000 clients. You can be the
-                  next in that illustrious list of our clients by successfully
-                  fulfilling your business objectives with us!
+                  In this digital era, it is crucial to connect with customers
+                  wherever they are. Why not consider constructing a
+                  personalized Salesforce application that streamlines business
+                  processes and facilitates access to vital information?
+                  <br></br> <br></br>We are ready to support you in optimizing
+                  your business achievements through tailored solutions. Whether
+                  you aim to enhance the efficiency of your existing system or
+                  require a platform to revolutionize the customer experience,
+                  our team of experts can seamlessly fulfill your business
+                  objectives. <br></br> <br></br>
+                  With over ten years of experience in elevating customer
+                  experiences and expanding CRM capabilities within specified
+                  timelines, we are positioned as your reliable partner. As a
+                  dependable Salesforce app development firm, we empower you to
+                  become a superhero for both your customers and employees.
+                  Reach out to us for all your Salesforce app development
+                  requirements, regardless of the size of your business. We are
+                  committed to delivering customized solutions!
                 </p>
               </div>
             </div>
@@ -71,116 +73,55 @@ const SalesApplication = () => {
         </div>
       </section>
 
-      <Contactsub/>
+      <Contactsub />
 
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-         <div className="row p-2">
+          <div className="row p-2">
             <h1 className="main-serv-ces-h1-head">
-            Salesforce Implementation Services
+              Experience Our Salesforce Custom Application Development Solutions
             </h1>
-           <center><p className="main-services-para-main-card-top py-3">
-              We offer all-inclusive Shopify services that help add more
-              functionality, monitor performance, improve sales channels
-              & inventory management, and many more.
-            </p></center> 
+
+            <p className="main-services-para-main-card-top py-3">
+              Transform your concepts into tangible results with our range of{" "}
+              <br></br>
+              Salesforce custom app development services.
+            </p>
+
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Design and Development Expertise</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                As your reliable Salesforce ISV partner, we offer end-to-end
+                design and development services for AppExchange Apps. Expertise
+                includes lightning components, Visualforce pages, and custom
+                APIs.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Compliance Support</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                We provide security reviews before AppExchange submission,
+                including custom testing for Salesforce vulnerabilities,
+                ensuring a successful listing.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">Lightning Compatibility</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Our experts develop Lightning-ready, Salesforce-compatible apps
+                tailored to your business.
               </p>
             </div>
 
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
+              <p className="card-top-main">AppExchange Consulting</p>
               <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
-              </p>
-            </div>
-
-            <div className="col-md-2 col-sm-8 card-main-div-main-card">
-              <p className="card-top-main">Store Setup & Configuration</p>
-              <p className="main-top-bottom-content">
-                Set up and configure your Shopify store per your business
-                objectives and goals. Being amongst the leading Shopify
-                development companies, we help you launch your online store in
-                record time.
+                Comprehensive consulting services for AppExchange development
+                and implementation. Includes concept analysis, solution
+                specification, architecture design, integration research, MVP
+                development, and competitor analysis.
               </p>
             </div>
           </div>
@@ -189,87 +130,81 @@ const SalesApplication = () => {
 
       <section className="arrivals-card-arrival p-5">
         <div className="container p-5 py-5">
-         <div className="row p-2">
+          <div className="row p-2">
             <h1 className="arrivals-head-main-top-my-bottom pb-5">
-            Benefits of Salesforce Implementation
+              Our Salesforce Application Development Approach
             </h1>
-          
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
-            <div className="col-lg-2 car-2-3-4">
-              <p className="arrival-main-top-boottom">Agile Approach</p>
-              <p className="arricval-card-content-main-last-top">
-                We have a team of skilled and experienced Shopify developers,
-                product owners, and scrum masters with an agile mindset. They
-                all work together to maximize your business ROI. They also
-                follow a continuous improvement and feedback approach that
-                enhances services, products, and processes.
-              </p>
-            </div>
 
-            <button className="btn-car-arrivals-main-23">
-              Get Started With Shopify Development
-            </button>
+            <div className="col-lg-2 car-2-3-6">
+              <p className="arrival-main-top-boottom">Consultation</p>
+              <p className="arricval-card-content-main-last-top">
+                Our experts gather crucial information and customizations needed
+                for your Salesforce application.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-6">
+              <p className="arrival-main-top-boottom">Planning</p>
+              <p className="arricval-card-content-main-last-top">
+                We create a comprehensive roadmap that includes ideas,
+                milestones, management strategies, and budget considerations.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-6">
+              <p className="arrival-main-top-boottom">Mockups</p>
+              <p className="arricval-card-content-main-last-top">
+                A prototype is designed to provide a real-time visualization of
+                your custom Salesforce application.
+              </p>
+            </div>
+            <div className="col-lg-2 car-2-3-6">
+              <p className="arrival-main-top-boottom">Development</p>
+              <p className="arricval-card-content-main-last-top">
+                Once mockups are approved, we begin agile development, keeping
+                you informed at every sprint.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
             <div className="col-lg-6 main-content-about-all py-5">
               <div className="py-5">
                 <h2 className="about-main-conetnetn-h2">
-                  Clients Choose Askari  for Salesforce Services Because{" "}
+                  Why Choose Askari Technologies for Salesforce Mobile App
+                  Development?
                 </h2>
                 <p className="h2-h3-h4">
-                  We combine the power of platforms and technologies with our
-                  innovation and industry expertise to drive large-scale,
-                  customer-centric transformation.
+                  With over 16 years of industry experience, we specialize in
+                  providing customized solutions to businesses across various
+                  industry verticals. Here are the advantages of teaming up with
+                  us.
                 </p>
                 <ul className="newul">
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Experienced and Certified Salesforce Developers</li>
+                  <li>Improved Operational Efficiency</li>
 
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Budget-Friendly Solutions</li>
+                  <li>Adaptable Engagement Models</li>
+                  <li>Robust Data Safety and Security</li>
+                  <li>Timely Project Delivery</li>
+                  <li>Efficient Communication Channels</li>
+                  <li>Agile Methodology Implementation</li>
+
+                  <li>Rigorous Quality Assurance</li>
+                  <li>Complete Customer Satisfaction</li>
+                  <li>Round-the-Clock Support and Maintenance</li>
                 </ul>
-                <button className="bolet-btn-main">Request Consultation</button>
+                <HashLink to={"#contact-us"}>
+                  <button className="bolet-btn-main">
+                    Request Consultation
+                  </button>
+                </HashLink>
               </div>
             </div>
           </div>

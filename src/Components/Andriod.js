@@ -67,9 +67,9 @@ const Andriod = (props) => {
     <>
       <section className="main-her-9009 p-5">
         <div className="container maind-v- p-5">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6">
-              <h2 className="main9080">Hire Android App Developers</h2>
+              <h2 className="main9080">Hire Androidm App Developers</h2>
               <p className="main-908">
                 Hire vetted Android developers with 5+ years of experience to
                 develop next-gen Android apps with complex backend and
@@ -84,9 +84,9 @@ const Andriod = (props) => {
           </div>
         </div>
       </section>
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
@@ -122,19 +122,23 @@ const Andriod = (props) => {
           </div>
         </div>
       </section>
-      <Contactsub/>
-      <Contactsub/>
+      <Contactsub />
+      <Contactsub />
       <section className="main-services-card-main-div p-5 ">
         <div className="contianer p-5">
-         <div className="row p-2">
-             <center><h1 className="main-serv-ces-h1-head">
-              Benefits of Hiring Offshore Dedicated OpenCart Developers
-            </h1></center>
-           <center><p className="main-services-para-main-card-top py-3">
-              We offer all-inclusive Shopify services that help add more
-              functionality, monitor performance, improve sales channels
-              & inventory management, and many more.
-            </p></center> 
+          <div className="row p-2">
+            <center>
+              <h1 className="main-serv-ces-h1-head">
+                Benefits of Hiring Offshore Dedicated OpenCart Developers
+              </h1>
+            </center>
+            <center>
+              <p className="main-services-para-main-card-top py-3">
+                We offer all-inclusive Shopify services that help add more
+                functionality, monitor performance, improve sales channels &
+                inventory management, and many more.
+              </p>
+            </center>
             <div className="col-md-2 col-sm-8 card-main-div-main-card">
               <p className="card-top-main">Store Setup & Configuration</p>
               <p className="main-top-bottom-content">
@@ -187,12 +191,14 @@ const Andriod = (props) => {
           </div>
         </div>
       </section>
-         <section className="main-div-cli-lic">
+      <section className="main-div-cli-lic">
         <div className="container ">
-         <div className="row">
-            <center><h3 className="new-head-phy pl-2">
-              Ways to Hire Our Shopify Specialists
-            </h3></center>
+          <div className="row">
+            <center>
+              <h3 className="new-head-phy pl-2">
+                Ways to Hire Our Shopify Specialists
+              </h3>
+            </center>
 
             <div className="col-lg-4  col-sm-12 col-sm-12 vbl-card-sli  text-center m-auto">
               <img src={Flexible} alt="" className="img-fluid p-5" />
@@ -280,9 +286,9 @@ const Andriod = (props) => {
           </div>
         </div>
       </div>
-       <section className="Second-div-2-pictue-about">
+      <section className="Second-div-2-pictue-about">
         <div className="container ">
-         <div className="row p-2">
+          <div className="row p-2">
             <div className="col-lg-6 image-main-section">
               <img src={mainAbout} alt="" className="img-fluid" />
             </div>
